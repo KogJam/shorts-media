@@ -1,0 +1,58 @@
+{
+ "series_id": "switched-at-birth",
+ "title": "The Real Daughter",
+ "genre": "family secret / switched at birth / revenge",
+ "style": "Cinematic photorealistic still from a high-budget streaming drama series, 35mm film look, shallow depth of field, dramatic moody lighting, warm and cold contrast color grading, sharp faces, natural skin texture, no text, no watermark, no captions",
+ "narrator_voice": "Charon",
+ "narrator_style": "Read as a dramatic, gripping movie-trailer narrator, low and suspenseful",
+ "characters": {
+  "grace": {
+   "name": "Grace Miller",
+   "look": "25-year-old woman, long straight dark-brown hair usually in a ponytail, warm brown eyes, kind face, small mole above her lip",
+   "default_outfit": "light-blue hospital nurse scrubs",
+   "voice": "Aoede",
+   "voice_style": "a gentle but brave young woman's voice"
+  },
+  "chloe": {
+   "name": "Chloe Whitmore",
+   "look": "25-year-old woman, glossy honey-blonde curled hair, light-blue eyes, perfect contoured makeup, fake sweet smile",
+   "default_outfit": "white designer blazer dress and pearl earrings",
+   "voice": "Despina",
+   "voice_style": "a sugary young woman's voice that turns cold and cruel"
+  },
+  "eleanor": {
+   "name": "Eleanor Whitmore",
+   "look": "52-year-old elegant woman, dark-brown hair in a sleek bob with grey streaks, warm brown eyes exactly like Grace's, the same small mole above her lip",
+   "default_outfit": "cream silk blouse, pearl necklace",
+   "voice": "Vindemiatrix",
+   "voice_style": "a refined, emotional mature woman's voice"
+  },
+  "richard": {
+   "name": "Richard Whitmore",
+   "look": "57-year-old man, tall, short grey hair, stern face, rimless glasses",
+   "default_outfit": "dark-blue business suit with a burgundy tie",
+   "voice": "Orus",
+   "voice_style": "a firm, serious older man's voice"
+  },
+  "nathan": {
+   "name": "Dr. Nathan Brooks",
+   "look": "30-year-old man, short black curly hair, warm dark-brown skin, kind intelligent eyes, light stubble",
+   "default_outfit": "white doctor's coat over a grey shirt, stethoscope around his neck",
+   "voice": "Achird",
+   "voice_style": "a warm, calm young man's voice"
+  },
+  "rosa": {
+   "name": "Rosa Miller",
+   "look": "60-year-old woman, curly grey hair, tired kind face, reading glasses on a chain",
+   "default_outfit": "faded floral cardigan",
+   "voice": "Sulafat",
+   "voice_style": "a soft, worn, loving older woman's voice"
+  }
+ },
+ "extras": {
+  "receptionist": ["Leda", "a polite young receptionist's voice"],
+  "lawyer": ["Iapetus", "a dry, precise middle-aged lawyer's voice"],
+  "guard": ["Rasalgethi", "a deep security guard's voice"]
+ },
+ "arc": "Grace, a hard-working nurse raised by poor single mother Rosa, gives blood to save wealthy Eleanor Whitmore after an accident – and a routine test reveals Grace is Eleanor's biological daughter. 25 years ago two babies were switched at St. Mary's hospital. Chloe, the daughter who grew up rich, will do anything to keep her place: sabotage, lies, framing Grace for theft. Dr. Nathan Brooks helps Grace uncover who switched the babies – and why. Season plan (8 parts): 1 the blood test and the first humiliation by Chloe; 2 Grace meets the Whitmores, Chloe frames her for stealing a necklace; 3 Rosa reveals she knew something; 4 the hospital record that was erased; 5 Chloe's secret meeting with a nurse from 25 years ago; 6 the DNA party disaster; 7 the truth: Chloe's biological mother planned the switch; 8 Grace chooses both her families, Chloe faces the consequences, Nathan proposes."
+}

@@ -1,0 +1,22 @@
+{
+ "series": [
+  {
+   "id": "heiress-in-the-apron",
+   "episodes": 1,
+   "status": "active"
+  },
+  {
+   "id": "switched-at-birth",
+   "episodes": 0,
+   "status": "active"
+  },
+  {
+   "id": "contract-bride",
+   "episodes": 0,
+   "status": "active"
+  }
+ ],
+ "next": 1,
+ "publish_time": "20:07",
+ "every_days": 2
+}

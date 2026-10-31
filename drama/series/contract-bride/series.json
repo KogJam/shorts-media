@@ -1,0 +1,58 @@
+{
+ "series_id": "contract-bride",
+ "title": "The Contract Bride",
+ "genre": "contract marriage / cold CEO romance / jealous ex",
+ "style": "Cinematic photorealistic still from a high-budget romantic streaming drama, 35mm film look, shallow depth of field, soft glamorous lighting with deep shadows, elegant color grading, sharp faces, natural skin texture, no text, no watermark, no captions",
+ "narrator_voice": "Charon",
+ "narrator_style": "Read as a dramatic, romantic movie-trailer narrator, low and intriguing",
+ "characters": {
+  "sophie": {
+   "name": "Sophie Bennett",
+   "look": "26-year-old woman, shoulder-length light-brown hair with soft waves, hazel eyes, dimples when she smiles, petite",
+   "default_outfit": "flour-dusted pastel-pink bakery apron over a white t-shirt",
+   "voice": "Laomedeia",
+   "voice_style": "a sweet, spirited young woman's voice"
+  },
+  "damien": {
+   "name": "Damien Black",
+   "look": "32-year-old man, tall, jet-black hair swept back, piercing grey eyes, sharp cheekbones, light stubble, cold unreadable expression",
+   "default_outfit": "black three-piece suit, black shirt, silver cufflinks",
+   "voice": "Alnilam",
+   "voice_style": "a low, cold, controlled man's voice"
+  },
+  "isabella": {
+   "name": "Isabella Laurent",
+   "look": "29-year-old woman, long sleek jet-black hair, dark eyes with winged eyeliner, high cheekbones, glamorous and dangerous",
+   "default_outfit": "black satin gown with a high slit and ruby earrings",
+   "voice": "Callirrhoe",
+   "voice_style": "a silky, seductive, scheming woman's voice"
+  },
+  "margaret": {
+   "name": "Margaret Black",
+   "look": "78-year-old woman, white hair in an elegant bun, sharp blue eyes, warm mischievous smile",
+   "default_outfit": "lavender tweed suit and pearl brooch",
+   "voice": "Pulcherrima",
+   "voice_style": "a witty, warm, aristocratic old lady's voice"
+  },
+  "leo": {
+   "name": "Leo Bennett",
+   "look": "22-year-old man, messy light-brown hair, hazel eyes like his sister, friendly freckled face",
+   "default_outfit": "denim jacket over a hoodie",
+   "voice": "Puck",
+   "voice_style": "a cheerful, impulsive young man's voice"
+  },
+  "victor": {
+   "name": "Victor Hale",
+   "look": "45-year-old man, slicked grey hair, thin moustache, cold calculating eyes",
+   "default_outfit": "pinstripe suit with a gold tie pin",
+   "voice": "Algenib",
+   "voice_style": "a smooth, menacing middle-aged man's voice"
+  }
+ },
+ "extras": {
+  "assistant": ["Kore", "a crisp, efficient young assistant's voice"],
+  "priest": ["Gacrux", "a calm elderly officiant's voice"],
+  "reporter": ["Zephyr", "an eager news reporter's voice"]
+ },
+ "arc": "Sophie's family bakery is about to be seized by loan shark Victor Hale because of her brother Leo's debt. Billionaire Damien Black needs a wife within 30 days or his grandmother Margaret will give control of Black Industries to his scheming cousin. He offers Sophie a one-year contract marriage: no love, separate rooms, he pays the debt. Then his ex-fiancée Isabella returns, and Victor turns out to be connected to Damien's cousin. Season plan (8 parts): 1 the deal in the rain and the contract; 2 the wedding where Isabella appears; 3 living together – rules broken; 4 Margaret sees through the act but approves; 5 Isabella frames Sophie with fake photos; 6 Victor kidnaps Leo to force Sophie to steal company files; 7 Damien chooses Sophie publicly; 8 Damien tears up the contract and proposes for real."
+}

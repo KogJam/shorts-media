@@ -3,3 +3,5 @@ __pycache__/
 *.wav
 testclips/
 .env
+drama/series/*/build/
+*.log

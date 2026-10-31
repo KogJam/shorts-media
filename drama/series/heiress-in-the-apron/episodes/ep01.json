@@ -1,0 +1,1357 @@
+{
+ "episode": 1,
+ "title": "He Dumped Her for a Rich Girl… Not Knowing She Owns Everything | Full AI Drama – Part 1",
+ "thumb_text": [
+  "HE DUMPED HER",
+  "FOR A RICH GIRL…",
+  "SHE OWNS THE COMPANY"
+ ],
+ "thumb_prompt": "Split dramatic composition: on the left emma in a stunning emerald evening gown, confident and powerful, golden light behind her; on the right ryan in shock with his mouth open, dropping a champagne glass, and vanessa in her red dress looking horrified; luxury ballroom background",
+ "thumb_chars": [
+  "emma",
+  "ryan",
+  "vanessa"
+ ],
+ "description": "Emma Hart spent three years living as an ordinary waitress to find someone who would love her for who she is. Then her boyfriend Ryan dumped her for a rich girl in front of the whole restaurant. What he doesn't know: Emma is the sole heiress of Hart Global – and tomorrow, she becomes his boss.\n\nPart 2 drops in two days. Subscribe so you don't miss it!\n\nThis is a fictional AI-generated drama series. All characters are fictional.\n\n#aidrama #billionaire #revenge #drama #story",
+ "tags": [
+  "ai drama",
+  "full ai drama",
+  "billionaire drama",
+  "revenge story",
+  "drama series",
+  "secret heiress",
+  "short drama"
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "chars": [
+    "emma"
+   ],
+   "outfit": {
+    "emma": "black waitress uniform under an open beige trench coat"
+   },
+   "camera": "push_in",
+   "image": "Night, heavy rain. emma stands alone on a wet city sidewalk, looking up at a gigantic glass skyscraper with glowing letters HART GLOBAL at the top, rain on her face, reflections of city lights on the street",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Three years ago, Emma Hart walked away from a fortune worth forty billion dollars."
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "chars": [],
+   "camera": "pull_out",
+   "image": "Aerial view of a gleaming glass skyscraper at night in the rain, the name HART GLOBAL glowing on the top, city lights below",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "No one knew who she really was. Not her friends. Not her boss."
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "chars": [
+    "emma",
+    "ryan"
+   ],
+   "camera": "pan_right",
+   "image": "Warm memory scene: emma and ryan laughing together on a park bench in autumn, golden afternoon light, ryan in a casual sweater, emma in a cream knit sweater",
+   "outfit": {
+    "emma": "cream knit sweater and jeans",
+    "ryan": "grey casual sweater"
+   },
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Not even the man she loved."
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "black waitress uniform under an open beige trench coat"
+   },
+   "image": "Close-up of emma's face in the rain at night, tears mixed with raindrops, her green eyes turning cold and determined",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "And tonight, he is about to find out exactly what he threw away."
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title_card": true,
+   "chars": [],
+   "camera": "push_in",
+   "image": "Elegant dark luxury background, a golden apron string and a diamond ring lying on black silk, dramatic spotlight",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The Heiress in the Apron. Part one."
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "chars": [],
+   "camera": "pan_left",
+   "image": "Interior of an upscale city restaurant called The Golden Fork in the evening, warm chandeliers, white tablecloths, elegant guests dining",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Earlier that evening. The Golden Fork, the most expensive restaurant in the city."
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "image": "emma carrying a tray with plates through the busy upscale restaurant, smiling politely, warm chandelier light",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Emma had worked here for two years. She was tired, but tonight she was smiling."
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "chars": [
+    "emma",
+    "lily"
+   ],
+   "camera": "pan_right",
+   "image": "Restaurant kitchen doorway, lily excitedly whispering to emma, both in waitress uniforms, steam and warm light behind them",
+   "lines": [
+    {
+     "who": "lily",
+     "text": "Emma! He's here. Ryan just walked in. Table seven. Oh my God, is tonight the night? Is he going to propose?",
+     "how": "excited whisper"
+    },
+    {
+     "who": "emma",
+     "text": "Lily, stop. He just said he had something important to tell me.",
+     "how": "shy, laughing softly"
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "image": "Close-up of emma holding a small silver necklace with a tiny key pendant, looking at it tenderly, restaurant bokeh behind her",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Three years together. She had paid for his business school. She had believed every promise he made."
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "chars": [
+    "ryan",
+    "vanessa"
+   ],
+   "camera": "pan_left",
+   "image": "ryan sitting at an elegant restaurant table by the window, and next to him, very close, vanessa holding his arm possessively, both looking smug",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "But Ryan was not alone."
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "image": "emma freezing in the middle of the restaurant with a water jug in her hand, her smile fading, confused expression",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "Ryan? Who is this?",
+     "how": "confused, quietly"
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "chars": [
+    "ryan"
+   ],
+   "camera": "push_in",
+   "image": "ryan leaning back in his chair at the restaurant table, cold arrogant smile, swirling a glass of red wine",
+   "lines": [
+    {
+     "who": "ryan",
+     "text": "Emma. Sit down. Actually, no, you're working. Stay standing, it's fine.",
+     "how": "condescending, casual"
+    },
+    {
+     "who": "ryan",
+     "text": "This is Vanessa Sterling. My fiancée.",
+     "how": "proud and cold"
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "chars": [
+    "vanessa"
+   ],
+   "camera": "push_in",
+   "image": "vanessa raising her left hand to show off a huge diamond engagement ring, smirking cruelly, restaurant table",
+   "lines": [
+    {
+     "who": "vanessa",
+     "text": "Oh, so you're the little waitress he kept around. How cute.",
+     "how": "mocking, sweet and venomous"
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "image": "Close-up of emma's face, eyes filling with tears, lips trembling, soft restaurant light",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "Your fiancée? Ryan, we were together yesterday. You said you loved me.",
+     "how": "shocked, voice breaking"
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "chars": [
+    "ryan"
+   ],
+   "camera": "pan_right",
+   "image": "ryan shrugging coldly at the restaurant table, looking at emma like she is nothing",
+   "lines": [
+    {
+     "who": "ryan",
+     "text": "I did. Kind of. But let's be honest, Emma. You pour drinks for a living.",
+     "how": "dismissive"
+    },
+    {
+     "who": "ryan",
+     "text": "Vanessa's father is Marcus Sterling. Tomorrow I become vice president of Sterling Corporation. I need a woman who fits that life.",
+     "how": "smug"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "image": "emma standing stiffly next to the table, clutching her apron, guests in the background turning to stare",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "I paid for your school, Ryan. I worked double shifts for you.",
+     "how": "hurt, quiet"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "chars": [
+    "vanessa"
+   ],
+   "camera": "push_in",
+   "image": "vanessa laughing and taking a few banknotes from her designer purse, holding them out mockingly",
+   "lines": [
+    {
+     "who": "vanessa",
+     "text": "Oh, sweetie. How much was it? Here. Consider it a tip.",
+     "how": "laughing cruelly"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "chars": [
+    "vanessa",
+    "emma"
+   ],
+   "camera": "push_in",
+   "image": "vanessa throwing banknotes into emma's face, the notes flying in the air, shocked guests watching in the elegant restaurant",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The whole restaurant went silent."
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "image": "emma standing still with banknotes on the floor around her feet, head lowered, her face hidden, dramatic light",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Emma didn't pick up the money. She didn't scream. She just looked at the man she had loved for three years."
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "image": "Extreme close-up of emma's green eyes, a single tear, but a cold calm look",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "You're going to regret this, Ryan.",
+     "how": "quiet, steady, chilling"
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "chars": [
+    "ryan",
+    "vanessa"
+   ],
+   "camera": "pan_left",
+   "image": "ryan and vanessa laughing together loudly at the restaurant table, raising their wine glasses",
+   "lines": [
+    {
+     "who": "ryan",
+     "text": "Regret what? Losing a waitress?",
+     "how": "laughing"
+    },
+    {
+     "who": "vanessa",
+     "text": "Somebody get this girl a mop. She's dripping on my shoes.",
+     "how": "disgusted, amused"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "chars": [
+    "vanessa",
+    "emma"
+   ],
+   "camera": "push_in",
+   "image": "vanessa in her red designer dress standing next to the restaurant table, deliberately pouring a glass of red wine over emma's white apron, red wine splashing, emma flinching, elegant restaurant",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Then Vanessa did something no one would ever forget."
+    }
+   ],
+   "outfit": {
+    "vanessa": "tight red designer dress and a diamond necklace",
+    "emma": "black waitress uniform with a white apron"
+   }
+  },
+  {
+   "id": "s23",
+   "chars": [
+    "emma"
+   ],
+   "camera": "pull_out",
+   "image": "emma standing in the restaurant with her white apron soaked in red wine, guests staring, some holding up phones to film",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Red wine. All over Emma's apron. And half the restaurant was filming."
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "chars": [],
+   "camera": "push_in",
+   "image": "A nervous restaurant manager in his fifties with a thin moustache and black suit, hurrying across the restaurant, sweating",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The manager rushed over. But not to help her."
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "chars": [],
+   "camera": "push_in",
+   "image": "The nervous restaurant manager with a thin moustache bowing apologetically towards a rich table, pointing to the exit with his other hand",
+   "lines": [
+    {
+     "who": "manager",
+     "text": "Miss Sterling, I am so sorry. Emma, you're fired. Take your things and go. Now.",
+     "how": "panicked, harsh"
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "chars": [
+    "lily"
+   ],
+   "camera": "push_in",
+   "image": "lily looking furious near the kitchen door, fists clenched, in waitress uniform",
+   "lines": [
+    {
+     "who": "lily",
+     "text": "Fired? She didn't do anything! They attacked her!",
+     "how": "outraged"
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "chars": [
+    "emma"
+   ],
+   "camera": "pan_right",
+   "image": "emma calmly untying her wine-stained apron and placing it folded on the restaurant table in front of ryan and vanessa",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "It's okay, Lily. I was leaving anyway.",
+     "how": "calm, dignified"
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "black waitress uniform under an open beige trench coat"
+   },
+   "image": "emma walking out of the glowing restaurant into a rainy night street, neon reflections on the wet pavement",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Outside, the rain was falling hard. Emma walked out with nothing. No job. No boyfriend. Nothing."
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "chars": [
+    "emma",
+    "lily"
+   ],
+   "camera": "pan_left",
+   "outfit": {
+    "emma": "black waitress uniform under an open beige trench coat",
+    "lily": "waitress uniform with a yellow raincoat"
+   },
+   "image": "lily running after emma in the rain holding a small umbrella over her, both standing under a street lamp",
+   "lines": [
+    {
+     "who": "lily",
+     "text": "Emma, wait! Where are you going to go? You can stay with me, okay? We'll figure this out.",
+     "how": "worried, out of breath"
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "black waitress uniform under an open beige trench coat"
+   },
+   "image": "emma under a street lamp in the rain looking at her vibrating smartphone, the screen glowing on her face",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "But before Emma could answer, her phone rang. A number she had not seen in three years."
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "chars": [],
+   "camera": "push_in",
+   "image": "A dignified grey-haired butler in his sixties in a black suit and white gloves, speaking on a phone in a grand dark-wood mansion study",
+   "lines": [
+    {
+     "who": "butler",
+     "text": "Miss Hart. It's Edward. Your grandfather asked me to call. He says the three years are over.",
+     "how": "formal, respectful, gentle"
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "black waitress uniform under an open beige trench coat"
+   },
+   "image": "Close-up of emma on the phone in the rain, eyes closing, a sad small smile",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "I know, Edward. Tell him I'm coming home.",
+     "how": "tired, decided"
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "chars": [
+    "lily"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "lily": "waitress uniform with a yellow raincoat"
+   },
+   "image": "lily under her umbrella in the rain, staring in total confusion, mouth slightly open",
+   "lines": [
+    {
+     "who": "lily",
+     "text": "Home? Emma, what are you talking about? Who was that?",
+     "how": "confused"
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "chars": [],
+   "camera": "pull_out",
+   "image": "A long black luxury limousine with tinted windows pulling up at the curb on a rainy night street, headlights glowing",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Two minutes later, a black limousine stopped right in front of them."
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "chars": [],
+   "camera": "push_in",
+   "image": "A chauffeur in a black uniform and cap holding a large black umbrella and opening the rear door of the limousine in the rain",
+   "lines": [
+    {
+     "who": "chauffeur",
+     "text": "Good evening, Miss Hart. Welcome back.",
+     "how": "deeply respectful"
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "chars": [
+    "lily"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "lily": "waitress uniform with a yellow raincoat"
+   },
+   "image": "lily dropping her umbrella in shock in the rain, eyes wide behind her glasses",
+   "lines": [
+    {
+     "who": "lily",
+     "text": "Miss... Hart? As in Hart Global? As in the Hart Global tower?",
+     "how": "stunned, whispering"
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "black waitress uniform under an open beige trench coat"
+   },
+   "image": "emma looking back over her shoulder with a gentle smile as she steps into the limousine in the rain",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "I'll explain everything tomorrow, Lily. I promise.",
+     "how": "warm, apologetic"
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "chars": [],
+   "camera": "pull_out",
+   "image": "Huge classical mansion estate at night with lit windows, long driveway lined with lamps, fountain in front, rain clearing",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The Hart estate. Emma had not been here since the night she left."
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "chars": [
+    "emma"
+   ],
+   "camera": "pan_right",
+   "outfit": {
+    "emma": "a dry cream cashmere cardigan over a simple dress"
+   },
+   "image": "emma walking slowly through a grand mansion hallway with marble floors, family portraits on the walls, chandeliers",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Three years ago, she had made her grandfather a promise."
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "chars": [
+    "emma",
+    "arthur"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "an elegant grey coat"
+   },
+   "image": "Flashback with a slightly faded warm tone: a younger-looking emma arguing passionately with arthur in a wood-panelled study, fireplace burning",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "Everyone who comes near me only sees the money, Grandpa! I want someone who loves me. Just me.",
+     "how": "pleading, emotional"
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "chars": [
+    "arthur"
+   ],
+   "camera": "push_in",
+   "image": "Flashback with a slightly faded warm tone: arthur standing by the fireplace in his study, hand on his cane, thoughtful",
+   "lines": [
+    {
+     "who": "arthur",
+     "text": "Then live three years without our name. If you find true love, I will never stand in your way. If not, you come home and take your place.",
+     "how": "calm, wise, gentle"
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "chars": [
+    "arthur"
+   ],
+   "camera": "push_in",
+   "image": "Present day: arthur sitting in a large leather armchair in his grand study, the fireplace burning, looking up warmly at someone entering",
+   "lines": [
+    {
+     "who": "arthur",
+     "text": "Welcome home, my girl.",
+     "how": "warm, emotional"
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "chars": [
+    "emma",
+    "arthur"
+   ],
+   "camera": "pan_left",
+   "outfit": {
+    "emma": "a cream cashmere cardigan over a simple dress"
+   },
+   "image": "emma kneeling and hugging arthur tightly as he sits in his leather armchair by the fireplace, both emotional",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "You were right, Grandpa. He never loved me. He loved the idea of a better life. Tonight he found a richer girl.",
+     "how": "crying softly"
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "chars": [
+    "arthur"
+   ],
+   "camera": "push_in",
+   "image": "arthur gently holding a tablet showing a corporate profile page with a photo of a smug young man in a navy suit, his eyes sharp",
+   "lines": [
+    {
+     "who": "arthur",
+     "text": "Ryan Cole. Future vice president of Sterling Corporation. Engaged to Vanessa Sterling.",
+     "how": "slow, knowing"
+    },
+    {
+     "who": "arthur",
+     "text": "Interesting. Do you know what Hart Global is signing tomorrow morning?",
+     "how": "a hint of a smile"
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "a cream cashmere cardigan over a simple dress"
+   },
+   "image": "emma looking up at her grandfather with sudden realisation, firelight on her face",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "You're buying Sterling Corporation.",
+     "how": "realising, quiet"
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "chars": [
+    "arthur"
+   ],
+   "camera": "push_in",
+   "image": "arthur placing a heavy black folder with a golden H logo on the desk in his study, firelight",
+   "lines": [
+    {
+     "who": "arthur",
+     "text": "One hundred percent of it. And I'm too old to run it.",
+     "how": "calm"
+    },
+    {
+     "who": "arthur",
+     "text": "From tomorrow, the new chief executive of Hart Global is you, Emma.",
+     "how": "proud, solemn"
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "a cream cashmere cardigan over a simple dress"
+   },
+   "image": "emma's hand slowly opening the black folder with the golden H logo, her face reflected determination",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Emma looked at the contract for a long time. Then she picked up the pen."
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "chars": [
+    "ryan",
+    "marcus"
+   ],
+   "camera": "pan_right",
+   "image": "Next morning in a modern corporate office with a city view: marcus patting ryan on the shoulder, both smiling, champagne bottle on the desk",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The next morning, at Sterling Corporation, Ryan was celebrating."
+    }
+   ]
+  },
+  {
+   "id": "s49",
+   "chars": [
+    "marcus"
+   ],
+   "camera": "push_in",
+   "image": "marcus raising a champagne glass in his corner office, laughing loudly",
+   "lines": [
+    {
+     "who": "marcus",
+     "text": "To my future son-in-law! Tonight, at the gala, I announce your promotion. Vice president, Ryan!",
+     "how": "booming, cheerful"
+    }
+   ]
+  },
+  {
+   "id": "s50",
+   "chars": [
+    "ryan"
+   ],
+   "camera": "push_in",
+   "image": "ryan grinning while adjusting his tie in front of a large office window, city skyline behind",
+   "lines": [
+    {
+     "who": "ryan",
+     "text": "Thank you, sir. You won't regret it.",
+     "how": "eager, flattering"
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "chars": [
+    "marcus"
+   ],
+   "camera": "push_in",
+   "image": "marcus suddenly serious, reading a message on his phone, sweat on his forehead, in his office",
+   "lines": [
+    {
+     "who": "marcus",
+     "text": "One more thing. The buyers from Hart Global will be there tonight. Their new CEO is coming in person. Nobody has even seen her face.",
+     "how": "nervous, lowering voice"
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "chars": [
+    "vanessa"
+   ],
+   "camera": "push_in",
+   "image": "vanessa sitting on the edge of the office desk filing her nails, rolling her eyes, wearing a white designer outfit",
+   "outfit": {
+    "vanessa": "white designer pantsuit and sunglasses on her head"
+   },
+   "lines": [
+    {
+     "who": "vanessa",
+     "text": "Relax, Daddy. Probably some boring old lady. I'll charm her.",
+     "how": "bored, arrogant"
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "chars": [
+    "ryan",
+    "vanessa"
+   ],
+   "camera": "pan_left",
+   "outfit": {
+    "vanessa": "white designer pantsuit and sunglasses on her head"
+   },
+   "image": "ryan and vanessa laughing while watching a viral video on a phone together in the office",
+   "lines": [
+    {
+     "who": "ryan",
+     "text": "Did you see? The video of the waitress has fifty thousand views.",
+     "how": "laughing"
+    },
+    {
+     "who": "vanessa",
+     "text": "Wine looks good on her. Better than that cheap apron.",
+     "how": "cruel giggle"
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "chars": [],
+   "camera": "pull_out",
+   "image": "A glamorous grand ballroom at night, crystal chandeliers, golden lights, hundreds of elegant guests in gowns and tuxedos, a stage with a large screen",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "That night. The Sterling shareholders' gala. Everyone who mattered in the city was there."
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "chars": [
+    "ryan",
+    "vanessa"
+   ],
+   "camera": "pan_right",
+   "outfit": {
+    "ryan": "black tuxedo with a bow tie",
+    "vanessa": "sparkling silver evening gown and diamond necklace"
+   },
+   "image": "ryan and vanessa walking arm in arm through the glamorous ballroom like royalty, guests turning their heads",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Ryan walked in like a king. Tonight was supposed to be his night."
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "chars": [
+    "lily"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "lily": "white shirt, black vest and bow tie of a catering server"
+   },
+   "image": "lily as a catering server holding a tray of champagne glasses in the grand ballroom, looking around nervously",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Lily was there too. A catering job. Emma had asked her to come. She still didn't know why."
+    }
+   ]
+  },
+  {
+   "id": "s57",
+   "chars": [
+    "vanessa",
+    "lily"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "vanessa": "sparkling silver evening gown and diamond necklace",
+    "lily": "white shirt, black vest and bow tie of a catering server"
+   },
+   "image": "vanessa snapping her fingers in lily's face in the ballroom, lily holding a tray, looking humiliated",
+   "lines": [
+    {
+     "who": "vanessa",
+     "text": "You. Aren't you the friend of that pathetic waitress? Champagne. Now. And don't spill it like she did.",
+     "how": "snobbish, snapping"
+    }
+   ]
+  },
+  {
+   "id": "s58",
+   "chars": [],
+   "camera": "pull_out",
+   "image": "The tall golden doors of the grand ballroom opening, bright light streaming in, guests turning around",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "And then, the doors opened."
+    }
+   ]
+  },
+  {
+   "id": "s59",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "breathtaking floor-length emerald-green silk evening gown, hair in elegant waves, diamond earrings"
+   },
+   "image": "emma entering the ballroom through golden doors, walking confidently, the whole room staring in awe, golden backlight",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Emma Hart walked in. No apron. No tears. Every head in the room turned."
+    }
+   ]
+  },
+  {
+   "id": "s60",
+   "chars": [
+    "ryan"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "ryan": "black tuxedo with a bow tie"
+   },
+   "image": "Close-up of ryan in his tuxedo staring in disbelief, champagne glass frozen halfway to his mouth",
+   "lines": [
+    {
+     "who": "ryan",
+     "text": "Emma? What... what is she doing here?",
+     "how": "stunned whisper"
+    }
+   ]
+  },
+  {
+   "id": "s61",
+   "chars": [
+    "vanessa"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "vanessa": "sparkling silver evening gown and diamond necklace"
+   },
+   "image": "vanessa narrowing her eyes with jealousy and contempt in the ballroom",
+   "lines": [
+    {
+     "who": "vanessa",
+     "text": "That dress has to be rented. She probably snuck in with the catering staff.",
+     "how": "sneering, jealous"
+    }
+   ]
+  },
+  {
+   "id": "s62",
+   "chars": [
+    "vanessa",
+    "emma"
+   ],
+   "camera": "pan_left",
+   "outfit": {
+    "vanessa": "sparkling silver evening gown and diamond necklace",
+    "emma": "floor-length emerald-green silk evening gown, diamond earrings"
+   },
+   "image": "vanessa blocking emma's path in the middle of the ballroom, smirking, guests watching",
+   "lines": [
+    {
+     "who": "vanessa",
+     "text": "Back so soon? Did you come to serve the drinks, or to beg Ryan to take you back?",
+     "how": "loud, mocking, for everyone to hear"
+    }
+   ]
+  },
+  {
+   "id": "s63",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "floor-length emerald-green silk evening gown, diamond earrings"
+   },
+   "image": "emma smiling calmly and confidently at someone off-camera in the ballroom, completely unbothered",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "Neither, Vanessa. I'm here for a business meeting.",
+     "how": "calm, polite, ice-cold"
+    }
+   ]
+  },
+  {
+   "id": "s64",
+   "chars": [
+    "ryan"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "ryan": "black tuxedo with a bow tie"
+   },
+   "image": "ryan stepping forward with an angry fake smile, grabbing at the air, ballroom background",
+   "lines": [
+    {
+     "who": "ryan",
+     "text": "Emma, don't embarrass yourself. Security! This woman isn't on the guest list.",
+     "how": "angry, embarrassed"
+    }
+   ]
+  },
+  {
+   "id": "s65",
+   "chars": [
+    "marcus"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "marcus": "black tuxedo"
+   },
+   "image": "marcus on the ballroom stage at a microphone, nervous, sweating, holding cue cards, large screen behind him",
+   "lines": [
+    {
+     "who": "marcus",
+     "text": "Ladies and gentlemen! Before we continue, it's my honor to welcome the new owner of Sterling Corporation.",
+     "how": "nervous, formal announcement"
+    }
+   ]
+  },
+  {
+   "id": "s66",
+   "chars": [],
+   "camera": "push_in",
+   "image": "Large stage screen in the ballroom lighting up with a golden H logo and the words HART GLOBAL, guests applauding",
+   "lines": [
+    {
+     "who": "marcus",
+     "text": "Please welcome the new chief executive officer of Hart Global...",
+     "how": "announcing, building up"
+    }
+   ]
+  },
+  {
+   "id": "s67",
+   "chars": [
+    "ryan",
+    "vanessa"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "ryan": "black tuxedo with a bow tie",
+    "vanessa": "sparkling silver evening gown and diamond necklace"
+   },
+   "image": "ryan and vanessa applauding eagerly, looking towards the stage with ambitious smiles",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Ryan straightened his tie. This was the most important person he would ever meet."
+    }
+   ]
+  },
+  {
+   "id": "s68",
+   "chars": [],
+   "camera": "push_in",
+   "image": "A bright spotlight beam sweeping across the dark ballroom crowd, dramatic haze",
+   "lines": [
+    {
+     "who": "marcus",
+     "text": "...Miss Emma Hart!",
+     "how": "loud, triumphant"
+    }
+   ]
+  },
+  {
+   "id": "s69",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "floor-length emerald-green silk evening gown, diamond earrings"
+   },
+   "image": "emma standing in the middle of the ballroom caught in a bright spotlight, guests stepping aside to clear a path for her",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "The spotlight found her. Right in front of Ryan."
+    }
+   ]
+  },
+  {
+   "id": "s70",
+   "chars": [
+    "ryan"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "ryan": "black tuxedo with a bow tie"
+   },
+   "image": "ryan dropping his champagne glass, the glass shattering on the marble floor, his face white with shock",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "His glass hit the floor."
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "chars": [
+    "vanessa"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "vanessa": "sparkling silver evening gown and diamond necklace"
+   },
+   "image": "vanessa with her mouth open in horror, her face pale, hand on her diamond necklace",
+   "lines": [
+    {
+     "who": "vanessa",
+     "text": "No. No, no, no. That's impossible. She's a waitress!",
+     "how": "panicking, disbelieving"
+    }
+   ]
+  },
+  {
+   "id": "s72",
+   "chars": [
+    "lily"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "lily": "white shirt, black vest and bow tie of a catering server"
+   },
+   "image": "lily holding her champagne tray, grinning from ear to ear with tears of joy behind her glasses",
+   "lines": [
+    {
+     "who": "lily",
+     "text": "Oh. My. God. Emma!",
+     "how": "delighted whisper"
+    }
+   ]
+  },
+  {
+   "id": "s73",
+   "chars": [
+    "emma"
+   ],
+   "camera": "pan_right",
+   "outfit": {
+    "emma": "floor-length emerald-green silk evening gown, diamond earrings"
+   },
+   "image": "emma walking up the steps to the ballroom stage gracefully, holding her gown, the crowd applauding",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Emma walked slowly to the stage. Marcus Sterling bowed so low, he almost fell over."
+    }
+   ]
+  },
+  {
+   "id": "s74",
+   "chars": [
+    "marcus"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "marcus": "black tuxedo"
+   },
+   "image": "marcus bowing nervously on the stage, offering the microphone with both hands",
+   "lines": [
+    {
+     "who": "marcus",
+     "text": "Miss Hart, it's a tremendous honor. My daughter and my future son-in-law were just saying how much they admire you.",
+     "how": "nervous, overly flattering"
+    }
+   ]
+  },
+  {
+   "id": "s75",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "floor-length emerald-green silk evening gown, diamond earrings"
+   },
+   "image": "emma at the microphone on the ballroom stage, looking down at the crowd with a calm, powerful gaze, spotlight on her",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "Were they? How kind. We've actually met. Last night, they gave me a tip.",
+     "how": "calm, slightly amused"
+    }
+   ]
+  },
+  {
+   "id": "s76",
+   "chars": [],
+   "camera": "pull_out",
+   "image": "Ballroom crowd murmuring and looking at each other, some guests holding up phones, whispers",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "A murmur went through the room. Someone whispered: the wine video. That was her."
+    }
+   ]
+  },
+  {
+   "id": "s77",
+   "chars": [
+    "ryan"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "ryan": "black tuxedo with a bow tie"
+   },
+   "image": "ryan sweating heavily, forcing a desperate smile, stepping towards the stage with open hands",
+   "lines": [
+    {
+     "who": "ryan",
+     "text": "Emma, baby, listen. That was a misunderstanding. I can explain everything.",
+     "how": "desperate, pleading"
+    }
+   ]
+  },
+  {
+   "id": "s78",
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "floor-length emerald-green silk evening gown, diamond earrings"
+   },
+   "image": "Close-up of emma on stage, a cold beautiful smile, spotlight, chandeliers bokeh",
+   "lines": [
+    {
+     "who": "emma",
+     "text": "It's Ms. Hart now, Mr. Cole. And you'll have plenty of time to explain.",
+     "how": "cold, controlled"
+    },
+    {
+     "who": "emma",
+     "text": "Because my very first decision as CEO concerns two people in this room.",
+     "how": "slow, dramatic"
+    }
+   ]
+  },
+  {
+   "id": "s79",
+   "chars": [
+    "ryan",
+    "vanessa"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "ryan": "black tuxedo with a bow tie",
+    "vanessa": "sparkling silver evening gown and diamond necklace"
+   },
+   "image": "ryan and vanessa standing frozen side by side in the ballroom, terrified, the crowd around them turning to look at them",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "Ryan's knees went weak. Vanessa grabbed his arm. And for the first time, she looked afraid."
+    }
+   ]
+  },
+  {
+   "id": "s80",
+   "end_card": true,
+   "chars": [
+    "emma"
+   ],
+   "camera": "push_in",
+   "outfit": {
+    "emma": "floor-length emerald-green silk evening gown, diamond earrings"
+   },
+   "image": "emma on the ballroom stage seen from behind in silhouette, facing the crowd, golden spotlight, dramatic haze",
+   "lines": [
+    {
+     "who": "narrator",
+     "text": "What will Emma decide? Find out in part two. Subscribe, so you don't miss it."
+    }
+   ]
+  }
+ ],
+ "thumb_outfits": {
+  "emma": "emerald-green silk evening gown",
+  "ryan": "black tuxedo",
+  "vanessa": "red evening gown"
+ }
+}

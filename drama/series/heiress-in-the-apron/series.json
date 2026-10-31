@@ -1,0 +1,68 @@
+{
+ "series_id": "heiress-in-the-apron",
+ "title": "The Heiress in the Apron",
+ "brand_id": "7782808",
+ "style": "Cinematic photorealistic still from a high-budget streaming drama series, 35mm film look, shallow depth of field, dramatic moody lighting, rich color grading, sharp faces, natural skin texture, no text, no watermark, no captions",
+ "narrator_voice": "Charon",
+ "narrator_style": "Read as a dramatic, gripping movie-trailer narrator, low and suspenseful",
+ "characters": {
+  "emma": {
+   "name": "Emma Hart",
+   "look": "27-year-old woman, long wavy auburn hair, green eyes, light freckles on nose and cheeks, slim, elegant natural beauty",
+   "default_outfit": "simple black waitress uniform with a white apron",
+   "voice": "Sulafat",
+   "voice_style": "a warm young woman's voice"
+  },
+  "ryan": {
+   "name": "Ryan Cole",
+   "look": "29-year-old man, dark brown slicked-back hair, clean-shaven, sharp jaw, brown eyes, smug confident expression",
+   "default_outfit": "tailored navy-blue suit, white shirt, no tie",
+   "voice": "Puck",
+   "voice_style": "a smooth, arrogant young man's voice"
+  },
+  "vanessa": {
+   "name": "Vanessa Sterling",
+   "look": "26-year-old woman, long straight platinum-blonde hair, blue eyes, perfect makeup with red lipstick, haughty expression",
+   "default_outfit": "tight red designer dress and a diamond necklace",
+   "voice": "Zephyr",
+   "voice_style": "a spoiled, mocking young woman's voice"
+  },
+  "arthur": {
+   "name": "Arthur Hart",
+   "look": "68-year-old man, neatly combed silver hair, short white beard, kind but piercing grey eyes",
+   "default_outfit": "charcoal three-piece suit with a pocket watch chain, holding a black cane with a silver handle",
+   "voice": "Gacrux",
+   "voice_style": "a deep, calm, powerful old man's voice"
+  },
+  "marcus": {
+   "name": "Marcus Sterling",
+   "look": "56-year-old heavy-set man, balding with grey hair at the sides, thick grey eyebrows, red face",
+   "default_outfit": "expensive grey suit and a gold watch",
+   "voice": "Algenib",
+   "voice_style": "a gruff, self-important middle-aged man's voice"
+  },
+  "lily": {
+   "name": "Lily Chen",
+   "look": "26-year-old East Asian woman, black chin-length bob haircut, round glasses, friendly face",
+   "default_outfit": "simple black waitress uniform with a white apron",
+   "voice": "Leda",
+   "voice_style": "a lively, caring young woman's voice"
+  }
+ },
+ "genre": "secret heiress / billionaire revenge",
+ "extras": {
+  "manager": [
+   "Iapetus",
+   "a nervous, fawning middle-aged man's voice"
+  ],
+  "butler": [
+   "Schedar",
+   "a calm, formal elderly British butler's voice"
+  ],
+  "chauffeur": [
+   "Rasalgethi",
+   "a polite, deep man's voice"
+  ]
+ },
+ "arc": "Emma Hart, secret heiress of Hart Global, lived three years as a waitress to find love that isn't about money. Her boyfriend Ryan dumps and humiliates her for socialite Vanessa Sterling; the next day Emma becomes CEO of Hart Global, which just bought Sterling Corporation. Season plan (8 parts): 1 the humiliation and the gala reveal; 2 Emma's first decision – Ryan demoted to the mailroom, Vanessa's father panics; 3 Vanessa spreads a fake scandal about Emma; 4 a mysterious investor, Alexander Reed, helps Emma expose it; 5 Ryan tries to win Emma back while secretly working for a rival; 6 Marcus Sterling's hidden fraud is uncovered; 7 Vanessa and Ryan's plan to sabotage the merger backfires live on stage; 8 justice for both, Emma and Alexander, and Lily gets her own restaurant."
+}
