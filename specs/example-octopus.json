@@ -1,0 +1,169 @@
+{
+ "id": "octopus-hearts-v4",
+ "hook": "Octopuses have THREE hearts",
+ "title": "Octopuses Have 3 Hearts (and one stops when they swim) #shorts",
+ "description": "An octopus has three hearts, blue blood, and a heart that stops when it swims. Follow for a new fact every day!\n\n#facts #animals #octopus #science #shorts",
+ "tags": [
+  "octopus",
+  "animal facts",
+  "science facts",
+  "biology",
+  "ocean",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "This octopus has not one, but three hearts.",
+   "clip": "octopus",
+   "items": [
+    {
+     "emoji": "🫀",
+     "x": 0.25,
+     "y": 0.62,
+     "size": 0.17,
+     "anim": "pop",
+     "delay": 1.0
+    },
+    {
+     "emoji": "🫀",
+     "x": 0.5,
+     "y": 0.64,
+     "size": 0.17,
+     "anim": "pop",
+     "delay": 1.2
+    },
+    {
+     "emoji": "🫀",
+     "x": 0.75,
+     "y": 0.62,
+     "size": 0.17,
+     "anim": "pop",
+     "delay": 1.4
+    }
+   ],
+   "clip_id": 332342
+  },
+  {
+   "say": "Two of them pump blood through the gills, where it picks up oxygen.",
+   "clip": "octopus underwater",
+   "items": [
+    {
+     "emoji": "🫀",
+     "x": 0.3,
+     "y": 0.4,
+     "size": 0.24,
+     "anim": "pulse",
+     "delay": 0.1
+    },
+    {
+     "emoji": "🫀",
+     "x": 0.7,
+     "y": 0.4,
+     "size": 0.24,
+     "anim": "pulse",
+     "delay": 0.35
+    },
+    {
+     "emoji": "🫧",
+     "x": 0.5,
+     "y": 0.55,
+     "size": 0.16,
+     "anim": "rise",
+     "delay": 0.8
+    }
+   ],
+   "punch": "GILLS",
+   "punch_y": 0.68,
+   "punch_delay": 1.2,
+   "clip_id": 327852
+  },
+  {
+   "say": "The third one pumps that blood to the rest of its body.",
+   "clip": "coral reef fish",
+   "inset_y": 0.4,
+   "punch": "THE BODY",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "inset_id": 32264
+  },
+  {
+   "say": "But here is the crazy part. When an octopus swims, that main heart stops beating.",
+   "clip": "octopus swimming",
+   "items": [
+    {
+     "emoji": "🫀",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.26,
+     "anim": "shake",
+     "delay": 2.3,
+     "cross": true
+    }
+   ],
+   "punch": "IT STOPS!",
+   "punch_y": 0.66,
+   "punch_delay": 2.3,
+   "clip_id": 326223
+  },
+  {
+   "say": "That is why octopuses would rather crawl. Swimming wears them out.",
+   "clip": "octopus aquarium",
+   "bars": [
+    {
+     "label": "Crawling",
+     "value": 25,
+     "show": "easy",
+     "emoji": "🐌"
+    },
+    {
+     "label": "Swimming",
+     "value": 100,
+     "show": "exhausting",
+     "emoji": "🥵"
+    }
+   ],
+   "bars_y": 0.3,
+   "clip_id": 1198,
+   "inset_id": 84039,
+   "inset_y": 0.62,
+   "inset_x": 0.5,
+   "inset_delay": 1.6,
+   "inset_tilt": 4
+  },
+  {
+   "say": "Oh, and their blood is blue, because it carries copper instead of iron.",
+   "clip": "deep blue ocean",
+   "inset_y": 0.38,
+   "items": [
+    {
+     "emoji": "💙",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.42,
+     "anim": "pulse",
+     "delay": 0.2
+    },
+    {
+     "emoji": "🩸",
+     "x": 0.2,
+     "y": 0.3,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 2.4,
+     "cross": true
+    },
+    {
+     "emoji": "🪙",
+     "x": 0.8,
+     "y": 0.3,
+     "size": 0.16,
+     "anim": "spin",
+     "delay": 2.0
+    }
+   ],
+   "punch": "BLUE BLOOD",
+   "punch_y": 0.66,
+   "punch_delay": 0.8
+  }
+ ]
+}
