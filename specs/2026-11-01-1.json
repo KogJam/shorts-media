@@ -1,0 +1,158 @@
+{
+ "id": "honey-never-spoils",
+ "hook": "Honey can last 3,000 years",
+ "title": "Why Honey Never Goes Bad (3,000 Years Old!) #shorts",
+ "description": "Archaeologists found pots of honey in ancient Egyptian tombs that were still edible. Here's why honey basically never spoils. Follow for a new fact every day!\n\n#facts #science #honey #food #shorts",
+ "tags": [
+  "honey",
+  "food facts",
+  "science facts",
+  "ancient egypt",
+  "bees",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "This honey could still be good in three thousand years.",
+   "clip_id": 367171,
+   "items": [
+    {
+     "emoji": "🍯",
+     "x": 0.5,
+     "y": 0.6,
+     "size": 0.24,
+     "anim": "bounce",
+     "delay": 0.6
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6d350233f623ffdc.mp4"
+  },
+  {
+   "say": "Archaeologists found jars of honey in ancient Egyptian tombs.",
+   "clip_id": 205415,
+   "inset_id": 252079,
+   "inset_y": 0.42,
+   "inset_delay": 1.4,
+   "inset_tilt": -6,
+   "punch": "3,000 YEARS OLD",
+   "punch_y": 0.68,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/3b113dc9be194c36.mp4",
+   "inset_path": "/root/.cache/shorts_clips/d3fd951410499330.mp4"
+  },
+  {
+   "say": "And it was still safe to eat.",
+   "clip_id": 349523,
+   "items": [
+    {
+     "emoji": "😋",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.3,
+     "anim": "pop",
+     "delay": 0.5
+    }
+   ],
+   "punch": "STILL GOOD!",
+   "punch_y": 0.66,
+   "punch_delay": 0.9,
+   "clip_path": "/root/.cache/shorts_clips/ca1b615e35cad9d2.mp4"
+  },
+  {
+   "say": "The secret is water. Honey has so little of it that bacteria simply dry out and die.",
+   "clip_id": 273485,
+   "items": [
+    {
+     "emoji": "🦠",
+     "x": 0.3,
+     "y": 0.4,
+     "size": 0.18,
+     "anim": "shake",
+     "delay": 1.8,
+     "cross": true
+    },
+    {
+     "emoji": "🦠",
+     "x": 0.7,
+     "y": 0.36,
+     "size": 0.15,
+     "anim": "shake",
+     "delay": 2.1,
+     "cross": true
+    }
+   ],
+   "punch": "NO WATER",
+   "punch_y": 0.66,
+   "punch_delay": 0.5,
+   "clip_path": "/root/.cache/shorts_clips/8d1593226b8069ba.mp4"
+  },
+  {
+   "say": "Bees make sure of that. They fan their wings to dry out the nectar.",
+   "clip_id": 273480,
+   "inset_id": 273476,
+   "inset_y": 0.42,
+   "inset_delay": 1.6,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "🐝",
+     "x": 0.8,
+     "y": 0.27,
+     "size": 0.15,
+     "anim": "float",
+     "delay": 0.2
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/af67048da3d7f78c.mp4",
+   "inset_path": "/root/.cache/shorts_clips/46fb1e1b1ad029b7.mp4"
+  },
+  {
+   "say": "On top of that, honey is acidic, and it even makes tiny amounts of hydrogen peroxide.",
+   "clip_id": 343947,
+   "items": [
+    {
+     "emoji": "🛡️",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.28,
+     "anim": "pulse",
+     "delay": 0.4
+    }
+   ],
+   "punch": "BUILT-IN SHIELD",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/1f9ceefd58ae2ec5.mp4"
+  },
+  {
+   "say": "So keep it sealed, and your honey will outlive you.",
+   "clip_id": 39117,
+   "items": [
+    {
+     "emoji": "♾️",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.3,
+     "anim": "spin",
+     "delay": 0.5
+    }
+   ],
+   "punch": "FOREVER",
+   "punch_y": 0.66,
+   "punch_delay": 1.5,
+   "clip_path": "/root/.cache/shorts_clips/51313a3126dfdb25.mp4"
+  }
+ ],
+ "credits": [
+  "SurkhabAhmad-786 (Pixabay): https://pixabay.com/videos/id-367171/",
+  "engill (Pixabay): https://pixabay.com/videos/id-205415/",
+  "lainguyen1986 (Pixabay): https://pixabay.com/videos/id-252079/",
+  "SurkhabAhmad-786 (Pixabay): https://pixabay.com/videos/id-349523/",
+  "RaimundoMaciel (Pixabay): https://pixabay.com/videos/id-273485/",
+  "RaimundoMaciel (Pixabay): https://pixabay.com/videos/id-273480/",
+  "RaimundoMaciel (Pixabay): https://pixabay.com/videos/id-273476/",
+  "MoonpetalMedia (Pixabay): https://pixabay.com/videos/id-343947/",
+  "Josh_Malic (Pixabay): https://pixabay.com/videos/id-39117/"
+ ]
+}
