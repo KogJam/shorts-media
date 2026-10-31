@@ -7,6 +7,7 @@ needed: Metricool copies the file to its own storage the moment a post is schedu
 import os, sys, shutil, subprocess, tempfile, time
 
 REPO = os.environ.get("SHORTS_REPO", "KogJam/shorts-media")
+BRANCH = os.environ.get("VIDEOS_BRANCH", "videos")
 
 
 def run(*a, cwd=None):
@@ -17,7 +18,7 @@ def run(*a, cwd=None):
 
 def publish(files):
     d = tempfile.mkdtemp(prefix="videos_")
-    run("git", "init", "-q", "-b", "videos", cwd=d)
+    run("git", "init", "-q", "-b", BRANCH, cwd=d)
     names = []
     for f in files:
         name = os.path.basename(f)
@@ -25,9 +26,9 @@ def publish(files):
     run("git", "add", "-A", cwd=d)
     run("git", "-c", "user.name=shorts-bot", "-c", "user.email=noreply@users.noreply.github.com",
         "commit", "-qm", f"videos {time.strftime('%Y-%m-%d %H:%M')}", cwd=d)
-    run("git", "push", "-q", "--force", f"https://github.com/{REPO}.git", "videos:videos", cwd=d)
+    run("git", "push", "-q", "--force", f"https://github.com/{REPO}.git", f"{BRANCH}:{BRANCH}", cwd=d)
     shutil.rmtree(d, ignore_errors=True)
-    return [f"https://raw.githubusercontent.com/{REPO}/videos/{n}" for n in names]
+    return [f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/{n}" for n in names]
 
 
 if __name__ == "__main__":

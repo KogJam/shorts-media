@@ -106,13 +106,35 @@ if __name__ == "__main__":
     # most important first: shots with characters and dialogue, then the rest
     shots.sort(key=lambda s: (-len(s.get("chars", [])) - 2 * any(l["who"] != "narrator" for l in s["lines"]), ep["shots"].index(s)))
 
+    cdir = os.path.join(build, "clips")
+    failp = os.path.join(cdir, "failures.json")
+    fails = json.load(open(failp)) if os.path.exists(failp) else {}
+    # retry only shots that failed fewer than 2 times (safety filters are usually deterministic)
+    shots = [s for s in shots if fails.get(s["id"], 0) < 2]
+    stop_flags = ("OUT_OF_CREDIT", "DAILY_LIMIT")
+    for f in stop_flags:  # flags are per run
+        if os.path.exists(os.path.join(cdir, f)): os.remove(os.path.join(cdir, f))
+    limit = int(os.environ.get("MAX_CLIPS", "0")) or None
+    made = []
+
     def one(s):
-        out = os.path.join(build, "clips", f"{s['id']}{suffix}.mp4")
-        if os.path.exists(os.path.join(build, "clips", "OUT_OF_CREDIT")): return
+        out = os.path.join(cdir, f"{s['id']}{suffix}.mp4")
+        if any(os.path.exists(os.path.join(cdir, f)) for f in stop_flags): return
+        if os.path.exists(out): return
+        if limit and len(made) >= limit: return
         try:
+            made.append(s["id"])
             animate(s, os.path.join(build, "img", f"{s['id']}.png"), out, series, model, s.get("anim_seconds", 6))
             print("clip", s["id"], flush=True)
         except Exception as e:
-            print("CLIP FAIL", s["id"], e, flush=True)
-            if "402" in str(e) or "depleted" in str(e): open(os.path.join(build, "clips", "OUT_OF_CREDIT"), "w").write(str(e))
+            msg = str(e)
+            print("CLIP FAIL", s["id"], msg[:200], flush=True)
+            if "402" in msg or "depleted" in msg: open(os.path.join(cdir, "OUT_OF_CREDIT"), "w").write(msg)
+            elif "429" in msg: open(os.path.join(cdir, "DAILY_LIMIT"), "w").write(msg)
+            else: fails[s["id"]] = fails.get(s["id"], 0) + 1
     with ThreadPoolExecutor(int(os.environ.get("VEO_PARALLEL", "3"))) as ex: list(ex.map(one, shots))
+    json.dump(fails, open(failp, "w"))
+    have = sum(os.path.exists(os.path.join(cdir, f"{s['id']}.mp4")) for s in ep["shots"])
+    blocked = [k for k, v in fails.items() if v >= 2]
+    flag = next((f for f in stop_flags if os.path.exists(os.path.join(cdir, f))), "")
+    print(f"STATUS animated={have}/{len(ep['shots'])} blocked={blocked} stop={flag or 'none'}")

@@ -1,101 +1,101 @@
-# AI drama series run – instructions for Claude
+# AI drama series – daily run instructions for Claude
 
-Goal of one run: produce **one new episode** (**7.5–10 min**, never shorter than 7 min or longer than 10 min, 16:9, English, every shot AI-animated) of the series whose turn it is,
-and schedule it on the drama YouTube channel through the **Metricool** connector (brand / blogId `7782808`,
-label "Storys"). Several series rotate so the channel always has variety. Nobody is watching: decide yourself.
+The drama channel (Metricool brand "Storys", blogId `7782808`) gets **one new fully AI-animated episode every 3 days**
+(7.5–10 min, 16:9, English). Google allows only **20 AI video clips per day** on this account, so every episode is
+produced over **3 daily runs**:
+
+| run | what happens |
+|---|---|
+| day 1 | write the episode, generate stills + voices + thumbnail, QA, animate up to 20 clips, save build state |
+| day 2 | restore build state, animate up to 20 more clips, save |
+| day 3 | restore, animate the rest, assemble the film, publish at **20:07** today, bookkeeping |
+
+Several series rotate so the channel always has variety. Nobody is watching: decide yourself, don't ask questions.
 
 ## 0. Setup
 ```bash
 git clone https://github.com/KogJam/shorts-media.git ~/shorts-media && cd ~/shorts-media/drama
-export GEMINI_API_KEY=...   # from the task prompt – never commit it
+export GEMINI_API_KEY=...   # from the task prompt – never write it into a file or commit it
 ```
-The shell can reach GitHub and `generativelanguage.googleapis.com`. Fonts/ffmpeg/numpy/Pillow are preinstalled.
+The shell reaches GitHub and `generativelanguage.googleapis.com`. ffmpeg/numpy/Pillow are preinstalled.
 
-## 1. Whose turn?
-First do the **Publish date** check from step 5 – if enough episodes are already queued, stop here.
-`rotation.json` lists the series in order plus `next` (index). Take `series[next]`.
-If that series has `"status": "finished"`, skip to the next. When all are finished, create a new series (step 7).
+## 1. Read state.json – what is today's job?
+```json
+{"pause_until": "YYYY-MM-DD", "current": null | {"series": "<id>", "episode": N, "day": 1|2|3, "publish_date": "YYYY-MM-DD"}}
+```
+- If today (Europe/Berlin) < `pause_until`: stop, nothing to do.
+- If `current` is null → **new episode** (step 2), then continue with step 4.
+- Else → restore the build: `python3 buildstore.py restore series/<id>/episodes/epNN.json`, then step 4.
+- If today > `publish_date` (a run was missed): publish today with what exists (step 5).
 
-## 2. Read the series
-- `series/<id>/series.json` – characters (look, outfit, voice), style, `arc` (season plan), `extras` (minor voices).
-  New recurring characters (e.g. a love interest introduced later in the arc) must be added to `characters` first –
-  `gen.py … all` creates their reference portrait automatically.
-- `series/<id>/story.md` – what happened in every published part (continuity!). Read it fully.
-- The latest `series/<id>/episodes/epNN.json` – tone and format reference.
+## 2. New episode (day 1 only)
+1. `rotation.json` → series `series[next]` (skip `"status": "finished"`; if none active, create a new series, step 8).
+2. Read `series/<id>/series.json` (characters, style, `arc`, `extras`), `series/<id>/story.md` (continuity – read fully),
+   and the latest `episodes/epNN.json` of any series (tone/format). New recurring characters (e.g. a love interest the
+   arc introduces) must be added to `characters` first – gen.py creates their reference portrait automatically.
+3. Write `series/<id>/episodes/epNN.json` (same format as existing episodes):
+   - `episode`, `title` (≤ 100 chars, emotional hook, ends with `| Full AI Drama – Part N`), `thumb_text` (3 short lines),
+     `thumb_prompt`, `thumb_chars`, `thumb_outfits`, `description` (3–4 sentences recap + hook, "Part N+1 drops in 3 days.
+     Subscribe…", the line "This is a fictional AI-generated drama series. All characters are fictional.", 5 hashtags), `tags`.
+   - `shots`: **50–58 shots of ~9–11 s**, each `{id, chars, outfit, camera, image, motion, lines}`:
+     - `chars`: series character ids visible (max 4). In `image` refer to characters by **id** (gen.py inserts names).
+     - `outfit`: per-character override when not wearing the default outfit; keep outfits consistent within a scene.
+     - `camera`: push_in | pull_out | pan_left | pan_right. `motion`: what moves (gestures, emotion, action) – never names.
+     - `image`: one concrete visual moment (place, action, emotion, light). No readable text except big logos.
+       Minor characters are described fully in `image` and voiced via `extras`.
+     - `lines`: `{who, text, how}` – narrator | character id | extras id; `how` = acting direction. 1–3 lines per shot,
+       together ~18–28 words. Total ≈ 1,100–1,400 words → 7.5–10 min (check: words/150 + 0.5 s per shot).
+   - Structure: 15–30 s cold open (strongest moment / flash-forward) → `title_card: true` shot ("<Title>. Part N.")
+     → 3–5 scenes of escalating conflict → reveal → **cliffhanger** → `end_card: true` shot (question + "Subscribe…").
+   - Follow `arc`, make each part satisfying on its own. PG-13: no graphic violence, no sexual content, no real
+     people or brands, no minors in peril.
+4. Generate: `python3 gen.py series/<id>/episodes/epNN.json all` (run twice – the second run fills failures).
+5. **QA the stills** (animation is the expensive step!): contact sheets of all shot images (PIL thumbnails, ~20 per
+   sheet) + the reference portraits → check with Read: right characters, consistent faces/outfits, no extra limbs,
+   no garbled text, nothing inappropriate. Fix bad shots: delete `build/epNN/img/<shot>.png`, adjust the prompt,
+   regenerate (max 2 tries).
+6. `state.json`: `current = {series, episode, day: 1, publish_date: today + 2 days}`.
 
-## 3. Write the next episode → `series/<id>/episodes/epNN.json`
-Same format as existing episodes:
-- `episode`, `title` (YouTube title ≤ 100 chars, emotional hook, ends with `| Full AI Drama – Part N`),
-  `thumb_text` (3 short ALL-CAPS-friendly lines), `thumb_prompt`, `thumb_chars`, `thumb_outfits`,
-  `description` (3–4 sentences recap+hook, "Part N+1 drops in X days. Subscribe…", the line
-  "This is a fictional AI-generated drama series. All characters are fictional.", 5 hashtags), `tags`.
-- `shots`: **45–55 shots of ~9–11 s each** (every shot becomes one ~10 s AI video clip), each `{id, chars, outfit, camera, image, motion, lines}`.
-  - `motion`: what moves in the clip (e.g. "she slowly turns towards the window, tears running down", "he slams the folder on the desk").
-  - `chars`: ids of series characters visible in the shot (max 4; their reference portraits keep faces consistent).
-    Refer to characters inside `image` by their **id** (e.g. "emma walks in"), the generator inserts names.
-  - `outfit`: per-character override when not wearing the default outfit; keep outfits consistent within a scene.
-  - `camera`: push_in | pull_out | pan_left | pan_right (vary them).
-  - `image`: one concrete visual moment (place, action, emotion, light). Never text/signs that must be readable,
-    except big logos. Minor characters (manager, butler…) are described fully in `image` and get voices via `extras`.
-  - `lines`: `{who, text, how}` – `who` = narrator | character id | extras id; `how` = acting direction.
-    1–3 lines per shot, together ~18–28 words (≈ 8–10 s of speech) so speech fills the 10 s clip.
-    Total ≈ 1,050–1,400 words → 7.5–10 min. Check: `sum(words)/150` minutes + ~0.5 s per shot.
-- Structure: 15–30 s **cold open** hook (flash-forward or strongest moment) → `title_card: true` shot
-  ("<Title>. Part N.") → 3–5 scenes with escalating conflict → big reveal → **cliffhanger** → `end_card: true`
-  shot (narrator asks the question + "Subscribe…").
-- Follow the season plan in `arc`, but make each part satisfying on its own. Keep it PG-13: no graphic violence,
-  no sexual content, no real people/brands, no minors in peril.
-
-## 4. Generate + build
+## 4. Animate (every day)
 ```bash
-python3 gen.py series/<id>/episodes/epNN.json all     # refs (first time only), images, voices, thumbnail
-python3 gen.py series/<id>/episodes/epNN.json all     # run again: fills anything that failed
-# QA the stills first (see below) – animation is the expensive step, fix bad stills before it
-python3 animate.py series/<id>/episodes/epNN.json --all   # Gemini Omni image-to-video, ~10 s per shot, ~1 $ each
-python3 animate.py series/<id>/episodes/epNN.json --all   # again: retries failed shots (cached clips are skipped)
-python3 film.py series/<id>/episodes/epNN.json        # -> series/<id>/build/epNN/epNN.mp4 + thumb.jpg (<95 MB)
+python3 animate.py series/<id>/episodes/epNN.json --all
 ```
-gen ~10–15 min, animate ~20–30 min, film ~10 min. Cost ≈ 50–60 $ per episode. Never regenerate a whole episode;
-re-do single shots by deleting just that `build/epNN/img/<shot>.png` / `clips/<shot>.mp4`.
-Omni blocks prompts that look like real people: animate.py already replaces names with descriptions – never put
-character names into `motion`. If a clip is blocked twice, leave it: film.py uses a camera move on the still instead.
-If `clips/OUT_OF_CREDIT` appears, the Google prepaid credit is empty: finish the episode with the clips you have
-and tell the user to top up at https://ai.studio/projects (Billing).
+Gemini Omni image-to-video, ~10 s per shot, ~1 $ each, most important shots first. It stops cleanly at the daily
+limit (`STATUS … stop=DAILY_LIMIT`) or when the prepaid credit is empty (`stop=OUT_OF_CREDIT`), skips shots that
+were blocked twice, and prints `STATUS animated=X/Y`.
+- If today is before `publish_date` and shots are still missing: `python3 buildstore.py save …`, set `day += 1`,
+  commit `state.json` (+ the episode spec on day 1) and stop. Tell the user briefly (German, SendUserMessage):
+  series, part, progress X/Y, planned publish date.
+- If all shots are animated, or today ≥ `publish_date` → step 5 (missing clips become camera moves on the still).
+- OUT_OF_CREDIT: save state, tell the user to top up at https://ai.studio/projects (Billing). On publish day finish anyway.
 
-**QA (mandatory):** look at the reference portraits once, then make a contact sheet of ~20 shot images
-(PIL, small thumbnails) and check them with Read: right characters, consistent faces/outfits, no extra limbs,
-no garbled text, nothing inappropriate. Fix bad shots (delete + regenerate, max 2 tries, else adjust the prompt).
-Also look at `thumb.jpg`.
-
-## 5. Publish + schedule
+## 5. Build + publish (day 3)
 ```bash
-python3 ../publish.py series/<id>/build/epNN/epNN.mp4 series/<id>/build/epNN/thumb.jpg   # public URLs
+python3 film.py series/<id>/episodes/epNN.json        # -> build/epNN/epNN.mp4 + thumb.jpg (<95 MB)
 ```
-(publish.py replaces the `videos` branch – fine, Metricool copies the file immediately. Do NOT run it while a
-Shorts run might be scheduling, i.e. avoid 09:30–10:30 Europe/Berlin.)
-Metricool `createScheduledPost`: blogId `7782808`, network `youtube`, timezone `Europe/Berlin`, `autoPublish: true`,
-`media: [video url]`, `text` = description,
+QA: frames at ~8 timestamps + `thumb.jpg` → check with Read (subtitles readable, no black frames, right order).
+```bash
+VIDEOS_BRANCH=videos-drama python3 ../publish.py series/<id>/build/epNN/epNN.mp4 series/<id>/build/epNN/thumb.jpg   # public URLs
+```
+(The drama uses its own `videos-drama` branch, replaced on every publish – fine, Metricool copies files immediately.)
+Metricool `createScheduledPost`: blogId `7782808`, network `youtube`, timezone `Europe/Berlin`, date **today 20:07**
+(if already past: in 15 minutes), `autoPublish: true`, `media: [video url]`, `text` = description,
 `youtubeData: {title, type: "video", privacy: "public", tags, category: "FILM_ANIMATION", madeForKids: false,
-isAiGeneratedContent: true}`. Publish time: see **Publish date** below.
-**Publish date:** call `getScheduledPosts` for brand `7782808` (range: last 7 days to 10 days ahead, extendedRange true)
-and find the latest drama post (scheduled or published). New date = that date + 2 days, at 20:07 Europe/Berlin
-(if none, or that is in the past: today 20:07, or tomorrow 20:07 if today's is less than 1 h away).
-If the new date is more than 4 days ahead, there are enough episodes queued: stop the run without generating anything
-(tell the user briefly). Do this check FIRST, before step 3, so no money is spent unnecessarily.
-Add `videoThumbnailUrl` with the thumb URL; if the request is rejected with VIDEO_THUMBNAIL_NOT_APPLICABLE,
-retry without it. Confirm status PENDING.
+isAiGeneratedContent: true}`, plus `videoThumbnailUrl` = thumb URL (if rejected with VIDEO_THUMBNAIL_NOT_APPLICABLE,
+retry without it). Confirm status PENDING.
 
-## 6. Bookkeeping
-- Append a 5–8 sentence summary of the new part to `series/<id>/story.md` (what happened, open threads, cliffhanger).
-- `rotation.json`: increment the series' `episodes`, set `next` to the following series; if the series reached
-  its planned last part, set `"status": "finished"`.
-- Commit spec + story + rotation (+ new refs) to `main`. Never commit `build/`, keys or videos.
-- Summary to the user in German via SendUserMessage: series, part, title, publish time, any problem.
+## 6. Bookkeeping (after publishing)
+- Append a 5–8 sentence summary of the part to `series/<id>/story.md` (what happened, open threads, cliffhanger).
+- `rotation.json`: increment that series' `episodes`, set `next` to the following series; if the arc's last part was
+  reached, set `"status": "finished"`.
+- `state.json`: `current = null`. `python3 buildstore.py drop series/<id>/episodes/epNN.json`.
+- Commit spec, story.md, rotation.json, state.json, new refs/series to `main`. Never commit `build/`, keys or videos.
+- Tell the user (German, SendUserMessage): series, part, title, publish time, animated shots X/Y, any problem.
 
-## 7. New series (only when all are finished or rotation has < 3 active series)
-Create `series/<new-id>/series.json` with a fresh popular drama genre (e.g. secret billionaire, revenge, second
-chance romance, family betrayal, mistaken identity), 5–6 characters with very distinct looks, voices from the
-Gemini TTS list (Zephyr, Puck, Charon, Kore, Fenrir, Leda, Orus, Aoede, Callirrhoe, Autonoe, Enceladus, Iapetus,
-Umbriel, Algieba, Despina, Erinome, Algenib, Rasalgethi, Laomedeia, Achernar, Alnilam, Schedar, Gacrux,
-Pulcherrima, Achird, Zubenelgenubi, Vindemiatrix, Sadachbia, Sadaltager, Sulafat), an 8-part `arc`, empty story.md,
-and add it to rotation.json.
+## 8. New series (when all are finished or fewer than 3 are active)
+Create `series/<new-id>/series.json` with a fresh popular drama genre (secret billionaire, revenge, second-chance
+romance, family betrayal, mistaken identity, …), 5–6 characters with very distinct looks, Gemini TTS voices
+(Zephyr, Puck, Charon, Kore, Fenrir, Leda, Orus, Aoede, Callirrhoe, Autonoe, Enceladus, Iapetus, Umbriel, Algieba,
+Despina, Erinome, Algenib, Rasalgethi, Laomedeia, Achernar, Alnilam, Schedar, Gacrux, Pulcherrima, Achird,
+Zubenelgenubi, Vindemiatrix, Sadachbia, Sadaltager, Sulafat), an 8-part `arc`, `extras`, an empty `story.md`,
+and add it to `rotation.json`.
