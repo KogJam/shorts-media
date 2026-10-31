@@ -12,6 +12,7 @@ export GEMINI_API_KEY=...   # from the task prompt – never commit it
 The shell can reach GitHub and `generativelanguage.googleapis.com`. Fonts/ffmpeg/numpy/Pillow are preinstalled.
 
 ## 1. Whose turn?
+First do the **Publish date** check from step 5 – if enough episodes are already queued, stop here.
 `rotation.json` lists the series in order plus `next` (index). Take `series[next]`.
 If that series has `"status": "finished"`, skip to the next. When all are finished, create a new series (step 7).
 
@@ -75,7 +76,12 @@ Shorts run might be scheduling, i.e. avoid 09:30–10:30 Europe/Berlin.)
 Metricool `createScheduledPost`: blogId `7782808`, network `youtube`, timezone `Europe/Berlin`, `autoPublish: true`,
 `media: [video url]`, `text` = description,
 `youtubeData: {title, type: "video", privacy: "public", tags, category: "FILM_ANIMATION", madeForKids: false,
-isAiGeneratedContent: true}`. Publish time: **today 20:07 Europe/Berlin** (if already past, tomorrow 20:07).
+isAiGeneratedContent: true}`. Publish time: see **Publish date** below.
+**Publish date:** call `getScheduledPosts` for brand `7782808` (range: last 7 days to 10 days ahead, extendedRange true)
+and find the latest drama post (scheduled or published). New date = that date + 2 days, at 20:07 Europe/Berlin
+(if none, or that is in the past: today 20:07, or tomorrow 20:07 if today's is less than 1 h away).
+If the new date is more than 4 days ahead, there are enough episodes queued: stop the run without generating anything
+(tell the user briefly). Do this check FIRST, before step 3, so no money is spent unnecessarily.
 Add `videoThumbnailUrl` with the thumb URL; if the request is rejected with VIDEO_THUMBNAIL_NOT_APPLICABLE,
 retry without it. Confirm status PENDING.
 
