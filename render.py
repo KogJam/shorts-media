@@ -422,6 +422,8 @@ def prepare(spec_path):
     used, credits = set(), []
     for ln in spec["lines"]:
         for key in ("clip", "inset"):
+            if ln.get(key + "_path") and not os.path.exists(ln[key + "_path"]):
+                ln.pop(key + "_path")  # stale path from another machine
             q = ln.get(key)
             if ln.get(key + "_id") and not ln.get(key + "_path"):
                 path, c = clips.get_by_id(ln[key + "_id"])
