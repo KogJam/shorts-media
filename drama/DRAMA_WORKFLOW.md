@@ -24,6 +24,9 @@ The shell reaches GitHub and `generativelanguage.googleapis.com`. ffmpeg/numpy/P
 {"pause_until": "YYYY-MM-DD", "current": null | {"series": "<id>", "episode": N, "day": 1|2|3, "publish_date": "YYYY-MM-DD"}}
 ```
 - If today (Europe/Berlin) < `pause_until`: stop, nothing to do.
+- **Trial limit:** if `trial` exists and `current` is null and (`trial.published` ≥ `trial.max_episodes`, or the next
+  publish date would be after `trial.last_publish_date`): the test phase is over – do NOT start a new episode, stop
+  silently (the user gets a separate evaluation). After each publish increment `trial.published`.
 - If `current` is null → **new episode** (step 2), then continue with step 4.
 - Else → restore the build: `python3 buildstore.py restore series/<id>/episodes/epNN.json`, then step 4.
 - If today > `publish_date` (a run was missed): publish today with what exists (step 5).
