@@ -71,7 +71,7 @@ Re-render broken ones (delete `out/<id>.mp4` and `final/<id>.mp4`; cached `work/
 `VIDEOS_BRANCH=videos-<slug> python3 ~/shorts-media/publish.py final/*.mp4` → raw GitHub URLs (Metricool copies them).
 First `getScheduledPosts` for 7781434 for the whole window – never double-book, keep ≥ 90 min between any two posts.
 Limits across ALL campaigns: **YouTube ≤ 6 posts/day, TikTok ≤ 3/day** (new account). Spread a campaign's clips evenly
-until its end date (best clips first), slots between 11:00 and 23:59 Europe/Berlin, odd minutes (e.g. :07, :37).
+until its end date (best clips first; exact end = aria-label of the button under "Ends" on the campaign page, e.g. "November 06, 2026, 15:11:00"; last post ≥ 24 h before the end), slots between 11:00 and 23:59 Europe/Berlin, odd minutes (e.g. :07, :37).
 Post fields: `providers` youtube (+ tiktok if allowed and under the limit), `autoPublish: true`,
 `text` = hook + 1-sentence caption + required @mention/caption + FTC hashtag + 5–7 niche hashtags (+ #fyp on TikTok),
 `youtubeData {title ≤ 90 chars incl. FTC hashtag, type "short", privacy "public", madeForKids false, category fitting,
