@@ -1,0 +1,126 @@
+{
+ "id": "lightning-hotter-than-sun",
+ "hook": "Lightning is hotter than the Sun",
+ "title": "Lightning Is 5 Times Hotter Than the Sun's Surface #shorts",
+ "description": "A single lightning bolt heats the air to around 50,000 degrees Fahrenheit, about five times hotter than the surface of the Sun. That's what makes thunder! Follow for a new fact every day!\n\n#facts #science #lightning #weather #shorts",
+ "tags": [
+  "lightning",
+  "thunder",
+  "weather facts",
+  "science facts",
+  "sun",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "A lightning bolt is five times hotter than the surface of the Sun.",
+   "clip_id": 305,
+   "items": [
+    {
+     "emoji": "⚡",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.24,
+     "anim": "shake",
+     "delay": 0.2
+    }
+   ],
+   "punch": "5X HOTTER",
+   "punch_y": 0.64,
+   "punch_delay": 1.2,
+   "clip_path": "/root/.cache/shorts_clips/502fa031cbd9f46f.mp4"
+  },
+  {
+   "say": "The surface of the Sun is about 10,000 degrees Fahrenheit.",
+   "clip_id": 188306,
+   "number": {
+    "value": 10000,
+    "suffix": "°F",
+    "label": "Sun's surface",
+    "y": 0.6,
+    "delay": 1.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/459db41044f7bc1d.mp4"
+  },
+  {
+   "say": "But lightning can heat the air to around 50,000 degrees.",
+   "clip_id": 374504,
+   "inset_id": 28067,
+   "inset_y": 0.36,
+   "inset_delay": 0.3,
+   "inset_tilt": -5,
+   "bars": [
+    {
+     "label": "Sun",
+     "value": 10000,
+     "show": "10,000°F",
+     "emoji": "☀️"
+    },
+    {
+     "label": "Lightning",
+     "value": 50000,
+     "show": "50,000°F",
+     "emoji": "⚡"
+    }
+   ],
+   "bars_y": 0.6,
+   "clip_path": "/root/.cache/shorts_clips/ea4b9897509e832c.mp4",
+   "inset_path": "/root/.cache/shorts_clips/bb2fa882b703f9a1.mp4"
+  },
+  {
+   "say": "The air heats up so fast that it explodes outward with a huge boom. That boom is thunder.",
+   "clip_id": 222308,
+   "items": [
+    {
+     "emoji": "💥",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.26,
+     "anim": "zoom",
+     "delay": 1.6
+    }
+   ],
+   "punch": "THUNDER",
+   "punch_y": 0.66,
+   "punch_delay": 4.0,
+   "clip_path": "/root/.cache/shorts_clips/e9d20ffffdb8ffce.mp4"
+  },
+  {
+   "say": "Light travels much faster than sound, so you see the flash first.",
+   "clip_id": 120382,
+   "items": [
+    {
+     "emoji": "👀",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.22,
+     "anim": "pop",
+     "delay": 2.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/09f25da3a0c9cf79.mp4"
+  },
+  {
+   "say": "Count the seconds until the boom, and divide by 5. That's how many miles away it is.",
+   "clip_id": 16495,
+   "items": [
+    {
+     "emoji": "⏱️",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.22,
+     "anim": "pulse",
+     "delay": 0.4
+    }
+   ],
+   "punch": "÷ 5 = MILES",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/e05dc05029059ed8.mp4"
+  }
+ ],
+ "credits": [
+  "UniverseUnique (Pixabay): https://pixabay.com/videos/id-188306/"
+ ]
+}

@@ -1,0 +1,124 @@
+{
+ "id": "ocean-makes-half-our-oxygen",
+ "hook": "Half your air comes from the sea",
+ "title": "Half the Oxygen You Breathe Comes From the Ocean #shorts",
+ "description": "Forget the rainforest: about half of Earth's oxygen is made by tiny plankton floating in the ocean. Every second breath you take, you owe to the sea. Follow for a new fact every day!\n\n#facts #ocean #science #nature #shorts",
+ "tags": [
+  "ocean",
+  "oxygen",
+  "phytoplankton",
+  "nature facts",
+  "science facts",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "About half the oxygen you breathe comes from the ocean.",
+   "clip_id": 283533,
+   "items": [
+    {
+     "emoji": "🌊",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.24,
+     "anim": "bounce",
+     "delay": 0.3
+    }
+   ],
+   "punch": "50%",
+   "punch_y": 0.64,
+   "punch_delay": 0.4,
+   "clip_path": "/root/.cache/shorts_clips/758b6accf643cfde.mp4"
+  },
+  {
+   "say": "Most people think rainforests make most of our oxygen.",
+   "clip_id": 214622,
+   "items": [
+    {
+     "emoji": "🌳",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.24,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7873185cf073d307.mp4"
+  },
+  {
+   "say": "But the real heroes are tiny drifting plants called phytoplankton.",
+   "clip_id": 381552,
+   "inset_id": 15333,
+   "inset_y": 0.4,
+   "inset_delay": 1.2,
+   "inset_tilt": 6,
+   "punch": "PHYTOPLANKTON",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/d79d82da89931c28.mp4",
+   "inset_path": "/root/.cache/shorts_clips/8245b007b8a8b9ad.mp4"
+  },
+  {
+   "say": "Most of them are too small to see without a microscope.",
+   "clip_id": 83061,
+   "items": [
+    {
+     "emoji": "🔬",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.24,
+     "anim": "pop",
+     "delay": 1.6
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/21e04689569e7ea2.mp4"
+  },
+  {
+   "say": "Floating near the surface, they use sunlight to make oxygen, just like plants.",
+   "clip_id": 371852,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.8,
+     "y": 0.28,
+     "size": 0.16,
+     "anim": "pulse",
+     "delay": 0.8
+    }
+   ],
+   "punch": "SUN POWER",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/1637f3e1b6080bbe.mp4"
+  },
+  {
+   "say": "So next time you take a deep breath, thank the ocean.",
+   "clip_id": 4006,
+   "items": [
+    {
+     "emoji": "🫁",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.24,
+     "anim": "pulse",
+     "delay": 0.8
+    }
+   ],
+   "punch": "THANK THE OCEAN",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/4f3c01d6f738c98c.mp4"
+  }
+ ],
+ "credits": [
+  "BlenderTimer (Pixabay): https://pixabay.com/videos/id-283533/",
+  "Banzaraguy (Pixabay): https://pixabay.com/videos/id-214622/",
+  "doktorkleinmusic (Pixabay): https://pixabay.com/videos/id-381552/",
+  "5001074 (Pixabay): https://pixabay.com/videos/id-15333/",
+  "angelicavaihel (Pixabay): https://pixabay.com/videos/id-83061/",
+  "doktorkleinmusic (Pixabay): https://pixabay.com/videos/id-371852/",
+  "outlinez (Pixabay): https://pixabay.com/videos/id-4006/"
+ ]
+}

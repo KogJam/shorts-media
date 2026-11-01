@@ -1,0 +1,117 @@
+{
+ "id": "venus-day-longer-than-year",
+ "hook": "A day longer than a year",
+ "title": "On Venus, One Day Lasts Longer Than a Year #shorts",
+ "description": "Venus spins so slowly that one turn takes longer than a full trip around the Sun. And it spins backwards! Follow for a new fact every day!\n\n#facts #space #venus #astronomy #shorts",
+ "tags": [
+  "venus",
+  "space facts",
+  "planets",
+  "astronomy",
+  "solar system",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "On Venus, one day lasts longer than one whole year.",
+   "clip_id": 227584,
+   "items": [
+    {
+     "emoji": "⏳",
+     "x": 0.78,
+     "y": 0.3,
+     "size": 0.16,
+     "anim": "float",
+     "delay": 0.2
+    }
+   ],
+   "punch": "DAY > YEAR",
+   "punch_y": 0.64,
+   "punch_delay": 0.6,
+   "clip_path": "/root/.cache/shorts_clips/d8a97130337cc37c.mp4"
+  },
+  {
+   "say": "Venus spins incredibly slowly. One turn takes 243 Earth days.",
+   "clip_id": 144423,
+   "number": {
+    "value": 243,
+    "suffix": " days",
+    "label": "One spin",
+    "y": 0.55,
+    "delay": 1.8
+   },
+   "clip_path": "/root/.cache/shorts_clips/889005b651589b2f.mp4"
+  },
+  {
+   "say": "But it circles the Sun in just 225 days.",
+   "clip_id": 188306,
+   "inset_id": 223487,
+   "inset_y": 0.4,
+   "inset_delay": 0.3,
+   "inset_tilt": -6,
+   "punch": "225 DAYS",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/459db41044f7bc1d.mp4",
+   "inset_path": "/root/.cache/shorts_clips/dfe7ff4dea1a3221.mp4"
+  },
+  {
+   "say": "So a single day on Venus outlasts its entire year.",
+   "clip_id": 197974,
+   "bars": [
+    {
+     "label": "Venus day",
+     "value": 243,
+     "show": "243 days",
+     "emoji": "🌗"
+    },
+    {
+     "label": "Venus year",
+     "value": 225,
+     "show": "225 days",
+     "emoji": "☀️"
+    }
+   ],
+   "bars_y": 0.5,
+   "clip_path": "/root/.cache/shorts_clips/a93d396fcb273d6b.mp4"
+  },
+  {
+   "say": "And it spins backwards, so the Sun rises in the west.",
+   "clip_id": 144478,
+   "items": [
+    {
+     "emoji": "🔄",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.24,
+     "anim": "spin",
+     "delay": 0.4
+    }
+   ],
+   "punch": "BACKWARDS",
+   "punch_y": 0.64,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/7313bea989dd3273.mp4"
+  },
+  {
+   "say": "Imagine having a birthday before the day is even over.",
+   "clip_id": 34499,
+   "items": [
+    {
+     "emoji": "🎂",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.26,
+     "anim": "bounce",
+     "delay": 0.6
+    }
+   ],
+   "punch": "HAPPY BIRTHDAY?",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "clip_path": "/root/.cache/shorts_clips/b8246c9803c96964.mp4"
+  }
+ ],
+ "credits": []
+}
