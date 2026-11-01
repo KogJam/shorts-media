@@ -1,6 +1,6 @@
 # Daily "Trends Explained" Shorts run – instructions for Claude
 
-Goal: **3 English Shorts per day** (25–45 s, vertical) for the second channel (Metricool brand "Storys",
+Goal: **3 English Shorts per day** (**62–75 s**, vertical – over 60 s so they also qualify for TikTok's Creator Rewards; YouTube Shorts allow up to 3 min) for the second channel (Metricool brand "Storys",
 blogId `7782808`). Each Short takes a topic that is **trending on YouTube right now** and explains it with an
 original script, the offline voice, Pixabay stock footage and 3D emoji – the same engine as the facts channel.
 We never re-upload or copy anyone's video: we only use trends as topic ideas. Nobody is watching: decide yourself.
@@ -34,7 +34,10 @@ Same format as the facts channel (see `WORKFLOW.md` step 2 and `trends/specs/202
 - `"voice": "bm_george"`, `"speed": 1.1`, `"endcard": "FOLLOW: TRENDS EXPLAINED"`
 - hook = the trend's surprising angle, title ≤ 70 chars ending with `#shorts`, description ends with
   "Follow for what's trending, explained!" + 4–5 hashtags incl. #shorts.
-- 6–8 scenes; each scene a different Pixabay clip (`clip_id`), 1–2 insets, numbers via `number`, 2–3 `punch` words.
+- **10–13 scenes, 150–185 spoken words in total** (the renderer prints the duration – it must be 62–75 s; if it is
+  shorter add a scene, if longer cut one, then re-render). Each scene a different Pixabay clip (`clip_id`), 2–3 insets,
+  numbers via `number`, 3–4 `punch` words. Keep a strong hook in the first 2 s and a payoff/twist near the end so people
+  watch the full minute.
 - Check pronunciation (`render.check`) – add unknown words to `custom_words.json` (IPA like the existing entries).
 
 ## 4. Clips, render, QA
@@ -49,10 +52,15 @@ VIDEOS_BRANCH=videos-trends python3 publish.py out/A.mp4 out/B.mp4 out/C.mp4
 Metricool `createScheduledPost`: blogId `7782808`, network `youtube`, timezone `Europe/Berlin`, `autoPublish: true`,
 `media: [url]`, `text` = description, `youtubeData: {title, type: "short", privacy: "public", tags,
 category: "ENTERTAINMENT", madeForKids: false, isAiGeneratedContent: false}`.
+**TikTok:** call `getBrandSettings`; if brand 7782808 has TikTok connected (`tiktokData` in `networksData`), add
+`{"network": "tiktok"}` to `providers` in the same post plus `tiktokData: {"privacyOption": "PUBLIC_TO_EVERYONE",
+"isAigc": true, "autoAddMusic": false}` and TikTok-style text (no "#shorts", use #fyp #learnontiktok + topic tags).
+If TikTok is not connected, put the raw download links of the 3 MP4s in the summary to the user so they can post
+them on TikTok by hand (the `videos-trends` branch keeps them until the next day's run).
 Slots (Europe/Berlin): **15:47, 19:17, 22:47** (US late morning → evening; offset from the facts channel).
 Call `getScheduledPosts` for brand 7782808 first and skip slots already booked (never double-book);
 if a slot is already past, use the next free one ≥ 20 min from now. Confirm PENDING.
 
 ## 6. Bookkeeping
 Append each Short to `trends/history.json` (`{date, id, title, topic, trend_source, slot}`), commit + push `main`
-(never `out/`, clips or keys). Short German summary to the user via SendUserMessage: titles + times + problems.
+(never `out/`, clips or keys). Short German summary to the user via SendUserMessage: titles + times + (if TikTok isn't connected) the 3 download links + problems.
