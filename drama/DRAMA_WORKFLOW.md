@@ -47,7 +47,9 @@ The shell reaches GitHub and `generativelanguage.googleapis.com`. ffmpeg/numpy/P
      - `image`: one concrete visual moment (place, action, emotion, light). No readable text except big logos.
        Minor characters are described fully in `image` and voiced via `extras`.
      - `lines`: `{who, text, how}` – narrator | character id | extras id; `how` = acting direction. 1–3 lines per shot,
-       together ~18–28 words. Total ≈ 1,100–1,400 words → 7.5–10 min (check: words/150 + 0.5 s per shot).
+       together ~16–24 words. Total ≈ 1,000–1,200 words → 7.5–10 min. Part 1 had 1,060 words in 80 shots = 10.3 min
+       before tightening, so stay at or below ~1,200 words. film.py caps the result at 9.9 min by speeding up slightly
+       (it warns above 1.12x – then the script was too long).
    - Structure: 15–30 s cold open (strongest moment / flash-forward) → `title_card: true` shot ("<Title>. Part N.")
      → 3–5 scenes of escalating conflict → reveal → **cliffhanger** → `end_card: true` shot (question + "Subscribe…").
    - Follow `arc`, make each part satisfying on its own. PG-13: no graphic violence, no sexual content, no real

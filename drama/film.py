@@ -19,7 +19,11 @@ def load_series(ep_path):
 W, H, FPS = 1920, 1080, 24
 SR = 24000
 XF = 0.5           # crossfade seconds
-GAP = 0.35         # pause between lines
+LEAD = float(os.environ.get("DRAMA_LEAD", "0.3"))    # silence before first line of a shot
+TAIL = float(os.environ.get("DRAMA_TAIL", "0.2"))    # silence after last line
+MIN_SHOT = 2.8
+MAX_MIN = float(os.environ.get("DRAMA_MAX_MIN", "9.9"))  # hard cap: speed audio+video up to fit
+GAP = float(os.environ.get("DRAMA_GAP", "0.18"))   # pause between lines
 FONT_B = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
 FONT_SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
 MAX_MB = float(os.environ.get("DRAMA_MAX_MB", "92"))
@@ -182,7 +186,7 @@ def build(ep_path):
     subs = []
     for si, s in enumerate(shots):
         start = t
-        cur = 0.45 if si else 0.8
+        cur = LEAD if si else 0.8
         clips = []
         for i, l in enumerate(s["lines"]):
             p = os.path.join(d, "audio", f"{s['id']}_{i}.wav")
@@ -190,7 +194,7 @@ def build(ep_path):
             clips.append((start + cur, a))
             subs.append((start + cur, start + cur + len(a) / SR, l))
             cur += len(a) / SR + GAP
-        dur = max(cur + 0.35, 3.2)
+        dur = max(cur + TAIL, MIN_SHOT)
         if s.get("title_card") or s.get("end_card"): dur = max(dur, 4.5)
         timeline.append((s, start, dur))
         voice += clips
@@ -265,20 +269,24 @@ def build(ep_path):
 
     # ---- final encode: subtitles + audio, 2-pass to fit size budget ----
     out = os.path.join(d, f"ep{ep['episode']:02d}.mp4")
-    vdur = total + 1
+    speed = max(1.0, (total + 1) / (MAX_MIN * 60))
+    if speed > 1.12: print(f"WARNING: episode is {(total+1)/60:.1f} min – script too long, sped up {speed:.2f}x; write shorter next time")
+    vdur = (total + 1) / speed
     abr = 96
     vbr = int(MAX_MB * 8 * 1024 / vdur - abr - 20)
     vbr = max(500, min(vbr, 4500))
     fontsdir = os.path.dirname(FONT_B)
-    vf = f"subtitles={ass}:fontsdir={fontsdir}"
-    common = ["-i", raw, "-i", wav, "-vf", vf, "-c:v", "libx264", "-preset", "medium", "-b:v", f"{vbr}k", "-pix_fmt", "yuv420p"]
+    vf = f"subtitles={ass}:fontsdir={fontsdir}" + (f",setpts=PTS/{speed:.4f}" if speed > 1 else "")
+    af = ["-af", f"atempo={speed:.4f}"] if speed > 1 else []
+    common = ["-i", raw, "-i", wav, "-vf", vf] + af + ["-c:v", "libx264", "-preset", "medium", "-b:v", f"{vbr}k", "-pix_fmt", "yuv420p"]
     plog = os.path.join(d, "pass")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error"] + common + ["-pass", "1", "-passlogfile", plog, "-an", "-f", "mp4", "/dev/null"], check=True)
+    c1 = [x for x in common if x not in af]
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error"] + c1 + ["-pass", "1", "-passlogfile", plog, "-an", "-f", "mp4", "/dev/null"], check=True)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error"] + common + ["-pass", "2", "-passlogfile", plog, "-c:a", "aac", "-b:a", f"{abr}k",
                                                                    "-shortest", "-movflags", "+faststart", out], check=True)
     thumb = make_thumb(ep, d)
     mb = os.path.getsize(out) / 1e6
-    print(f"done {out} {vdur/60:.1f} min, {mb:.1f} MB, video {vbr} kbps; {used_clips}/{len(timeline)} shots animated; thumb {thumb}")
+    print(f"done {out} {vdur/60:.1f} min (speed {speed:.2f}x), {mb:.1f} MB, video {vbr} kbps; {used_clips}/{len(timeline)} shots animated; thumb {thumb}")
     return out
 
 
