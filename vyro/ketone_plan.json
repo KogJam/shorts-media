@@ -1,0 +1,38 @@
+{
+ "campaign": "Vyro – Ketone-IQ Shark Tank",
+ "brand_id": "7781434",
+ "hashtag": "#KetoneIQPartner",
+ "mandatory": [
+  "Crazy how far Ketone-IQ has come",
+  "Ketone-IQ really started like THIS 💀",
+  "The nerds were onto something 👀",
+  "Ketone-IQ before it was everywhere 👀"
+ ],
+ "extra": [
+  "From a Shark Tank pitch to shelves everywhere.",
+  "The Sharks passed. The story didn't end there.",
+  "Brain fuel with a wild origin story.",
+  "Remember this pitch?"
+ ],
+ "clips": [
+  {"n": 1,  "hook": "The Sharks heard this pitch… and said NO 💀", "style": 0, "m": 1, "slot": "2026-11-01T13:17"},
+  {"n": 13, "hook": "\"I'm out.\" Biggest mistake on Shark Tank? 👀", "style": 2, "m": 0, "slot": "2026-11-01T16:47"},
+  {"n": 7,  "hook": "$2M for 5%… the Sharks laughed", "style": 1, "m": 2, "slot": "2026-11-01T20:17"},
+  {"n": 16, "hook": "From Shark Tank rejection to THIS 🤯", "style": 3, "m": 3, "slot": "2026-11-01T23:47"},
+  {"n": 3,  "hook": "They called it the WORST idea… 💀", "style": 0, "m": 1, "slot": "2026-11-02T13:17"},
+  {"n": 9,  "hook": "Nootropics on Shark Tank? They had no idea 👀", "style": 1, "m": 2, "slot": "2026-11-02T16:47"},
+  {"n": 18, "hook": "The drink the Sharks didn't believe in", "style": 2, "m": 0, "slot": "2026-11-02T20:17"},
+  {"n": 2,  "hook": "\"I'm out\"… they all regret this now 💀", "style": 3, "m": 3, "slot": "2026-11-02T23:47"},
+  {"n": 11, "hook": "Wait for the valuation… 👀", "style": 0, "m": 2, "slot": "2026-11-03T13:17"},
+  {"n": 15, "hook": "The Sharks said no. Investors said MILLIONS", "style": 1, "m": 0, "slot": "2026-11-03T16:47"},
+  {"n": 17, "hook": "How a rejected pitch became brain fuel 🧠", "style": 2, "m": 3, "slot": "2026-11-03T20:17"},
+  {"n": 4,  "hook": "He HATED this pitch… then THIS happened", "style": 3, "m": 1, "slot": "2026-11-03T23:47"},
+  {"n": 12, "hook": "The nerds walked out with nothing… 👀", "style": 0, "m": 2, "slot": "2026-11-04T13:17"},
+  {"n": 19, "hook": "Why everyone is drinking ketones now 🧠", "style": 1, "m": 3, "slot": "2026-11-04T16:47"},
+  {"n": 10, "hook": "\"This is going to fail.\" Was he right? 💀", "style": 2, "m": 1, "slot": "2026-11-04T20:17"},
+  {"n": 20, "hook": "The Shark Tank pitch nobody took seriously", "style": 3, "m": 0, "slot": "2026-11-04T23:47"},
+  {"n": 8,  "hook": "From \"no deal\" to podcast sponsor 🤯", "style": 0, "m": 3, "slot": "2026-11-05T13:17"},
+  {"n": 14, "hook": "No sugar. No caffeine. The Sharks still said no", "style": 1, "m": 2, "slot": "2026-11-05T16:47"},
+  {"n": 6,  "hook": "He hated it. Now look at it 👀", "style": 2, "m": 1, "slot": "2026-11-05T20:17"}
+ ]
+}
