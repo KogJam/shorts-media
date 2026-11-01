@@ -210,12 +210,21 @@ def track(raw, cmdfile, cw=608):
     open(cmdfile, "w").write("\n".join(out) + "\n")
 
 
-def cut(key, start, end, hook, out, x=0.5, wide=False, hook_dur=3.5):
+def cut(key, start, end, hook, out, x=0.5, wide=False, hook_dur=3.5, teaser=None):
+    """teaser = seconds (relative to start) of the peak moment: its 1.6 s are shown first as a cold open."""
     os.makedirs("work", exist_ok=True)
     dur = end - start
     tag = f"work/{key}_{int(start)}_{int(end)}"
     raw = tag + "_raw.mp4"
     grab(key, start, dur, raw)
+    if teaser is not None:
+        t0 = max(0, teaser - 0.4); traw = tag + "_teaser_raw.mp4"
+        if not os.path.exists(traw):
+            run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-filter_complex",
+                 f"[0:v]trim={t0}:{t0 + 1.6},setpts=PTS-STARTPTS[tv];[0:a]atrim={t0}:{t0 + 1.6},asetpts=PTS-STARTPTS,afade=t=out:st=1.3:d=0.3[ta];"
+                 f"[0:v]setpts=PTS-STARTPTS[mv];[0:a]asetpts=PTS-STARTPTS,afade=t=in:d=0.2[ma];[tv][ta][mv][ma]concat=n=2:v=1:a=1[v][a]",
+                 "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-c:a", "aac", "-b:a", "192k", traw])
+        raw = traw; tag += "_t"; dur += 1.6
     words = phrases(raw, tag + "_cues.json", dur)
     hook_png(hook, tag + "_hook.png"); tag_png(tag + "_tag.png")
     if wide:  # 4:5 window on blurred full-frame background

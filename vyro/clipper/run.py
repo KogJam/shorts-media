@@ -28,7 +28,8 @@ def job(p):
     out = f"out/{p['id']}.mp4"
     try:
         if not os.path.exists(out):
-            cut.cut(p["k"], ts(p["s"]), ts(p["e"]) + 0.5, p["hook"], out, 0.5, True)
+            tz = (ts(p["peak"]) - ts(p["s"])) if p.get("peak") else None
+            cut.cut(p["k"], ts(p["s"]), ts(p["e"]) + 0.5, p["hook"], out, 0.5, True, teaser=tz)
         if not os.path.exists(f"final/{p['id']}.mp4"):
             mix(p["id"], p.get("mood", "epic"), p.get("loud_music", False))
         print("ok", p["id"], flush=True)

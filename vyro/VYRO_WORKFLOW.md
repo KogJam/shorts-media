@@ -58,7 +58,10 @@ hook only, original untouched – see `vyro/ketone_plan.json` for that style).
 
 ## 4. Produce
 `plan.json`: `[{"id":"<slug>01","k":"v1","s":"MM:SS","e":"MM:SS","hook":"short curiosity hook max 8 words + 1 emoji","mood":"tense"}]`
-(60–75 s, start on action, end on a payoff; `"loud_music": true` for clips with little speech).
+(default **~60–70 s** (≥ 60 s); only when a moment is a complete, very strong beat on its own make it a **short 20–35 s**
+clip with `"peak":"MM:SS"` = most dramatic second → 1.6 s cold-open teaser at the start. Start on action, end on a payoff;
+`"loud_music": true` for clips with little speech. If the speech is someone SINGING a song, set that clip's
+`work/*_cues.json` to `[]` (no lyrics in captions).
 Music: 3–4 original instrumental beds with Lyria, in `music/`:
 `cd music && python3 ~/shorts-media/vyro/clipper/gen.py tense "Instrumental only, no vocals. 75 seconds. <mood description>, stays understated under speech."`
 Then `SOURCES=sources.json TAG="@<brand handle>" python3 ~/shorts-media/vyro/clipper/run.py` → `final/<id>.mp4`
@@ -71,7 +74,7 @@ Re-render broken ones (delete `out/<id>.mp4` and `final/<id>.mp4`; cached `work/
 `VIDEOS_BRANCH=videos-<slug> python3 ~/shorts-media/publish.py final/*.mp4` → raw GitHub URLs (Metricool copies them).
 First `getScheduledPosts` for 7781434 for the whole window – never double-book, keep ≥ 90 min between any two posts.
 Limits across ALL campaigns: **YouTube ≤ 6 posts/day, TikTok ≤ 3/day** (new account). Spread a campaign's clips evenly
-until its end date (best clips first; exact end = aria-label of the button under "Ends" on the campaign page, e.g. "November 06, 2026, 15:11:00"; last post ≥ 24 h before the end), slots between 11:00 and 23:59 Europe/Berlin, odd minutes (e.g. :07, :37).
+until its end date (best clips first; exact end = aria-label of the button under "Ends" on the campaign page, e.g. "November 06, 2026, 15:11:00"; last post ≥ 24 h before the end), slots in **US prime time: 20:00–03:00 Europe/Berlin** (e.g. 22:07 and 02:07; English audience), odd minutes.
 Post fields: `providers` youtube (+ tiktok if allowed and under the limit), `autoPublish: true`,
 `text` = hook + 1-sentence caption + required @mention/caption + FTC hashtag + 5–7 niche hashtags (+ #fyp on TikTok),
 `youtubeData {title ≤ 90 chars incl. FTC hashtag, type "short", privacy "public", madeForKids false, category fitting,
