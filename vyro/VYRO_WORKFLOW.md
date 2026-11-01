@@ -31,6 +31,9 @@ If the browser/computer is unreachable → say so in the report, do steps 6–8 
   budget left / % used, platforms, end date, locked?, what content is required, source assets. Rate it
   (Ja / Vielleicht / Nein) – good = high rate, lots of budget left, raw footage provided, fits CrackBuddy (English,
   general entertainment), we can produce it with our pipeline. Store as `seen`.
+- Campaigns already produced are matched by `vyro_title` in campaigns.json (brand – title).
+- Vyro nav: Home (action items, joined campaigns), Discover (/campaigns), Add Posts (/campaigns/add-clips), Earnings.
+  On Home also check "Your action items" (e.g. social account not connected, payouts not set) and mention open items.
 - **My campaigns / Joined**: every joined campaign not yet `produced` → step 2. The page text + JS
   (`document.querySelectorAll('a')` for asset links) gives the brief and links.
 

@@ -1,4 +1,21 @@
 {
- "ketone-iq-shark-tank": {"brand": "Ketone-IQ", "status": "produced", "clips": 19, "window": "2026-11-01..2026-11-05", "ftc": "#KetoneIQPartner", "notes": "unedited clips + frame/hook (vyro/edit.py); own link report until 11-06"},
- "essential-wilderness": {"brand": "Essential Wilderness", "status": "produced", "clips": 16, "window": "2026-11-02..2026-11-09", "ftc": "#VyroPartner", "branch": "videos-wild", "notes": "19-day solo Arctic canoe trip, 4x30min Frame.io 4K sources; tag @essentialwilderness"}
+ "ketone-iq-shark-tank": {
+  "brand": "Ketone-IQ",
+  "status": "produced",
+  "clips": 19,
+  "window": "2026-11-01..2026-11-05",
+  "ftc": "#KetoneIQPartner",
+  "notes": "unedited clips + frame/hook (vyro/edit.py); own link report until 11-06",
+  "vyro_title": "Ketone-IQ – Shark Tank Edits"
+ },
+ "essential-wilderness": {
+  "brand": "Essential Wilderness",
+  "status": "produced",
+  "clips": 16,
+  "window": "2026-11-02..2026-11-09",
+  "ftc": "#VyroPartner",
+  "branch": "videos-wild",
+  "notes": "19-day solo Arctic canoe trip, 4x30min Frame.io 4K sources; tag @essentialwilderness",
+  "vyro_title": "GRAPPLEARTS ENTERPRISES INC. – Outdoor Adventure Shorts"
+ }
 }
