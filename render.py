@@ -408,7 +408,7 @@ def render(spec_path, out_path, voice=None):
             d.rectangle([0, 0, W, H], fill=(255, 255, 255, int(110 * (1 - st / 0.08))))
         if t > total - 1.1:
             a = int(255 * ease((t - (total - 1.1)) / 0.35))
-            text_c(d, (W / 2, 1760), "FOLLOW FOR DAILY FACTS", font(56), (*acc, a), stroke=6)
+            text_c(d, (W / 2, 1760), spec.get("endcard", "FOLLOW FOR DAILY FACTS"), font(56), (*acc, a), stroke=6)
         ff.stdin.write(img.tobytes())
     for r in readers.values(): r.close()
     ff.stdin.close(); ff.wait()

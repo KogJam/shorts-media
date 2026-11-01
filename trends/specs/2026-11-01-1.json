@@ -1,0 +1,132 @@
+{
+ "id": "trend-soccer-balls-sialkot",
+ "hook": "70% of all footballs come from ONE city",
+ "title": "One City Makes 70% of the World's Soccer Balls #shorts",
+ "description": "Almost every football you've ever kicked probably came from Sialkot in Pakistan. 32 panels, 690 stitches, about 3 hours of hand work per ball. Follow for what's trending, explained!\n\n#football #soccer #howitsmade #pakistan #shorts",
+ "tags": [
+  "soccer ball",
+  "football",
+  "how it's made",
+  "sialkot",
+  "world cup ball",
+  "shorts"
+ ],
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "lines": [
+  {
+   "say": "Most of the footballs on Earth come from just one city.",
+   "clip_id": 55626,
+   "items": [
+    {
+     "emoji": "⚽",
+     "x": 0.5,
+     "y": 0.6,
+     "size": 0.2,
+     "anim": "bounce",
+     "delay": 0.8
+    }
+   ]
+  },
+  {
+   "say": "Sialkot, in Pakistan, makes about seventy percent of the world's soccer balls.",
+   "clip_id": 187272,
+   "number": {
+    "value": 70,
+    "suffix": "%",
+    "label": "of all soccer balls",
+    "y": 0.52,
+    "delay": 1.2
+   }
+  },
+  {
+   "say": "A classic ball has thirty two panels. Twenty hexagons and twelve pentagons.",
+   "clip_id": 168126,
+   "items": [
+    {
+     "emoji": "⚽",
+     "x": 0.25,
+     "y": 0.3,
+     "size": 0.14,
+     "anim": "spin",
+     "delay": 1.2
+    }
+   ],
+   "punch": "32 PANELS",
+   "punch_y": 0.66,
+   "punch_delay": 0.6
+  },
+  {
+   "say": "Then they are stitched together with six hundred and ninety stitches.",
+   "clip_id": 74914,
+   "items": [
+    {
+     "emoji": "🪡",
+     "x": 0.78,
+     "y": 0.3,
+     "size": 0.16,
+     "anim": "spin",
+     "delay": 0.4
+    },
+    {
+     "emoji": "🧵",
+     "x": 0.22,
+     "y": 0.3,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.7
+    }
+   ],
+   "number": {
+    "value": 690,
+    "label": "stitches per ball",
+    "y": 0.55,
+    "delay": 1.0
+   }
+  },
+  {
+   "say": "By hand, a skilled stitcher needs about three hours for a single ball.",
+   "clip_id": 147704,
+   "items": [
+    {
+     "emoji": "⏱️",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.24,
+     "anim": "pulse",
+     "delay": 0.3
+    }
+   ],
+   "punch": "3 HOURS",
+   "punch_y": 0.66,
+   "punch_delay": 1.4
+  },
+  {
+   "say": "And the official ball of the twenty twenty two World Cup? Also made in Sialkot.",
+   "clip_id": 239964,
+   "inset_id": 361353,
+   "inset_y": 0.42,
+   "inset_delay": 1.2,
+   "inset_tilt": -5,
+   "punch": "WORLD CUP",
+   "punch_y": 0.68,
+   "punch_delay": 2.0
+  },
+  {
+   "say": "So next time you kick a ball, check the label. It probably says Pakistan.",
+   "clip_id": 34604,
+   "items": [
+    {
+     "emoji": "🇵🇰",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.26,
+     "anim": "pop",
+     "delay": 2.2
+    }
+   ]
+  }
+ ],
+ "credits": []
+}
