@@ -1,0 +1,155 @@
+{
+ "id": "banana-is-a-berry",
+ "hook": "A banana is a BERRY",
+ "title": "Bananas Are Berries, But Strawberries Are Not #shorts",
+ "description": "Botanists have strict rules for what counts as a berry. Bananas, grapes and tomatoes pass the test, while strawberries and raspberries fail it. Follow for a new fact every day!\n\n#facts #food #plants #science #shorts",
+ "tags": [
+  "banana",
+  "strawberry",
+  "berries",
+  "botany",
+  "food facts",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "A banana is a berry, but a strawberry is not.",
+   "clip_id": 18091,
+   "inset_id": 148288,
+   "inset_y": 0.36,
+   "inset_delay": 1.4,
+   "inset_tilt": 6,
+   "items": [
+    {
+     "emoji": "🍌",
+     "x": 0.22,
+     "y": 0.56,
+     "size": 0.18,
+     "anim": "bounce",
+     "delay": 0.2
+    }
+   ],
+   "punch": "BERRY",
+   "punch_y": 0.66,
+   "punch_delay": 0.6,
+   "clip_path": "/root/.cache/shorts_clips/995d2d64f8e9623f.mp4",
+   "inset_path": "/root/.cache/shorts_clips/44eccb99fa5c7963.mp4"
+  },
+  {
+   "say": "To a botanist, a true berry grows from one flower with one ovary.",
+   "clip_id": 211745,
+   "items": [
+    {
+     "emoji": "🌸",
+     "x": 0.8,
+     "y": 0.3,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/d1e72c07c8731197.mp4"
+  },
+  {
+   "say": "The whole fruit wall turns soft, with the seeds inside.",
+   "clip_id": 75271,
+   "items": [
+    {
+     "emoji": "🫐",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.5
+    }
+   ],
+   "punch": "SEEDS INSIDE",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/bd3c2ea3511afab8.mp4"
+  },
+  {
+   "say": "That fits bananas, grapes, tomatoes, and blueberries.",
+   "clip_id": 180204,
+   "items": [
+    {
+     "emoji": "🍌",
+     "x": 0.2,
+     "y": 0.36,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.4
+    },
+    {
+     "emoji": "🍇",
+     "x": 0.4,
+     "y": 0.34,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.9
+    },
+    {
+     "emoji": "🍅",
+     "x": 0.6,
+     "y": 0.36,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 1.4
+    },
+    {
+     "emoji": "🫐",
+     "x": 0.8,
+     "y": 0.34,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 1.9
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/e5266f1220575bf4.mp4"
+  },
+  {
+   "say": "Strawberries fail, because the red part grows from the flower's base.",
+   "clip_id": 90956,
+   "items": [
+    {
+     "emoji": "🍓",
+     "x": 0.5,
+     "y": 0.34,
+     "size": 0.18,
+     "anim": "shake",
+     "delay": 0.4,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/0ca33ac99007a290.mp4"
+  },
+  {
+   "say": "And those tiny seeds on the outside are actually tiny fruits.",
+   "clip_id": 148288,
+   "punch": "TINY FRUITS",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "items": [
+    {
+     "emoji": "🔍",
+     "x": 0.72,
+     "y": 0.38,
+     "size": 0.18,
+     "anim": "zoom",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/44eccb99fa5c7963.mp4"
+  },
+  {
+   "say": "Raspberries fail too. They are just clusters of many tiny fruits.",
+   "clip_id": 11222,
+   "punch": "NOT A BERRY",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/a0bd74e60b7c59de.mp4"
+  }
+ ],
+ "credits": []
+}

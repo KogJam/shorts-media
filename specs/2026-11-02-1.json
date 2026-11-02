@@ -1,0 +1,133 @@
+{
+ "id": "sharks-older-than-trees",
+ "hook": "Sharks are older than TREES",
+ "title": "Sharks Are Older Than Trees (Seriously) #shorts",
+ "description": "Sharks appeared around 450 million years ago, tens of millions of years before the first real trees. They even beat the dinosaurs by about 200 million years. Follow for a new fact every day!\n\n#facts #sharks #animals #nature #shorts",
+ "tags": [
+  "sharks",
+  "shark facts",
+  "animal facts",
+  "prehistoric",
+  "nature facts",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "Sharks have been on Earth longer than trees.",
+   "clip_id": 182914,
+   "items": [
+    {
+     "emoji": "🌳",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.22,
+     "anim": "pop",
+     "delay": 0.9,
+     "cross": true
+    }
+   ],
+   "punch": "OLDER",
+   "punch_y": 0.64,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/701b5582647f0806.mp4"
+  },
+  {
+   "say": "The first sharks swam about 450 million years ago.",
+   "clip_id": 114099,
+   "number": {
+    "value": 450,
+    "suffix": " million",
+    "label": "years ago",
+    "y": 0.55
+   },
+   "clip_path": "/root/.cache/shorts_clips/cda771e6bcbc1382.mp4"
+  },
+  {
+   "say": "The first real trees only appeared about 385 million years ago.",
+   "clip_id": 382582,
+   "items": [
+    {
+     "emoji": "🌲",
+     "x": 0.8,
+     "y": 0.3,
+     "size": 0.16,
+     "anim": "grow",
+     "delay": 0.6
+    }
+   ],
+   "punch": "385 MILLION",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/761deaefbe10b4c5.mp4"
+  },
+  {
+   "say": "For 60 million years, sharks swam while land had only tiny plants.",
+   "clip_id": 271161,
+   "inset_id": 208492,
+   "inset_y": 0.4,
+   "inset_delay": 0.6,
+   "inset_tilt": -6,
+   "clip_path": "/root/.cache/shorts_clips/7435279151494c0f.mp4",
+   "inset_path": "/root/.cache/shorts_clips/45d342ffe16bbca9.mp4"
+  },
+  {
+   "say": "Sharks are older than dinosaurs too, by about 200 million years.",
+   "clip_id": 155552,
+   "bars": [
+    {
+     "label": "Sharks",
+     "value": 450,
+     "show": "450M",
+     "emoji": "🦈"
+    },
+    {
+     "label": "Trees",
+     "value": 385,
+     "show": "385M",
+     "emoji": "🌳"
+    },
+    {
+     "label": "Dinosaurs",
+     "value": 240,
+     "show": "240M",
+     "emoji": "🦖"
+    }
+   ],
+   "bars_y": 0.5,
+   "clip_path": "/root/.cache/shorts_clips/a69eb16aa3fb2bc0.mp4"
+  },
+  {
+   "say": "And they survived all 5 of Earth's great mass extinctions.",
+   "clip_id": 285535,
+   "punch": "ALL 5",
+   "punch_y": 0.64,
+   "punch_delay": 1.4,
+   "items": [
+    {
+     "emoji": "🦈",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.2,
+     "anim": "swim",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/9e078069d77e5117.mp4"
+  },
+  {
+   "say": "So next time you see a tree, remember: sharks came first.",
+   "clip_id": 189813,
+   "inset_id": 182914,
+   "inset_y": 0.42,
+   "inset_delay": 1.4,
+   "inset_tilt": 5,
+   "punch": "SHARKS FIRST",
+   "punch_y": 0.68,
+   "punch_delay": 2.3,
+   "clip_path": "/root/.cache/shorts_clips/c83d3b98437ef314.mp4",
+   "inset_path": "/root/.cache/shorts_clips/701b5582647f0806.mp4"
+  }
+ ],
+ "credits": []
+}

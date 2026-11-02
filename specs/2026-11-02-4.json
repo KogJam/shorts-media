@@ -1,0 +1,129 @@
+{
+ "id": "sahara-was-green",
+ "hook": "The Sahara used to be GREEN",
+ "title": "The Sahara Desert Used to Be Green #shorts",
+ "description": "Around 6,000 years ago the Sahara was a land of grass and lakes, home to hippos and crocodiles. A slow wobble of Earth brought the rain, then took it away. Follow for a new fact every day!\n\n#facts #sahara #geography #earth #shorts",
+ "tags": [
+  "sahara",
+  "green sahara",
+  "geography facts",
+  "earth history",
+  "desert",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "The Sahara, the biggest hot desert on Earth, was once green.",
+   "clip_id": 7356,
+   "inset_id": 82210,
+   "inset_y": 0.47,
+   "inset_delay": 0.4,
+   "inset_tilt": -5,
+   "punch": "GREEN",
+   "punch_y": 0.69,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/f4263d4b48f1a83a.mp4",
+   "inset_path": "/root/.cache/shorts_clips/ea1dea00ce7e69d8.mp4"
+  },
+  {
+   "say": "About 6,000 years ago, it was covered in grass and lakes.",
+   "clip_id": 293485,
+   "items": [
+    {
+     "emoji": "🌿",
+     "x": 0.2,
+     "y": 0.36,
+     "size": 0.16,
+     "anim": "grow",
+     "delay": 0.8
+    },
+    {
+     "emoji": "💧",
+     "x": 0.8,
+     "y": 0.36,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 1.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/0d030182247301e1.mp4"
+  },
+  {
+   "say": "Hippos and crocodiles lived where there is only sand today.",
+   "clip_id": 82210,
+   "inset_id": 173059,
+   "inset_x": 0.7,
+   "inset_y": 0.34,
+   "inset_delay": 1.0,
+   "inset_tilt": 6,
+   "clip_path": "/root/.cache/shorts_clips/ea1dea00ce7e69d8.mp4",
+   "inset_path": "/root/.cache/shorts_clips/ce01834adfd5b0a0.mp4"
+  },
+  {
+   "say": "Giraffes and cattle roamed there, and people painted them on rocks.",
+   "clip_id": 117992,
+   "items": [
+    {
+     "emoji": "🎨",
+     "x": 0.5,
+     "y": 0.34,
+     "size": 0.18,
+     "anim": "pop",
+     "delay": 2.2
+    }
+   ],
+   "punch": "ROCK ART",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/a8d79902801a579d.mp4"
+  },
+  {
+   "say": "A slow wobble of Earth pushed summer rains north, over the desert.",
+   "clip_id": 8947,
+   "inset_id": 125013,
+   "inset_y": 0.38,
+   "inset_delay": 1.8,
+   "inset_tilt": 5,
+   "punch": "WOBBLE",
+   "punch_y": 0.68,
+   "punch_delay": 0.9,
+   "clip_path": "/root/.cache/shorts_clips/a5fb55ca9a630118.mp4",
+   "inset_path": "/root/.cache/shorts_clips/4f29df047b3e40a9.mp4"
+  },
+  {
+   "say": "When the rains moved away, the lakes dried up and sand took over.",
+   "clip_id": 108420,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.8,
+     "y": 0.28,
+     "size": 0.16,
+     "anim": "pulse",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/fbaa47b7344e79e2.mp4"
+  },
+  {
+   "say": "This cycle repeats, so one day the Sahara could turn green again.",
+   "clip_id": 284566,
+   "items": [
+    {
+     "emoji": "🌱",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.2,
+     "anim": "grow",
+     "delay": 1.0
+    }
+   ],
+   "punch": "GREEN AGAIN",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/b3f45eb78b4ddb1a.mp4"
+  }
+ ],
+ "credits": []
+}

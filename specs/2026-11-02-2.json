@@ -1,0 +1,138 @@
+{
+ "id": "taller-in-the-morning",
+ "hook": "You're taller in the morning",
+ "title": "You Are Taller in the Morning Than at Night #shorts",
+ "description": "Gravity squeezes the soft discs in your spine all day, so most people lose around 1 centimeter by bedtime. Sleep brings it right back. Follow for a new fact every day!\n\n#facts #humanbody #science #didyouknow #shorts",
+ "tags": [
+  "human body",
+  "spine",
+  "height",
+  "body facts",
+  "science facts",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "You are taller in the morning than you are at night.",
+   "clip_id": 151297,
+   "items": [
+    {
+     "emoji": "📏",
+     "x": 0.8,
+     "y": 0.42,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.5
+    }
+   ],
+   "punch": "TALLER",
+   "punch_y": 0.64,
+   "punch_delay": 0.6,
+   "clip_path": "/root/.cache/shorts_clips/e919b054ab4662dd.mp4"
+  },
+  {
+   "say": "Most people shrink by around 1 centimeter during the day.",
+   "clip_id": 7713,
+   "number": {
+    "value": 1,
+    "prefix": "-",
+    "suffix": " cm",
+    "label": "by bedtime",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/cfdf6e9922e6508c.mp4"
+  },
+  {
+   "say": "Your spine has soft discs between its bones, like little cushions.",
+   "clip_id": 85006,
+   "inset_id": 85007,
+   "inset_x": 0.72,
+   "inset_y": 0.36,
+   "inset_delay": 1.0,
+   "inset_tilt": 6,
+   "punch": "CUSHIONS",
+   "punch_y": 0.68,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/6e5aec6fe5c9de70.mp4",
+   "inset_path": "/root/.cache/shorts_clips/b3285cc0e9db5f47.mp4"
+  },
+  {
+   "say": "All day long, gravity slowly squeezes water out of those discs.",
+   "clip_id": 4722,
+   "items": [
+    {
+     "emoji": "🌍",
+     "x": 0.32,
+     "y": 0.32,
+     "size": 0.18,
+     "anim": "drop",
+     "delay": 0.6
+    },
+    {
+     "emoji": "💧",
+     "x": 0.68,
+     "y": 0.36,
+     "size": 0.15,
+     "anim": "drop",
+     "delay": 1.6
+    }
+   ],
+   "punch": "GRAVITY",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/48ec92743d3924c0.mp4"
+  },
+  {
+   "say": "When you lie down to sleep, they soak it back up.",
+   "clip_id": 379303,
+   "items": [
+    {
+     "emoji": "😴",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.2,
+     "anim": "float",
+     "delay": 0.5
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/41d3406ee182235a.mp4"
+  },
+  {
+   "say": "In space, with no gravity, astronauts grow up to 3 percent taller.",
+   "clip_id": 126662,
+   "punch": "3% TALLER",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/563d2dbf81e09e89.mp4",
+   "items": [
+    {
+     "emoji": "📏",
+     "x": 0.78,
+     "y": 0.34,
+     "size": 0.18,
+     "anim": "pop",
+     "delay": 1.0
+    }
+   ]
+  },
+  {
+   "say": "So if you want your best height, measure right after waking up.",
+   "clip_id": 21223,
+   "items": [
+    {
+     "emoji": "⏰",
+     "x": 0.3,
+     "y": 0.36,
+     "size": 0.18,
+     "anim": "shake",
+     "delay": 0.6
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/bf37874df640ce9b.mp4"
+  }
+ ],
+ "credits": [
+  "Coverr-Free-Footage (Pixabay): https://pixabay.com/videos/id-4722/"
+ ]
+}
