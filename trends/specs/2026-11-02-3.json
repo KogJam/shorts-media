@@ -1,0 +1,188 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "ElenLackner (Pixabay): https://pixabay.com/videos/id-21941/",
+  "mootlak (Pixabay): https://pixabay.com/videos/id-107240/",
+  "julientromeur (Pixabay): https://pixabay.com/videos/id-24410/",
+  "TungArt7 (Pixabay): https://pixabay.com/videos/id-207982/",
+  "LisaRedfern (Pixabay): https://pixabay.com/videos/id-1335/",
+  "Vimeo-Free-Videos (Pixabay): https://pixabay.com/videos/id-2315/",
+  "Sang_Soi (Pixabay): https://pixabay.com/videos/id-122232/",
+  "Samidurrakzai (Pixabay): https://pixabay.com/videos/id-202135/",
+  "Pon_Balaji (Pixabay): https://pixabay.com/videos/id-51756/",
+  "AttilaPergel (Pixabay): https://pixabay.com/videos/id-113483/",
+  "jeffjacobs1990 (Pixabay): https://pixabay.com/videos/id-250772/",
+  "asabovebelowloa (Pixabay): https://pixabay.com/videos/id-49919/",
+  "bellergy (Pixabay): https://pixabay.com/videos/id-2946/",
+  "Shutter_Footage (Pixabay): https://pixabay.com/videos/id-344380/",
+  "Sang_Soi (Pixabay): https://pixabay.com/videos/id-140807/"
+ ],
+ "id": "trend-english-spelling-accidents",
+ "hook": "Why English spelling makes NO sense",
+ "title": "Why English Spelling Makes No Sense #shorts",
+ "description": "Mispronunciation videos are everywhere, but it's not the speakers' fault. Knight, ghost, debt and island all got their odd spellings by accident, or by showing off.\n\nFollow for what's trending, explained!\n\n#english #language #etymology #spelling #shorts",
+ "tags": [
+  "english spelling",
+  "why english is weird",
+  "silent letters",
+  "great vowel shift",
+  "mispronunciation",
+  "etymology",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Knight. Ghost. Debt. Island. If these words trip people up, it's not their fault.",
+   "clip_id": 21941,
+   "punch": "NOT THEIR FAULT",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/8174c5b9a1b7fe83.mp4"
+  },
+  {
+   "say": "Start with knight. In Chaucer's day, people really said the K. The sound vanished, but the spelling stayed.",
+   "clip_id": 107240,
+   "inset_id": 24410,
+   "inset_y": 0.4,
+   "inset_delay": 0.3,
+   "inset_tilt": -5,
+   "punch": "K-NIGHT",
+   "punch_y": 0.64,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/a331ba606d10996b.mp4",
+   "inset_path": "/root/.cache/shorts_clips/748ee6b6c0a338c1.mp4"
+  },
+  {
+   "say": "Then, in fourteen seventy six, William Caxton brought the printing press to England.",
+   "clip_id": 207982,
+   "punch": "1476",
+   "punch_y": 0.55,
+   "punch_delay": 0.9,
+   "clip_path": "/root/.cache/shorts_clips/307a814ec8c232a0.mp4"
+  },
+  {
+   "say": "Some of his typesetters were Flemish. And in Flemish spelling, a hard G often came with an H.",
+   "clip_id": 1335,
+   "punch": "G + H",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/e6223726c844b7a1.mp4"
+  },
+  {
+   "say": "So the old word gost became ghost. That H simply never left.",
+   "clip_id": 2315,
+   "items": [
+    {
+     "emoji": "👻",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.26,
+     "anim": "float",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7e46ca9cc6ac7063.mp4"
+  },
+  {
+   "say": "Meanwhile, the sounds were moving. That's the Great Vowel Shift.",
+   "clip_id": 122232,
+   "punch": "VOWEL SHIFT",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/6061aecf27d5eceb.mp4"
+  },
+  {
+   "say": "In Chaucer's time, bite sounded close to beet. House sounded close to hoose.",
+   "clip_id": 202135,
+   "items": [
+    {
+     "emoji": "🏠",
+     "x": 0.75,
+     "y": 0.34,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 2.0
+    },
+    {
+     "emoji": "👄",
+     "x": 0.25,
+     "y": 0.34,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2c12e6b853210945.mp4"
+  },
+  {
+   "say": "The sounds changed, but the letters mostly didn't.",
+   "clip_id": 51756,
+   "punch": "OLD SPEECH",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/90d11017fa761954.mp4"
+  },
+  {
+   "say": "Then, in the fifteen hundreds, scholars added letters to make words look like Latin.",
+   "clip_id": 113483,
+   "inset_id": 250772,
+   "inset_y": 0.42,
+   "inset_delay": 0.8,
+   "inset_tilt": 4,
+   "clip_path": "/root/.cache/shorts_clips/852b082882aac884.mp4",
+   "inset_path": "/root/.cache/shorts_clips/7bbb406af8ad2b93.mp4"
+  },
+  {
+   "say": "Dette became debt, with a silent B, just to match the Latin word debitum.",
+   "clip_id": 49919,
+   "punch": "SILENT B",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/50da46bca86f32c4.mp4"
+  },
+  {
+   "say": "And here's the best one. The S in island is a mistake.",
+   "clip_id": 2946,
+   "items": [
+    {
+     "emoji": "🏝️",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.22,
+     "anim": "pop",
+     "delay": 0.4
+    }
+   ],
+   "punch": "MISTAKE",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/d495f06d7c19170c.mp4"
+  },
+  {
+   "say": "It was added to link it to Latin insula. But island comes from Old English.",
+   "clip_id": 344380,
+   "punch": "WRONG ROOT",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/26ea6f754d8644d1.mp4"
+  },
+  {
+   "say": "So next time someone mispronounces a word, don't laugh. Blame the people who spelled it.",
+   "clip_id": 140807,
+   "items": [
+    {
+     "emoji": "😅",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 1.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/5a8a9f6df77fe4cd.mp4"
+  }
+ ],
+ "tiktok_text": "Knight, ghost, debt, island. Why English spelling makes no sense, and whose fault it is. #fyp #learnontiktok #english #language #etymology"
+}

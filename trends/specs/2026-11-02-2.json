@@ -1,0 +1,236 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "thamvincent900 (Pixabay): https://pixabay.com/videos/id-197966/",
+  "MountainDweller (Pixabay): https://pixabay.com/videos/id-186029/",
+  "jLasWilson (Pixabay): https://pixabay.com/videos/id-2776/",
+  "BlenderTimer (Pixabay): https://pixabay.com/videos/id-358447/",
+  "jLasWilson (Pixabay): https://pixabay.com/videos/id-2717/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-91336/",
+  "Alexas_Fotos (Pixabay): https://pixabay.com/videos/id-3904/",
+  "CDanyLT (Pixabay): https://pixabay.com/videos/id-310086/",
+  "danydory (Pixabay): https://pixabay.com/videos/id-72444/",
+  "ursprints (Pixabay): https://pixabay.com/videos/id-18221/",
+  "Moviemacker (Pixabay): https://pixabay.com/videos/id-215920/",
+  "adege (Pixabay): https://pixabay.com/videos/id-22983/",
+  "Bernard_Townsend (Pixabay): https://pixabay.com/videos/id-127522/",
+  "Oleh_77 (Pixabay): https://pixabay.com/videos/id-186512/",
+  "ZT_OSCAR (Pixabay): https://pixabay.com/videos/id-225057/"
+ ],
+ "id": "trend-squirrel-fake-burying",
+ "hook": "Squirrels FAKE burying their nuts",
+ "title": "Squirrels Fake-Bury Nuts to Fool Thieves #shorts",
+ "description": "You've heard squirrels forget their nuts. The real story is way smarter: they sort them, fake burying them when a rival is near, and pick which acorns to keep.\n\nFollow for what's trending, explained!\n\n#squirrel #animalfacts #wildlife #nature #shorts",
+ "tags": [
+  "squirrel",
+  "squirrels",
+  "animal facts",
+  "why squirrels bury nuts",
+  "acorns",
+  "wildlife",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "You've heard that squirrels forget where they bury their nuts. The truth is way smarter.",
+   "clip_id": 197966,
+   "items": [
+    {
+     "emoji": "🐿️",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.6
+    },
+    {
+     "emoji": "🌰",
+     "x": 0.72,
+     "y": 0.46,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.2
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/b47c932730ac2afb.mp4"
+  },
+  {
+   "say": "One squirrel can bury up to three thousand nuts in a single season.",
+   "clip_id": 186029,
+   "number": {
+    "value": 3000,
+    "suffix": "",
+    "prefix": "",
+    "label": "nuts in one season",
+    "y": 0.54,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/962be307cb7771d3.mp4"
+  },
+  {
+   "say": "One study of city gray squirrels estimated they got back about eighty five percent.",
+   "clip_id": 2776,
+   "number": {
+    "value": 85,
+    "suffix": "%",
+    "prefix": "",
+    "label": "recovered",
+    "y": 0.54,
+    "delay": 1.8
+   },
+   "clip_path": "/root/.cache/shorts_clips/b4373ce6a7967579.mp4"
+  },
+  {
+   "say": "Another team said up to seventy four percent stay buried. Scientists still disagree.",
+   "clip_id": 358447,
+   "number": {
+    "value": 74,
+    "suffix": "%",
+    "prefix": "",
+    "label": "stay buried",
+    "y": 0.54,
+    "delay": 1.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/6cae7602c346edaa.mp4"
+  },
+  {
+   "say": "But it isn't luck. In one study, gray squirrels remembered twenty four spots for up to two months.",
+   "clip_id": 2717,
+   "items": [
+    {
+     "emoji": "🧠",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.18,
+     "anim": "pulse",
+     "delay": 0.8
+    }
+   ],
+   "punch": "24 SPOTS",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/ec53d4c851d02fc6.mp4"
+  },
+  {
+   "say": "Fox squirrels even sort their stash, keeping each kind of nut in its own area.",
+   "clip_id": 91336,
+   "items": [
+    {
+     "emoji": "🌰",
+     "x": 0.25,
+     "y": 0.36,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.8
+    },
+    {
+     "emoji": "🥜",
+     "x": 0.75,
+     "y": 0.36,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.4
+    }
+   ],
+   "punch": "SORTED",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/5d97882538ae42bd.mp4"
+  },
+  {
+   "say": "And if another squirrel is watching, they fake it.",
+   "clip_id": 3904,
+   "punch": "FAKE",
+   "punch_y": 0.66,
+   "punch_delay": 1.7,
+   "clip_path": "/root/.cache/shorts_clips/7ab14d88dcc2beaa.mp4"
+  },
+  {
+   "say": "They dig, pretend to drop the nut, then leave with it still in their mouth.",
+   "clip_id": 310086,
+   "items": [
+    {
+     "emoji": "🤫",
+     "x": 0.75,
+     "y": 0.34,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 1.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/0263416bd50a8011.mp4"
+  },
+  {
+   "say": "In one big study, about thirteen percent of burials were fakes, more when a rival was close.",
+   "clip_id": 72444,
+   "number": {
+    "value": 13,
+    "suffix": "%",
+    "prefix": "",
+    "label": "of burials were fake",
+    "y": 0.54,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/7096c86077ca3989.mp4"
+  },
+  {
+   "say": "White oak acorns sprout quickly, so squirrels mostly eat those right away.",
+   "clip_id": 18221,
+   "items": [
+    {
+     "emoji": "🍽️",
+     "x": 0.72,
+     "y": 0.32,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 2.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/1167953d13910316.mp4"
+  },
+  {
+   "say": "Red oak acorns sleep until spring, so those are the ones that get stored.",
+   "clip_id": 215920,
+   "inset_id": 22983,
+   "inset_y": 0.42,
+   "inset_delay": 0.8,
+   "inset_tilt": 4,
+   "punch": "STORED",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/ddc55a1a7f5c4a0e.mp4",
+   "inset_path": "/root/.cache/shorts_clips/f05d95276a3534c6.mp4"
+  },
+  {
+   "say": "The twist? Any acorn left behind can sprout into an oak.",
+   "clip_id": 127522,
+   "inset_id": 186512,
+   "inset_y": 0.42,
+   "inset_delay": 0.8,
+   "inset_tilt": -4,
+   "clip_path": "/root/.cache/shorts_clips/d37b234310ae9a6f.mp4",
+   "inset_path": "/root/.cache/shorts_clips/5afd1dec8a038c58.mp4"
+  },
+  {
+   "say": "So squirrels aren't just forgetful. They're sneaky planners, and accidental tree planters.",
+   "clip_id": 225057,
+   "items": [
+    {
+     "emoji": "🌳",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.22,
+     "anim": "grow",
+     "delay": 2.0
+    }
+   ],
+   "punch": "TREE PLANTERS",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/5d5303378410f1b8.mp4"
+  }
+ ],
+ "tiktok_text": "Squirrels fake-bury nuts when someone's watching. Here's how smart they really are. #fyp #learnontiktok #squirrel #animalfacts #nature"
+}

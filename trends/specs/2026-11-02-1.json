@@ -1,0 +1,214 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "Stock-Freelr (Pixabay): https://pixabay.com/videos/id-44740/",
+  "TonyDias7 (Pixabay): https://pixabay.com/videos/id-311235/",
+  "Mohamed_hassan (Pixabay): https://pixabay.com/videos/id-75702/",
+  "AttilaPergel (Pixabay): https://pixabay.com/videos/id-103792/",
+  "Toni_063371 (Pixabay): https://pixabay.com/videos/id-137413/",
+  "Iconikmg (Pixabay): https://pixabay.com/videos/id-11721/",
+  "Vimeo-Free-Videos (Pixabay): https://pixabay.com/videos/id-442/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-144735/",
+  "vkhima (Pixabay): https://pixabay.com/videos/id-24072/",
+  "Nerd_Nonsense (Pixabay): https://pixabay.com/videos/id-211986/",
+  "Luis_Humanoide (Pixabay): https://pixabay.com/videos/id-37713/",
+  "tommyvideo (Pixabay): https://pixabay.com/videos/id-5377/",
+  "Roadsandwander (Pixabay): https://pixabay.com/videos/id-280390/",
+  "AiVreaSaStii (Pixabay): https://pixabay.com/videos/id-135988/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-143419/"
+ ],
+ "id": "trend-diwali-space-photo",
+ "hook": "The famous Diwali photo is FAKE",
+ "title": "The Viral Diwali Photo From Space Is Fake #shorts",
+ "description": "Every year a colorful image of India 'on Diwali night' goes viral. It isn't Diwali, and it isn't even one photo. Here's what those tiny clay lamps really mean, and what the image really shows.\n\nFollow for what's trending, explained!\n\n#diwali #diya #festivaloflights #space #shorts",
+ "tags": [
+  "diwali",
+  "diya",
+  "diwali from space",
+  "festival of lights",
+  "nasa diwali photo",
+  "fact check",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "This tiny clay lamp is tied to one of the internet's most shared fake photos.",
+   "clip_id": 44740,
+   "items": [
+    {
+     "emoji": "🪔",
+     "x": 0.5,
+     "y": 0.5,
+     "size": 0.24,
+     "anim": "pop",
+     "delay": 0.6
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/94e693c551662067.mp4"
+  },
+  {
+   "say": "It's called a diya. Just clay, a little oil and a cotton wick.",
+   "clip_id": 311235,
+   "punch": "DIYA",
+   "punch_y": 0.66,
+   "punch_delay": 0.7,
+   "clip_path": "/root/.cache/shorts_clips/cdc186443d17a390.mp4"
+  },
+  {
+   "say": "People are getting them ready for Diwali, on November eighth this year.",
+   "clip_id": 75702,
+   "number": {
+    "value": 8,
+    "suffix": "",
+    "prefix": "",
+    "label": "November",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/fda24ba246d26154.mp4"
+  },
+  {
+   "say": "The name comes from a Sanskrit word meaning row of lights.",
+   "clip_id": 103792,
+   "punch": "ROW OF LIGHTS",
+   "punch_y": 0.64,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/1fdcc2b7febfc01b.mp4"
+  },
+  {
+   "say": "It has no fixed date, because it follows the moon. Next year, it's October twenty ninth.",
+   "clip_id": 137413,
+   "items": [
+    {
+     "emoji": "🌙",
+     "x": 0.78,
+     "y": 0.3,
+     "size": 0.16,
+     "anim": "float",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/06d2a89a61a556b0.mp4"
+  },
+  {
+   "say": "Its main night is the new moon, the darkest night of the month. Light against darkness.",
+   "clip_id": 11721,
+   "punch": "LIGHT VS DARK",
+   "punch_y": 0.64,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/ffcb073c5ec037ac.mp4"
+  },
+  {
+   "say": "Hindus, Jains, Sikhs and some Buddhists all mark it, each for their own reasons.",
+   "clip_id": 442,
+   "inset_id": 144735,
+   "inset_y": 0.42,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/9e2123d660443b0b.mp4",
+   "inset_path": "/root/.cache/shorts_clips/3701362e88233271.mp4"
+  },
+  {
+   "say": "Every year, an image of India glowing in bright colors goes viral as Diwali from space.",
+   "clip_id": 24072,
+   "items": [
+    {
+     "emoji": "🛰️",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.16,
+     "anim": "float",
+     "delay": 1.0
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6bcf5510fdb88bc2.mp4"
+  },
+  {
+   "say": "But it isn't Diwali. It isn't even one photo.",
+   "clip_id": 211986,
+   "items": [
+    {
+     "emoji": "📸",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.22,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": true
+    }
+   ],
+   "punch": "NOT DIWALI",
+   "punch_y": 0.66,
+   "punch_delay": 0.5,
+   "clip_path": "/root/.cache/shorts_clips/ec0d4bc3fb36ab8a.mp4"
+  },
+  {
+   "say": "An American scientist built it from years of satellite data, to show how cities grow.",
+   "clip_id": 37713,
+   "inset_id": 5377,
+   "inset_y": 0.36,
+   "inset_delay": 0.6,
+   "inset_tilt": 4,
+   "punch": "YEARS OF DATA",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/eabed4a0306dad4a.mp4",
+   "inset_path": "/root/.cache/shorts_clips/19bfff4fedea9282.mp4"
+  },
+  {
+   "say": "White marks lights from before nineteen ninety two. Blue, green and red show lights that appeared later.",
+   "clip_id": 280390,
+   "items": [
+    {
+     "emoji": "⚪",
+     "x": 0.2,
+     "y": 0.4,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 0.3
+    },
+    {
+     "emoji": "🔵",
+     "x": 0.4,
+     "y": 0.4,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 1.8
+    },
+    {
+     "emoji": "🟢",
+     "x": 0.6,
+     "y": 0.4,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 2.1
+    },
+    {
+     "emoji": "🔴",
+     "x": 0.8,
+     "y": 0.4,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 2.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/eabcf90b2248b626.mp4"
+  },
+  {
+   "say": "And real Diwali? A NASA expert said the extra glow is likely too faint to notice from space.",
+   "clip_id": 135988,
+   "punch": "TOO FAINT",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/76f5c4725b5e4901.mp4"
+  },
+  {
+   "say": "The most famous picture of the festival of lights shows no festival at all.",
+   "clip_id": 143419,
+   "clip_path": "/root/.cache/shorts_clips/a2a3eccc2eaddb42.mp4"
+  }
+ ],
+ "tiktok_text": "The viral Diwali photo from space isn't Diwali. Here's what it really shows, and why the lamps matter. #fyp #learnontiktok #diwali #diya #space"
+}
