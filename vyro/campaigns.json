@@ -18,7 +18,16 @@
   "branch": "videos-wild",
   "notes": "19-day solo Arctic canoe trip, 4x30min Frame.io 4K sources; tag @essentialwilderness",
   "vyro_title": "GRAPPLEARTS ENTERPRISES INC. – Outdoor Adventure Shorts",
-  "ends": "2026-11-15T15:11"
+  "ends": "2026-11-15T15:11",
+  "vyro_slug": "outdoor-adventure-shorts-iX0tgVLg",
+  "rate_per_1m": 2100,
+  "paid_pct": 39,
+  "budget_left_by_platform": {
+   "tiktok": 325,
+   "youtube": 525,
+   "instagram": 0
+  },
+  "checked": "2026-11-03"
  },
  "the-mob": {
   "brand": "Hulu: The Mob",
@@ -27,10 +36,12 @@
   "vyro_slug": "the-mob-episode-1-and-2-vn5s92J7",
   "rate_per_1m": 2000,
   "budget_left": 5209.61,
-  "ends": "2026-11-11T15:00",
+  "ends": "2026-11-11T15:11",
   "rating": "Ja",
   "seen": "2026-11-02",
-  "notes": "#HuluPartner #themob; mandatory caption; platform music only, so NO Lyria beds; AI tools must not train on uploads; no collab/story"
+  "notes": "#HuluPartner #themob; mandatory caption; platform music only, so NO Lyria beds; AI tools must not train on uploads; no collab/story",
+  "paid_pct": 7,
+  "checked": "2026-11-03"
  },
  "chipotle-ground-to-sound": {
   "brand": "Chipotle Mexican Grill",
@@ -39,10 +50,12 @@
   "vyro_slug": "ground-to-sound-jbtGwovT",
   "rate_per_1m": 2000,
   "budget_left": 5754.09,
-  "ends": "2026-11-11T15:00",
+  "ends": "2026-11-11T15:11",
   "rating": "Vielleicht",
   "seen": "2026-11-02",
-  "notes": "#ChipotlePartner; tag @chipotle; Chipotle link must be central, not tag only; no stills of Abbey Road crossing"
+  "notes": "#ChipotlePartner; tag @chipotle; Chipotle link must be central, not tag only; no stills of Abbey Road crossing",
+  "paid_pct": 23,
+  "checked": "2026-11-03"
  },
  "joy-101": {
   "brand": "iHeartPodcasts",
@@ -51,10 +64,12 @@
   "vyro_slug": "dont-lie-to-me-sxwKjxIU",
   "rate_per_1m": 2000,
   "budget_left": 3508.02,
-  "ends": "2026-11-10T15:00",
+  "ends": "2026-11-10T15:11",
   "rating": "Ja",
   "seen": "2026-11-02",
-  "notes": "#iHeartPodcasts; mandatory text; podcast interviews fit the pipeline"
+  "notes": "#iHeartPodcasts; mandatory text; podcast interviews fit the pipeline",
+  "paid_pct": 24,
+  "checked": "2026-11-03"
  },
  "tdr-sinjin": {
   "brand": "Total Drama Roblox",
@@ -63,14 +78,16 @@
   "vyro_slug": "flamingo-roblox-total-drama-island-is-mean-7nOCbhEf",
   "rate_per_1m": 2500,
   "budget_left": 1089.9,
-  "ends": "2026-11-06T15:00",
+  "ends": "2026-11-06T15:11",
   "rating": "Vielleicht",
   "seen": "2026-11-02",
-  "notes": "#paidpartnership #TotalDramaRoblox; short window, posting slots already full until 11-05"
+  "notes": "#paidpartnership #TotalDramaRoblox; short window, posting slots already full until 11-05",
+  "paid_pct": 29,
+  "checked": "2026-11-03"
  },
  "tdr-stinkyasher": {
   "brand": "Total Drama Roblox",
-  "status": "seen",
+  "status": "skipped",
   "vyro_title": "Total Drama Roblox – StinkyAsher: I PLAYED IN THE FIRST EVER TOTAL DRAMA ROBLOX TOURNAMENT",
   "vyro_slug": "flamingo-roblox-total-drama-island-is-mean-84rRsLDH",
   "rate_per_1m": 2500,
@@ -82,7 +99,7 @@
  },
  "tdr-mitch": {
   "brand": "Total Drama Roblox",
-  "status": "seen",
+  "status": "skipped",
   "vyro_title": "Total Drama Roblox – Mitch Gaming: i competed in a TOTAL DRAMA ROBLOX TOURNAMENT",
   "vyro_slug": "stinkyasher-i-played-in-the-first-ever-total-drama-roblox-tournament-b1Twfv00",
   "rate_per_1m": 2500,
@@ -94,7 +111,7 @@
  },
  "tdr-flamingo": {
   "brand": "Total Drama Roblox",
-  "status": "seen",
+  "status": "skipped",
   "vyro_title": "Total Drama Roblox – Flamingo: ROBLOX TOTAL DRAMA ISLAND is mean…",
   "vyro_slug": "total-drama-roblox-streamer-tournament-3u_iicP8",
   "rate_per_1m": 2500,
@@ -106,7 +123,7 @@
  },
  "valorant-microdrama": {
   "brand": "Valorant",
-  "status": "seen",
+  "status": "skipped",
   "vyro_title": "Valorant – Microdrama series",
   "vyro_slug": "microdrama-series-episode-1-xurZBrxP",
   "rate_per_1m": 1500,
@@ -151,5 +168,17 @@
   "rating": "Nein",
   "seen": "2026-11-02",
   "notes": "locked for new posts, budget used up"
+ },
+ "meet-vyro": {
+  "brand": "Vyro",
+  "status": "seen",
+  "vyro_title": "Vyro for Vyro – Meet Vyro",
+  "vyro_slug": "vyro-ugc-p60LFjE7",
+  "rate_per_1m": 1000,
+  "budget_left": 1000,
+  "ends": "2026-11-16T15:11",
+  "rating": "Vielleicht",
+  "seen": "2026-11-03",
+  "notes": "#vyropartner; min 15s; raw promo clips in Frame.io, must add own captions/hook/music, every post unique; no earnings claims; no stories; music must be cleared for branded content; 5000 views min per post"
  }
 }
