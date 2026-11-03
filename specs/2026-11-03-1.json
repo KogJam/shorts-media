@@ -1,0 +1,113 @@
+{
+ "id": "crows-remember-faces",
+ "hook": "Crows never forget your FACE",
+ "title": "Crows Remember Your Face and Hold Grudges #shorts",
+ "description": "Crows can recognize a single human face and remember it for years. They even teach their young who to avoid. Follow for a new fact every day!\n\n#facts #crows #animals #nature #shorts",
+ "tags": [
+  "crows",
+  "animal facts",
+  "smart birds",
+  "bird facts",
+  "nature facts",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "Crows can remember your face for years.",
+   "clip_id": 285973,
+   "items": [
+    {
+     "emoji": "🧠",
+     "x": 0.8,
+     "y": 0.34,
+     "size": 0.17,
+     "anim": "pop",
+     "delay": 0.3
+    }
+   ],
+   "punch": "FOR YEARS",
+   "punch_y": 0.66,
+   "punch_delay": 1.3,
+   "clip_path": "/root/.cache/shorts_clips/4860413fef1c2ecf.mp4"
+  },
+  {
+   "say": "Scientists in Seattle put on a strange mask and caught a few crows.",
+   "clip_id": 135787,
+   "items": [
+    {
+     "emoji": "🎭",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.24,
+     "anim": "bounce",
+     "delay": 0.6
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8023eb2ac6d7a6b4.mp4"
+  },
+  {
+   "say": "Later, they walked around the city in that same mask.",
+   "clip_id": 1694,
+   "inset_id": 135785,
+   "inset_y": 0.42,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/d5c3922cffd78ba9.mp4",
+   "inset_path": "/root/.cache/shorts_clips/911e057b25cfdbea.mp4"
+  },
+  {
+   "say": "Crows yelled and dived at them, but ignored everyone else.",
+   "clip_id": 21944,
+   "items": [
+    {
+     "emoji": "😡",
+     "x": 0.2,
+     "y": 0.36,
+     "size": 0.16,
+     "anim": "shake",
+     "delay": 0.5
+    }
+   ],
+   "punch": "ATTACK MODE",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/c08c7b61519110ad.mp4"
+  },
+  {
+   "say": "Even crows that were never caught joined in.",
+   "clip_id": 126180,
+   "items": [
+    {
+     "emoji": "👀",
+     "x": 0.78,
+     "y": 0.34,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2b10c6630ab4b30a.mp4"
+  },
+  {
+   "say": "Young crows learned who to hate from their parents.",
+   "clip_id": 182946,
+   "inset_id": 135784,
+   "inset_x": 0.5,
+   "inset_y": 0.36,
+   "inset_delay": 1.2,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/2c79d496ecc962aa.mp4",
+   "inset_path": "/root/.cache/shorts_clips/6e9663f9af541422.mp4"
+  },
+  {
+   "say": "So be nice to the crows in your street.",
+   "clip_id": 208240,
+   "punch": "BE NICE",
+   "punch_y": 0.66,
+   "punch_delay": 0.8,
+   "clip_path": "/root/.cache/shorts_clips/565888b2b840e35b.mp4"
+  }
+ ],
+ "credits": []
+}

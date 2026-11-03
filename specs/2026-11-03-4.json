@@ -1,0 +1,120 @@
+{
+ "id": "everest-in-mariana-trench",
+ "hook": "Everest would VANISH in the ocean",
+ "title": "Mount Everest Would Disappear in the Deepest Ocean #shorts",
+ "description": "Challenger Deep in the Mariana Trench goes down almost 11,000 meters. Put Mount Everest inside and its peak would still be 2 kilometers under water. Follow for a new fact every day!\n\n#facts #ocean #everest #geography #shorts",
+ "tags": [
+  "mariana trench",
+  "challenger deep",
+  "mount everest",
+  "ocean facts",
+  "geography facts",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "If you dropped Mount Everest into the deepest ocean, it would vanish.",
+   "clip_id": 307398,
+   "inset_id": 208635,
+   "inset_y": 0.42,
+   "inset_delay": 1.2,
+   "inset_tilt": 5,
+   "punch": "VANISH",
+   "punch_y": 0.68,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/f69c2a2f074665b9.mp4",
+   "inset_path": "/root/.cache/shorts_clips/1b1b8faba741047d.mp4"
+  },
+  {
+   "say": "The deepest place on Earth is called Challenger Deep.",
+   "clip_id": 283533,
+   "items": [
+    {
+     "emoji": "🌊",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.2,
+     "anim": "swim",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/758b6accf643cfde.mp4"
+  },
+  {
+   "say": "It sits in the Mariana Trench, in the Pacific Ocean.",
+   "clip_id": 338904,
+   "items": [
+    {
+     "emoji": "📍",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.18,
+     "anim": "drop",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/cc0b434ea90151e3.mp4"
+  },
+  {
+   "say": "It goes down almost 11,000 meters.",
+   "clip_id": 37712,
+   "number": {
+    "value": 10935,
+    "prefix": "",
+    "suffix": " m",
+    "label": "deep",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/7c09c04135bf0974.mp4"
+  },
+  {
+   "say": "Mount Everest is only about 8,850 meters tall.",
+   "clip_id": 199958,
+   "bars": [
+    {
+     "label": "Everest",
+     "value": 8849,
+     "show": "8,849 m",
+     "emoji": "🏔️"
+    },
+    {
+     "label": "Challenger Deep",
+     "value": 10935,
+     "show": "10,935 m",
+     "emoji": "🌊"
+    }
+   ],
+   "bars_y": 0.4,
+   "clip_path": "/root/.cache/shorts_clips/cc5647b8bb3aec41.mp4"
+  },
+  {
+   "say": "So its peak would still be 2 kilometers under water.",
+   "clip_id": 304019,
+   "punch": "2 KM DEEP",
+   "punch_y": 0.5,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/a0d66eccd4b36802.mp4"
+  },
+  {
+   "say": "Down there, the water presses over 1,000 times harder than the air.",
+   "clip_id": 31611,
+   "items": [
+    {
+     "emoji": "🗜️",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.2,
+     "anim": "pulse",
+     "delay": 0.6
+    }
+   ],
+   "punch": "1,000x",
+   "punch_y": 0.64,
+   "punch_delay": 2.0,
+   "clip_start": 12,
+   "clip_path": "/root/.cache/shorts_clips/b621cb5db592571a.mp4"
+  }
+ ],
+ "credits": []
+}

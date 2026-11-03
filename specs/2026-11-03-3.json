@@ -1,0 +1,120 @@
+{
+ "id": "mammoths-and-pyramids",
+ "hook": "Mammoths saw the PYRAMIDS rise",
+ "title": "Mammoths Were Still Alive When the Pyramids Were Built #shorts",
+ "description": "The last woolly mammoths lived on a tiny Arctic island until about 4,000 years ago. That is centuries after the Great Pyramid was finished. Follow for a new fact every day!\n\n#facts #history #mammoth #egypt #shorts",
+ "tags": [
+  "woolly mammoth",
+  "pyramids",
+  "history facts",
+  "ancient egypt",
+  "ice age",
+  "shorts"
+ ],
+ "voice": "am_michael",
+ "lines": [
+  {
+   "say": "Woolly mammoths were still alive when the pyramids were built.",
+   "clip_id": 205415,
+   "items": [
+    {
+     "emoji": "🦣",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.26,
+     "anim": "bounce",
+     "delay": 0.3
+    }
+   ],
+   "punch": "STILL ALIVE",
+   "punch_y": 0.67,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/3b113dc9be194c36.mp4"
+  },
+  {
+   "say": "The Great Pyramid was finished about 4,500 years ago.",
+   "clip_id": 55718,
+   "number": {
+    "value": 4500,
+    "prefix": "",
+    "suffix": "",
+    "label": "years ago",
+    "y": 0.55
+   },
+   "clip_path": "/root/.cache/shorts_clips/c583f815c2c0d6de.mp4"
+  },
+  {
+   "say": "By then, most mammoths had been gone for thousands of years.",
+   "clip_id": 48188,
+   "items": [
+    {
+     "emoji": "🦣",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.4,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/24f340687acac659.mp4"
+  },
+  {
+   "say": "But one small group lived on Wrangel Island in the Arctic Ocean.",
+   "clip_id": 213424,
+   "inset_id": 5737,
+   "inset_y": 0.42,
+   "inset_delay": 1.5,
+   "inset_tilt": -5,
+   "punch": "ONE ISLAND",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "clip_path": "/root/.cache/shorts_clips/965b308e8132f837.mp4",
+   "inset_path": "/root/.cache/shorts_clips/08f8b722aaf96dc5.mp4"
+  },
+  {
+   "say": "They survived there until about 4,000 years ago.",
+   "clip_id": 385074,
+   "number": {
+    "value": 4000,
+    "prefix": "",
+    "suffix": "",
+    "label": "years ago",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/d8a7417aaf2eb169.mp4"
+  },
+  {
+   "say": "That is around 500 years after the pyramid was done.",
+   "clip_id": 113622,
+   "punch": "500 YEARS",
+   "punch_y": 0.5,
+   "punch_delay": 0.8,
+   "items": [
+    {
+     "emoji": "🦣",
+     "x": 0.28,
+     "y": 0.34,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 0.4
+    },
+    {
+     "emoji": "🐫",
+     "x": 0.72,
+     "y": 0.34,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/79ddca6b29500838.mp4"
+  },
+  {
+   "say": "Today, their closest living relatives are elephants.",
+   "clip_id": 126213,
+   "clip_path": "/root/.cache/shorts_clips/28eb21d48a85d9eb.mp4"
+  }
+ ],
+ "credits": []
+}
