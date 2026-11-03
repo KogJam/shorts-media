@@ -1,0 +1,179 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-birds-chili-peppers",
+ "hook": "Birds eat chilis and feel NOTHING",
+ "title": "Why Birds Can Eat Chili Peppers Without Feeling It #shorts",
+ "description": "Spicy food challenges are everywhere, but spice isn't even a taste. It's a trick chili peppers play on mammals, and birds are immune to it.\n\nFollow for what's trending, explained!\n\n#chili #spicyfood #foodscience #birds #shorts",
+ "tags": [
+  "spicy food",
+  "why birds eat chili",
+  "capsaicin",
+  "food science",
+  "why milk helps spicy",
+  "spicy noodles",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "A bird can swallow a chili that would set your mouth on fire, and feel nothing.",
+   "clip_id": 60187,
+   "inset_id": 27529,
+   "inset_x": 0.68,
+   "inset_y": 0.46,
+   "inset_delay": 0.4,
+   "inset_tilt": 6,
+   "punch": "FEELS NOTHING",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/820476b635c0a241.mp4",
+   "inset_path": "/root/.cache/shorts_clips/545f04beb34fa721.mp4"
+  },
+  {
+   "say": "Spicy noodle challenges are everywhere. But spice isn't really a taste.",
+   "clip_id": 11623,
+   "punch": "NOT A TASTE",
+   "punch_y": 0.64,
+   "punch_delay": 2.2,
+   "items": [
+    {
+     "emoji": "🌶️",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "bounce",
+     "delay": 0.5
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/42b5a1c9b8eb3977.mp4"
+  },
+  {
+   "say": "It's pain. Your mouth has receptors that warn you about heat above 43 degrees Celsius.",
+   "clip_id": 21531,
+   "number": {
+    "value": 43,
+    "suffix": " °C",
+    "label": "THE HEAT ALARM",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/9b790cbad2b95128.mp4"
+  },
+  {
+   "say": "Chilis contain capsaicin, which switches on that same alarm.",
+   "clip_id": 27530,
+   "punch": "CAPSAICIN",
+   "punch_y": 0.64,
+   "punch_delay": 0.8,
+   "clip_path": "/root/.cache/shorts_clips/721ba5a139990ece.mp4"
+  },
+  {
+   "say": "So nothing is actually burning. Your brain is simply being tricked.",
+   "clip_id": 206173,
+   "punch": "TRICKED",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/6d7c713a94b151ca.mp4"
+  },
+  {
+   "say": "Why? Scientists studied wild chilies in Arizona.",
+   "clip_id": 45204,
+   "items": [
+    {
+     "emoji": "🌶️",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.18,
+     "anim": "pop",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/bcf63d2fc1224df5.mp4",
+   "clip_start": 3
+  },
+  {
+   "say": "Mice and packrats avoided them. And seeds eaten by those rodents failed to sprout.",
+   "clip_id": 139658,
+   "items": [
+    {
+     "emoji": "🌱",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 2.4,
+     "cross": true
+    }
+   ],
+   "punch": "NO SPROUTS",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/d997bd6b9496afbc.mp4"
+  },
+  {
+   "say": "But birds lack that capsaicin receptor, so they eat the fruit happily.",
+   "clip_id": 33764,
+   "punch": "NO BURN",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/151c0544f4ba4e85.mp4"
+  },
+  {
+   "say": "Seeds eaten by birds sprouted about as well as fresh ones.",
+   "clip_id": 344927,
+   "punch": "THEY GROW",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/bbcb10918ec8487a.mp4"
+  },
+  {
+   "say": "So the heat may work like a filter, keeping out bad seed spreaders.",
+   "clip_id": 212019,
+   "punch": "A FILTER",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/616f443ac58289c6.mp4"
+  },
+  {
+   "say": "So what about you? Water barely helps, because capsaicin won't mix with it.",
+   "clip_id": 81173,
+   "items": [
+    {
+     "emoji": "💧",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.2,
+     "anim": "drop",
+     "delay": 1.0,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/0eaccde84bde3e37.mp4"
+  },
+  {
+   "say": "Milk works better. Its protein, casein, carries the capsaicin away.",
+   "clip_id": 172811,
+   "inset_id": 98044,
+   "inset_x": 0.7,
+   "inset_y": 0.36,
+   "inset_delay": 1.6,
+   "inset_tilt": 5,
+   "punch": "CASEIN",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/86a6e36f6d6ac451.mp4",
+   "inset_path": "/root/.cache/shorts_clips/3975f9482af6a002.mp4"
+  },
+  {
+   "say": "So next time your mouth is on fire, remember, a bird would just ask for seconds.",
+   "clip_id": 113731,
+   "punch": "SECONDS, PLEASE",
+   "punch_y": 0.64,
+   "punch_delay": 3.4,
+   "clip_path": "/root/.cache/shorts_clips/b751204b772f9d94.mp4"
+  }
+ ],
+ "credits": [
+  "FreeCreativeStuff (Pixabay): https://pixabay.com/videos/id-27529/"
+ ]
+}

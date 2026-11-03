@@ -1,0 +1,170 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-dog-head-tilt",
+ "hook": "Why do dogs tilt their heads?",
+ "title": "Why Dogs Tilt Their Heads When You Talk #shorts",
+ "description": "It looks cute, but one study found word-smart dogs tilted their heads far more often. Scientists are still working out what it means.\n\nFollow for what's trending, explained!\n\n#dogs #dogscience #doglover #animals #shorts",
+ "tags": [
+  "why dogs tilt their heads",
+  "dog head tilt",
+  "dog science",
+  "border collie",
+  "dog behavior",
+  "smart dogs",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Your dog tilts its head when you talk. It might mean it's thinking.",
+   "clip_id": 233673,
+   "punch": "THINKING?",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/3348994982051385.mp4"
+  },
+  {
+   "say": "Funny dog clips are pulling in millions of views. But this cute move hides real science.",
+   "clip_id": 85663,
+   "items": [
+    {
+     "emoji": "🐶",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "bounce",
+     "delay": 0.5
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2fa58a9371beb82c.mp4"
+  },
+  {
+   "say": "A team in Budapest, studying how dogs learn words, noticed a pattern.",
+   "clip_id": 15305,
+   "punch": "A PATTERN",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/9c94f5d291df4672.mp4"
+  },
+  {
+   "say": "They compared 7 gifted dogs, all border collies, with 33 typical dogs.",
+   "clip_id": 171030,
+   "number": {
+    "value": 7,
+    "label": "GIFTED BORDER COLLIES",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/1df4a72f0aad2c10.mp4"
+  },
+  {
+   "say": "Gifted dogs knew at least 10 toy names. Most dogs struggle with two.",
+   "clip_id": 156318,
+   "punch": "10 TOY NAMES",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/aa5ab1d3bf3e7d71.mp4"
+  },
+  {
+   "say": "Owners named a toy, and the dog fetched it from another room.",
+   "clip_id": 4727,
+   "inset_id": 7259,
+   "inset_y": 0.4,
+   "inset_delay": 0.8,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/50e6d513411c9474.mp4",
+   "inset_path": "/root/.cache/shorts_clips/9fba754f91b055ae.mp4"
+  },
+  {
+   "say": "Hearing the command, gifted dogs tilted their heads 43 percent of the time.",
+   "clip_id": 327638,
+   "number": {
+    "value": 43,
+    "suffix": "%",
+    "label": "GIFTED DOGS TILTED",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/d870f3e12483d238.mp4"
+  },
+  {
+   "say": "Typical dogs? Just 2 percent.",
+   "clip_id": 14869,
+   "bars": [
+    {
+     "label": "Gifted",
+     "value": 43,
+     "show": "43%",
+     "emoji": "🧠"
+    },
+    {
+     "label": "Typical",
+     "value": 2,
+     "show": "2%",
+     "emoji": "🐕"
+    }
+   ],
+   "bars_y": 0.42,
+   "clip_path": "/root/.cache/shorts_clips/39be2e0ca5063b24.mp4"
+  },
+  {
+   "say": "And the better a dog was at remembering toys, the more it tilted.",
+   "clip_id": 5631,
+   "punch": "BETTER MEMORY",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/ef698eb84b27585c.mp4"
+  },
+  {
+   "say": "Dogs usually tilted the same way, wherever the owner stood. So it may not just be about sound.",
+   "clip_id": 251873,
+   "punch": "SAME SIDE",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/b3125a4409cd61fa.mp4"
+  },
+  {
+   "say": "One idea: the tilt helps match a word to a picture in its mind.",
+   "clip_id": 159049,
+   "inset_id": 222837,
+   "inset_y": 0.4,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "🎾",
+     "x": 0.72,
+     "y": 0.3,
+     "size": 0.16,
+     "anim": "float",
+     "delay": 2.0
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/1c11b1bdf72e6136.mp4",
+   "inset_path": "/root/.cache/shorts_clips/9822c9df126c7021.mp4"
+  },
+  {
+   "say": "Others say it may help dogs hear or see better, or show attention.",
+   "clip_id": 185938,
+   "items": [
+    {
+     "emoji": "👂",
+     "x": 0.25,
+     "y": 0.34,
+     "size": 0.17,
+     "anim": "pop",
+     "delay": 1.5
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/467c76f51b33b715.mp4"
+  },
+  {
+   "say": "It's early, and few dogs were tested. But your dog may be searching its memory.",
+   "clip_id": 108132,
+   "punch": "SEARCHING MEMORY",
+   "punch_y": 0.64,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/6e13de44543af94e.mp4"
+  }
+ ],
+ "credits": []
+}

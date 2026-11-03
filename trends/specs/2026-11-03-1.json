@@ -1,0 +1,186 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-hoover-dam-cooling",
+ "hook": "This dam should STILL be cooling",
+ "title": "Hoover Dam Would Still Be Cooling Today #shorts",
+ "description": "One giant pour of concrete would have needed about 125 years to cool. Here's the clever plumbing trick buried inside the Hoover Dam.\n\nFollow for what's trending, explained!\n\n#hooverdam #engineering #concrete #history #shorts",
+ "tags": [
+  "hoover dam",
+  "how hoover dam was built",
+  "concrete cooling",
+  "engineering",
+  "megastructures",
+  "history",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Pour the Hoover Dam in one go, and it would still be cooling down today.",
+   "clip_id": 203928,
+   "punch": "STILL COOLING",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "items": [
+    {
+     "emoji": "🔥",
+     "x": 0.8,
+     "y": 0.32,
+     "size": 0.18,
+     "anim": "pulse",
+     "delay": 0.3
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/910285f7858aecb3.mp4"
+  },
+  {
+   "say": "Millions just watched a what if about this dam. The true story is wilder.",
+   "clip_id": 185510,
+   "punch": "WHAT'S INSIDE?",
+   "punch_y": 0.64,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/5e3b8ed6cfc2b315.mp4"
+  },
+  {
+   "say": "Concrete doesn't just dry. As cement hardens, a chemical reaction gives off heat.",
+   "clip_id": 148541,
+   "inset_id": 267,
+   "inset_y": 0.4,
+   "inset_delay": 1.4,
+   "inset_tilt": -5,
+   "punch": "IT HEATS UP",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/46e110cca8f46858.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a111de9d39b4cdbb.mp4"
+  },
+  {
+   "say": "It holds about three and a quarter million cubic yards of concrete, all heating up.",
+   "clip_id": 42926,
+   "number": {
+    "value": 3250000,
+    "label": "CUBIC YARDS OF CONCRETE",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/aea6c270d4ebcb37.mp4"
+  },
+  {
+   "say": "Engineers worked out that one single pour would need about 125 years to cool.",
+   "clip_id": 26452,
+   "number": {
+    "value": 125,
+    "suffix": " YEARS",
+    "label": "TO COOL ON ITS OWN",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/974fd3c4c0fd3239.mp4"
+  },
+  {
+   "say": "Worse, the stress of all that slow cooling would crack the dam.",
+   "clip_id": 156301,
+   "punch": "CRACKS",
+   "punch_y": 0.64,
+   "punch_delay": 1.5,
+   "items": [
+    {
+     "emoji": "⚠️",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.2,
+     "anim": "shake",
+     "delay": 1.0
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/94447240151a8a45.mp4"
+  },
+  {
+   "say": "So they poured separate blocks in columns, some just 5 feet high.",
+   "clip_id": 42923,
+   "items": [
+    {
+     "emoji": "🧱",
+     "x": 0.25,
+     "y": 0.34,
+     "size": 0.18,
+     "anim": "drop",
+     "delay": 1.0
+    },
+    {
+     "emoji": "🧱",
+     "x": 0.72,
+     "y": 0.38,
+     "size": 0.18,
+     "anim": "drop",
+     "delay": 1.5
+    }
+   ],
+   "punch": "BLOCKS",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/a98f28c854515580.mp4"
+  },
+  {
+   "say": "Then the genius part. Inside, they buried steel pipes one inch wide.",
+   "clip_id": 225740,
+   "inset_id": 3522,
+   "inset_y": 0.4,
+   "inset_delay": 0.6,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/4380f014a197f4bb.mp4",
+   "inset_path": "/root/.cache/shorts_clips/0e178259d34e89ef.mp4"
+  },
+  {
+   "say": "More than 582 miles of them.",
+   "clip_id": 190323,
+   "number": {
+    "value": 582,
+    "suffix": " MILES",
+    "label": "OF PIPE IN THE CONCRETE",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/53a27007d66a6492.mp4"
+  },
+  {
+   "say": "River water flowed through first. Then ice cold water from a refrigeration plant.",
+   "clip_id": 174860,
+   "inset_id": 21,
+   "inset_y": 0.4,
+   "inset_delay": 1.8,
+   "inset_tilt": -5,
+   "punch": "ICE COLD",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/9a167dfee9a96794.mp4",
+   "inset_path": "/root/.cache/shorts_clips/c4c21124806b778b.mp4"
+  },
+  {
+   "say": "It worked. The whole pour took under two years.",
+   "clip_id": 29237,
+   "punch": "UNDER 2 YEARS",
+   "punch_y": 0.64,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/586c86296cd5fd28.mp4"
+  },
+  {
+   "say": "Once the blocks had cooled, crews filled the pipes with grout, so they are still in there.",
+   "clip_id": 89838,
+   "punch": "STILL INSIDE",
+   "punch_y": 0.66,
+   "punch_delay": 1.5,
+   "clip_path": "/root/.cache/shorts_clips/88675bdba024ce40.mp4"
+  },
+  {
+   "say": "The twist? Core samples in 1995 showed the concrete was still getting stronger.",
+   "clip_id": 89837,
+   "number": {
+    "value": 60,
+    "suffix": " YEARS",
+    "label": "AND STILL GAINING STRENGTH",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/704787a79e7eb359.mp4"
+  }
+ ],
+ "credits": []
+}
