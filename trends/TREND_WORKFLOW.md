@@ -52,11 +52,9 @@ VIDEOS_BRANCH=videos-trends python3 publish.py out/A.mp4 out/B.mp4 out/C.mp4
 Metricool `createScheduledPost`: blogId `7782808`, network `youtube`, timezone `Europe/Berlin`, `autoPublish: true`,
 `media: [url]`, `text` = description, `youtubeData: {title, type: "short", privacy: "public", tags,
 category: "ENTERTAINMENT", madeForKids: false, isAiGeneratedContent: false}`.
-**TikTok:** call `getBrandSettings`; if brand 7782808 has TikTok connected (`tiktokData` in `networksData`), add
-`{"network": "tiktok"}` to `providers` in the same post plus `tiktokData: {"privacyOption": "PUBLIC_TO_EVERYONE",
-"isAigc": true, "autoAddMusic": false}` and TikTok-style text (no "#shorts", use #fyp #learnontiktok + topic tags).
-If TikTok is not connected, put the raw download links of the 3 MP4s in the summary to the user so they can post
-them on TikTok by hand (the `videos-trends` branch keeps them until the next day's run).
+**TikTok: NEVER schedule TikTok via Metricool** (auto-posts got 0 views on the new account – the user posts TikTok by hand).
+YouTube only. Put the raw download links of the 3 MP4s in the summary so the user can post the best one on TikTok himself
+(the `videos-trends` branch keeps them until the next day's run).
 Slots (Europe/Berlin): **15:47, 19:17, 22:47** (US late morning → evening; offset from the facts channel).
 Call `getScheduledPosts` for brand 7782808 first and skip slots already booked (never double-book);
 if a slot is already past, use the next free one ≥ 20 min from now. Confirm PENDING.

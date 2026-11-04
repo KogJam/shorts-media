@@ -75,7 +75,7 @@ Re-render broken ones (delete `out/<id>.mp4` and `final/<id>.mp4`; cached `work/
 First `getScheduledPosts` for 7781434 for the whole window – never double-book, keep ≥ 90 min between any two posts.
 Limits across ALL campaigns: **YouTube ≤ 6 posts/day, TikTok ≤ 3/day** (new account). Spread a campaign's clips evenly
 until its end date (best clips first; exact end = aria-label of the button under "Ends" on the campaign page, e.g. "November 06, 2026, 15:11:00"; last post ≥ 24 h before the end), slots in **US prime time: 20:00–03:00 Europe/Berlin** (e.g. 22:07 and 02:07; English audience), odd minutes.
-Post fields: `providers` youtube (+ tiktok if allowed and under the limit), `autoPublish: true`,
+Post fields: `providers` **youtube only – never tiktok** (auto TikTok posts got 0 views; the user posts TikTok by hand from the download links in the report), `autoPublish: true`,
 `text` = hook + 1-sentence caption + required @mention/caption + FTC hashtag + 5–7 niche hashtags (+ #fyp on TikTok),
 `youtubeData {title ≤ 90 chars incl. FTC hashtag, type "short", privacy "public", madeForKids false, category fitting,
 isAiGeneratedContent false}`, `tiktokData {privacyOption "PUBLIC_TO_EVERYONE", commercialContentThirdParty true,
@@ -93,6 +93,7 @@ Update `vyro/campaigns.json`, commit + push main (never videos, keys or work dir
 1. **Neue Kampagnen** – per campaign: name, Rate, Budget-Rest, Ende, Einschätzung Ja/Vielleicht/Nein + 1 Satz Grund
    + Link. „Tritt bei, was du willst – ich mache den Rest beim nächsten Lauf.“
 2. **Produziert & eingeplant** – campaign, number of clips, posting window.
-3. **Zum Einreichen in Vyro** – the links from step 6 (YouTube + TikTok per clip). Reminder: in YouTube Studio
+3. **Für TikTok (manuell)** – the 2–3 best new clips of the run with raw download links (videos-<slug> branch).
+4. **Zum Einreichen in Vyro** – the links from step 6 (YouTube + TikTok per clip). Reminder: in YouTube Studio
    „Bezahlte Werbung“ ankreuzen.
 4. Problems (login needed, blocked domain, failed render/post).
