@@ -1,0 +1,164 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-christmas-creep",
+ "hook": "Early Christmas is 143 years OLD",
+ "title": "People Have Complained About Early Christmas Since 1883 #shorts",
+ "description": "Christmas shows up in November and everyone says it gets earlier every year. People said exactly that back in 1883, and retailers even got Thanksgiving moved.\n\nFollow for what's trending, explained!\n\n#christmas #history #holidays #christmascreep #shorts",
+ "tags": [
+  "christmas",
+  "christmas creep",
+  "why is christmas so early",
+  "franksgiving",
+  "thanksgiving history",
+  "holiday shopping",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Halloween is barely over, and Christmas is already in the stores.",
+   "clip_id": 183458,
+   "inset_id": 187728,
+   "inset_x": 0.7,
+   "inset_y": 0.46,
+   "inset_delay": 1.6,
+   "inset_tilt": 6,
+   "punch": "ALREADY?",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/397fe70867eaedf3.mp4",
+   "inset_path": "/root/.cache/shorts_clips/2bcb1a59e2f0b8bd.mp4"
+  },
+  {
+   "say": "Everyone says it starts earlier every year. They've been saying that for 143 years.",
+   "clip_id": 29504,
+   "number": {
+    "value": 143,
+    "suffix": " years",
+    "label": "OF THE SAME COMPLAINT",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/db5864c9e6d90a35.mp4"
+  },
+  {
+   "say": "In 1883, a Washington newspaper wrote that the holiday trade seems to begin earlier every year.",
+   "clip_id": 11186,
+   "punch": "1883",
+   "punch_y": 0.62,
+   "punch_delay": 0.4,
+   "items": [
+    {
+     "emoji": "📰",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/0327701e54e292ee.mp4"
+  },
+  {
+   "say": "In 1913, a South Dakota paper saw decorations going up before the July Fourth flags came down.",
+   "clip_id": 3565,
+   "punch": "IN JULY?!",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "clip_path": "/root/.cache/shorts_clips/20331a946df2c71f.mp4"
+  },
+  {
+   "say": "Then, in 1939, retailers asked the president for a favor.",
+   "clip_id": 12876,
+   "items": [
+    {
+     "emoji": "🛍️",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/00ae0b7ef86558df.mp4"
+  },
+  {
+   "say": "Thanksgiving fell on November 30, leaving too few shopping days.",
+   "clip_id": 24114,
+   "number": {
+    "value": 30,
+    "prefix": "Nov ",
+    "label": "TOO LATE FOR RETAILERS",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/ef2699a9ceeb545c.mp4"
+  },
+  {
+   "say": "So Roosevelt moved it one week earlier.",
+   "clip_id": 140476,
+   "items": [
+    {
+     "emoji": "🦃",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.24,
+     "anim": "bounce",
+     "delay": 0.4
+    }
+   ],
+   "punch": "ONE WEEK EARLIER",
+   "punch_y": 0.64,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/26b1426428c164c3.mp4"
+  },
+  {
+   "say": "Critics called it Franksgiving, and 22 states kept the old date anyway.",
+   "clip_id": 6387,
+   "punch": "FRANKSGIVING",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/8b5867701a693144.mp4"
+  },
+  {
+   "say": "The creep never stopped, because when one store starts early, the next one starts earlier.",
+   "clip_id": 12513,
+   "inset_id": 1887,
+   "inset_x": 0.5,
+   "inset_y": 0.42,
+   "inset_delay": 0.6,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/dba3f700593ebef0.mp4",
+   "inset_path": "/root/.cache/shorts_clips/53240c610748560f.mp4"
+  },
+  {
+   "say": "And shoppers go along with it. This year, 43 percent planned to start before November.",
+   "clip_id": 1006,
+   "number": {
+    "value": 43,
+    "suffix": "%",
+    "label": "START BEFORE NOVEMBER",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/37afa4b12a34dbaa.mp4"
+  },
+  {
+   "say": "So if early Christmas annoys you, relax. Complaining about it is a tradition too.",
+   "clip_id": 143497,
+   "punch": "A TRADITION",
+   "punch_y": 0.66,
+   "punch_delay": 3.4,
+   "items": [
+    {
+     "emoji": "🎄",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.22,
+     "anim": "grow",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/b93d3ee6bf11056e.mp4"
+  }
+ ],
+ "credits": []
+}

@@ -1,0 +1,174 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-deer-headlights",
+ "hook": "Deer don't freeze from FEAR",
+ "title": "Why Deer Really Freeze in Headlights #shorts",
+ "description": "Deer in the headlights look terrified, but fear probably isn't the reason they stop. Their amazing night vision is what turns against them.\n\nFollow for what's trending, explained!\n\n#deer #animals #nature #science #shorts",
+ "tags": [
+  "deer",
+  "why deer freeze in headlights",
+  "deer in the headlights",
+  "deer vision",
+  "animal facts",
+  "flash blindness",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "A deer freezing in your headlights looks terrified. But it probably isn't fear.",
+   "clip_id": 256065,
+   "inset_id": 312758,
+   "inset_x": 0.68,
+   "inset_y": 0.46,
+   "inset_delay": 0.4,
+   "inset_tilt": 6,
+   "punch": "NOT FEAR",
+   "punch_y": 0.66,
+   "punch_delay": 3.2,
+   "clip_path": "/root/.cache/shorts_clips/2960d6c10936ce72.mp4",
+   "inset_path": "/root/.cache/shorts_clips/c982ca3662160a4b.mp4"
+  },
+  {
+   "say": "The best explanation is that, for a few seconds, the deer simply cannot see.",
+   "clip_id": 304819,
+   "punch": "CAN'T SEE",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/8c77b6babf25999a.mp4"
+  },
+  {
+   "say": "Deer are built for dawn and dusk, when light is scarce.",
+   "clip_id": 323450,
+   "items": [
+    {
+     "emoji": "🌅",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/d47eb753fcce39f3.mp4"
+  },
+  {
+   "say": "Their wide pupils gather much more light than yours.",
+   "clip_id": 102917,
+   "items": [
+    {
+     "emoji": "👁️",
+     "x": 0.3,
+     "y": 0.38,
+     "size": 0.17,
+     "anim": "pop",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8569625d045d5435.mp4"
+  },
+  {
+   "say": "Their eyes are packed with rods, the cells that work in dim light.",
+   "clip_id": 159318,
+   "clip_path": "/root/.cache/shorts_clips/fba27bbad7e4f8cc.mp4"
+  },
+  {
+   "say": "And behind the retina sits a mirror like layer. Light bounces back, so the eye uses it twice.",
+   "clip_id": 190280,
+   "number": {
+    "value": 2,
+    "suffix": "x",
+    "label": "SAME LIGHT, USED TWICE",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/8a8671291d747e03.mp4"
+  },
+  {
+   "say": "At twilight, deer see about 18 times better than you do.",
+   "clip_id": 133684,
+   "number": {
+    "value": 18,
+    "suffix": "x",
+    "label": "BETTER AT TWILIGHT",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/4a2a7e6dc6e22dc0.mp4"
+  },
+  {
+   "say": "Now add a car. Bright headlights hit eyes that are wide open.",
+   "clip_id": 370404,
+   "items": [
+    {
+     "emoji": "🚗",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "zoom",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7fcab81810594c9b.mp4"
+  },
+  {
+   "say": "All that light floods the rods at once. It is called flash blindness.",
+   "clip_id": 1042,
+   "punch": "FLASH BLINDNESS",
+   "punch_y": 0.64,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/5ad89c35cc482369.mp4"
+  },
+  {
+   "say": "The light sensing pigment breaks down, and it rebuilds slowly.",
+   "clip_id": 6456,
+   "inset_id": 92653,
+   "inset_x": 0.5,
+   "inset_y": 0.42,
+   "inset_delay": 0.5,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/63065328882d643e.mp4",
+   "inset_path": "/root/.cache/shorts_clips/65037ea0b35c1cc9.mp4"
+  },
+  {
+   "say": "So the road, the car, and every way out just vanish.",
+   "clip_id": 254449,
+   "punch": "GONE",
+   "punch_y": 0.64,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/36bfd6a8c9847fac.mp4"
+  },
+  {
+   "say": "The deer stops, because it has no idea where to run.",
+   "clip_id": 13023,
+   "punch": "NOWHERE TO RUN",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/31ce09b010dea5f9.mp4"
+  },
+  {
+   "say": "Here's the twist. It freezes because its eyes are too good.",
+   "clip_id": 200081,
+   "punch": "TOO GOOD",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/0854fe73a1e8bc41.mp4"
+  }
+ ],
+ "credits": [
+  "izhar-ahamed (Pixabay): https://pixabay.com/videos/id-256065/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-312758/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-304819/",
+  "Mac_Kru (Pixabay): https://pixabay.com/videos/id-323450/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-102917/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-159318/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-190280/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-133684/",
+  "doktorkleinmusic (Pixabay): https://pixabay.com/videos/id-370404/",
+  "Coverr-Free-Footage (Pixabay): https://pixabay.com/videos/id-1042/",
+  "FindingFootage (Pixabay): https://pixabay.com/videos/id-6456/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-92653/",
+  "adege (Pixabay): https://pixabay.com/videos/id-254449/",
+  "dianakuehn30010 (Pixabay): https://pixabay.com/videos/id-13023/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-200081/"
+ ]
+}

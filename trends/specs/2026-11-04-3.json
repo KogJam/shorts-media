@@ -1,0 +1,168 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-placebo-buttons",
+ "hook": "This button might be FAKE",
+ "title": "The Elevator Close Button Is Often Fake #shorts",
+ "description": "You press it, the doors close, and you feel like you did that. Often you didn't. Elevators, crosswalks and thermostats all have placebo controls.\n\nFollow for what's trending, explained!\n\n#elevator #psychology #placebo #didyouknow #shorts",
+ "tags": [
+  "elevator",
+  "close door button",
+  "placebo buttons",
+  "crosswalk button",
+  "illusion of control",
+  "psychology facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "That elevator close button you keep pressing? It may do absolutely nothing.",
+   "clip_id": 171138,
+   "punch": "NOTHING",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "items": [
+    {
+     "emoji": "👆",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.2,
+     "anim": "pulse",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/99334c54452d99c4.mp4"
+  },
+  {
+   "say": "We all jab it anyway, hoping the doors will hurry up.",
+   "clip_id": 3735,
+   "items": [
+    {
+     "emoji": "😤",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/039c838b9ebebc3d.mp4"
+  },
+  {
+   "say": "But in America, a 1990 disability law changed the rules.",
+   "clip_id": 203864,
+   "punch": "1990",
+   "punch_y": 0.64,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/dd3e1ad48c49e5e6.mp4"
+  },
+  {
+   "say": "New elevator doors must stay open for at least 3 seconds, so everyone has time to get in.",
+   "clip_id": 67483,
+   "number": {
+    "value": 3,
+    "suffix": " sec",
+    "label": "MINIMUM OPEN TIME",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/158ba904eb8543c8.mp4"
+  },
+  {
+   "say": "So on many elevators, the button is disabled, or does nothing until that time is up.",
+   "clip_id": 3190,
+   "clip_path": "/root/.cache/shorts_clips/d1fbf3ab7bf8c334.mp4"
+  },
+  {
+   "say": "Yet the button stayed on the panel. And it isn't alone.",
+   "clip_id": 6389,
+   "punch": "NOT ALONE",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/ed757a4204fef982.mp4"
+  },
+  {
+   "say": "In 2004, a report found more than 2500 of New York's 3250 crosswalk buttons did nothing.",
+   "clip_id": 98177,
+   "number": {
+    "value": 2500,
+    "suffix": "+",
+    "label": "DEAD CROSSWALK BUTTONS",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/0b641833cd09e23b.mp4"
+  },
+  {
+   "say": "Many signals simply run on timers, whether you push or not.",
+   "clip_id": 98176,
+   "inset_id": 37844,
+   "inset_x": 0.68,
+   "inset_y": 0.44,
+   "inset_delay": 0.5,
+   "inset_tilt": 6,
+   "clip_path": "/root/.cache/shorts_clips/a37ac42307b0a2f6.mp4",
+   "inset_path": "/root/.cache/shorts_clips/d6b20a6465137fac.mp4"
+  },
+  {
+   "say": "Some office thermostats are dummies too, and let workers feel in charge of the temperature.",
+   "clip_id": 8252,
+   "inset_id": 42014,
+   "inset_x": 0.5,
+   "inset_y": 0.42,
+   "inset_delay": 0.6,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/c8d0828c6de02ee9.mp4",
+   "inset_path": "/root/.cache/shorts_clips/b4b8272a6d2cbfb7.mp4"
+  },
+  {
+   "say": "Psychologists call this the illusion of control.",
+   "clip_id": 1383,
+   "punch": "ILLUSION OF CONTROL",
+   "punch_y": 0.64,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/8c3d7238a5ec0bf0.mp4"
+  },
+  {
+   "say": "Feeling in control can lower your stress, even when nothing changes.",
+   "clip_id": 1057,
+   "items": [
+    {
+     "emoji": "😌",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/3dcba8c9e26a816f.mp4"
+  },
+  {
+   "say": "Doing something just feels better than doing nothing.",
+   "clip_id": 1048,
+   "punch": "FEELS BETTER",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/25b587304bfc9975.mp4"
+  },
+  {
+   "say": "So go ahead and press it. The doors were closing anyway, but you get the credit.",
+   "clip_id": 362909,
+   "punch": "YOU DID THAT",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "items": [
+    {
+     "emoji": "🏆",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "bounce",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/bced87b6ce593f17.mp4"
+  }
+ ],
+ "credits": []
+}
