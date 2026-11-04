@@ -1,0 +1,134 @@
+{
+ "id": "butterflies-taste-with-feet",
+ "hook": "Butterflies TASTE with their feet",
+ "title": "Butterflies Taste With Their Feet #shorts",
+ "description": "Butterflies have taste sensors on their feet, so they can taste a plant just by landing on it. Females use them to find the right leaf for their eggs. Follow for a new fact every day!\n\n#facts #butterfly #animals #nature #shorts",
+ "tags": [
+  "butterfly",
+  "butterfly facts",
+  "animal facts",
+  "insects",
+  "nature facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Butterflies can taste a flower just by standing on it.",
+   "clip_id": 15341,
+   "items": [
+    {
+     "emoji": "🦋",
+     "x": 0.5,
+     "y": 0.34,
+     "size": 0.18,
+     "anim": "bounce",
+     "delay": 0.2
+    }
+   ],
+   "punch": "FEET!",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/f78a5a320c48d207.mp4"
+  },
+  {
+   "say": "Their feet are covered in tiny taste sensors.",
+   "clip_id": 134590,
+   "inset_id": 12060,
+   "inset_y": 0.42,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "TASTE SENSORS",
+   "punch_y": 0.68,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/41ba58f4af745d93.mp4",
+   "inset_path": "/root/.cache/shorts_clips/42059f6739ef9a2f.mp4"
+  },
+  {
+   "say": "You taste with your tongue, but they taste with their legs.",
+   "clip_id": 102404,
+   "items": [
+    {
+     "emoji": "👅",
+     "x": 0.3,
+     "y": 0.36,
+     "size": 0.18,
+     "anim": "pop",
+     "delay": 0.5,
+     "cross": true
+    },
+    {
+     "emoji": "🦵",
+     "x": 0.7,
+     "y": 0.36,
+     "size": 0.18,
+     "anim": "pop",
+     "delay": 1.7
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/843d9543b7dd6719.mp4"
+  },
+  {
+   "say": "When a female lands on a leaf, she drums on it with her feet.",
+   "clip_id": 133191,
+   "punch": "DRUM DRUM",
+   "punch_y": 0.67,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/a6949d969f02e6e9.mp4"
+  },
+  {
+   "say": "That tells her what kind of plant she is standing on.",
+   "clip_id": 129960,
+   "items": [
+    {
+     "emoji": "🌿",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.2,
+     "anim": "pulse",
+     "delay": 0.6
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/a6367a4f43018e14.mp4"
+  },
+  {
+   "say": "Many caterpillars can only eat a few kinds of plants.",
+   "clip_id": 2104,
+   "inset_id": 286401,
+   "inset_y": 0.42,
+   "inset_delay": 1.2,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/91740038740d5139.mp4",
+   "inset_path": "/root/.cache/shorts_clips/f3128256ac488445.mp4"
+  },
+  {
+   "say": "So she lays her eggs only where her babies can eat.",
+   "clip_id": 87999,
+   "items": [
+    {
+     "emoji": "🥚",
+     "x": 0.3,
+     "y": 0.34,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 1.0
+    }
+   ],
+   "punch": "RIGHT LEAF",
+   "punch_y": 0.68,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/f4cb50a01ad2b794.mp4"
+  }
+ ],
+ "voice": "am_michael",
+ "credits": [
+  "kieutruongphoto (Pixabay): https://pixabay.com/videos/id-15341/",
+  "Eduardo_Mo (Pixabay): https://pixabay.com/videos/id-134590/",
+  "Nawalescape (Pixabay): https://pixabay.com/videos/id-12060/",
+  "ChristianBodhi (Pixabay): https://pixabay.com/videos/id-102404/",
+  "MabelAmber (Pixabay): https://pixabay.com/videos/id-133191/",
+  "MabelAmber (Pixabay): https://pixabay.com/videos/id-129960/",
+  "fififum (Pixabay): https://pixabay.com/videos/id-2104/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-286401/",
+  "BlenderTimer (Pixabay): https://pixabay.com/videos/id-87999/"
+ ]
+}

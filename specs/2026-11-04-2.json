@@ -1,0 +1,117 @@
+{
+ "id": "sunlight-8-minutes-old",
+ "hook": "Sunlight is 8 MINUTES old",
+ "title": "The Sunlight on Your Face Is 8 Minutes Old #shorts",
+ "description": "Light from the Sun needs about 8 minutes and 20 seconds to reach Earth. The energy inside it spent thousands of years escaping the Sun first. Follow for a new fact every day!\n\n#facts #space #sun #science #shorts",
+ "tags": [
+  "sun",
+  "sunlight",
+  "space facts",
+  "speed of light",
+  "science facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "The sunlight on your face is already 8 minutes old.",
+   "clip_id": 59291,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "pulse",
+     "delay": 0.2
+    }
+   ],
+   "punch": "8 MINUTES",
+   "punch_y": 0.68,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/3d2859ea68258395.mp4"
+  },
+  {
+   "say": "That is because the Sun is about 150 million kilometers away.",
+   "clip_id": 41559,
+   "number": {
+    "value": 150000000,
+    "prefix": "",
+    "suffix": " km",
+    "label": "from the Sun",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/d5a457bec2c710f8.mp4"
+  },
+  {
+   "say": "Light is the fastest thing there is, and it still needs 8 minutes and 20 seconds.",
+   "clip_id": 15299,
+   "punch": "8 MIN 20 SEC",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "items": [
+    {
+     "emoji": "⚡",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.17,
+     "anim": "pop",
+     "delay": 0.5
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/4ac091abe7009006.mp4"
+  },
+  {
+   "say": "If the Sun vanished, we would not notice for 8 minutes.",
+   "clip_id": 61159,
+   "clip_start": 6,
+   "items": [
+    {
+     "emoji": "🌍",
+     "x": 0.5,
+     "y": 0.68,
+     "size": 0.14,
+     "anim": "float",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7544568b872f84ba.mp4"
+  },
+  {
+   "say": "But the real trip started long before that, deep inside the Sun.",
+   "clip_id": 159409,
+   "punch": "DEEP INSIDE",
+   "punch_y": 0.5,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/e411672c7ff0d227.mp4"
+  },
+  {
+   "say": "The energy in sunlight takes thousands of years to escape to the surface.",
+   "clip_id": 160401,
+   "punch": "THOUSANDS OF YEARS",
+   "punch_y": 0.6,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/e5058d8c7d2637b7.mp4"
+  },
+  {
+   "say": "Then it crosses space to you in just 8 minutes.",
+   "clip_id": 382582,
+   "inset_id": 201404,
+   "inset_y": 0.42,
+   "inset_delay": 0.6,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/761deaefbe10b4c5.mp4",
+   "inset_path": "/root/.cache/shorts_clips/aa380b6dbee13d58.mp4"
+  }
+ ],
+ "voice": "am_michael",
+ "credits": [
+  "trilemedia (Pixabay): https://pixabay.com/videos/id-59291/",
+  "GodrayTV (Pixabay): https://pixabay.com/videos/id-41559/",
+  "RPXStudio (Pixabay): https://pixabay.com/videos/id-15299/",
+  "BlenderTimer (Pixabay): https://pixabay.com/videos/id-61159/",
+  "mrpixel000 (Pixabay): https://pixabay.com/videos/id-159409/",
+  "UniverseUnique (Pixabay): https://pixabay.com/videos/id-160401/",
+  "Matthias_Groeneveld (Pixabay): https://pixabay.com/videos/id-382582/",
+  "Nerd_Nonsense (Pixabay): https://pixabay.com/videos/id-201404/"
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "id": "babies-have-more-bones",
+ "hook": "Babies have MORE bones",
+ "title": "Babies Have Almost 100 More Bones Than Adults #shorts",
+ "description": "A newborn starts life with nearly 300 bones, but an adult has only 206. The bones never vanish, they slowly grow together. Follow for a new fact every day!\n\n#facts #humanbody #science #bones #shorts",
+ "tags": [
+  "human body",
+  "bones",
+  "baby facts",
+  "skeleton",
+  "biology facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Babies have almost 100 more bones than adults.",
+   "clip_id": 84705,
+   "items": [
+    {
+     "emoji": "🦴",
+     "x": 0.82,
+     "y": 0.26,
+     "size": 0.16,
+     "anim": "bounce",
+     "delay": 0.3
+    }
+   ],
+   "punch": "100 MORE",
+   "punch_y": 0.68,
+   "punch_delay": 1.2,
+   "inset_id": 73613,
+   "inset_y": 0.42,
+   "inset_delay": 0.2,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/31864305681d360e.mp4",
+   "inset_path": "/root/.cache/shorts_clips/9b79186c94de12f9.mp4"
+  },
+  {
+   "say": "A newborn starts life with nearly 300 bones.",
+   "clip_id": 85007,
+   "number": {
+    "value": 300,
+    "prefix": "",
+    "suffix": "",
+    "label": "bones at birth",
+    "y": 0.55
+   },
+   "clip_path": "/root/.cache/shorts_clips/b3285cc0e9db5f47.mp4"
+  },
+  {
+   "say": "But a grown adult has only 206.",
+   "clip_id": 304265,
+   "number": {
+    "value": 206,
+    "prefix": "",
+    "suffix": "",
+    "label": "bones as an adult",
+    "y": 0.55
+   },
+   "clip_path": "/root/.cache/shorts_clips/7a28f1ac9522ca97.mp4"
+  },
+  {
+   "say": "None of them disappear. They slowly join together as you grow.",
+   "clip_id": 49812,
+   "punch": "THEY JOIN",
+   "punch_y": 0.68,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/d43fcb2e6af1d0ea.mp4"
+  },
+  {
+   "say": "A baby's skull is made of separate plates with soft gaps.",
+   "clip_id": 84709,
+   "items": [
+    {
+     "emoji": "👶",
+     "x": 0.78,
+     "y": 0.34,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 0.6
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/19f5c5b1f9190e5d.mp4"
+  },
+  {
+   "say": "Those gaps help the head pass through birth and keep growing.",
+   "clip_id": 85006,
+   "inset_id": 170134,
+   "inset_y": 0.42,
+   "inset_delay": 0.8,
+   "inset_tilt": 4,
+   "clip_path": "/root/.cache/shorts_clips/6e5aec6fe5c9de70.mp4",
+   "inset_path": "/root/.cache/shorts_clips/e0eb5eab73ee801b.mp4"
+  },
+  {
+   "say": "Your skeleton is not fully finished until around age 25.",
+   "clip_id": 133143,
+   "bars": [
+    {
+     "label": "Newborn",
+     "value": 300,
+     "show": "~300",
+     "emoji": "👶"
+    },
+    {
+     "label": "Adult",
+     "value": 206,
+     "show": "206",
+     "emoji": "🧑"
+    }
+   ],
+   "bars_y": 0.4,
+   "clip_path": "/root/.cache/shorts_clips/0176defb9d14e06e.mp4"
+  }
+ ],
+ "voice": "am_michael",
+ "credits": [
+  "NickiAnimations (Pixabay): https://pixabay.com/videos/id-84705/",
+  "ravinems (Pixabay): https://pixabay.com/videos/id-73613/",
+  "NickiAnimations (Pixabay): https://pixabay.com/videos/id-85007/",
+  "DEZYNE_3D (Pixabay): https://pixabay.com/videos/id-304265/",
+  "Hassas_Arts (Pixabay): https://pixabay.com/videos/id-49812/",
+  "NickiAnimations (Pixabay): https://pixabay.com/videos/id-84709/",
+  "NickiAnimations (Pixabay): https://pixabay.com/videos/id-85006/",
+  "fernando_Batista35 (Pixabay): https://pixabay.com/videos/id-170134/",
+  "patw64 (Pixabay): https://pixabay.com/videos/id-133143/"
+ ]
+}

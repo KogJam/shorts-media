@@ -1,0 +1,130 @@
+{
+ "id": "bamboo-grows-a-meter-a-day",
+ "hook": "Bamboo grows 1 METER a day",
+ "title": "Bamboo Can Grow Almost 1 Meter in a Single Day #shorts",
+ "description": "Some bamboo species can grow about 91 centimeters in 24 hours, the fastest of any plant. And bamboo is not a tree, it is a giant grass. Follow for a new fact every day!\n\n#facts #nature #bamboo #plants #shorts",
+ "tags": [
+  "bamboo",
+  "plant facts",
+  "nature facts",
+  "fastest growing plant",
+  "grass",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Bamboo can grow almost 1 meter in a single day.",
+   "clip_id": 281801,
+   "punch": "1 METER",
+   "punch_y": 0.68,
+   "punch_delay": 1.6,
+   "items": [
+    {
+     "emoji": "🎋",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "grow",
+     "delay": 0.3
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8c8f2adf9cbe0446.mp4"
+  },
+  {
+   "say": "That makes it the fastest growing plant on Earth.",
+   "clip_id": 163405,
+   "items": [
+    {
+     "emoji": "🏆",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/e6295cb442a7a413.mp4"
+  },
+  {
+   "say": "Some kinds shoot up 91 centimeters in just 24 hours.",
+   "clip_id": 253831,
+   "number": {
+    "value": 91,
+    "prefix": "",
+    "suffix": " cm",
+    "label": "in one day",
+    "y": 0.55
+   },
+   "clip_path": "/root/.cache/shorts_clips/221541fbfcfd7d92.mp4"
+  },
+  {
+   "say": "That is nearly 4 centimeters every single hour.",
+   "clip_id": 281818,
+   "punch": "4 CM AN HOUR",
+   "punch_y": 0.5,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/e2ab998cd8b6c1bc.mp4"
+  },
+  {
+   "say": "And here is the surprise. Bamboo is not a tree.",
+   "clip_id": 259416,
+   "items": [
+    {
+     "emoji": "🌳",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.22,
+     "anim": "shake",
+     "delay": 1.6,
+     "cross": true
+    }
+   ],
+   "punch": "NOT A TREE",
+   "punch_y": 0.68,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/ec268508a77fcfdb.mp4"
+  },
+  {
+   "say": "It is a giant grass, from the same family as your lawn.",
+   "clip_id": 188912,
+   "inset_id": 361912,
+   "inset_y": 0.42,
+   "inset_delay": 1.4,
+   "inset_tilt": -5,
+   "punch": "GIANT GRASS",
+   "punch_y": 0.68,
+   "punch_delay": 0.6,
+   "clip_path": "/root/.cache/shorts_clips/067324dfec927463.mp4",
+   "inset_path": "/root/.cache/shorts_clips/e2d0bc17419c4073.mp4"
+  },
+  {
+   "say": "Giant pandas can spend over 10 hours a day eating it.",
+   "clip_id": 137015,
+   "items": [
+    {
+     "emoji": "🐼",
+     "x": 0.5,
+     "y": 0.34,
+     "size": 0.18,
+     "anim": "bounce",
+     "delay": 0.4
+    }
+   ],
+   "punch": "10 HOURS",
+   "punch_y": 0.68,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/c4e7900ab984cd59.mp4"
+  }
+ ],
+ "voice": "am_michael",
+ "credits": [
+  "bahyudinnor (Pixabay): https://pixabay.com/videos/id-281801/",
+  "小划 (Pixabay): https://pixabay.com/videos/id-163405/",
+  "PrimePixels (Pixabay): https://pixabay.com/videos/id-253831/",
+  "bahyudinnor (Pixabay): https://pixabay.com/videos/id-281818/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-259416/",
+  "BlenderTimer (Pixabay): https://pixabay.com/videos/id-188912/",
+  "BlenderTimer (Pixabay): https://pixabay.com/videos/id-361912/",
+  "素君 (Pixabay): https://pixabay.com/videos/id-137015/"
+ ]
+}
