@@ -1,0 +1,117 @@
+{
+ "id": "saturn-would-float",
+ "hook": "Saturn would FLOAT in water",
+ "title": "Saturn Would Float in a Big Enough Bathtub #shorts",
+ "description": "Saturn is the only planet in our solar system less dense than water. It is a thought experiment, since a ball of gas would never hold together in a tub, but the numbers are real. Follow for a new fact every day!\n\n#facts #space #saturn #planets #shorts",
+ "tags": [
+  "saturn",
+  "space facts",
+  "planets",
+  "solar system",
+  "density",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Saturn is so light for its size, it would float in water.",
+   "clip_id": 161333,
+   "inset_id": 33221,
+   "inset_y": 0.5,
+   "inset_delay": 1.6,
+   "inset_tilt": -5,
+   "punch": "IT WOULD FLOAT",
+   "punch_y": 0.7,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/f25e8ee0685b0164.mp4",
+   "inset_path": "/root/.cache/shorts_clips/0101b6588aa4cea2.mp4"
+  },
+  {
+   "say": "And yet it is the second biggest planet in our solar system.",
+   "clip_id": 74916,
+   "punch": "SECOND BIGGEST",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/88f6730dfe6b66ce.mp4"
+  },
+  {
+   "say": "You could fit about 760 Earths inside it.",
+   "clip_id": 2118,
+   "number": {
+    "value": 760,
+    "prefix": "",
+    "suffix": "",
+    "label": "Earths inside Saturn",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/78b8a982e15b8774.mp4"
+  },
+  {
+   "say": "But Saturn is mostly hydrogen and helium, the lightest gases there are.",
+   "clip_id": 218740,
+   "items": [
+    {
+     "emoji": "🎈",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.17,
+     "anim": "rise",
+     "delay": 0.6
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6553431dbd8b80bc.mp4"
+  },
+  {
+   "say": "On average, it is only about 70 percent as dense as water.",
+   "clip_id": 208635,
+   "bars": [
+    {
+     "label": "Water",
+     "value": 100,
+     "show": "100%",
+     "emoji": "💧"
+    },
+    {
+     "label": "Saturn",
+     "value": 70,
+     "show": "70%",
+     "emoji": "🪐"
+    }
+   ],
+   "bars_y": 0.42,
+   "clip_path": "/root/.cache/shorts_clips/1b1b8faba741047d.mp4"
+  },
+  {
+   "say": "So in a big enough bathtub, this giant would bob on top.",
+   "clip_id": 233867,
+   "items": [
+    {
+     "emoji": "🪐",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.25,
+     "anim": "float",
+     "delay": 0.4
+    }
+   ],
+   "punch": "BATHTUB",
+   "punch_y": 0.66,
+   "punch_delay": 1.5,
+   "clip_path": "/root/.cache/shorts_clips/a31b8d890ed7a6d8.mp4"
+  },
+  {
+   "say": "The tub would just need to be almost 10 Earths wide.",
+   "clip_id": 223763,
+   "inset_id": 4782,
+   "inset_y": 0.38,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "punch": "10 EARTHS WIDE",
+   "punch_y": 0.68,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/443c15ac4aa2cf55.mp4",
+   "inset_path": "/root/.cache/shorts_clips/60d7a96072eeaec7.mp4"
+  }
+ ],
+ "voice": "am_michael",
+ "credits": []
+}

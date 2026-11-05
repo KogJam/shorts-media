@@ -1,0 +1,133 @@
+{
+ "id": "hummingbird-heart-1200",
+ "hook": "A heart that beats 1,200 TIMES",
+ "title": "A Hummingbird's Heart Beats 1,200 Times a Minute #shorts",
+ "description": "A hummingbird's heart can beat more than 1,200 times a minute, and its wings can flap up to 80 times a second. They are also the only birds that can truly fly backwards. Follow for a new fact every day!\n\n#facts #animals #hummingbird #birds #shorts",
+ "tags": [
+  "hummingbird",
+  "bird facts",
+  "animal facts",
+  "nature facts",
+  "heart rate",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "A hummingbird's heart can beat over twelve hundred times a minute.",
+   "clip_id": 227759,
+   "items": [
+    {
+     "emoji": "❤️",
+     "x": 0.62,
+     "y": 0.34,
+     "size": 0.16,
+     "anim": "pulse",
+     "delay": 0.3
+    }
+   ],
+   "punch": "1,200 BEATS",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/59c0cfd4e9199c95.mp4"
+  },
+  {
+   "say": "Yours beats about 70 times a minute when you sit still.",
+   "clip_id": 92600,
+   "bars": [
+    {
+     "label": "You",
+     "value": 70,
+     "show": "70",
+     "emoji": "🧍"
+    },
+    {
+     "label": "Hummingbird",
+     "value": 1200,
+     "show": "1,200",
+     "emoji": "🐦"
+    }
+   ],
+   "bars_y": 0.42,
+   "clip_path": "/root/.cache/shorts_clips/c059925a85232ab2.mp4"
+  },
+  {
+   "say": "Its wings can flap up to 80 times every single second.",
+   "clip_id": 263434,
+   "punch": "80 PER SECOND",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/1308067280fad4df.mp4"
+  },
+  {
+   "say": "That blur of wings is where the humming sound comes from.",
+   "clip_id": 84863,
+   "inset_id": 110462,
+   "inset_y": 0.42,
+   "inset_delay": 0.5,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "👂",
+     "x": 0.8,
+     "y": 0.62,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 0.3
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/1998858b27cf1a21.mp4",
+   "inset_path": "/root/.cache/shorts_clips/ce4c042de1c16077.mp4"
+  },
+  {
+   "say": "They are the only birds that can truly fly backwards.",
+   "clip_id": 227759,
+   "items": [
+    {
+     "emoji": "⬅️",
+     "x": 0.3,
+     "y": 0.32,
+     "size": 0.15,
+     "anim": "swim_left",
+     "delay": 0.8
+    }
+   ],
+   "punch": "BACKWARDS",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_start": 4,
+   "clip_path": "/root/.cache/shorts_clips/59c0cfd4e9199c95.mp4"
+  },
+  {
+   "say": "All that flying burns so much fuel, they visit hundreds of flowers a day.",
+   "clip_id": 73848,
+   "inset_id": 180811,
+   "inset_y": 0.4,
+   "inset_delay": 0.6,
+   "inset_tilt": 5,
+   "punch": "HUNDREDS",
+   "punch_y": 0.68,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/c10669d21e4373e9.mp4",
+   "inset_path": "/root/.cache/shorts_clips/fa5303e94b473971.mp4"
+  },
+  {
+   "say": "At night, they slow their heart right down to save energy.",
+   "clip_id": 374660,
+   "items": [
+    {
+     "emoji": "😴",
+     "x": 0.68,
+     "y": 0.36,
+     "size": 0.16,
+     "anim": "float",
+     "delay": 0.5
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/95f34a31cf4d6c84.mp4"
+  }
+ ],
+ "voice": "am_michael",
+ "credits": [
+  "yuvi7078 (Pixabay): https://pixabay.com/videos/id-227759/"
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "id": "ice-floats-fish-survive",
+ "hook": "Ice should actually SINK",
+ "title": "Why Ice Floats, and How It Saves Fish Every Winter #shorts",
+ "description": "Water expands by about 9 percent when it freezes, so ice floats and lakes freeze from the top down. That frozen lid keeps the deep water liquid, and fish survive the winter below it. Follow for a new fact every day!\n\n#facts #science #water #nature #shorts",
+ "tags": [
+  "science facts",
+  "ice",
+  "water",
+  "why ice floats",
+  "lakes in winter",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Most solids sink in their own liquid, but ice floats.",
+   "clip_id": 47614,
+   "punch": "ICE FLOATS",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/d249780aaf1e9f00.mp4"
+  },
+  {
+   "say": "When water freezes, it spreads out and takes up about 9 percent more space.",
+   "clip_id": 21,
+   "clip_start": 30,
+   "punch": "9% MORE SPACE",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/c4c21124806b778b.mp4"
+  },
+  {
+   "say": "Its molecules lock into an open pattern, with tiny gaps between them.",
+   "clip_id": 3147,
+   "items": [
+    {
+     "emoji": "❄️",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.2,
+     "anim": "spin",
+     "delay": 0.4
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/55796ad73e0947fa.mp4"
+  },
+  {
+   "say": "That makes ice lighter than the water below it.",
+   "clip_id": 47615,
+   "clip_path": "/root/.cache/shorts_clips/10cf9bebb869b63a.mp4",
+   "items": [
+    {
+     "emoji": "🧊",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.18,
+     "anim": "float",
+     "delay": 0.4
+    }
+   ],
+   "punch": "LIGHTER",
+   "punch_y": 0.64,
+   "punch_delay": 1.0
+  },
+  {
+   "say": "So lakes freeze from the top down, not from the bottom up.",
+   "clip_id": 3146,
+   "punch": "TOP DOWN",
+   "punch_y": 0.62,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/d44fe82e1247ee77.mp4"
+  },
+  {
+   "say": "The ice acts like a lid, keeping the water under it liquid.",
+   "clip_id": 254850,
+   "items": [
+    {
+     "emoji": "🧊",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.17,
+     "anim": "drop",
+     "delay": 0.5
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/acc27b995b27cf08.mp4"
+  },
+  {
+   "say": "Deep down it stays near 4 degrees, and fish live through the winter.",
+   "clip_id": 237729,
+   "inset_id": 130224,
+   "inset_y": 0.42,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "🐟",
+     "x": 0.2,
+     "y": 0.62,
+     "size": 0.13,
+     "anim": "swim",
+     "delay": 1.6
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8863c2666fb67922.mp4",
+   "inset_path": "/root/.cache/shorts_clips/b669982748a0ba6d.mp4"
+  }
+ ],
+ "voice": "am_michael",
+ "credits": []
+}

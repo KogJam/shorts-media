@@ -1,0 +1,104 @@
+{
+ "id": "greenland-vs-africa-maps",
+ "hook": "Your world map is LYING",
+ "title": "Africa Is 14 Times Bigger Than Greenland (Maps Lie) #shorts",
+ "description": "On many world maps Greenland looks about as big as Africa, but Africa is around 14 times larger. The stretch comes from the Mercator style of map from 1569, made for sailors. Follow for a new fact every day!\n\n#facts #geography #maps #africa #shorts",
+ "tags": [
+  "geography facts",
+  "mercator projection",
+  "world map",
+  "greenland",
+  "africa",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "On many world maps, Greenland looks about as big as Africa.",
+   "clip_id": 236897,
+   "inset_id": 29722,
+   "inset_y": 0.4,
+   "inset_delay": 0.6,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/6fbc6962abb96bb2.mp4",
+   "inset_path": "/root/.cache/shorts_clips/012d7f7d219e061b.mp4"
+  },
+  {
+   "say": "In reality, Africa is about 14 times bigger.",
+   "clip_id": 70877,
+   "number": {
+    "value": 14,
+    "prefix": "",
+    "suffix": "x",
+    "label": "bigger than Greenland",
+    "y": 0.45
+   },
+   "clip_path": "/root/.cache/shorts_clips/c3cefa680ea6c834.mp4"
+  },
+  {
+   "say": "Greenland covers about 2 million square kilometers.",
+   "clip_id": 213424,
+   "punch": "2 MILLION",
+   "punch_y": 0.62,
+   "punch_delay": 1.2,
+   "clip_path": "/root/.cache/shorts_clips/965b308e8132f837.mp4"
+  },
+  {
+   "say": "Africa covers about 30 million.",
+   "clip_id": 234016,
+   "bars": [
+    {
+     "label": "Greenland",
+     "value": 2,
+     "show": "2 million km²",
+     "emoji": "🧊"
+    },
+    {
+     "label": "Africa",
+     "value": 30,
+     "show": "30 million km²",
+     "emoji": "🌍"
+    }
+   ],
+   "bars_y": 0.42,
+   "clip_path": "/root/.cache/shorts_clips/6f29534ff571f73f.mp4"
+  },
+  {
+   "say": "The trick comes from a map style made in fifteen sixty nine for sailors.",
+   "clip_id": 30088,
+   "inset_id": 236893,
+   "inset_y": 0.42,
+   "inset_delay": 1.2,
+   "inset_tilt": 5,
+   "punch": "1569",
+   "punch_y": 0.68,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/4b8fe91e70fb7cf7.mp4",
+   "inset_path": "/root/.cache/shorts_clips/bf7621ea18667ed4.mp4"
+  },
+  {
+   "say": "Flattening a round planet stretches everything near the poles.",
+   "clip_id": 74822,
+   "punch": "STRETCHED",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/3f4a54939e2adf4e.mp4"
+  },
+  {
+   "say": "So Greenland swells up, while Africa, on the equator, keeps its true size.",
+   "clip_id": 4788,
+   "items": [
+    {
+     "emoji": "🌍",
+     "x": 0.5,
+     "y": 0.68,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 1.8
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2218288a55a4e696.mp4"
+  }
+ ],
+ "voice": "am_michael",
+ "credits": []
+}
