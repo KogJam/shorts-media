@@ -1,0 +1,196 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-24-frames",
+ "hook": "Movies don't actually MOVE",
+ "title": "Why Movies Run at 24 Frames: It Was a Budget Decision #shorts",
+ "description": "Every film you've ever seen runs at 24 frames a second, and that number has nothing to do with science. It came from sound and the price of film.\n\nFollow for what's trending, explained!\n\n#movies #filmhistory #cinema #24fps #shorts",
+ "tags": [
+  "24 fps",
+  "why movies are 24 frames per second",
+  "film history",
+  "frame rate",
+  "cinema",
+  "movie facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Nothing in a movie actually moves. You're looking at still photos.",
+   "clip_id": 55248,
+   "inset_id": 3451,
+   "inset_x": 0.68,
+   "inset_y": 0.46,
+   "inset_delay": 1.8,
+   "inset_tilt": 6,
+   "punch": "STILL PHOTOS",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/9ebc9ee8ae89710d.mp4",
+   "inset_path": "/root/.cache/shorts_clips/6c1c66a3b50cdf77.mp4"
+  },
+  {
+   "say": "24 of them, every single second. A two hour film is over 170,000 pictures.",
+   "clip_id": 5129,
+   "number": {
+    "value": 172800,
+    "label": "PICTURES IN 2 HOURS",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/8683619c8eb3cc52.mp4"
+  },
+  {
+   "say": "Your brain fills the gaps and invents the motion.",
+   "clip_id": 55196,
+   "items": [
+    {
+     "emoji": "🧠",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.22,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/e736e12b971d9217.mp4"
+  },
+  {
+   "say": "So who picked 24? You might think scientists found the perfect number. They didn't.",
+   "clip_id": 1823,
+   "punch": "WHY 24?",
+   "punch_y": 0.62,
+   "punch_delay": 0.4,
+   "clip_path": "/root/.cache/shorts_clips/1cb4520e8dc0760c.mp4"
+  },
+  {
+   "say": "In the silent era, there was no standard. Camera operators cranked the film by hand.",
+   "clip_id": 136726,
+   "items": [
+    {
+     "emoji": "✋",
+     "x": 0.72,
+     "y": 0.56,
+     "size": 0.17,
+     "anim": "shake",
+     "delay": 1.5,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ee511b5a54870455.mp4"
+  },
+  {
+   "say": "Speeds ran from about 14 to 26 frames a second.",
+   "clip_id": 9597,
+   "number": {
+    "value": 26,
+    "prefix": "14 to ",
+    "label": "FRAMES A SECOND",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/154d2585ee37966f.mp4"
+  },
+  {
+   "say": "Then sound arrived, and everything changed.",
+   "clip_id": 57307,
+   "punch": "SOUND",
+   "punch_y": 0.62,
+   "punch_delay": 0.9,
+   "clip_path": "/root/.cache/shorts_clips/6ed61dfd8e891c9f.mp4"
+  },
+  {
+   "say": "Your eyes forgive a wobbly speed, but your ears don't. Voices turned strange if the film drifted.",
+   "clip_id": 38388,
+   "items": [
+    {
+     "emoji": "👂",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.2,
+     "anim": "pulse",
+     "delay": 1.5,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/bdbfe9fcd52df84e.mp4"
+  },
+  {
+   "say": "So in the late 1920s, the studios needed one fixed speed.",
+   "clip_id": 54604,
+   "inset_id": 63842,
+   "inset_x": 0.68,
+   "inset_y": 0.44,
+   "inset_delay": 1.0,
+   "inset_tilt": -6,
+   "clip_path": "/root/.cache/shorts_clips/dfe69858dbd2c3c1.mp4",
+   "inset_path": "/root/.cache/shorts_clips/8cd6a14759f95c42.mp4"
+  },
+  {
+   "say": "Faster looked and sounded better, but film was expensive. 24 was the cheapest speed that still sounded good.",
+   "clip_id": 30852,
+   "items": [
+    {
+     "emoji": "💸",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.22,
+     "anim": "drop",
+     "delay": 1.5,
+     "cross": false
+    }
+   ],
+   "punch": "CHEAPEST",
+   "punch_y": 0.66,
+   "punch_delay": 3.2,
+   "clip_path": "/root/.cache/shorts_clips/72ae6e97f870c818.mp4"
+  },
+  {
+   "say": "That's it. A budget decision from about 100 years ago.",
+   "clip_id": 144961,
+   "punch": "BUDGET",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "clip_path": "/root/.cache/shorts_clips/c48a87dcc05233af.mp4"
+  },
+  {
+   "say": "Later, a 2012 blockbuster tried 48, and critics said it looked too real.",
+   "clip_id": 190117,
+   "number": {
+    "value": 48,
+    "label": "FRAMES: TOO REAL?",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/842b04a7c7b4d2f0.mp4"
+  },
+  {
+   "say": "So that dreamy movie look? Basically an old cost cut we all got used to.",
+   "clip_id": 320,
+   "inset_id": 2793,
+   "inset_x": 0.5,
+   "inset_y": 0.46,
+   "inset_delay": 1.5,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/47b41ac5d5547fd0.mp4",
+   "inset_path": "/root/.cache/shorts_clips/f0f4f16e8d633d1d.mp4"
+  }
+ ],
+ "credits": [
+  "tommyvideo (Pixabay): https://pixabay.com/videos/id-55248/",
+  "Nova_27 (Pixabay): https://pixabay.com/videos/id-3451/",
+  "tommyvideo (Pixabay): https://pixabay.com/videos/id-5129/",
+  "tommyvideo (Pixabay): https://pixabay.com/videos/id-55196/",
+  "HeLLuX (Pixabay): https://pixabay.com/videos/id-1823/",
+  "zillurrahman1 (Pixabay): https://pixabay.com/videos/id-136726/",
+  "artista_sk (Pixabay): https://pixabay.com/videos/id-9597/",
+  "padrinan (Pixabay): https://pixabay.com/videos/id-57307/",
+  "Matthias_Groeneveld (Pixabay): https://pixabay.com/videos/id-38388/",
+  "tommyvideo (Pixabay): https://pixabay.com/videos/id-54604/",
+  "videoplasty (Pixabay): https://pixabay.com/videos/id-63842/",
+  "SamuelFJohanns (Pixabay): https://pixabay.com/videos/id-30852/",
+  "Mjm31 (Pixabay): https://pixabay.com/videos/id-144961/",
+  "u_dtemfv9uhm (Pixabay): https://pixabay.com/videos/id-190117/",
+  "Vimeo-Free-Videos (Pixabay): https://pixabay.com/videos/id-320/",
+  "jLasWilson (Pixabay): https://pixabay.com/videos/id-2793/"
+ ]
+}

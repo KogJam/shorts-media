@@ -1,0 +1,202 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-grapes-plasma",
+ "hook": "Two grapes make PLASMA",
+ "title": "Why Grapes Turn Into Plasma in the Microwave #shorts",
+ "description": "A cut grape in a microwave throws sparks, and for years everyone blamed the skin. Physicists tested it with skinless water beads and found the real reason.\n\nFollow for what's trending, explained!\n\n#science #physics #plasma #grapes #shorts",
+ "tags": [
+  "grapes in microwave",
+  "microwave plasma",
+  "why do grapes spark",
+  "plasma",
+  "physics",
+  "science explained",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Cut a grape almost in half, put it in a microwave, and seconds later it throws sparks.",
+   "clip_id": 42861,
+   "inset_id": 376436,
+   "inset_x": 0.68,
+   "inset_y": 0.46,
+   "inset_delay": 1.6,
+   "inset_tilt": 6,
+   "punch": "SPARKS",
+   "punch_y": 0.66,
+   "punch_delay": 3.4,
+   "clip_path": "/root/.cache/shorts_clips/de6bec836a9a3572.mp4",
+   "inset_path": "/root/.cache/shorts_clips/e0bc607a522249f3.mp4"
+  },
+  {
+   "say": "That glowing fireball is plasma, the same state of matter as lightning and the Sun.",
+   "clip_id": 40743,
+   "punch": "PLASMA",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "clip_path": "/root/.cache/shorts_clips/1ed9dfc855c5a075.mp4"
+  },
+  {
+   "say": "For years, the internet blamed the grape's thin skin.",
+   "clip_id": 376435,
+   "items": [
+    {
+     "emoji": "🍇",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/f6fa12e617733315.mp4"
+  },
+  {
+   "say": "Then, in 2019, three physicists in Canada tested it with thermal cameras.",
+   "clip_id": 197483,
+   "punch": "2019",
+   "punch_y": 0.62,
+   "punch_delay": 0.5,
+   "clip_path": "/root/.cache/shorts_clips/5e942f0394f15913.mp4"
+  },
+  {
+   "say": "They swapped grapes for skinless water beads, and the hot spots still appeared.",
+   "clip_id": 120306,
+   "items": [
+    {
+     "emoji": "💧",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.22,
+     "anim": "bounce",
+     "delay": 0.5,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c390c50c38c36934.mp4"
+  },
+  {
+   "say": "So the skin was never the secret. The secret is the water.",
+   "clip_id": 98064,
+   "punch": "THE WATER",
+   "punch_y": 0.62,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/d91a4a8fa70b6a18.mp4"
+  },
+  {
+   "say": "A microwave's wave is about 10 times wider than a grape, so a grape should barely notice it.",
+   "clip_id": 142815,
+   "number": {
+    "value": 10,
+    "suffix": "x",
+    "label": "WIDER THAN A GRAPE",
+    "y": 0.5
+   },
+   "clip_path": "/root/.cache/shorts_clips/c66da06eb853f5f9.mp4"
+  },
+  {
+   "say": "But water squeezes those waves down, so they get trapped inside the grape.",
+   "clip_id": 229254,
+   "inset_id": 179344,
+   "inset_x": 0.32,
+   "inset_y": 0.46,
+   "inset_delay": 1.2,
+   "inset_tilt": -6,
+   "clip_path": "/root/.cache/shorts_clips/6e21f2b955741af0.mp4",
+   "inset_path": "/root/.cache/shorts_clips/fd82b26a59569fd8.mp4"
+  },
+  {
+   "say": "Put two grapes side by side, and the energy piles up in the tiny gap between them.",
+   "clip_id": 117191,
+   "items": [
+    {
+     "emoji": "🍇",
+     "x": 0.3,
+     "y": 0.42,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    },
+    {
+     "emoji": "🍇",
+     "x": 0.7,
+     "y": 0.42,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    },
+    {
+     "emoji": "⚡",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.15,
+     "anim": "pulse",
+     "delay": 2.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c2e7ac6bc749893f.mp4"
+  },
+  {
+   "say": "It gets so intense that electrons rip off the air molecules, and the air itself starts to glow.",
+   "clip_id": 30158,
+   "punch": "AIR GLOWS",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/fcb4a0491ded2035.mp4"
+  },
+  {
+   "say": "The twist: a later study says it's really charge building up until a spark jumps. Physicists still argue.",
+   "clip_id": 37582,
+   "items": [
+    {
+     "emoji": "🤔",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 3.5,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/be0c99ad865cde2f.mp4"
+  },
+  {
+   "say": "A fruit just made tiny lightning. Just don't try it, it can ruin your microwave.",
+   "clip_id": 28067,
+   "items": [
+    {
+     "emoji": "⚠️",
+     "x": 0.5,
+     "y": 0.62,
+     "size": 0.17,
+     "anim": "pulse",
+     "delay": 3.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/bb2fa882b703f9a1.mp4"
+  }
+ ],
+ "credits": [
+  "aghyadnajjar (Pixabay): https://pixabay.com/videos/id-42861/",
+  "lazarosv (Pixabay): https://pixabay.com/videos/id-376436/",
+  "RoyBuri (Pixabay): https://pixabay.com/videos/id-40743/",
+  "lazarosv (Pixabay): https://pixabay.com/videos/id-376435/",
+  "Roque_dg (Pixabay): https://pixabay.com/videos/id-197483/",
+  "shahfaisalkhan6676 (Pixabay): https://pixabay.com/videos/id-120306/",
+  "bellergy (Pixabay): https://pixabay.com/videos/id-98064/",
+  "31961079 (Pixabay): https://pixabay.com/videos/id-142815/",
+  "u_0m97lsp80x (Pixabay): https://pixabay.com/videos/id-229254/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-179344/",
+  "Placidplace (Pixabay): https://pixabay.com/videos/id-117191/",
+  "charyvideo (Pixabay): https://pixabay.com/videos/id-30158/",
+  "Luis_Humanoide (Pixabay): https://pixabay.com/videos/id-37582/",
+  "Luis_Humanoide (Pixabay): https://pixabay.com/videos/id-28067/"
+ ]
+}

@@ -1,0 +1,209 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-snake-charmer",
+ "hook": "The cobra ignores the MUSIC",
+ "title": "The Cobra Isn't Dancing to the Flute #shorts",
+ "description": "It looks like the snake is swaying to the tune, but snakes have no outer ears and the music isn't what moves them. Here's what the cobra is really following.\n\nFollow for what's trending, explained!\n\n#snakes #cobra #animals #animalfacts #shorts",
+ "tags": [
+  "snake charmer",
+  "cobra",
+  "can snakes hear",
+  "snake facts",
+  "pungi",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "A snake charmer plays his flute, and the cobra rises and sways to the tune. Except it doesn't.",
+   "clip_id": 173139,
+   "items": [
+    {
+     "emoji": "🎵",
+     "x": 0.72,
+     "y": 0.36,
+     "size": 0.15,
+     "anim": "float",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "NOPE",
+   "punch_y": 0.66,
+   "punch_delay": 4.2,
+   "clip_path": "/root/.cache/shorts_clips/470f9b035f68b157.mp4"
+  },
+  {
+   "say": "Snakes have no outer ears at all.",
+   "clip_id": 143409,
+   "items": [
+    {
+     "emoji": "👂",
+     "x": 0.5,
+     "y": 0.6,
+     "size": 0.22,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6d23a06cd1de3ed1.mp4"
+  },
+  {
+   "say": "They feel vibrations through the ground, and a 2023 study showed they do pick up some sound in the air.",
+   "clip_id": 325194,
+   "inset_id": 111135,
+   "inset_x": 0.68,
+   "inset_y": 0.44,
+   "inset_delay": 1.6,
+   "inset_tilt": 6,
+   "clip_path": "/root/.cache/shorts_clips/89c5c67c38cf854f.mp4",
+   "inset_path": "/root/.cache/shorts_clips/f875fd81c44b7374.mp4"
+  },
+  {
+   "say": "But only low notes, roughly below 600 hertz, and probably muffled.",
+   "clip_id": 149469,
+   "number": {
+    "value": 600,
+    "prefix": "under ",
+    "suffix": " Hz",
+    "label": "ALL A SNAKE HEARS",
+    "y": 0.55
+   },
+   "clip_path": "/root/.cache/shorts_clips/37c9b6a128544a7d.mp4"
+  },
+  {
+   "say": "So that melody isn't what moves the cobra.",
+   "clip_id": 220923,
+   "items": [
+    {
+     "emoji": "🎶",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.2,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/db671585b63018b9.mp4"
+  },
+  {
+   "say": "Watch the charmer instead. The flute swings side to side, and so does he.",
+   "clip_id": 1643,
+   "inset_id": 34362,
+   "inset_x": 0.68,
+   "inset_y": 0.46,
+   "inset_delay": 1.2,
+   "inset_tilt": -6,
+   "punch": "WATCH",
+   "punch_y": 0.68,
+   "punch_delay": 0.3,
+   "clip_path": "/root/.cache/shorts_clips/9f3ba3b393459002.mp4",
+   "inset_path": "/root/.cache/shorts_clips/d91a271d17ed3f73.mp4"
+  },
+  {
+   "say": "To the cobra, that moving shape is a threat, like a predator.",
+   "clip_id": 212324,
+   "punch": "THREAT",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/44d70650ed5012ff.mp4"
+  },
+  {
+   "say": "So it rears up, spreads its hood, and follows every move, ready to defend itself.",
+   "clip_id": 331129,
+   "clip_path": "/root/.cache/shorts_clips/d667b9656b8eb9f8.mp4"
+  },
+  {
+   "say": "That's not dancing. That's a frightened animal keeping its eyes on danger.",
+   "clip_id": 210902,
+   "items": [
+    {
+     "emoji": "👀",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.18,
+     "anim": "pulse",
+     "delay": 1.5,
+     "cross": false
+    }
+   ],
+   "punch": "NOT DANCING",
+   "punch_y": 0.66,
+   "punch_delay": 0.5,
+   "clip_path": "/root/.cache/shorts_clips/04b08d5b4d3dce92.mp4"
+  },
+  {
+   "say": "Snakes have been seen following a moving knee or hand with no music at all.",
+   "clip_id": 173405,
+   "items": [
+    {
+     "emoji": "🔇",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.18,
+     "anim": "pop",
+     "delay": 2.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/d4c6a143a8f3faec.mp4"
+  },
+  {
+   "say": "And the charmers? Some removed fangs or venom glands to stay safe.",
+   "clip_id": 163305,
+   "clip_path": "/root/.cache/shorts_clips/663f0c1caf407d96.mp4"
+  },
+  {
+   "say": "India's 1972 wildlife law made it illegal, and today snake charming is nearly gone there.",
+   "clip_id": 8698,
+   "inset_id": 275107,
+   "inset_x": 0.32,
+   "inset_y": 0.46,
+   "inset_delay": 1.5,
+   "inset_tilt": 6,
+   "punch": "1972",
+   "punch_y": 0.68,
+   "punch_delay": 0.6,
+   "clip_path": "/root/.cache/shorts_clips/bc7ec9701023dcc7.mp4",
+   "inset_path": "/root/.cache/shorts_clips/d6558d6ab0d387a1.mp4"
+  },
+  {
+   "say": "The music was always for us. The only audience that could really enjoy it was the crowd.",
+   "clip_id": 89880,
+   "items": [
+    {
+     "emoji": "👏",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.2,
+     "anim": "bounce",
+     "delay": 2.5,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/9fb014fa6dcf3e8f.mp4"
+  }
+ ],
+ "credits": [
+  "FestiMania (Pixabay): https://pixabay.com/videos/id-173139/",
+  "FestiMania (Pixabay): https://pixabay.com/videos/id-143409/",
+  "Thsulemani (Pixabay): https://pixabay.com/videos/id-325194/",
+  "Eaktas06 (Pixabay): https://pixabay.com/videos/id-111135/",
+  "Damnwell_Media (Pixabay): https://pixabay.com/videos/id-149469/",
+  "DavidClode (Pixabay): https://pixabay.com/videos/id-220923/",
+  "Coverr-Free-Footage (Pixabay): https://pixabay.com/videos/id-1643/",
+  "Mixmaster_Andy (Pixabay): https://pixabay.com/videos/id-34362/",
+  "DavidClode (Pixabay): https://pixabay.com/videos/id-212324/",
+  "Masvill (Pixabay): https://pixabay.com/videos/id-331129/",
+  "TatianaTz (Pixabay): https://pixabay.com/videos/id-210902/",
+  "FestiMania (Pixabay): https://pixabay.com/videos/id-173405/",
+  "Eaktas06 (Pixabay): https://pixabay.com/videos/id-163305/",
+  "surendrabhati (Pixabay): https://pixabay.com/videos/id-8698/",
+  "PatternsWorld (Pixabay): https://pixabay.com/videos/id-275107/",
+  "Mehbub7676 (Pixabay): https://pixabay.com/videos/id-89880/"
+ ]
+}
