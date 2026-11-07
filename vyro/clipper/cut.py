@@ -228,7 +228,7 @@ def cut(key, start, end, hook, out, x=0.5, wide=False, hook_dur=3.5, teaser=None
     words = phrases(raw, tag + "_cues.json", dur)
     hook_png(hook, tag + "_hook.png"); tag_png(tag + "_tag.png")
     if wide:  # 4:5 window on blurred full-frame background
-        cap_y = 1640
+        cap_y = int(os.environ.get("CAP_Y", 1640))
         vf = (f"[0:v]split[a][b];[a]scale=-2:{H},crop={W}:{H},boxblur=30:3,eq=brightness=-0.15[bg];"
               f"[b]crop=ih*4/5:ih:(iw-ih*4/5)*{x}:0,scale={W}:{int(W * 5 / 4)}[fg];[bg][fg]overlay=0:{(H - int(W * 5 / 4)) // 2}[v0]")
     else:  # full-screen 9:16 crop around the subject
