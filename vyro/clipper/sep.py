@@ -5,7 +5,8 @@ import sys, subprocess, numpy as np, onnxruntime as ort
 
 N_FFT, HOP, DIM_F, DIM_T, COMP = 7680, 1024, 3072, 256, 1.021
 SR = 44100
-MODEL = "/home/claude/models/UVR-MDX-NET-Voc_FT.onnx"
+import os
+MODEL = os.path.expanduser("~/models/UVR-MDX-NET-Voc_FT.onnx")
 WIN = (0.5 - 0.5 * np.cos(2 * np.pi * np.arange(N_FFT) / N_FFT)).astype(np.float32)  # periodic hann
 
 
