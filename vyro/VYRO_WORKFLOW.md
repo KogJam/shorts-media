@@ -62,13 +62,25 @@ hook only, original untouched – see `vyro/ketone_plan.json` for that style).
 clip with `"peak":"MM:SS"` = most dramatic second → 1.6 s cold-open teaser at the start. Start on action, end on a payoff;
 `"loud_music": true` for clips with little speech. If the speech is someone SINGING a song, set that clip's
 `work/*_cues.json` to `[]` (no lyrics in captions).
-Music: 3–4 original instrumental beds with Lyria, in `music/`:
+Music: see AUDIO RULE below (synth beds only). Old Lyria note, DO NOT USE:
 `cd music && python3 ~/shorts-media/vyro/clipper/gen.py tense "Instrumental only, no vocals. 75 seconds. <mood description>, stays understated under speech."`
 Then `SOURCES=sources.json TAG="@<brand handle>" python3 ~/shorts-media/vyro/clipper/run.py` → `final/<id>.mp4`
 (4:5 window on blurred bg, fixed hook title on top, phrase captions synced to speech with word highlight, profanity
 censored in captions, music ducked under speech, ≤ ~100 MB). Run it in the background; ~3–5 min per clip.
 QA: contact sheet of 4 frames per clip, LOOK at it (hook matches content, captions present & readable, nothing broken).
 Re-render broken ones (delete `out/<id>.mp4` and `final/<id>.mp4`; cached `work/*_cues.json` can be deleted to re-transcribe).
+
+
+### AUDIO RULE (copyright – mandatory)
+Campaign source footage often already contains licensed/claimed background music (e.g. classical recordings registered by
+Brooklyn Classical → YouTube blocked 3 Essential-Wilderness Shorts). So for EVERY clip:
+1. Download the model once: `mkdir -p ~/models && curl -L -o ~/models/UVR-MDX-NET-Voc_FT.onnx https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Voc_FT.onnx`
+2. `python3 ~/shorts-media/vyro/clipper/sep.py out/<id>.mp4 voc/<id>.wav` → speech only (~1.5 min per clip on 2 CPUs).
+3. Ask Gemini on voc/<id>.wav whether any music/singing is still audible; if yes, mute those ranges (or the whole track if
+   there is no speech) – never keep someone singing a song.
+4. Music bed: ONLY beds from `python3 ~/shorts-media/vyro/clipper/synth.py` (music2/tense|epic|quirky.wav, generated from
+   sine tones, no melodies). Do NOT use Lyria/AI music (it imitated classical pieces) and never any downloaded music.
+5. Mix voc + bed with sidechain ducking (like run.py mix(), but with the voc wav as the speech input).
 
 ## 5. Host + schedule (Metricool brand **7781434** = CrackBuddy: YouTube + TikTok)
 `VIDEOS_BRANCH=videos-<slug> python3 ~/shorts-media/publish.py final/*.mp4` → raw GitHub URLs (Metricool copies them).
