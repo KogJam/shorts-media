@@ -1,0 +1,226 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-ladybug-reflex-bleeding",
+ "hook": "Ladybugs BLEED from their knees",
+ "title": "Why Ladybugs Bleed From Their Knees #shorts",
+ "description": "That cute ladybug has a nasty defense: when it's attacked, it squeezes bitter yellow blood out of its leg joints. Here's why it works, and why they're showing up in your house right now.\n\nFollow for what's trending, explained!\n\n#ladybug #insects #animals #animalfacts #shorts",
+ "tags": [
+  "ladybug",
+  "ladybird",
+  "reflex bleeding",
+  "why do ladybugs bleed",
+  "insect facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "That cute ladybug has a gross secret. When it's scared, it bleeds from its knees.",
+   "clip_id": 211056,
+   "items": [
+    {
+     "emoji": "🐞",
+     "x": 0.75,
+     "y": 0.32,
+     "size": 0.15,
+     "anim": "bounce",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "punch": "KNEES",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "clip_path": "/root/.cache/shorts_clips/ab3ba128a9b2bc0f.mp4"
+  },
+  {
+   "say": "It's called reflex bleeding. Grab one, and yellow drops ooze out of its leg joints.",
+   "clip_id": 327193,
+   "items": [
+    {
+     "emoji": "💧",
+     "x": 0.3,
+     "y": 0.36,
+     "size": 0.15,
+     "anim": "drop",
+     "delay": 2.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/48ccc64a3f606662.mp4"
+  },
+  {
+   "say": "That yellow fluid is actually its blood, called hemolymph.",
+   "clip_id": 119059,
+   "inset_id": 120355,
+   "inset_x": 0.7,
+   "inset_y": 0.4,
+   "inset_delay": 1.0,
+   "inset_tilt": 6,
+   "punch": "BLOOD",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/3cf2ac1c1209e019.mp4",
+   "inset_path": "/root/.cache/shorts_clips/d7f42dfe8d544368.mp4"
+  },
+  {
+   "say": "And it's loaded with bitter, smelly chemicals called alkaloids.",
+   "clip_id": 23595,
+   "items": [
+    {
+     "emoji": "🤢",
+     "x": 0.72,
+     "y": 0.32,
+     "size": 0.17,
+     "anim": "shake",
+     "delay": 1.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/eb4217035ffe6fe6.mp4"
+  },
+  {
+   "say": "A bird that grabs one gets a foul mouthful, and learns to leave ladybugs alone.",
+   "clip_id": 284701,
+   "items": [
+    {
+     "emoji": "🐦",
+     "x": 0.25,
+     "y": 0.32,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.4,
+     "cross": false
+    },
+    {
+     "emoji": "🐞",
+     "x": 0.25,
+     "y": 0.5,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/5f43a8df435583c3.mp4"
+  },
+  {
+   "say": "That's what the bright red and black colors mean. They're a warning sign.",
+   "clip_id": 119258,
+   "punch": "DON'T EAT ME",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/d51cb7ba7901309a.mp4"
+  },
+  {
+   "say": "Meanwhile, a seven spot ladybug can eat more than 5,000 aphids in its lifetime.",
+   "clip_id": 138440,
+   "number": {
+    "value": 5000,
+    "prefix": "",
+    "suffix": "+",
+    "label": "aphids in a lifetime",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/ebf055907ff92179.mp4"
+  },
+  {
+   "say": "And they travel. Radar caught ladybugs flying over 1,100 meters high, faster than 60 kilometers per hour.",
+   "clip_id": 106963,
+   "number": {
+    "value": 1100,
+    "prefix": "",
+    "suffix": " m",
+    "label": "high in the sky",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "items": [
+    {
+     "emoji": "🐞",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.14,
+     "anim": "float",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/07e1efea17a37dbd.mp4"
+  },
+  {
+   "say": "Right now, in autumn, they gather by the thousands to sleep through the winter.",
+   "clip_id": 34391,
+   "punch": "THOUSANDS",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/955fda2ce3f41cf4.mp4"
+  },
+  {
+   "say": "Some species move into houses, squeezing into attics, walls and window frames.",
+   "clip_id": 2907,
+   "inset_id": 23903,
+   "inset_x": 0.32,
+   "inset_y": 0.42,
+   "inset_delay": 1.2,
+   "inset_tilt": -6,
+   "items": [
+    {
+     "emoji": "🏠",
+     "x": 0.72,
+     "y": 0.32,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6ab956ae35bbed32.mp4",
+   "inset_path": "/root/.cache/shorts_clips/f2f12ff8a0c359ba.mp4"
+  },
+  {
+   "say": "Their scent can guide other ladybugs to the same spot later.",
+   "clip_id": 123442,
+   "items": [
+    {
+     "emoji": "👃",
+     "x": 0.5,
+     "y": 0.34,
+     "size": 0.15,
+     "anim": "pulse",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8b829fa9fd925edd.mp4"
+  },
+  {
+   "say": "So if you find yellow stains on your windowsill, that's not dirt. That's ladybug blood.",
+   "clip_id": 201965,
+   "punch": "LADYBUG BLOOD",
+   "punch_y": 0.66,
+   "punch_delay": 3.4,
+   "clip_path": "/root/.cache/shorts_clips/808eece74c714759.mp4"
+  },
+  {
+   "say": "Tiny, cute, and armed with chemical knees.",
+   "clip_id": 349455,
+   "items": [
+    {
+     "emoji": "🐞",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.18,
+     "anim": "bounce",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/b74f300c6ef5b63a.mp4"
+  }
+ ]
+}

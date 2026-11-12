@@ -1,0 +1,234 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-snail-thousands-of-teeth",
+ "hook": "Snails have THOUSANDS of teeth",
+ "title": "Snails Have Thousands of Teeth (On Their Tongue) #shorts",
+ "description": "Snails look toothless, but some have up to 15,000 tiny teeth on a ribbon-like tongue. Their sea cousins have the strongest teeth in nature and even a venom harpoon.\n\nFollow for what's trending, explained!\n\n#snail #animals #animalfacts #nature #shorts",
+ "tags": [
+  "snail",
+  "snail teeth",
+  "radula",
+  "limpet",
+  "cone snail",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "A snail looks toothless. It isn't. It has thousands of teeth.",
+   "clip_id": 279940,
+   "items": [
+    {
+     "emoji": "🦷",
+     "x": 0.78,
+     "y": 0.3,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "THOUSANDS",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/ff0d971461b05e57.mp4"
+  },
+  {
+   "say": "Depending on the species, a snail can have 2,000 to 15,000 tiny teeth.",
+   "clip_id": 169471,
+   "number": {
+    "value": 15000,
+    "prefix": "up to ",
+    "label": "teeth in one snail",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/9c1c24519f63c060.mp4"
+  },
+  {
+   "say": "They're not in a jaw like ours. They sit on a ribbon shaped tongue called a radula.",
+   "clip_id": 279691,
+   "punch": "RADULA",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "clip_path": "/root/.cache/shorts_clips/e66b7792e40c1852.mp4"
+  },
+  {
+   "say": "It's covered with dozens of rows of teeth, like a tiny file.",
+   "clip_id": 123530,
+   "items": [
+    {
+     "emoji": "🦷",
+     "x": 0.25,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    },
+    {
+     "emoji": "🦷",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    },
+    {
+     "emoji": "🦷",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/b87810c247007e4a.mp4"
+  },
+  {
+   "say": "The snail pushes it out and scrapes its food, bit by bit.",
+   "clip_id": 169472,
+   "inset_id": 26264,
+   "inset_x": 0.68,
+   "inset_y": 0.42,
+   "inset_delay": 2.8,
+   "inset_tilt": 6,
+   "items": [
+    {
+     "emoji": "🍃",
+     "x": 0.25,
+     "y": 0.34,
+     "size": 0.14,
+     "anim": "float",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/12512b10c2e94189.mp4",
+   "inset_path": "/root/.cache/shorts_clips/212518e2de291ffe.mp4"
+  },
+  {
+   "say": "All that scraping wears the teeth down fast.",
+   "clip_id": 132618,
+   "punch": "WORN OUT",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/95d5259a11787d39.mp4"
+  },
+  {
+   "say": "So, like a shark, it keeps growing new rows to replace them.",
+   "clip_id": 126182,
+   "items": [
+    {
+     "emoji": "🦈",
+     "x": 0.25,
+     "y": 0.32,
+     "size": 0.15,
+     "anim": "swim_left",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/e470510df6b09b27.mp4"
+  },
+  {
+   "say": "Now meet its ocean cousin, the limpet, a sea snail that clings to rocks.",
+   "clip_id": 221870,
+   "items": [
+    {
+     "emoji": "🐚",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.17,
+     "anim": "pop",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/e98151511eb645bd.mp4"
+  },
+  {
+   "say": "In 2015, scientists found its teeth may be the strongest natural material ever tested.",
+   "clip_id": 122640,
+   "punch": "STRONGEST",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/9a3300e9ada62ba3.mp4"
+  },
+  {
+   "say": "Even stronger than spider silk, the old record holder.",
+   "clip_id": 133476,
+   "items": [
+    {
+     "emoji": "🕷️",
+     "x": 0.25,
+     "y": 0.32,
+     "size": 0.13,
+     "anim": "drop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/57a708cb4d41a633.mp4"
+  },
+  {
+   "say": "Each tooth is under a millimeter long, reinforced with an iron mineral called goethite.",
+   "clip_id": 51594,
+   "inset_id": 85446,
+   "inset_x": 0.32,
+   "inset_y": 0.42,
+   "inset_delay": 1.4,
+   "inset_tilt": -6,
+   "clip_path": "/root/.cache/shorts_clips/a09cd8469ed1b6e4.mp4",
+   "inset_path": "/root/.cache/shorts_clips/2e61bf2cb24e5021.mp4"
+  },
+  {
+   "say": "And the cone snail turned its teeth into venom harpoons, fired in under a 10,000th of a second.",
+   "clip_id": 207990,
+   "number": {
+    "value": 100,
+    "prefix": "< ",
+    "suffix": " µs",
+    "label": "to fire the harpoon",
+    "y": 0.55,
+    "delay": 3.2
+   },
+   "items": [
+    {
+     "emoji": "🎯",
+     "x": 0.78,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "zoom",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6eec1b94098cfa82.mp4"
+  },
+  {
+   "say": "So that slow little snail? It's a tongue full of teeth.",
+   "clip_id": 24340,
+   "items": [
+    {
+     "emoji": "🐌",
+     "x": 0.5,
+     "y": 0.6,
+     "size": 0.16,
+     "anim": "swim",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "punch": "ALL TEETH",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "clip_path": "/root/.cache/shorts_clips/fc625fb40724854b.mp4"
+  }
+ ]
+}

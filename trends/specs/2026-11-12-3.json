@@ -1,0 +1,224 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "santorihan (Pixabay): https://pixabay.com/videos/id-272820/",
+  "Hans (Pixabay): https://pixabay.com/videos/id-7093/",
+  "vkhima (Pixabay): https://pixabay.com/videos/id-24072/",
+  "GodrayTV (Pixabay): https://pixabay.com/videos/id-41559/",
+  "AiVreaSaStii (Pixabay): https://pixabay.com/videos/id-135988/",
+  "javlemus (Pixabay): https://pixabay.com/videos/id-24216/",
+  "outlinez (Pixabay): https://pixabay.com/videos/id-4006/",
+  "mrpixel000 (Pixabay): https://pixabay.com/videos/id-159409/",
+  "quimuns (Pixabay): https://pixabay.com/videos/id-7215/",
+  "Radds (Pixabay): https://pixabay.com/videos/id-218828/",
+  "Razzak_100 (Pixabay): https://pixabay.com/videos/id-384789/",
+  "xat-ch (Pixabay): https://pixabay.com/videos/id-111398/",
+  "santorihan (Pixabay): https://pixabay.com/videos/id-259879/"
+ ],
+ "id": "trend-why-tides-two-bulges",
+ "hook": "The ocean LEAVES twice a day",
+ "title": "Why the Ocean Pulls Back Twice a Day #shorts",
+ "description": "Twice a day the sea walks away from the beach and comes back. The Moon is pulling it, and there's a strange second bulge on the far side of Earth.\n\nFollow for what's trending, explained!\n\n#ocean #tides #moon #science #shorts",
+ "tags": [
+  "tides",
+  "why do tides happen",
+  "low tide",
+  "moon",
+  "bay of fundy",
+  "ocean facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Twice a day, the ocean walks away from the beach. Where does it go?",
+   "clip_id": 272820,
+   "items": [
+    {
+     "emoji": "🌊",
+     "x": 0.5,
+     "y": 0.6,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "punch": "WHERE?",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "clip_path": "/root/.cache/shorts_clips/3928aeebac42425e.mp4"
+  },
+  {
+   "say": "It doesn't vanish. It's being pulled by the Moon.",
+   "clip_id": 7093,
+   "items": [
+    {
+     "emoji": "🌙",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.15,
+     "anim": "float",
+     "delay": 1.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/9fcd7e59358ca98a.mp4"
+  },
+  {
+   "say": "The Moon's gravity tugs hardest on the side of Earth facing it, so the ocean bulges that way.",
+   "clip_id": 24072,
+   "items": [
+    {
+     "emoji": "🌕",
+     "x": 0.82,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6bcf5510fdb88bc2.mp4"
+  },
+  {
+   "say": "But here's the weird part. There's a second bulge on the far side.",
+   "clip_id": 41559,
+   "punch": "2 BULGES",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/d5a457bec2c710f8.mp4"
+  },
+  {
+   "say": "Over there, the Moon pulls the water less than Earth, so it gets left behind.",
+   "clip_id": 135988,
+   "items": [
+    {
+     "emoji": "↔️",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.16,
+     "anim": "pulse",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/76f5c4725b5e4901.mp4"
+  },
+  {
+   "say": "As Earth spins through both bulges, most coasts get two high and two low tides.",
+   "clip_id": 24216,
+   "punch": "2 HIGH TIDES",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/3dba7a75fa49be88.mp4"
+  },
+  {
+   "say": "One cycle takes 24 hours and 50 minutes, so tides come almost an hour later each day.",
+   "clip_id": 4006,
+   "number": {
+    "value": 50,
+    "prefix": "24 h ",
+    "suffix": " min",
+    "label": "one full tide cycle",
+    "y": 0.55,
+    "delay": 0.8
+   },
+   "items": [
+    {
+     "emoji": "⏰",
+     "x": 0.5,
+     "y": 0.34,
+     "size": 0.14,
+     "anim": "shake",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/4f3c01d6f738c98c.mp4"
+  },
+  {
+   "say": "The Sun pulls too, but only about 46 percent as hard. It's too far away.",
+   "clip_id": 159409,
+   "number": {
+    "value": 46,
+    "suffix": "%",
+    "label": "of the Moon's tidal pull",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/e411672c7ff0d227.mp4"
+  },
+  {
+   "say": "When Sun and Moon line up, you get extra big spring tides.",
+   "clip_id": 7215,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.25,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "spin",
+     "delay": 0.8,
+     "cross": false
+    },
+    {
+     "emoji": "🌕",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.4,
+     "cross": false
+    }
+   ],
+   "punch": "SPRING TIDES",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/26e1f4f78ef821a7.mp4"
+  },
+  {
+   "say": "In Canada's Bay of Fundy, the water rises and falls about 16 meters. Most tides are about 1 meter.",
+   "clip_id": 218828,
+   "number": {
+    "value": 16,
+    "suffix": " m",
+    "label": "Bay of Fundy tide",
+    "y": 0.55,
+    "delay": 1.8
+   },
+   "clip_path": "/root/.cache/shorts_clips/48afb8cd42d756de.mp4"
+  },
+  {
+   "say": "At low tide, people walk on the ocean floor. Hours later, they kayak there.",
+   "clip_id": 384789,
+   "inset_id": 111398,
+   "inset_x": 0.68,
+   "inset_y": 0.44,
+   "inset_delay": 2.4,
+   "inset_tilt": 6,
+   "items": [
+    {
+     "emoji": "🚶",
+     "x": 0.3,
+     "y": 0.34,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6ab743b86ecf9259.mp4",
+   "inset_path": "/root/.cache/shorts_clips/1707960620868b69.mp4"
+  },
+  {
+   "say": "So the ocean never leaves. The Moon just borrows it.",
+   "clip_id": 259879,
+   "punch": "BORROWED",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/1c49f99fdc69f527.mp4"
+  }
+ ]
+}
