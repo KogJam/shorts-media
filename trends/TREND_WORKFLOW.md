@@ -29,6 +29,13 @@ survival/DIY hacks → *does the hack really work and why*; a viral animal → *
 - Not already in `trends/history.json` (check topic and title). Mix categories over the day.
 - **Verify every fact** with WebSearch (at least one solid source per number). If a fact can't be verified, drop it.
 
+
+**What performs (channel data, Nov 2026):** animal/nature "why does X do that?" Shorts get 5–20× the views
+(birds & chili 1.2k, squirrels 830, dog head tilt 800, snake charming 630). Tech/culture/holiday topics stay < 150.
+→ Make **at least 2 of the 3 daily Shorts animal/nature curiosity questions** ("Why do cats…", "How do crows…",
+"The real reason …") tied to what is trending; the 3rd may be another curious-science topic. Title pattern:
+"Why <Animal> <surprising behaviour>" / "The <Animal> Isn't Really <assumption>".
+
 ## 3. Specs → `trends/specs/<YYYY-MM-DD>-<n>.json`
 Same format as the facts channel (see `WORKFLOW.md` step 2 and `trends/specs/2026-11-01-1.json` as example), plus:
 - `"voice": "bm_george"`, `"speed": 1.1`, `"endcard": "FOLLOW: TRENDS EXPLAINED"`
