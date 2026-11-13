@@ -1,0 +1,252 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-monkey-grooming",
+ "hook": "Monkeys aren't just eating bugs",
+ "title": "Why Monkeys Groom Each Other (It's Not Just Bugs) #shorts",
+ "description": "Monkeys spend hours picking through each other's fur, but cleaning is only part of it. Grooming releases feel-good chemicals, calms them down and works like a currency for friendship.\n\nFollow for what's trending, explained!\n\n#monkey #animals #animalfacts #nature #shorts",
+ "tags": [
+  "monkeys",
+  "why do monkeys groom each other",
+  "monkey grooming",
+  "primates",
+  "animal facts",
+  "animal behavior",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Monkeys spend hours picking through each other's fur. Most people think they're just eating bugs.",
+   "clip_id": 2268,
+   "items": [
+    {
+     "emoji": "🐒",
+     "x": 0.5,
+     "y": 0.33,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 0.2,
+     "cross": false
+    },
+    {
+     "emoji": "🐛",
+     "x": 0.72,
+     "y": 0.42,
+     "size": 0.11,
+     "anim": "pop",
+     "delay": 3.6,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/10f5c0f373f324ea.mp4"
+  },
+  {
+   "say": "They do remove dirt, dead skin and the odd tick. But that's not the main reason.",
+   "clip_id": 146124,
+   "punch": "NOT THE REASON",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "clip_path": "/root/.cache/shorts_clips/53a1ef3461652511.mp4"
+  },
+  {
+   "say": "Grooming is how monkeys make friends.",
+   "clip_id": 108836,
+   "punch": "FRIENDS",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "items": [
+    {
+     "emoji": "🤝",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.14,
+     "anim": "bounce",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/97ff66aad99548ef.mp4"
+  },
+  {
+   "say": "In a 1989 study, endorphins in monkeys rose by up to 186 percent when they got to groom a partner.",
+   "clip_id": 35823,
+   "number": {
+    "value": 186,
+    "prefix": "+",
+    "suffix": "%",
+    "label": "endorphins",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/3389ae76f032a797.mp4"
+  },
+  {
+   "say": "Endorphins are the body's own feel-good chemicals. Being groomed is basically a massage.",
+   "clip_id": 109723,
+   "items": [
+    {
+     "emoji": "😌",
+     "x": 0.72,
+     "y": 0.34,
+     "size": 0.13,
+     "anim": "float",
+     "delay": 2.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/18cf55f52041482f.mp4"
+  },
+  {
+   "say": "It calms them down too. In rhesus macaques, the heart rate slows faster while being groomed.",
+   "clip_id": 211115,
+   "items": [
+    {
+     "emoji": "❤️",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 2.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/5a7fb6a6904af0e6.mp4"
+  },
+  {
+   "say": "And grooming works like money.",
+   "clip_id": 145303,
+   "punch": "SOCIAL MONEY",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "items": [
+    {
+     "emoji": "💰",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.14,
+     "anim": "drop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/9cdcb64953427936.mp4"
+  },
+  {
+   "say": "Chimpanzees are more likely to share food with someone who groomed them earlier that day.",
+   "clip_id": 127591,
+   "inset_id": 134320,
+   "inset_x": 0.68,
+   "inset_y": 0.42,
+   "inset_delay": 2.2,
+   "inset_tilt": 6,
+   "items": [
+    {
+     "emoji": "🍌",
+     "x": 0.3,
+     "y": 0.36,
+     "size": 0.13,
+     "anim": "bounce",
+     "delay": 3.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7b3026f6d793c1ee.mp4",
+   "inset_path": "/root/.cache/shorts_clips/ba8d71777e136731.mp4"
+  },
+  {
+   "say": "Vervet monkeys pay more attention to a call for help from a monkey that just groomed them.",
+   "clip_id": 282232,
+   "items": [
+    {
+     "emoji": "📣",
+     "x": 0.7,
+     "y": 0.34,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/21e5eb94893a2c8f.mp4"
+  },
+  {
+   "say": "Some primates spend up to 20 percent of their whole day grooming.",
+   "clip_id": 180553,
+   "number": {
+    "value": 20,
+    "suffix": "%",
+    "label": "of the day",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/1a11e3fcbb4e36c9.mp4"
+  },
+  {
+   "say": "But there's a limit. With too many friends, there aren't enough hours to groom them all.",
+   "clip_id": 2262,
+   "items": [
+    {
+     "emoji": "⏰",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 1.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c2e1429caccfc006.mp4"
+  },
+  {
+   "say": "Scientist Robin Dunbar argues that's why humans swapped grooming for gossip.",
+   "clip_id": 8252,
+   "inset_id": 167329,
+   "inset_x": 0.66,
+   "inset_y": 0.42,
+   "inset_delay": 1.4,
+   "inset_tilt": -6,
+   "punch": "GOSSIP",
+   "punch_y": 0.66,
+   "punch_delay": 3.4,
+   "clip_path": "/root/.cache/shorts_clips/c8d0828c6de02ee9.mp4",
+   "inset_path": "/root/.cache/shorts_clips/95cd2f8f7c8c47be.mp4"
+  },
+  {
+   "say": "So the next time you chat with a friend, you're kind of grooming them.",
+   "clip_id": 137485,
+   "items": [
+    {
+     "emoji": "💬",
+     "x": 0.3,
+     "y": 0.34,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "GROOMING",
+   "punch_y": 0.66,
+   "punch_delay": 3.2,
+   "clip_path": "/root/.cache/shorts_clips/3c8c93c6d5a8f26b.mp4"
+  }
+ ],
+ "credits": [
+  "InspiredImages (Pixabay): https://pixabay.com/videos/id-2268/",
+  "wisha9211 (Pixabay): https://pixabay.com/videos/id-146124/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-108836/",
+  "powerp540 (Pixabay): https://pixabay.com/videos/id-35823/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-109723/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-211115/",
+  "VanthaSo (Pixabay): https://pixabay.com/videos/id-145303/",
+  "Juncala (Pixabay): https://pixabay.com/videos/id-127591/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-134320/",
+  "rmartinr (Pixabay): https://pixabay.com/videos/id-282232/",
+  "Anwic (Pixabay): https://pixabay.com/videos/id-180553/",
+  "InspiredImages (Pixabay): https://pixabay.com/videos/id-2262/",
+  "Coverr-Free-Footage (Pixabay): https://pixabay.com/videos/id-8252/",
+  "Kanenori (Pixabay): https://pixabay.com/videos/id-167329/",
+  "VanthaSo (Pixabay): https://pixabay.com/videos/id-137485/"
+ ]
+}

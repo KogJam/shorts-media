@@ -1,0 +1,238 @@
+{
+ "voice": "bm_george",
+ "speed": 1.1,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-duck-feet-dont-freeze",
+ "hook": "Ducks stand on ice barefoot",
+ "title": "Why Ducks' Feet Don't Freeze on Ice #shorts",
+ "description": "Ducks can stand on ice for hours with bare feet. The secret is a built-in heat exchanger in their legs that keeps their feet cold but never frozen.\n\nFollow for what's trending, explained!\n\n#ducks #animals #animalfacts #nature #shorts",
+ "tags": [
+  "ducks",
+  "why don't ducks feet freeze",
+  "duck feet",
+  "ducks on ice",
+  "animal facts",
+  "winter animals",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Ducks stand on ice barefoot for hours. So why don't their feet freeze?",
+   "clip_id": 150159,
+   "items": [
+    {
+     "emoji": "🦆",
+     "x": 0.5,
+     "y": 0.33,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 0.2,
+     "cross": false
+    },
+    {
+     "emoji": "🧊",
+     "x": 0.72,
+     "y": 0.42,
+     "size": 0.12,
+     "anim": "drop",
+     "delay": 1.4,
+     "cross": false
+    }
+   ],
+   "punch": "NO FROSTBITE?",
+   "punch_y": 0.66,
+   "punch_delay": 3.4,
+   "clip_path": "/root/.cache/shorts_clips/89877d9b630db876.mp4"
+  },
+  {
+   "say": "A duck's body is a warm 41 degrees Celsius. The ice is zero.",
+   "clip_id": 150161,
+   "number": {
+    "value": 41,
+    "suffix": "°C",
+    "label": "duck body temperature",
+    "y": 0.55,
+    "delay": 0.8
+   },
+   "clip_path": "/root/.cache/shorts_clips/ec76432ba35ee4ba.mp4"
+  },
+  {
+   "say": "If warm blood flowed straight into those feet, the duck would lose heat fast.",
+   "clip_id": 258165,
+   "inset_id": 8625,
+   "inset_x": 0.68,
+   "inset_y": 0.42,
+   "inset_delay": 1.4,
+   "inset_tilt": 6,
+   "clip_path": "/root/.cache/shorts_clips/51ef178706d09a88.mp4",
+   "inset_path": "/root/.cache/shorts_clips/2c83ad6623d911f0.mp4"
+  },
+  {
+   "say": "So ducks use a trick that engineers copy, a heat exchanger.",
+   "clip_id": 35461,
+   "punch": "HEAT EXCHANGER",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "items": [
+    {
+     "emoji": "🔁",
+     "x": 0.5,
+     "y": 0.38,
+     "size": 0.14,
+     "anim": "spin",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6884a0e44b0653db.mp4"
+  },
+  {
+   "say": "In the legs, warm arteries going down run right next to cold veins coming up.",
+   "clip_id": 119018,
+   "items": [
+    {
+     "emoji": "⬇️",
+     "x": 0.35,
+     "y": 0.38,
+     "size": 0.12,
+     "anim": "drop",
+     "delay": 1.2,
+     "cross": false
+    },
+    {
+     "emoji": "⬆️",
+     "x": 0.65,
+     "y": 0.38,
+     "size": 0.12,
+     "anim": "rise",
+     "delay": 2.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/0329d1c4215e301a.mp4"
+  },
+  {
+   "say": "The warm blood hands its heat to the cold blood before it reaches the feet.",
+   "clip_id": 217302,
+   "items": [
+    {
+     "emoji": "🔥",
+     "x": 0.3,
+     "y": 0.34,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 0.6,
+     "cross": false
+    },
+    {
+     "emoji": "❄️",
+     "x": 0.7,
+     "y": 0.34,
+     "size": 0.12,
+     "anim": "spin",
+     "delay": 1.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/104090c73b2d79af.mp4"
+  },
+  {
+   "say": "So the feet stay just above freezing. Cold, but not frozen.",
+   "clip_id": 21,
+   "punch": "COLD, NOT FROZEN",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/c4c21124806b778b.mp4"
+  },
+  {
+   "say": "And the heat goes right back into the body instead of melting the ice.",
+   "clip_id": 82876,
+   "items": [
+    {
+     "emoji": "♻️",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.13,
+     "anim": "spin",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/df422a135f29d617.mp4"
+  },
+  {
+   "say": "In one study, mallards at zero degrees lost only about 5 percent of their body heat through their feet.",
+   "clip_id": 135403,
+   "number": {
+    "value": 5,
+    "suffix": "%",
+    "label": "heat lost through feet",
+    "y": 0.55,
+    "delay": 2.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/692c2fa5390f6d01.mp4"
+  },
+  {
+   "say": "Their feet also have little muscle. Long tendons move the toes from higher up the leg.",
+   "clip_id": 219124,
+   "inset_id": 252729,
+   "inset_x": 0.68,
+   "inset_y": 0.42,
+   "inset_delay": 2.4,
+   "inset_tilt": -6,
+   "clip_path": "/root/.cache/shorts_clips/24b35df3c5c7e259.mp4",
+   "inset_path": "/root/.cache/shorts_clips/57e9f016cec39c51.mp4"
+  },
+  {
+   "say": "Still cold? A duck tucks one foot into its warm feathers and stands on the other.",
+   "clip_id": 252733,
+   "items": [
+    {
+     "emoji": "🦶",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.13,
+     "anim": "bounce",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/f4262f7fc7426284.mp4"
+  },
+  {
+   "say": "So that duck on the frozen pond isn't tough. It just has amazing plumbing.",
+   "clip_id": 265219,
+   "punch": "PLUMBING",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "items": [
+    {
+     "emoji": "🦆",
+     "x": 0.3,
+     "y": 0.34,
+     "size": 0.13,
+     "anim": "swim",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/9620cbe1d7ff3bf8.mp4"
+  }
+ ],
+ "credits": [
+  "Nightwolfone (Pixabay): https://pixabay.com/videos/id-150159/",
+  "Nightwolfone (Pixabay): https://pixabay.com/videos/id-150161/",
+  "santorihan (Pixabay): https://pixabay.com/videos/id-258165/",
+  "KlausHausmann (Pixabay): https://pixabay.com/videos/id-8625/",
+  "motionstock (Pixabay): https://pixabay.com/videos/id-35461/",
+  "마바사 (Pixabay): https://pixabay.com/videos/id-119018/",
+  "brixiv (Pixabay): https://pixabay.com/videos/id-217302/",
+  "DistillVideos (Pixabay): https://pixabay.com/videos/id-21/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-82876/",
+  "oleg_golovin (Pixabay): https://pixabay.com/videos/id-135403/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-219124/",
+  "santorihan (Pixabay): https://pixabay.com/videos/id-252729/",
+  "santorihan (Pixabay): https://pixabay.com/videos/id-252733/",
+  "santorihan (Pixabay): https://pixabay.com/videos/id-265219/"
+ ]
+}
