@@ -62,6 +62,14 @@ category: "ENTERTAINMENT", madeForKids: false, isAiGeneratedContent: false}`.
 **TikTok: NEVER schedule TikTok via Metricool** (auto-posts got 0 views on the new account – the user posts TikTok by hand).
 YouTube only. Put the raw download links of the 3 MP4s in the summary so the user can post the best one on TikTok himself
 (the `videos-trends` branch keeps them until the next day's run).
+
+**Instagram Reels (connected: @storystotellyt on brand 7782808):** for EVERY Short also create a SEPARATE Metricool post
+50 minutes after its YouTube slot (16:37, 20:07, 23:37) with `providers: [{"network":"instagram"}]`,
+`instagramData: {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false}`, the same media URL (use the
+static.metricool.com URL returned by the YouTube post), and an Instagram caption: the description text + 1 fitting emoji,
+"Follow for what's trending, explained!" and 5–6 hashtags ending with #didyouknow #reels (no #shorts, no TikTok tags).
+Check getScheduledPosts so no two Instagram posts are < 30 min apart.
+
 Slots (Europe/Berlin): **15:47, 19:17, 22:47** (US late morning → evening; offset from the facts channel).
 Call `getScheduledPosts` for brand 7782808 first and skip slots already booked (never double-book);
 if a slot is already past, use the next free one ≥ 20 min from now. Confirm PENDING.
