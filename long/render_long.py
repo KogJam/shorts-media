@@ -141,8 +141,12 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     lst = os.path.join(work, "list.txt"); open(lst, "w").write("".join(f"file '{os.path.abspath(s)}'\n" for s in seglist))
     joined = os.path.join(work, "joined.mp4")
     run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", joined])
-    run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined, "-i", wav, "-vf", f"ass={ass_path}", "-map", "0:v", "-map", "1:a",
-         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
+    # final file must stay under GitHub's 100 MB file limit (publish.py hosts it on a branch): 720p, size-capped bitrate
+    max_mb = float(os.environ.get("LONG_MAX_MB", "90"))
+    vk = int(max(700, min(4000, max_mb * 8192 / total - 128)))
+    run(["ffmpeg", "-y", "-loglevel", "error", "-i", joined, "-i", wav, "-vf", f"ass={ass_path},scale=1280:720:flags=lanczos",
+         "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-b:v", f"{vk}k", "-maxrate", f"{int(vk * 1.3)}k",
+         "-bufsize", f"{vk * 2}k", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k", "-ar", "48000",
          "-shortest", "-movflags", "+faststart", out])
     # chapters for the YouTube description
     chap = ["0:00 Intro"] + [f"{int(scenes_s // 60)}:{int(scenes_s % 60):02d} {spec['chapters'][n - 1]['title']}"
