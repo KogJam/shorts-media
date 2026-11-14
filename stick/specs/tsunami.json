@@ -1,0 +1,12 @@
+{"id": "stick-tsunami", "title": "What to do if a tsunami hits", "voice": "bm_lewis", "speed": 1.05,
+ "scenes": [
+  {"act": "hook", "title": ["WHAT IF A", "TSUNAMI HITS?"], "say": "You're on the beach. Suddenly, the ground starts shaking. You might have only minutes."},
+  {"act": "quake", "say": "First, survive the quake. Drop, cover, and hold on."},
+  {"act": "timer", "to": 25, "warn": 20, "say": "If it shook for twenty seconds or more, that's your warning. Don't wait for a siren."},
+  {"act": "recede", "say": "Then the sea pulls back, and you can see the ocean floor."},
+  {"act": "dont", "say": "People walk out to look. Don't. The wave is coming back."},
+  {"act": "run", "m": 30, "say": "Run uphill or inland. Aim for thirty meters up, or about a mile from the shore."},
+  {"act": "building", "badge": "GO UP", "say": "Can't get that far? Go up the highest strong concrete building you can reach."},
+  {"act": "stay", "badge": "HOURS", "say": "Then stay there. The first wave often isn't the biggest, and they can keep coming for hours."},
+  {"act": "calm", "say": "So the next time the beach starts shaking... you'll know exactly what to do."}
+ ]}
