@@ -371,6 +371,141 @@ def act_img(img, t, d, sc):
         badge(pen, 870, 820, f"{int(left // 60)}:{int(left % 60):02d}", RED, 76)
 
 
+# ---------------- cut-out (puppet) animation ----------------
+_spr, _bg = {}, {}
+ASSET = os.environ.get("CART_ASSETS", "out/cart")
+
+
+def spr(name, h, flip=False):
+    k = (name, int(h), flip)
+    if k not in _spr:
+        im = Image.open(os.path.join(ASSET, name + ".png")).convert("RGBA")
+        if flip: im = im.transpose(Image.FLIP_LEFT_RIGHT)
+        r = h * S / im.height; _spr[k] = im.resize((max(1, int(im.width * r)), int(h * S)), Image.LANCZOS)
+    return _spr[k]
+
+
+def put(img, name, cx, by, h, flip=False):
+    """Paste sprite with bottom-centre at (cx, by) in logical px."""
+    s_ = spr(name, h, flip); img.paste(s_, (int(cx * S - s_.width / 2), int(by * S - s_.height)), s_)
+
+
+def bg(img, name, zoom=1.0, fx=0.5, fy=0.5, dx=0, dy=0):
+    """Cover-fit background, zoom>=1, focus fx/fy in 0..1 (pan), dx/dy shake in logical px."""
+    if name not in _bg:
+        im = Image.open(os.path.join(ASSET, name + ".png")).convert("RGB")
+        r = max(W * S * 1.2 / im.width, H * S * 1.2 / im.height); _bg[name] = im.resize((int(im.width * r), int(im.height * r)), Image.LANCZOS)
+    src = _bg[name]
+    cw, ch = W * S * 1.2 / zoom / 1.2 * 1.0, H * S / zoom
+    cw = min(cw, src.width); ch = min(ch, src.height)
+    cx = cw / 2 + (src.width - cw) * fx + dx * S; cy = ch / 2 + (src.height - ch) * fy + dy * S
+    cx = min(max(cx, cw / 2), src.width - cw / 2); cy = min(max(cy, ch / 2), src.height - ch / 2)
+    img.paste(src.resize((W * S, H * S), Image.BILINEAR, box=(cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2)))
+
+
+def blinking(t, seed=0):
+    return ((t + seed * 0.7) % 2.9) < 0.13
+
+
+def overlays(img, t, d, sc):
+    pen = Pen(img)
+    if sc.get("title"):
+        q = ease(t / 0.35)
+        pen.text(540, 150 - (1 - q) * 120, sc["title"][0], 96, fill=(255, 255, 255), stroke=11)
+        pen.text(540, 262 - (1 - q) * 120, sc["title"][1], 96, fill=YEL, stroke=11)
+    if sc.get("badge") and t > 0.3:
+        badge(pen, 540, sc.get("badge_y", 300), sc["badge"], tuple(sc.get("badge_col", RED)), 60)
+    return pen
+
+
+def pebbles(pen, t, n=7, y0=1560, amp=1.0):
+    for i in range(n):
+        x = 120 + i * 140 + 30 * math.sin(i * 3.1)
+        j = abs(math.sin(t * (13 + i) + i)) * 40 * amp
+        pen.circ(x, y0 + (i % 3) * 60 - j, 11 + (i % 2) * 5, fill=(150, 140, 125), outline=INK, w=4)
+
+
+def act_beach(img, t, d, sc):
+    u = t / d; sh0 = sc.get("shake")
+    shaking = sh0 is not None and u >= sh0
+    a = (14 if shaking else 0)
+    dx, dy = a * math.sin(t * 61), a * 0.7 * math.cos(t * 47)
+    bg(img, "bg_beach", 1.0 + 0.05 * u, 0.5, 0.6, dx, dy)
+    pen = Pen(img)
+    if shaking: pebbles(pen, t)
+    bob = 6 * math.sin(t * 2.4)
+    if shaking and sc.get("panic", True):
+        put(img, "you/panic", 540 + dx * 1.5 + 6 * math.sin(t * 30), 1720 + dy, 1050)
+    else:
+        put(img, "you/blink" if blinking(t) else "you/idle", 540 + dx, 1720 + dy + bob * 0.2, 1050 + bob)
+    pen = overlays(img, t, d, sc)
+    if sc.get("countdown") and shaking:
+        left = max(0, sc["countdown"] - (t - d * sh0) * 37)
+        badge(pen, 870, 820, f"{int(left // 60)}:{int(left % 60):02d}", RED, 76)
+
+
+def act_quake(img, t, d, sc):
+    a = 18 * (1 - 0.5 * t / d)
+    dx, dy = a * math.sin(t * 61), a * 0.7 * math.cos(t * 47)
+    bg(img, "bg_beach", 1.08, 0.5, 0.75, dx, dy)
+    pen = Pen(img)
+    for i, (x0, y0) in enumerate([(160, 1500), (760, 1560), (420, 1780)]):     # cracks growing
+        p = ease((t - i * 0.3) / 0.9)
+        if p > 0:
+            pts = [(x0, y0)];
+            for k in range(1, 6): pts.append((x0 + k * 34 * p * (1 if i % 2 else -1) + (18 if k % 2 else -18) * p, y0 + k * 22 * p))
+            pen.line(pts, (60, 45, 30), 9)
+    for i in range(14):                                                         # falling sand/dust
+        x = (i * 83 + 40) % 1080; y = ((t * (420 + i * 30)) + i * 260) % 1900
+        pen.circ(x + dx, y, 6 + i % 4, fill=(225, 205, 160), outline=None)
+    put(img, "you/crouch", 540 + dx * 1.6 + 5 * math.sin(t * 40), 1720 + dy, 760)
+    pebbles(pen, t, amp=1.3)
+    overlays(img, t, d, sc)
+
+
+def act_timer2(img, t, d, sc):
+    bg(img, "bg_beach", 1.03 + 0.04 * t / d, 0.5, 0.6)
+    pen = Pen(img)
+    to, warn = sc.get("to", 25), sc.get("warn", 20)
+    secs = min(to, t / d * to * 1.25); hot = secs >= warn
+    put(img, "you/panic" if hot else ("you/blink" if blinking(t) else "you/idle"), 430 + (5 * math.sin(t * 30) if hot else 0), 1760, 1000)
+    clock(pen, 870, 600, 115, secs / 60, (255, 120, 120) if hot else (255, 255, 255))
+    pen.text(870, 790, f"{int(secs)} SEC", 70, fill=RED if hot else (255, 255, 255), stroke=9)
+    overlays(img, t, d, sc)
+
+
+def act_recede(img, t, d, sc):
+    u = t / d
+    bg(img, "bg_seafloor", 1.12 - 0.1 * ease(u), 0.5, 0.55)
+    pen = Pen(img)
+    if sc.get("wave"):
+        g = ease((u - 0.25) / 0.75)
+        if g > 0: put(img, "obj/wave", 600, 600, 60 + 300 * g)
+    pose = sc.get("pose", "idle")
+    if pose == "panic":
+        put(img, "you/panic", 560 + 6 * math.sin(t * 25), 1780, 980)
+    else:
+        put(img, "you/blink" if blinking(t, 1) else "you/idle", 560, 1780, 980)
+    overlays(img, t, d, sc)
+
+
+def act_run2(img, t, d, sc):
+    u = t / d
+    bg(img, "bg_road", 1.0, 0.1 + 0.8 * u, 1.0)
+    pen = Pen(img)
+    fr = "you/runA" if int(t * 7) % 2 == 0 else "you/runB"
+    b = abs(math.sin(t * 7 * math.pi)) * 26
+    for i in range(4):                                                            # dust puffs
+        q = ((t * 3 + i * 0.25) % 1.0)
+        pen.circ(360 - q * 260, 1810 - q * 40, 14 + q * 34, fill=(205, 195, 175), outline=None)
+    put(img, fr, 540, 1840 - b, 900)
+    overlays(img, t, d, sc)
+    m = sc.get("m", 30); h = min(m, u / 0.85 * m)
+    pen.rect(960, 560, 1030, 1160, (255, 255, 255), INK, 8, 18)
+    pen.rect(968, 1152 - 584 * h / m, 1022, 1152, (40, 170, 80), None, 0, 14)
+    pen.text(995, 510, f"{int(h)} m", 52)
+
+
 ACTS = {k[4:]: v for k, v in globals().items() if k.startswith("act_")}
 
 

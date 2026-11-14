@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """gen_img.py out.png "prompt" [ref.png ...] [--ar 9:16] -- Gemini image generation with optional reference images."""
 import base64, json, os, sys, time, urllib.request
+if "GEMINI_API_KEY" not in os.environ:
+    for l in open(os.path.expanduser("~/.config/shorts/env")):
+        if "=" in l and not l.startswith("#"): k, v = l.strip().split("=", 1); os.environ.setdefault(k.replace("export ", ""), v.strip('"\''))
 KEY = os.environ["GEMINI_API_KEY"]; MODEL = os.environ.get("IMG_MODEL", "gemini-3.1-flash-image")
 STYLE = ("2D flat cartoon illustration in a clean educational-animation style: characters have simple round cream-colored heads, "
          "small dot eyes with short expressive eyebrows, minimal features, thick dark-brown outlines, real clothing drawn simply, "
