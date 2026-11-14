@@ -445,6 +445,17 @@ def render(spec_path, out_path, voice=None):
                        stroke_width=9, stroke_fill=(0, 0, 0))
                 x += (wd + 26) * scale
 
+        # optional affiliate hint (trends channel): small "AD" pill above the endcard during the last ~7 s
+        cta = spec.get("affiliate_cta")
+        if cta and t > total - 7.0:
+            a = ease((t - (total - 7.0)) / 0.4)
+            fc = font(46)
+            txt = "AD · " + cta
+            tw = d.textlength(txt, font=fc)
+            y0 = 1650
+            d.rounded_rectangle([W / 2 - tw / 2 - 30, y0 - 38, W / 2 + tw / 2 + 30, y0 + 38], radius=38, fill=(0, 0, 0, int(170 * a)))
+            text_c(d, (W / 2, y0), txt, fc, (255, 255, 255, int(255 * a)))
+
         # progress bar + flash at scene change
         d.rounded_rectangle([40, 70, 40 + (W - 80) * t / total, 84], radius=7, fill=acc)
         if si > 0 and st < 0.08:

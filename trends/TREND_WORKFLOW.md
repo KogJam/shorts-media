@@ -80,3 +80,15 @@ if a slot is already past, use the next free one ≥ 20 min from now. Confirm PE
 ## 6. Bookkeeping
 Append each Short to `trends/history.json` (`{date, id, title, topic, trend_source, slot}`), commit + push `main`
 (never `out/`, clips or keys). Short German summary to the user via SendUserMessage: titles + times + (if TikTok isn't connected) the 3 download links + problems.
+
+## 7. Affiliate links (only if `trends/affiliate.json` has `"enabled": true` and an `amazon_tag`)
+Skip this whole step while it is disabled. When enabled:
+- Only where it fits naturally (≈1 of 3 Shorts, never forced): pick ONE everyday product type that matches the
+  Short's payoff (cat video → wand cat toy, birds → bird feeder, beavers/nature → binoculars). No medical,
+  supplements, food for animals with health claims, or anything the Short doesn't talk about. Never claim we tested it.
+- Spec: add `"affiliate_cta": "<Product> tip: link in bio"` (≤ 28 chars after "AD · ") – the renderer shows a small
+  "AD · …" pill during the last 7 s. Keep the spoken script unchanged (no sales pitch in the voice).
+- `python3 trends/links.py add <spec id> "<title without #shorts>" "<Product label>" "<amazon search words>"`
+  → updates `docs/index.html` (GitHub Pages link-in-bio page, `page_url` in affiliate.json); commit it with the specs.
+- YouTube description: add a line "🔗 <Product> we mention: link in channel bio (affiliate, #ad)".
+  Instagram caption: add "🔗 Link in bio (affiliate, #ad)" before the hashtags.
