@@ -1,0 +1,183 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-beaver-iron-teeth",
+ "hook": "Beavers have IRON teeth",
+ "title": "Why Beaver Teeth Are Orange (It's Iron) #shorts",
+ "description": "Forget log cabin builds – beavers build with nothing but their teeth. Their orange teeth are packed with iron, and one of their dams is so big it was found on satellite images.\n\nFollow for what's trending, explained!\n\n#beaver #animals #animalfacts #nature #shorts",
+ "tags": [
+  "beaver",
+  "beaver teeth",
+  "why are beaver teeth orange",
+  "beaver dam",
+  "animal facts",
+  "nature",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Beavers have orange teeth, and the color comes from iron.",
+   "clip_id": 65595,
+   "items": [
+    {
+     "emoji": "🦫",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    },
+    {
+     "emoji": "🦷",
+     "x": 0.75,
+     "y": 0.42,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.4,
+     "cross": false
+    }
+   ],
+   "punch": "IRON",
+   "punch_y": 0.66,
+   "punch_delay": 2.6
+  },
+  {
+   "say": "Their tooth enamel is loaded with iron, which makes it extra tough.",
+   "clip_id": 280056,
+   "items": [
+    {
+     "emoji": "🧡",
+     "x": 0.5,
+     "y": 0.33,
+     "size": 0.15,
+     "anim": "pulse",
+     "delay": 1.0,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Their front teeth never stop growing, so they keep chewing wood.",
+   "clip_id": 31473,
+   "punch": "NEVER STOP",
+   "punch_y": 0.66,
+   "punch_delay": 1.6
+  },
+  {
+   "say": "A single beaver can cut down around 200 trees a year.",
+   "clip_id": 31472,
+   "items": [
+    {
+     "emoji": "🌲",
+     "x": 0.5,
+     "y": 0.33,
+     "size": 0.14,
+     "anim": "drop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "number": {
+    "value": 200,
+    "label": "trees per year",
+    "y": 0.55,
+    "delay": 1.8
+   }
+  },
+  {
+   "say": "All that wood builds dams that turn streams into deep ponds.",
+   "clip_id": 174860,
+   "inset_x": 0.7,
+   "inset_y": 0.36,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "🦫",
+     "x": 0.72,
+     "y": 0.34,
+     "size": 0.15,
+     "anim": "swim",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Their lodges sit in that pond, with entrances hidden underwater.",
+   "clip_id": 20890,
+   "items": [
+    {
+     "emoji": "🏠",
+     "x": 0.5,
+     "y": 0.34,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "UNDERWATER",
+   "punch_y": 0.66,
+   "punch_delay": 2.4
+  },
+  {
+   "say": "In winter the deep water doesn't freeze solid, so stored food stays reachable.",
+   "clip_id": 258680,
+   "items": [
+    {
+     "emoji": "❄️",
+     "x": 0.3,
+     "y": 0.32,
+     "size": 0.13,
+     "anim": "float",
+     "delay": 0.4,
+     "cross": false
+    },
+    {
+     "emoji": "🪵",
+     "x": 0.7,
+     "y": 0.32,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 2.8,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "The biggest beaver dam on Earth is about 850 meters long, in Canada.",
+   "clip_id": 86173,
+   "number": {
+    "value": 850,
+    "suffix": " m",
+    "label": "longest beaver dam",
+    "y": 0.55,
+    "delay": 2.0
+   }
+  },
+  {
+   "say": "It's so big it was found on satellite images. All built with iron teeth.",
+   "clip_id": 41559,
+   "inset_id": 280056,
+   "inset_x": 0.3,
+   "inset_y": 0.38,
+   "inset_delay": 2.6,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🛰️",
+     "x": 0.72,
+     "y": 0.3,
+     "size": 0.14,
+     "anim": "orbit",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  }
+ ]
+}

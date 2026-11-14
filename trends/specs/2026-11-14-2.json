@@ -1,0 +1,161 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-panda-carnivore-bamboo",
+ "hook": "A carnivore that eats bamboo?",
+ "title": "Why Pandas Eat Bamboo With a Meat-Eater's Gut #shorts",
+ "description": "Giant pandas are true bears with the gut of a carnivore – yet 99% of what they eat is bamboo. Here's how they survive on a food they can barely digest.\n\nFollow for what's trending, explained!\n\n#panda #animals #animalfacts #nature #shorts",
+ "tags": [
+  "panda",
+  "giant panda",
+  "why do pandas eat bamboo",
+  "panda facts",
+  "animal facts",
+  "bamboo",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "The giant panda is a carnivore. So why does it live on bamboo?",
+   "clip_id": 137015,
+   "items": [
+    {
+     "emoji": "🐼",
+     "x": 0.25,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    },
+    {
+     "emoji": "🎋",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 3.0,
+     "cross": false
+    }
+   ],
+   "punch": "CARNIVORE",
+   "punch_y": 0.66,
+   "punch_delay": 1.2
+  },
+  {
+   "say": "Pandas are true bears, with a gut built for meat.",
+   "clip_id": 89031,
+   "items": [
+    {
+     "emoji": "🥩",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 3.0,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Yet bamboo makes up about 99 percent of their diet.",
+   "clip_id": 272562,
+   "number": {
+    "value": 99,
+    "suffix": "%",
+    "label": "of the diet is bamboo",
+    "y": 0.55,
+    "delay": 1.0
+   }
+  },
+  {
+   "say": "And that meat-eater's gut can only digest around 17 percent of it.",
+   "clip_id": 168896,
+   "number": {
+    "value": 17,
+    "suffix": "%",
+    "label": "actually digested",
+    "y": 0.55,
+    "delay": 1.6
+   }
+  },
+  {
+   "say": "So they make up for it with volume, about 12 kilos of bamboo a day.",
+   "clip_id": 163405,
+   "inset_id": 253831,
+   "inset_x": 0.7,
+   "inset_y": 0.34,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "number": {
+    "value": 12,
+    "suffix": " kg",
+    "label": "of bamboo per day",
+    "y": 0.58,
+    "delay": 2.6
+   }
+  },
+  {
+   "say": "That means chewing for 10 to 12 hours, every single day.",
+   "clip_id": 281801,
+   "items": [
+    {
+     "emoji": "⏱️",
+     "x": 0.5,
+     "y": 0.36,
+     "size": 0.16,
+     "anim": "pulse",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "punch": "12 HOURS",
+   "punch_y": 0.66,
+   "punch_delay": 1.6
+  },
+  {
+   "say": "They even have a fake thumb, an extra-long wrist bone, to grip the stalks.",
+   "clip_id": 136771,
+   "items": [
+    {
+     "emoji": "👍",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "bounce",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "punch": "FAKE THUMB",
+   "punch_y": 0.66,
+   "punch_delay": 1.2
+  },
+  {
+   "say": "Pandas switched to bamboo three million years ago. Their gut never did.",
+   "clip_id": 281818,
+   "inset_id": 81457,
+   "inset_x": 0.3,
+   "inset_y": 0.36,
+   "inset_delay": 1.0,
+   "inset_tilt": -5
+  },
+  {
+   "say": "So the panda is still a meat-eater, just one that lives on bamboo.",
+   "clip_id": 192078,
+   "items": [
+    {
+     "emoji": "🐼",
+     "x": 0.5,
+     "y": 0.33,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 2.0,
+     "cross": false
+    }
+   ]
+  }
+ ]
+}

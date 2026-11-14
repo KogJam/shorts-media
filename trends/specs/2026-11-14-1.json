@@ -1,0 +1,185 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-cats-laser-dots",
+ "hook": "Your cat is HUNTING that laser",
+ "title": "Why Cats Go Crazy for Laser Dots #shorts",
+ "description": "That red dot isn't a toy to your cat – it's prey. Here's why cats can't resist laser pointers, and the one thing vets say you should do after every laser game.\n\nFollow for what's trending, explained!\n\n#cats #catfacts #animals #laserpointer #shorts",
+ "tags": [
+  "cats",
+  "why do cats chase lasers",
+  "laser pointer cat",
+  "cat behavior",
+  "cat facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Your cat isn't playing with that laser dot. It's hunting it.",
+   "clip_id": 143890,
+   "items": [
+    {
+     "emoji": "🔴",
+     "x": 0.62,
+     "y": 0.36,
+     "size": 0.1,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "punch": "HUNTING",
+   "punch_y": 0.66,
+   "punch_delay": 2.6
+  },
+  {
+   "say": "Cats are built to chase anything small and fast, like a mouse.",
+   "clip_id": 131919,
+   "inset_id": 139660,
+   "inset_x": 0.7,
+   "inset_y": 0.36,
+   "inset_delay": 2.0,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "🐭",
+     "x": 0.25,
+     "y": 0.3,
+     "size": 0.14,
+     "anim": "swim",
+     "delay": 2.4,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Their eyes are packed with rod cells, which are super sensitive to motion.",
+   "clip_id": 141630,
+   "items": [
+    {
+     "emoji": "👁️",
+     "x": 0.5,
+     "y": 0.32,
+     "size": 0.15,
+     "anim": "pulse",
+     "delay": 0.5,
+     "cross": false
+    }
+   ],
+   "punch": "MOTION",
+   "punch_y": 0.66,
+   "punch_delay": 3.2
+  },
+  {
+   "say": "So a tiny, darting red dot looks exactly like prey running for cover.",
+   "clip_id": 4216,
+   "items": [
+    {
+     "emoji": "🔴",
+     "x": 0.3,
+     "y": 0.5,
+     "size": 0.09,
+     "anim": "swim",
+     "delay": 0.6,
+     "cross": false
+    },
+    {
+     "emoji": "🏃",
+     "x": 0.72,
+     "y": 0.33,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 2.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "It's the same stalk, crouch and pounce you see in lions and leopards.",
+   "clip_id": 264385,
+   "inset_id": 264361,
+   "inset_x": 0.7,
+   "inset_y": 0.36,
+   "inset_delay": 2.4,
+   "inset_tilt": -5
+  },
+  {
+   "say": "But there's a catch. The dot can never be caught.",
+   "clip_id": 161128,
+   "items": [
+    {
+     "emoji": "🔴",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.14,
+     "anim": "shake",
+     "delay": 1.2,
+     "cross": true
+    }
+   ],
+   "punch": "NO CATCH",
+   "punch_y": 0.66,
+   "punch_delay": 1.4
+  },
+  {
+   "say": "With no reward, some cats get frustrated and even start biting or scratching.",
+   "clip_id": 65438,
+   "items": [
+    {
+     "emoji": "😾",
+     "x": 0.78,
+     "y": 0.3,
+     "size": 0.15,
+     "anim": "shake",
+     "delay": 2.0,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Vets suggest ending every laser game on a real toy your cat can grab.",
+   "clip_id": 179212,
+   "items": [
+    {
+     "emoji": "🪶",
+     "x": 0.3,
+     "y": 0.32,
+     "size": 0.14,
+     "anim": "float",
+     "delay": 1.5,
+     "cross": false
+    },
+    {
+     "emoji": "🧸",
+     "x": 0.7,
+     "y": 0.32,
+     "size": 0.14,
+     "anim": "pop",
+     "delay": 2.4,
+     "cross": false
+    }
+   ],
+   "punch": "REAL TOY",
+   "punch_y": 0.66,
+   "punch_delay": 2.6
+  },
+  {
+   "say": "Let it finish the hunt, because to your cat, that dot was never a game.",
+   "clip_id": 130789,
+   "items": [
+    {
+     "emoji": "🎯",
+     "x": 0.5,
+     "y": 0.33,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ]
+  }
+ ]
+}
