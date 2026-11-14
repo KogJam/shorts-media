@@ -38,7 +38,7 @@ survival/DIY hacks → *does the hack really work and why*; a viral animal → *
 
 ## 3. Specs → `trends/specs/<YYYY-MM-DD>-<n>.json`
 Same format as the facts channel (see `WORKFLOW.md` step 2 and `trends/specs/2026-11-01-1.json` as example), plus:
-- `"voice": "bm_george"`, `"speed": 1.1`, `"endcard": "FOLLOW: TRENDS EXPLAINED"`
+- `"voice": "bm_lewis"`, `"speed": 1.0`, `"endcard": "FOLLOW: TRENDS EXPLAINED"`
 - hook = the trend's surprising angle, title ≤ 70 chars ending with `#shorts`, description ends with
   "Follow for what's trending, explained!" + 4–5 hashtags incl. #shorts.
 - **7–9 scenes, 95–125 spoken words in total** (the renderer prints the duration – it must be 38–50 s; if it is

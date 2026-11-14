@@ -185,14 +185,14 @@ def master_audio(voice, bed, out_wav):
     vw, bw = out_wav + ".voice.wav", out_wav + ".bed.wav"
     _write_wav(vw, voice / max(1e-6, np.abs(voice).max()) * 0.9)
     _write_wav(bw, bed / max(1e-6, np.abs(bed).max()) * 0.9)
-    fc = ("[0:a]aresample=48000:resampler=soxr,highpass=f=80,lowpass=f=15500,"
-          "bass=g=2.5:f=140:w=0.7,equalizer=f=320:t=q:w=1.0:g=-1.5,equalizer=f=3000:t=q:w=1.2:g=1.5,treble=g=-1:f=9000,"
-          "deesser=i=0.35:m=0.5:f=0.5,acompressor=threshold=-20dB:ratio=3:attack=6:release=90:makeup=3,"
+    fc = ("[0:a]aresample=48000,highpass=f=70,lowpass=f=10500,bass=g=3:f=130:w=0.7,"
+          "equalizer=f=2800:t=q:w=1.5:g=-3,equalizer=f=7000:t=q:w=1.2:g=-3,deesser=i=0.7:m=0.7:f=0.35,"
+          "acompressor=threshold=-18dB:ratio=1.8:attack=15:release=200:makeup=2,"
           "alimiter=limit=0.95,pan=stereo|c0=c0|c1=c0,asplit=2[v][sc];"
-          "[1:a]aresample=48000:resampler=soxr,pan=stereo|c0=c0|c1=c0,aecho=0.8:0.7:40|75:0.25|0.18,"
-          "highpass=f=40,volume=0.55[b0];"
+          "[1:a]aresample=48000,pan=stereo|c0=c0|c1=c0,aecho=0.8:0.7:40|75:0.25|0.18,"
+          "highpass=f=40,lowpass=f=6000,volume=0.45[b0];"
           "[b0][sc]sidechaincompress=threshold=0.03:ratio=6:attack=25:release=350[b];"
-          "[v][b]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=9,aresample=48000[o]")
+          "[v][b]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-15:TP=-2:LRA=9,aresample=48000[o]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", vw, "-i", bw, "-filter_complex", fc, "-map", "[o]",
                     "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", out_wav], check=True)
     os.remove(vw); os.remove(bw)
