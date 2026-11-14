@@ -1,0 +1,85 @@
+{
+ "id": "cart-tsunami",
+ "title": "What to do if a tsunami hits",
+ "voice": "bm_lewis",
+ "speed": 1.05,
+ "scenes": [
+  {
+   "img": "out/cart/s1.png",
+   "title": [
+    "WHAT IF A",
+    "TSUNAMI HITS?"
+   ],
+   "shake": 0.5,
+   "countdown": 600,
+   "say": "You're on the beach. Suddenly, the ground starts shaking. You might have only minutes.",
+   "act": "img"
+  },
+  {
+   "img": "out/cart/s2.png",
+   "shake": 0,
+   "badge": "DROP \u2022 COVER \u2022 HOLD",
+   "say": "First, survive the quake. Drop, cover, and hold on.",
+   "act": "img"
+  },
+  {
+   "img": "out/cart/s3.png",
+   "badge": "20+ SECONDS = GO",
+   "say": "If it shook for twenty seconds or more, that's your warning. Don't wait for a siren.",
+   "act": "img"
+  },
+  {
+   "img": "out/cart/s4.png",
+   "move": "out",
+   "badge": "WATER GOES OUT",
+   "badge_col": [
+    40,
+    110,
+    200
+   ],
+   "say": "Then the sea pulls back, and you can see the ocean floor.",
+   "act": "img"
+  },
+  {
+   "img": "out/cart/s5.png",
+   "move": "right",
+   "say": "People walk out to look. Don't. The wave is coming back.",
+   "act": "img"
+  },
+  {
+   "img": "out/cart/s6.png",
+   "badge": "30 M UP / 1 MILE INLAND",
+   "badge_col": [
+    40,
+    150,
+    70
+   ],
+   "say": "Run uphill or inland. Aim for thirty meters up, or about a mile from the shore.",
+   "act": "img"
+  },
+  {
+   "img": "out/cart/s7.png",
+   "move": "up",
+   "badge": "GO UP",
+   "badge_col": [
+    40,
+    150,
+    70
+   ],
+   "say": "Can't get that far? Go up the highest strong concrete building you can reach.",
+   "act": "img"
+  },
+  {
+   "img": "out/cart/s8.png",
+   "move": "out",
+   "say": "Then stay there. The first wave often isn't the biggest, and they can keep coming for hours.",
+   "act": "img"
+  },
+  {
+   "img": "out/cart/s9.png",
+   "shake": 0.75,
+   "say": "So the next time the beach starts shaking... you'll know exactly what to do.",
+   "act": "img"
+  }
+ ]
+}

@@ -332,6 +332,45 @@ def act_calm(img, t, d, sc):
     stick(pen, 600, GROUND - 26, "stand", t, 1, mood="happy" if t < d * 0.7 else "ok", label="YOU")
 
 
+_imgs = {}
+
+
+def act_img(img, t, d, sc):
+    """Illustrated still with camera motion: slow push-in (or pull/pan), optional shake, title, badge."""
+    p = sc["img"]
+    if p not in _imgs:
+        im = Image.open(p).convert("RGB"); r = max(W * S * 1.14 / im.width, H * S * 1.14 / im.height)
+        _imgs[p] = im.resize((int(im.width * r), int(im.height * r)), Image.LANCZOS)
+    src = _imgs[p]; u = t / max(d, 0.01)
+    mv = sc.get("move", "in")
+    z = {"in": 1.0 + 0.10 * u, "out": 1.10 - 0.10 * u}.get(mv, 1.06)
+    cw, ch = W * S * 1.14 / z, H * S * 1.14 / z
+    cw, ch = min(cw, src.width), min(ch, src.height)
+    cx, cy = src.width / 2, src.height / 2
+    if mv == "up": cy = src.height / 2 + (src.height - ch) / 2 * (1 - 2 * u)
+    if mv == "right": cx = src.width / 2 + (src.width - cw) / 2 * (2 * u - 1)
+    sh = sc.get("shake")
+    if sh is not None and u >= sh:
+        a = 22 * S * (1 if sc.get("shake_end") is None or u < sc["shake_end"] else 0)
+        cx += a * math.sin(t * 61); cy += a * 0.7 * math.cos(t * 47)
+    # quick punch-in on scene start
+    pz = 1 + 0.06 * max(0, 1 - t / 0.25)
+    cw2, ch2 = cw / pz, ch / pz
+    cx = min(max(cx, cw2 / 2), src.width - cw2 / 2); cy = min(max(cy, ch2 / 2), src.height - ch2 / 2)
+    box = (cx - cw2 / 2, cy - ch2 / 2, cx + cw2 / 2, cy + ch2 / 2)
+    img.paste(src.resize((W * S, H * S), Image.BILINEAR, box=box))
+    pen = Pen(img)
+    if sc.get("title"):
+        q = ease(t / 0.35)
+        pen.text(540, 150 - (1 - q) * 120, sc["title"][0], 96, fill=(255, 255, 255), stroke=11)
+        pen.text(540, 262 - (1 - q) * 120, sc["title"][1], 96, fill=YEL, stroke=11)
+    if sc.get("badge") and t > 0.3:
+        badge(pen, 540, sc.get("badge_y", 300), sc["badge"], tuple(sc.get("badge_col", RED)), 60)
+    if sc.get("countdown") and u > 0.45:
+        left = max(0, sc["countdown"] - (t - d * 0.45) * 37)
+        badge(pen, 870, 820, f"{int(left // 60)}:{int(left % 60):02d}", RED, 76)
+
+
 ACTS = {k[4:]: v for k, v in globals().items() if k.startswith("act_")}
 
 
