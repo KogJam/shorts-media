@@ -1,0 +1,410 @@
+{
+ "id": "long-2026-11-14-animals",
+ "title": "10 Weird Animal Behaviors Finally Explained",
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "intro": [
+  {
+   "say": "Your dog tilts its head when you talk. Squirrels pretend to bury nuts. And the cobra in the snake charmer's basket can't even hear the music.",
+   "q": "dog tilting head",
+   "clip": "/root/.cache/shorts_clips/459a4316411d8823.mp4",
+   "clip_id": 321919
+  },
+  {
+   "say": "Animals do strange things every single day, and most of us never find out why.",
+   "q": "squirrel nut",
+   "clip": "/root/.cache/shorts_clips/7ab14d88dcc2beaa.mp4",
+   "clip_id": 3904
+  },
+  {
+   "say": "So here are ten weird animal behaviors, finally explained by science.",
+   "q": "wildlife forest animals",
+   "clip": "/root/.cache/shorts_clips/2c20f6c967966561.mp4",
+   "clip_id": 265271
+  }
+ ],
+ "chapters": [
+  {
+   "title": "Why dogs tilt their heads",
+   "scenes": [
+    {
+     "say": "Say a word your dog knows, and there's a good chance its head tips to one side. For years, nobody had actually studied why.",
+     "q": "dog head tilt",
+     "clip": "/root/.cache/shorts_clips/e57d56400e90220d.mp4",
+     "clip_id": 321920
+    },
+    {
+     "say": "Then, in 2021, researchers in Budapest watched forty dogs as their owners asked them to fetch toys by name.",
+     "q": "dog fetching toy",
+     "clip": "/root/.cache/shorts_clips/50e6d513411c9474.mp4",
+     "clip_id": 4727
+    },
+    {
+     "say": "Seven of them were gifted word learners, all border collies, that could remember the names of many toys.",
+     "q": "border collie",
+     "clip": "/root/.cache/shorts_clips/1df4a72f0aad2c10.mp4",
+     "clip_id": 171030
+    },
+    {
+     "say": "Those gifted dogs tilted their heads forty three percent of the time when they heard a toy's name. The typical dogs did it just two percent of the time.",
+     "q": "border collie playing",
+     "clip": "/root/.cache/shorts_clips/9fba754f91b055ae.mp4",
+     "clip_id": 7259
+    },
+    {
+     "say": "And each dog kept tilting to the same side, like being left or right handed. The researchers think the tilt is a sign of processing: the dog is matching the word to a picture of the toy in its head.",
+     "q": "dog looking at camera",
+     "clip": "/root/.cache/shorts_clips/39be2e0ca5063b24.mp4",
+     "clip_id": 14869
+    },
+    {
+     "say": "It may also have to do with how the brain handles sound on one side, a bit like people tilting their heads when they try to picture something they remember.",
+     "q": "puppy",
+     "clip": "/root/.cache/shorts_clips/9822c9df126c7021.mp4",
+     "clip_id": 222837
+    }
+   ]
+  },
+  {
+   "title": "Why squirrels fake-bury nuts",
+   "scenes": [
+    {
+     "say": "A single squirrel can bury up to three thousand nuts in one season. But some of those holes are empty on purpose.",
+     "q": "squirrel burying",
+     "clip": "/root/.cache/shorts_clips/ec53d4c851d02fc6.mp4",
+     "clip_id": 2717
+    },
+    {
+     "say": "Biologist Michael Steele noticed that gray squirrels sometimes dig a hole, pretend to drop a nut in, cover it up, and walk away with the nut still in their mouth.",
+     "q": "gray squirrel",
+     "clip": "/root/.cache/shorts_clips/b4373ce6a7967579.mp4",
+     "clip_id": 2776
+    },
+    {
+     "say": "In his 2008 study, these fake burials made up around thirteen percent of caching, and they happened more often when other squirrels were watching.",
+     "q": "squirrels grass",
+     "clip": "/root/.cache/shorts_clips/23f1d41168c0c986.mp4",
+     "clip_id": 356683
+    },
+    {
+     "say": "It's a decoy. Any thief who saw the show digs up nothing, while the real nut ends up somewhere else.",
+     "q": "squirrel eating nut",
+     "clip": "/root/.cache/shorts_clips/60c8265169deae1c.mp4",
+     "clip_id": 143857
+    },
+    {
+     "say": "Squirrels also dig up nuts and bury them again somewhere new, sometimes several times. And when people played thief in experiments, the squirrels quickly switched to harder hiding spots and more fake holes.",
+     "q": "squirrel tree",
+     "clip": "/root/.cache/shorts_clips/5d97882538ae42bd.mp4",
+     "clip_id": 91336
+    }
+   ]
+  },
+  {
+   "title": "Why birds can eat chili peppers",
+   "scenes": [
+    {
+     "say": "The burn of a chili comes from capsaicin, which triggers a pain receptor in mammals called T R P V one.",
+     "q": "red chili peppers",
+     "clip": "/root/.cache/shorts_clips/721ba5a139990ece.mp4",
+     "clip_id": 27530
+    },
+    {
+     "say": "Birds have a version of that receptor that barely reacts to capsaicin. To them, the hottest pepper doesn't burn at all.",
+     "q": "bird eating berries",
+     "clip": "/root/.cache/shorts_clips/bf2156cb2a0ce919.mp4",
+     "clip_id": 45737
+    },
+    {
+     "say": "That's no accident. Mammals chew seeds and destroy them, but birds swallow peppers whole and pass the seeds intact.",
+     "q": "bird on branch",
+     "clip": "/root/.cache/shorts_clips/82c4eafd2710c670.mp4",
+     "clip_id": 188779,
+     "q2": "songbird branch"
+    },
+    {
+     "say": "Field studies in Arizona found curve-billed thrashers dropping chili seeds right under shrubs, exactly where new plants grow best. The spice keeps the wrong animals away and lets the right ones in.",
+     "q": "desert shrubs",
+     "clip": "/root/.cache/shorts_clips/6ae557932256ad79.mp4",
+     "clip_id": 32735,
+     "q2": "desert bush"
+    },
+    {
+     "say": "It's also why some people mix chili powder into birdseed. The birds eat as usual, while squirrels and other mammals get a mouthful of fire.",
+     "q": "bird feeder",
+     "clip": "/root/.cache/shorts_clips/ce4c042de1c16077.mp4",
+     "clip_id": 110462
+    }
+   ]
+  },
+  {
+   "title": "Why the cobra 'dances'",
+   "scenes": [
+    {
+     "say": "It looks like the cobra is swaying to the music. But snakes have no external ears and no ear drums.",
+     "q": "cobra snake",
+     "clip": "/root/.cache/shorts_clips/6d23a06cd1de3ed1.mp4",
+     "clip_id": 143409
+    },
+    {
+     "say": "They do sense sound, mostly low vibrations that travel through the ground and into their jaw bones. The high notes of a flute barely register.",
+     "q": "snake close up",
+     "clip": "/root/.cache/shorts_clips/d4c6a143a8f3faec.mp4",
+     "clip_id": 173405,
+     "q2": "snake tongue"
+    },
+    {
+     "say": "What the cobra really sees is a large object moving in front of it, and to a snake, that looks like a threat.",
+     "q": "cobra hood",
+     "clip": "/root/.cache/shorts_clips/470f9b035f68b157.mp4",
+     "clip_id": 173139,
+     "q2": "cobra"
+    },
+    {
+     "say": "So it rises, spreads its hood, and follows every move of the swaying pipe. The music isn't for the snake. It's for the crowd.",
+     "q": "snake moving",
+     "clip": "/root/.cache/shorts_clips/adb37705965ef632.mp4",
+     "clip_id": 65301
+    },
+    {
+     "say": "A good charmer stays just out of striking range and keeps the pipe moving, so the snake keeps tracking it instead of striking.",
+     "q": "cobra snake rising",
+     "clip": "/root/.cache/shorts_clips/470f9b035f68b157.mp4",
+     "clip_id": 173139,
+     "q2": "snake reptile",
+     "ss": 8
+    }
+   ]
+  },
+  {
+   "title": "How owls turn their heads 270 degrees",
+   "scenes": [
+    {
+     "say": "An owl can turn its head up to two hundred seventy degrees in either direction. It has to, because its tube-shaped eyes can't move in their sockets.",
+     "q": "owl turning head",
+     "clip": "/root/.cache/shorts_clips/0679bc61abe479cb.mp4",
+     "clip_id": 327050
+    },
+    {
+     "say": "Humans have seven neck vertebrae. Owls have fourteen.",
+     "q": "owl close up",
+     "clip": "/root/.cache/shorts_clips/e2b8a957380d7536.mp4",
+     "clip_id": 310711
+    },
+    {
+     "say": "When a Johns Hopkins team scanned owl necks in 2013, they found the holes that carry a key artery are about ten times wider than the artery itself, giving it room to move.",
+     "q": "barn owl",
+     "clip": "/root/.cache/shorts_clips/653a02b839d348c1.mp4",
+     "clip_id": 93235
+    },
+    {
+     "say": "They also found blood reservoirs under the jaw that fill up while the head is turned, so the brain and eyes keep getting blood. Twist your own neck that far and you could tear an artery.",
+     "q": "owl night",
+     "clip": "/root/.cache/shorts_clips/3cdcc1dd9e6ffc46.mp4",
+     "clip_id": 80290,
+     "q2": "owl flying"
+    },
+    {
+     "say": "On top of that, owls have small connections between the main arteries in the neck, so if one route gets pinched, blood can take another.",
+     "q": "owl eyes",
+     "clip": "/root/.cache/shorts_clips/34fe858fc434950a.mp4",
+     "clip_id": 18244
+    }
+   ]
+  },
+  {
+   "title": "Why flamingos stand on one leg",
+   "scenes": [
+    {
+     "say": "Flamingos can rest, and even sleep, standing on one thin leg for long periods.",
+     "q": "flamingo one leg",
+     "clip": "/root/.cache/shorts_clips/cc8eb25cdbede9e3.mp4",
+     "clip_id": 345464
+    },
+    {
+     "say": "In 2017, researchers in Atlanta found the pose holds itself up passively, with almost no muscle effort.",
+     "q": "flamingos water",
+     "clip": "/root/.cache/shorts_clips/bc744a5d42f09b25.mp4",
+     "clip_id": 120394
+    },
+    {
+     "say": "In one test, a dead flamingo placed on one leg stayed upright on its own. On two legs, it didn't.",
+     "q": "flamingo standing",
+     "clip": "/root/.cache/shorts_clips/30bddea1645839f0.mp4",
+     "clip_id": 94445
+    },
+    {
+     "say": "And the joint that looks like a backward knee is actually the ankle. The real knee is hidden up under the feathers. Folding one leg may also save body heat in cold water.",
+     "q": "pink flamingos",
+     "clip": "/root/.cache/shorts_clips/201d3a872a86a913.mp4",
+     "clip_id": 15922
+    },
+    {
+     "say": "That idea is now interesting to engineers, because a leg that balances without effort could help build better robots and prosthetic limbs.",
+     "q": "flamingo walking",
+     "clip": "/root/.cache/shorts_clips/6c32dc4b9be6c48c.mp4",
+     "clip_id": 153367,
+     "q2": "flamingo flock"
+    }
+   ]
+  },
+  {
+   "title": "Why crows never forget a face",
+   "scenes": [
+    {
+     "say": "At the University of Washington, researchers wore a caveman mask while they trapped and tagged a few wild crows.",
+     "q": "crow",
+     "clip": "/root/.cache/shorts_clips/911e057b25cfdbea.mp4",
+     "clip_id": 135785
+    },
+    {
+     "say": "Later, anyone walking around campus in that mask got scolded and mobbed, even though they did nothing to the birds.",
+     "q": "crows flying",
+     "clip": "/root/.cache/shorts_clips/e8add6683ca6ab8f.mp4",
+     "clip_id": 149575
+    },
+    {
+     "say": "On one walk, forty seven of fifty three crows scolded the mask, far more than the birds that were ever caught.",
+     "q": "black crow cawing",
+     "clip": "/root/.cache/shorts_clips/a1bbe936c178ee3a.mp4",
+     "clip_id": 189421
+    },
+    {
+     "say": "The grudge spread to other crows and lasted for years. A neutral mask got almost no reaction at all.",
+     "q": "crow on branch",
+     "clip": "/root/.cache/shorts_clips/96b2d8bef04e0266.mp4",
+     "clip_id": 110695
+    },
+    {
+     "say": "Later, brain scans of crows looking at a threatening face lit up areas linked to fear, much like in our own brains.",
+     "q": "raven bird",
+     "clip": "/root/.cache/shorts_clips/2b10c6630ab4b30a.mp4",
+     "clip_id": 126180
+    }
+   ]
+  },
+  {
+   "title": "Why zebras have stripes",
+   "scenes": [
+    {
+     "say": "Scientists argued about zebra stripes for well over a century. The strongest answer today is surprisingly small: flies.",
+     "q": "zebra",
+     "clip": "/root/.cache/shorts_clips/85df2df5c6b0ccd0.mp4",
+     "clip_id": 44236
+    },
+    {
+     "say": "In a 2019 study, horse flies approached zebras just as often as plain colored horses.",
+     "q": "horse field",
+     "clip": "/root/.cache/shorts_clips/51a55e732f5bc791.mp4",
+     "clip_id": 2980
+    },
+    {
+     "say": "But near the zebras they failed to slow down, flew past, or bumped right into them instead of landing.",
+     "q": "zebras herd",
+     "clip": "/root/.cache/shorts_clips/bbd81bbb7257b99e.mp4",
+     "clip_id": 345477
+    },
+    {
+     "say": "When the researchers put striped coats on horses, far fewer flies landed on the stripes. Fewer landings means fewer bites and fewer diseases.",
+     "q": "zebra close up",
+     "clip": "/root/.cache/shorts_clips/0d79f581edeb2b82.mp4",
+     "clip_id": 111435,
+     "q2": "zebra stripes"
+    },
+    {
+     "say": "And when a fly did land, it stayed on a horse for about ten seconds, but on a zebra for only about one.",
+     "q": "zebra grazing",
+     "clip": "/root/.cache/shorts_clips/0dd9688e4cfa13cc.mp4",
+     "clip_id": 260654,
+     "q2": "zebras savanna"
+    }
+   ]
+  },
+  {
+   "title": "Why cats knead",
+   "scenes": [
+    {
+     "say": "Many cats press their paws into blankets, pillows, or your lap. People call it making biscuits.",
+     "q": "cat kneading",
+     "clip": "/root/.cache/shorts_clips/db294f6bbfeed5f2.mp4",
+     "clip_id": 127621,
+     "q2": "cat lying"
+    },
+    {
+     "say": "It starts on day one. Nursing kittens knead their mother's belly to get the milk flowing.",
+     "q": "kittens",
+     "clip": "/root/.cache/shorts_clips/59386bbe10f3396f.mp4",
+     "clip_id": 65438
+    },
+    {
+     "say": "Many cats keep the habit as adults, often when they feel safe and relaxed.",
+     "q": "cat sleeping blanket",
+     "clip": "/root/.cache/shorts_clips/a32ee6937aa00fef.mp4",
+     "clip_id": 330346
+    },
+    {
+     "say": "There's a second reason too. Cats have scent glands in their paw pads, so kneading leaves their smell behind. When your cat kneads you, it may be quietly marking you as its own.",
+     "q": "cat paws",
+     "clip": "/root/.cache/shorts_clips/7e2d2125f4fd771b.mp4",
+     "clip_id": 122610
+    },
+    {
+     "say": "Holding on to baby behaviors into adulthood even has a name: neoteny. Kneading is one of the cutest examples.",
+     "q": "cat purring",
+     "clip": "/root/.cache/shorts_clips/d56cabcfcc2704d9.mp4",
+     "clip_id": 246351
+    }
+   ]
+  },
+  {
+   "title": "Why deer freeze in headlights",
+   "scenes": [
+    {
+     "say": "Deer are most active at dawn and dusk, and their eyes are built for dim light.",
+     "q": "deer forest",
+     "clip": "/root/.cache/shorts_clips/e7b4ad44268897f7.mp4",
+     "clip_id": 53488
+    },
+    {
+     "say": "Compared to us, they have far more rods, the cells that work in low light, and at night their pupils open extremely wide.",
+     "q": "deer looking",
+     "clip": "/root/.cache/shorts_clips/8569625d045d5435.mp4",
+     "clip_id": 102917
+    },
+    {
+     "say": "When headlights suddenly hit those wide open eyes, the deer is effectively blinded. It can't see the car, the road, or a way out.",
+     "q": "deer night",
+     "clip": "/root/.cache/shorts_clips/cd15724d454f9544.mp4",
+     "clip_id": 187971,
+     "q2": "deer meadow"
+    },
+    {
+     "say": "So it stands still until its eyes adjust. It's not bravery or stupidity. It's anatomy.",
+     "q": "deer standing",
+     "clip": "/root/.cache/shorts_clips/b5ba7a685996de31.mp4",
+     "clip_id": 305141
+    },
+    {
+     "say": "Deer eyes also have a mirror-like layer behind the retina. It boosts night vision, and it's the reason their eyes glow back at you in the dark.",
+     "q": "deer eyes",
+     "clip": "/root/.cache/shorts_clips/fba27bbad7e4f8cc.mp4",
+     "clip_id": 159318
+    }
+   ]
+  }
+ ],
+ "outro": [
+  {
+   "say": "So which one surprised you most? The squirrel's fake burial, the crows with a grudge, or the dog that tilts its head to think?",
+   "q": "animals nature",
+   "clip": "/root/.cache/shorts_clips/699a5d9e4180c554.mp4",
+   "clip_id": 188861
+  },
+  {
+   "say": "If you liked this, subscribe for more of the real reasons behind what animals do.",
+   "q": "dog happy",
+   "clip": "/root/.cache/shorts_clips/ef9722194d0dd91e.mp4",
+   "clip_id": 180135
+  }
+ ]
+}
