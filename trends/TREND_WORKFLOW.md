@@ -1,6 +1,6 @@
 # Daily "Trends Explained" Shorts run – instructions for Claude
 
-Goal: **3 English Shorts per day** (**62–75 s**, vertical – over 60 s so they also qualify for TikTok's Creator Rewards; YouTube Shorts allow up to 3 min) for the second channel (Metricool brand "Storys",
+Goal: **3 English Shorts per day** (**38–50 s**, vertical – shorter = higher % watched, which is the main Shorts ranking signal; our 65 s Shorts were only watched ~30 % on average) for the second channel (Metricool brand "Storys",
 blogId `7782808`). Each Short takes a topic that is **trending on YouTube right now** and explains it with an
 original script, the offline voice, Pixabay stock footage and 3D emoji – the same engine as the facts channel.
 We never re-upload or copy anyone's video: we only use trends as topic ideas. Nobody is watching: decide yourself.
@@ -41,10 +41,13 @@ Same format as the facts channel (see `WORKFLOW.md` step 2 and `trends/specs/202
 - `"voice": "bm_george"`, `"speed": 1.1`, `"endcard": "FOLLOW: TRENDS EXPLAINED"`
 - hook = the trend's surprising angle, title ≤ 70 chars ending with `#shorts`, description ends with
   "Follow for what's trending, explained!" + 4–5 hashtags incl. #shorts.
-- **10–13 scenes, 150–185 spoken words in total** (the renderer prints the duration – it must be 62–75 s; if it is
+- **7–9 scenes, 95–125 spoken words in total** (the renderer prints the duration – it must be 38–50 s; if it is
   shorter add a scene, if longer cut one, then re-render). Each scene a different Pixabay clip (`clip_id`), 2–3 insets,
-  numbers via `number`, 3–4 `punch` words. Keep a strong hook in the first 2 s and a payoff/twist near the end so people
-  watch the full minute.
+  numbers via `number`, 3–4 `punch` words.
+- **Retention rules:** line 1 (first 2 s) states the surprising claim or question directly – no intro, no "Did you know";
+  the hook text on screen and the first spoken line must match. Every scene adds a new fact (no filler). The payoff/twist
+  comes in the last 8 s, and the last line should lead back to the first one so the Short loops naturally
+  (e.g. ends with "…and that's why the cobra 'dances'." → starts with "The cobra isn't dancing.").
 - Check pronunciation (`render.check`) – add unknown words to `custom_words.json` (IPA like the existing entries).
 
 ## 4. Clips, render, QA

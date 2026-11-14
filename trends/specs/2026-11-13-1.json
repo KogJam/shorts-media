@@ -36,16 +36,14 @@
      "delay": 0.2,
      "cross": false
     }
-   ],
-   "clip_path": "/root/.cache/shorts_clips/34fe858fc434950a.mp4"
+   ]
   },
   {
    "say": "So why does an owl need this trick? Its eyes can't move.",
    "clip_id": 327050,
    "punch": "FROZEN EYES",
    "punch_y": 0.66,
-   "punch_delay": 2.6,
-   "clip_path": "/root/.cache/shorts_clips/0679bc61abe479cb.mp4"
+   "punch_delay": 2.6
   },
   {
    "say": "Owl eyes aren't balls like ours. They're long tubes, locked in place by rings of bone.",
@@ -65,9 +63,7 @@
      "delay": 0.6,
      "cross": false
     }
-   ],
-   "clip_path": "/root/.cache/shorts_clips/c31a6699fa45402f.mp4",
-   "inset_path": "/root/.cache/shorts_clips/60f677a486e8e223.mp4"
+   ]
   },
   {
    "say": "To look left or right, the owl has to turn its whole head.",
@@ -82,8 +78,7 @@
      "delay": 1.0,
      "cross": false
     }
-   ],
-   "clip_path": "/root/.cache/shorts_clips/5945184fd7f50181.mp4"
+   ]
   },
   {
    "say": "Its neck has 14 bones. Yours has only 7.",
@@ -102,8 +97,7 @@
      "emoji": "🧍"
     }
    ],
-   "bars_y": 0.45,
-   "clip_path": "/root/.cache/shorts_clips/5f56ef70e3fc1fd7.mp4"
+   "bars_y": 0.45
   },
   {
    "say": "But the real mystery was blood. Twisting that far could tear an artery.",
@@ -121,8 +115,7 @@
      "delay": 0.8,
      "cross": false
     }
-   ],
-   "clip_path": "/root/.cache/shorts_clips/1d1a6b6d4171e3ba.mp4"
+   ]
   },
   {
    "say": "In 2013, scientists at Johns Hopkins finally solved it.",
@@ -137,8 +130,7 @@
      "delay": 1.0,
      "cross": false
     }
-   ],
-   "clip_path": "/root/.cache/shorts_clips/18ae972590c2589d.mp4"
+   ]
   },
   {
    "say": "The holes in an owl's neck bones are about 10 times wider than the artery inside.",
@@ -149,16 +141,14 @@
     "label": "wider holes",
     "y": 0.55,
     "delay": 2.2
-   },
-   "clip_path": "/root/.cache/shorts_clips/17fbc4e1bf62550f.mp4"
+   }
   },
   {
    "say": "That extra room lets the vessel slide and bend instead of ripping.",
    "clip_id": 50660,
    "punch": "SLIDE",
    "punch_y": 0.66,
-   "punch_delay": 2.4,
-   "clip_path": "/root/.cache/shorts_clips/825dcf11440a2f92.mp4"
+   "punch_delay": 2.4
   },
   {
    "say": "And under the jaw, little pouches fill with blood, like backup tanks for the brain and eyes.",
@@ -178,9 +168,7 @@
      "delay": 3.4,
      "cross": false
     }
-   ],
-   "clip_path": "/root/.cache/shorts_clips/256692e325f58d64.mp4",
-   "inset_path": "/root/.cache/shorts_clips/4a6ab1adf41487ac.mp4"
+   ]
   },
   {
    "say": "So even with its head twisted, the brain keeps getting fuel.",
@@ -195,8 +183,7 @@
      "delay": 1.8,
      "cross": false
     }
-   ],
-   "clip_path": "/root/.cache/shorts_clips/3cdcc1dd9e6ffc46.mp4"
+   ]
   },
   {
    "say": "It can't spin all the way around. 360 is a myth. But 270 is close enough to hunt in silence.",
@@ -219,26 +206,8 @@
      "delay": 0.4,
      "cross": true
     }
-   ],
-   "clip_path": "/root/.cache/shorts_clips/c7aeb137ff90e4f7.mp4",
-   "inset_path": "/root/.cache/shorts_clips/b6b92d8c8ab22a14.mp4"
+   ]
   }
  ],
- "credits": [
-  "Lirofilm (Pixabay): https://pixabay.com/videos/id-18244/",
-  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-327050/",
-  "NickyPe (Pixabay): https://pixabay.com/videos/id-116657/",
-  "JosepMonter (Pixabay): https://pixabay.com/videos/id-49532/",
-  "NickyPe (Pixabay): https://pixabay.com/videos/id-81032/",
-  "NickyPe (Pixabay): https://pixabay.com/videos/id-95059/",
-  "motionstock (Pixabay): https://pixabay.com/videos/id-26799/",
-  "NickyPe (Pixabay): https://pixabay.com/videos/id-161402/",
-  "sbtlneet (Pixabay): https://pixabay.com/videos/id-6583/",
-  "RoyBuri (Pixabay): https://pixabay.com/videos/id-50660/",
-  "Jari-Lobo (Pixabay): https://pixabay.com/videos/id-154710/",
-  "allinonemovie (Pixabay): https://pixabay.com/videos/id-21617/",
-  "mda621326 (Pixabay): https://pixabay.com/videos/id-80290/",
-  "Yocchi09 (Pixabay): https://pixabay.com/videos/id-330877/",
-  "federicomaderno (Pixabay): https://pixabay.com/videos/id-139442/"
- ]
+ "credits": []
 }
