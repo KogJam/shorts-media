@@ -3,5 +3,12 @@
  "amazon_tag": "",
  "store": "https://www.amazon.com",
  "page_url": "https://kogjam.github.io/shorts-media/",
- "links": []
+ "links": [],
+ "extras": [
+  {
+   "label": "Metricool – the tool we use to schedule our videos",
+   "url": "https://i.mtr.cool/STORYSTOTELLYT",
+   "note": "Promo code: STORYSTOTELLYT (affiliate link)"
+  }
+ ]
 }
