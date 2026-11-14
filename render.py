@@ -189,8 +189,8 @@ def master_audio(voice, bed, out_wav):
           "equalizer=f=2800:t=q:w=1.5:g=-3,equalizer=f=7000:t=q:w=1.2:g=-3,deesser=i=0.7:m=0.7:f=0.35,"
           "acompressor=threshold=-18dB:ratio=1.8:attack=15:release=200:makeup=2,"
           "alimiter=limit=0.95,pan=stereo|c0=c0|c1=c0,asplit=2[v][sc];"
-          "[1:a]aresample=48000,pan=stereo|c0=c0|c1=c0,aecho=0.8:0.7:40|75:0.25|0.18,"
-          "highpass=f=40,lowpass=f=6000,volume=0.45[b0];"
+          "[1:a]aresample=48000,pan=stereo|c0=c0|c1=c0,aecho=0.8:0.6:60|110:0.22|0.14,"
+          "highpass=f=45,lowpass=f=7000,volume=0.32[b0];"
           "[b0][sc]sidechaincompress=threshold=0.03:ratio=6:attack=25:release=350[b];"
           "[v][b]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-15:TP=-2:LRA=9,aresample=48000[o]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", vw, "-i", bw, "-filter_complex", fc, "-map", "[o]",
@@ -216,15 +216,42 @@ def sfx_pop():
     return (sig * 0.22).astype(np.float32)
 
 
+def _ep_note(f, dur, vel=0.3):
+    """Soft electric-piano-like tone: sine + gentle harmonics, slow decay, light tremolo."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    tone = np.sin(2 * np.pi * f * t) + 0.25 * np.sin(2 * np.pi * 2 * f * t) + 0.06 * np.sin(2 * np.pi * 3 * f * t)
+    env = np.minimum(1, t / 0.012) * np.exp(-t * 1.6)
+    trem = 1 + 0.08 * np.sin(2 * np.pi * 4.5 * t)
+    return (tone * env * trem * vel).astype(np.float32)
+
+
 def ambient(dur, seed):
+    """Calm original background music (no samples, no existing melody): slow jazzy chords, soft arpeggios, warm bass."""
     rng = np.random.default_rng(seed)
-    t = np.arange(int(dur * SR)) / SR
-    root = rng.choice([110, 123.47, 130.81, 146.83, 98])
-    chord = [root, root * 1.25, root * 1.5, root * 2, root * 3]
-    pad = sum(np.sin(2 * np.pi * f * t + rng.random() * 6) * (0.5 + 0.5 * np.sin(2 * np.pi * (0.06 + 0.025 * i) * t)) for i, f in enumerate(chord)) / len(chord)
-    beat = (np.sin(2 * np.pi * 2.0 * t) > 0.95).astype(float) * np.sin(2 * np.pi * 55 * t) * 0.6  # soft pulse
-    env = np.minimum(1, t / 1.0) * np.minimum(1, (dur - t) / 1.2)
-    return ((pad + beat * 0.5) * env * 0.07).astype(np.float32)
+    out = np.zeros(int(dur * SR) + SR * 4, np.float32)
+    keys = [57, 60, 62, 55, 53]                       # A3, C4, D4, G3, F3 roots
+    root = int(rng.choice(keys))
+    # I maj7 – vi7 – IV maj7 – V(sus) in semitones from the key root
+    prog = [[0, 4, 7, 11], [-3, 0, 4, 7], [-7, -3, 0, 4], [-5, -1, 2, 5]]
+    if rng.random() < 0.5: prog = prog[1:] + prog[:1]
+    bpm = float(rng.uniform(68, 78)); beat = 60 / bpm; bar = beat * 4
+    mtof = lambda m: 440 * 2 ** ((m - 69) / 12)
+    nb = int(dur / bar) + 2
+    for b in range(nb):
+        ch = [root + iv for iv in prog[b % 4]]
+        t0 = b * bar
+        for k, m in enumerate(ch):                    # soft rolled chord
+            add_at(out, _ep_note(mtof(m), bar + 1.0, 0.11), t0 + k * 0.03)
+        add_at(out, _ep_note(mtof(ch[0] - 24), bar, 0.22) * 0.9, t0)          # warm bass
+        add_at(out, _ep_note(mtof(ch[0] - 24), beat * 2, 0.12), t0 + beat * 2.5)
+        for s in range(4):                             # sparse arpeggio, random chord tones an octave up
+            if rng.random() < 0.7:
+                m = ch[int(rng.integers(0, 4))] + 12
+                add_at(out, _ep_note(mtof(m), 1.2, 0.05), t0 + s * beat + beat * 0.5)
+    out = out[: int(dur * SR)]
+    t = np.arange(len(out)) / SR
+    env = np.minimum(1, t / 1.5) * np.minimum(1, (dur - t) / 1.5)
+    return (out * env).astype(np.float32)
 
 
 def add_at(buf, clip, t):
@@ -264,12 +291,6 @@ def render(spec_path, out_path, voice=None):
 
     # 2) audio: voice and bed (pad + sfx) are written separately and mastered in ffmpeg (see master_audio)
     bed = ambient(total, seed)[: len(voice_a)].copy()
-    wh, pp = sfx_whoosh(), sfx_pop()
-    for i, s in enumerate(segs):
-        if i: add_at(bed, wh, s["start"] - 0.12)
-        for k, it in enumerate(s["line"].get("items", [])):
-            if it.get("anim", "pop") in ("pop", "bounce", "spin", "shake", "pulse", "drop"):
-                add_at(bed, pp, s["start"] + it.get("delay", k * 0.25) + (0.4 if it.get("anim") == "drop" else 0.02))
     wav = out_path + ".wav"
     master_audio(voice_a, bed, wav)
 
