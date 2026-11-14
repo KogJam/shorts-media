@@ -173,14 +173,40 @@ def fmt_num(v, dec=0): return f"{v:,.{dec}f}"
 
 
 # ---------------- sound ----------------
+def _write_wav(path, a, sr=SR):
+    with wave.open(path, "wb") as f:
+        f.setnchannels(1); f.setsampwidth(2); f.setframerate(sr)
+        f.writeframes((np.clip(a, -1, 1) * 32767).astype(np.int16).tobytes())
+
+
+def master_audio(voice, bed, out_wav):
+    """Broadcast-style chain: voice cleaned (HPF, de-mud, presence, de-ess, compression), bed in stereo with a little
+    room, ducked under the voice (sidechain), whole mix loudness-normalised to -14 LUFS / -1.5 dBTP, 48 kHz stereo."""
+    vw, bw = out_wav + ".voice.wav", out_wav + ".bed.wav"
+    _write_wav(vw, voice / max(1e-6, np.abs(voice).max()) * 0.9)
+    _write_wav(bw, bed / max(1e-6, np.abs(bed).max()) * 0.9)
+    fc = ("[0:a]aresample=48000:resampler=soxr,highpass=f=80,lowpass=f=15500,"
+          "equalizer=f=300:t=q:w=1.0:g=-3.5,equalizer=f=3200:t=q:w=1.2:g=2.5,equalizer=f=10000:t=q:w=0.8:g=1.5,"
+          "deesser=i=0.35:m=0.5:f=0.5,acompressor=threshold=-20dB:ratio=3:attack=6:release=90:makeup=3,"
+          "alimiter=limit=0.95,pan=stereo|c0=c0|c1=c0,asplit=2[v][sc];"
+          "[1:a]aresample=48000:resampler=soxr,pan=stereo|c0=c0|c1=c0,aecho=0.8:0.7:40|75:0.25|0.18,"
+          "highpass=f=40,volume=0.55[b0];"
+          "[b0][sc]sidechaincompress=threshold=0.03:ratio=6:attack=25:release=350[b];"
+          "[v][b]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-14:TP=-1.5:LRA=9,aresample=48000[o]")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", vw, "-i", bw, "-filter_complex", fc, "-map", "[o]",
+                    "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", out_wav], check=True)
+    os.remove(vw); os.remove(bw)
+
+
 def sfx_whoosh(dur=0.35):
     n = int(dur * SR); t = np.arange(n) / SR
     noise = np.random.default_rng(1).standard_normal(n)
     # sweep a crude band-pass by mixing differences
     env = np.sin(np.pi * t / dur) ** 2
-    hp = np.diff(noise, prepend=0)
-    sig = (noise * 0.3 + hp * 0.7) * env
-    return (sig / np.abs(sig).max() * 0.18).astype(np.float32)
+    k = np.exp(-np.arange(24) / 6.0); k /= k.sum()
+    lp = np.convolve(noise, k, mode="same")          # soft, airy noise
+    sig = lp * env * (0.6 + 0.4 * np.sin(np.pi * t / dur))
+    return (sig / np.abs(sig).max() * 0.12).astype(np.float32)
 
 
 def sfx_pop():
@@ -236,20 +262,16 @@ def render(spec_path, out_path, voice=None):
     total = t0 + 0.9
     voice_a = np.concatenate(vparts + [np.zeros(int(0.9 * SR) + SR, np.float32)])[: int(total * SR)]
 
-    # 2) audio mix: voice + pad + sfx
-    mix = voice_a.copy()
-    mix += ambient(total, seed)[: len(mix)]
+    # 2) audio: voice and bed (pad + sfx) are written separately and mastered in ffmpeg (see master_audio)
+    bed = ambient(total, seed)[: len(voice_a)].copy()
     wh, pp = sfx_whoosh(), sfx_pop()
     for i, s in enumerate(segs):
-        if i: add_at(mix, wh, s["start"] - 0.12)
+        if i: add_at(bed, wh, s["start"] - 0.12)
         for k, it in enumerate(s["line"].get("items", [])):
             if it.get("anim", "pop") in ("pop", "bounce", "spin", "shake", "pulse", "drop"):
-                add_at(mix, pp, s["start"] + it.get("delay", k * 0.25) + (0.4 if it.get("anim") == "drop" else 0.02))
-    mix = mix / max(1e-6, np.abs(mix).max()) * 0.92
+                add_at(bed, pp, s["start"] + it.get("delay", k * 0.25) + (0.4 if it.get("anim") == "drop" else 0.02))
     wav = out_path + ".wav"
-    with wave.open(wav, "wb") as f:
-        f.setnchannels(1); f.setsampwidth(2); f.setframerate(SR)
-        f.writeframes((mix * 32767).astype(np.int16).tobytes())
+    master_audio(voice_a, bed, wav)
 
     # 3) frames
     base = make_bg_base(pal)
@@ -257,7 +279,7 @@ def render(spec_path, out_path, voice=None):
     stars = [(rng.random() * W, rng.random() * H, rng.uniform(1.5, 4.5), rng.uniform(8, 35)) for _ in range(40)]
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                            "-i", wav, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-                           "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out_path], stdin=subprocess.PIPE)
+                           "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out_path], stdin=subprocess.PIPE)
     hook = spec.get("hook", "")
     nframes = int(total * FPS)
     readers, cur_si = {}, -1
