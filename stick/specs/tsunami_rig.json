@@ -1,0 +1,12 @@
+{"id": "anim-tsunami", "title": "What to do if a tsunami hits", "voice": "bm_lewis", "speed": 1.05,
+ "scenes": [
+  {"act": "c_beach", "title": ["WHAT IF A", "TSUNAMI HITS?"], "shake": 0.45, "countdown": 600, "say": "You're on the beach. Suddenly, the ground starts shaking. You might have only minutes."},
+  {"act": "c_quake", "badge": "DROP • COVER • HOLD", "say": "First, survive the quake. Drop, cover, and hold on."},
+  {"act": "c_timer", "badge": "20+ SECONDS = GO", "say": "If it shook for twenty seconds or more, that's your warning. Don't wait for a siren."},
+  {"act": "c_recede", "badge": "WATER GOES OUT", "badge_col": [40, 110, 200], "say": "Then the sea pulls back, and you can see the ocean floor."},
+  {"act": "c_dont", "say": "People walk out to look. Don't. The wave is coming back."},
+  {"act": "c_run", "m": 30, "badge": "30 M UP / 1 MILE INLAND", "badge_col": [40, 150, 70], "say": "Run uphill or inland. Aim for thirty meters up, or about a mile from the shore."},
+  {"act": "c_building", "badge": "GO UP", "badge_col": [40, 150, 70], "say": "Can't get that far? Go up the highest strong concrete building you can reach."},
+  {"act": "c_stay", "say": "Then stay there. The first wave often isn't the biggest, and they can keep coming for hours."},
+  {"act": "c_beach", "ending": true, "shake": 0.7, "say": "So the next time the beach starts shaking... you'll know exactly what to do."}
+ ]}
