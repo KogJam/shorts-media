@@ -186,7 +186,7 @@ def master_audio(voice, bed, out_wav):
     _write_wav(vw, voice / max(1e-6, np.abs(voice).max()) * 0.9)
     _write_wav(bw, bed / max(1e-6, np.abs(bed).max()) * 0.9)
     fc = ("[0:a]aresample=48000:resampler=soxr,highpass=f=80,lowpass=f=15500,"
-          "equalizer=f=300:t=q:w=1.0:g=-3.5,equalizer=f=3200:t=q:w=1.2:g=2.5,equalizer=f=10000:t=q:w=0.8:g=1.5,"
+          "bass=g=2.5:f=140:w=0.7,equalizer=f=320:t=q:w=1.0:g=-1.5,equalizer=f=3000:t=q:w=1.2:g=1.5,treble=g=-1:f=9000,"
           "deesser=i=0.35:m=0.5:f=0.5,acompressor=threshold=-20dB:ratio=3:attack=6:release=90:makeup=3,"
           "alimiter=limit=0.95,pan=stereo|c0=c0|c1=c0,asplit=2[v][sc];"
           "[1:a]aresample=48000:resampler=soxr,pan=stereo|c0=c0|c1=c0,aecho=0.8:0.7:40|75:0.25|0.18,"
