@@ -1,1 +1,25 @@
-[]
+[
+ {
+  "date": "2026-11-15",
+  "id": "long-2026-11-14-animals",
+  "title": "10 Weird Animal Behaviors Finally Explained",
+  "spec": "long/specs/2026-11-14-animals.json",
+  "chapters": [
+   "trend-dog-head-tilt",
+   "trend-squirrel-fake-burying",
+   "trend-birds-chili-peppers",
+   "trend-snake-charmer",
+   "trend-owl-head-turn",
+   "trend-deer-headlights"
+  ],
+  "extra_chapters": [
+   "flamingo-one-leg",
+   "crows-faces",
+   "zebra-stripes",
+   "cats-knead"
+  ],
+  "slot": "2026-11-15T18:07 Europe/Berlin",
+  "duration_min": 9.42,
+  "metricool_id": 428866960
+ }
+]
