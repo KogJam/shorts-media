@@ -1,0 +1,146 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-geese-v-formation",
+ "hook": "Geese fly in a V to SURF the air",
+ "title": "Why Geese Fly in a V (It's a Free Ride on Air) #shorts",
+ "description": "Migration season is here, and those V-shaped flocks overhead are using a clever air trick: every wingbeat gives free lift to the bird behind it.\n\nFollow for what's trending, explained!\n\n#geese #birds #migration #animalfacts #shorts",
+ "tags": [
+  "geese",
+  "v formation",
+  "why do geese fly in a v",
+  "bird migration",
+  "birds",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Geese fly in a V because every wingbeat makes free lift for the bird behind.",
+   "clip_id": 342468,
+   "items": [
+    {
+     "emoji": "🪿",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 0.15,
+     "anim": "float",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "punch": "FREE LIFT",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/a620b32064467c5b.mp4"
+  },
+  {
+   "say": "Each wingtip leaves a swirl of air that spins upward just behind it.",
+   "clip_id": 53350,
+   "items": [
+    {
+     "emoji": "🌀",
+     "x": 0.7,
+     "y": 0.32,
+     "size": 0.13,
+     "anim": "spin",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/44412b6f65ca4741.mp4"
+  },
+  {
+   "say": "The bird in back sits slightly to the side and surfs that rising air.",
+   "clip_id": 342472,
+   "inset_id": 10868,
+   "inset_x": 0.72,
+   "inset_y": 0.36,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "SURF",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/0b6854e5ddee58cc.mp4",
+   "inset_path": "/root/.cache/shorts_clips/ef70dda7b5666f6d.mp4"
+  },
+  {
+   "say": "In 2014, scientists tracked ibises and found they even time their flaps to match.",
+   "clip_id": 82413,
+   "items": [
+    {
+     "emoji": "📡",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/80617d40e8e6cc62.mp4",
+   "punch": "IN SYNC",
+   "punch_y": 0.62,
+   "punch_delay": 3.6
+  },
+  {
+   "say": "In a study of pelicans, birds at the back had lower heart rates than the leader.",
+   "clip_id": 172616,
+   "items": [
+    {
+     "emoji": "❤️",
+     "x": 0.72,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c410a38b74490189.mp4"
+  },
+  {
+   "say": "Flying in formation can save them up to 11 percent of their energy.",
+   "clip_id": 28166,
+   "number": {
+    "value": 11,
+    "prefix": "up to ",
+    "suffix": "%",
+    "label": "energy saved",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/b4a0c97db5d901d8.mp4"
+  },
+  {
+   "say": "Leading is the hardest job, so tired leaders drop back and swap.",
+   "clip_id": 249998,
+   "inset_id": 177908,
+   "inset_x": 0.3,
+   "inset_y": 0.38,
+   "inset_delay": 1.2,
+   "inset_tilt": -5,
+   "punch": "HARDEST JOB",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/defcbc4e13458261.mp4",
+   "inset_path": "/root/.cache/shorts_clips/53318122de61360a.mp4"
+  },
+  {
+   "say": "No goose leads forever, and that's the trick behind the V.",
+   "clip_id": 3101,
+   "inset_id": 342468,
+   "inset_x": 0.7,
+   "inset_y": 0.36,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "THE V",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/3a213060a8cf3545.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a620b32064467c5b.mp4"
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-236883/",
+  "brigachtal (Pixabay): https://pixabay.com/videos/id-3330/",
+  "RuslanSikunov (Pixabay): https://pixabay.com/videos/id-142579/",
+  "RuslanSikunov (Pixabay): https://pixabay.com/videos/id-142579/",
+  "nathan-osman (Pixabay): https://pixabay.com/videos/id-6712/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-205374/",
+  "Lirofilm (Pixabay): https://pixabay.com/videos/id-43106/",
+  "tahagem_nin (Pixabay): https://pixabay.com/videos/id-180819/",
+  "Vimeo-Free-Videos (Pixabay): https://pixabay.com/videos/id-930/",
+  "brigachtal (Pixabay): https://pixabay.com/videos/id-3343/",
+  "dianakuehn30010 (Pixabay): https://pixabay.com/videos/id-26930/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-205374/"
+ ],
+ "id": "trend-bears-dont-pee-hibernation",
+ "hook": "Sleeping bears don't PEE for months",
+ "title": "Why Bears Don't Pee for Months While They Sleep #shorts",
+ "description": "Bears are heading into their winter dens right now, and for months they won't eat, drink or pee. Here's the clever recycling trick that keeps their muscles strong.\n\nFollow for what's trending, explained!\n\n#bears #hibernation #animals #animalfacts #shorts",
+ "tags": [
+  "bears",
+  "hibernation",
+  "bear hibernation",
+  "do bears pee when hibernating",
+  "animal facts",
+  "nature",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "A sleeping bear doesn't pee for months, and it's not just holding it in.",
+   "clip_id": 236883,
+   "items": [
+    {
+     "emoji": "🐻",
+     "x": 0.5,
+     "y": 0.3,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    },
+    {
+     "emoji": "🚽",
+     "x": 0.75,
+     "y": 0.42,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.6,
+     "cross": true
+    }
+   ],
+   "punch": "MONTHS",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/f7393db9947186bd.mp4"
+  },
+  {
+   "say": "Right now, bears are heading into their dens for the winter.",
+   "clip_id": 3330,
+   "inset_id": 142579,
+   "inset_x": 0.72,
+   "inset_y": 0.36,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/5f6e53c475df5e11.mp4",
+   "inset_path": "/root/.cache/shorts_clips/665436ad4b65563b.mp4"
+  },
+  {
+   "say": "Inside, they don't eat, drink, pee or poop until spring.",
+   "clip_id": 142579,
+   "inset_id": 6712,
+   "inset_x": 0.3,
+   "inset_y": 0.38,
+   "inset_delay": 0.8,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🍯",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/665436ad4b65563b.mp4",
+   "inset_path": "/root/.cache/shorts_clips/d7328c9c08256f19.mp4"
+  },
+  {
+   "say": "Their heart slows to about 8 beats a minute, with one breath a minute.",
+   "clip_id": 205374,
+   "number": {
+    "value": 8,
+    "label": "heartbeats per minute",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "items": [
+    {
+     "emoji": "💤",
+     "x": 0.72,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "float",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/978f2386ac7e0284.mp4"
+  },
+  {
+   "say": "Normally, pee flushes out a waste called urea.",
+   "clip_id": 43106,
+   "items": [
+    {
+     "emoji": "💧",
+     "x": 0.72,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "drop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6c9c79c27d33252c.mp4"
+  },
+  {
+   "say": "Bears recycle it instead, turning it back into protein for their muscles.",
+   "clip_id": 180819,
+   "items": [
+    {
+     "emoji": "♻️",
+     "x": 0.5,
+     "y": 0.32,
+     "size": 0.14,
+     "anim": "spin",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "RECYCLED",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/87f2015babbaa71b.mp4"
+  },
+  {
+   "say": "Burning their stored fat even makes water, so they don't need to drink.",
+   "clip_id": 930,
+   "items": [
+    {
+     "emoji": "🔥",
+     "x": 0.3,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 0.6,
+     "cross": false
+    },
+    {
+     "emoji": "💦",
+     "x": 0.7,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 2.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/9ffc70c6459991ba.mp4"
+  },
+  {
+   "say": "They can lose up to a third of their weight by spring.",
+   "clip_id": 3343,
+   "number": {
+    "value": 33,
+    "prefix": "up to ",
+    "suffix": "%",
+    "label": "body weight lost",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/31d3a55c96e4bd53.mp4"
+  },
+  {
+   "say": "But their muscles stay strong, because the waste becomes muscle. So the bear never needs to go.",
+   "clip_id": 26930,
+   "inset_id": 205374,
+   "inset_x": 0.72,
+   "inset_y": 0.36,
+   "inset_delay": 3.0,
+   "inset_tilt": 5,
+   "punch": "NEVER",
+   "punch_y": 0.66,
+   "punch_delay": 4.8,
+   "clip_path": "/root/.cache/shorts_clips/7db1178d3e72de66.mp4",
+   "inset_path": "/root/.cache/shorts_clips/978f2386ac7e0284.mp4"
+  }
+ ]
+}
