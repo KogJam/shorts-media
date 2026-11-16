@@ -1,0 +1,148 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-why-bubbles-are-round",
+ "hook": "A square wand still blows ROUND bubbles",
+ "title": "Why Every Bubble Is Round, Even From a Square Wand #shorts",
+ "description": "Soap bubbles are trending, so here's the physics: a bubble's skin always pulls itself into the shape with the least surface for the air inside, and that's a sphere.\n\nFollow for what's trending, explained!\n\n#bubbles #science #physics #satisfying #shorts",
+ "tags": [
+  "soap bubbles",
+  "why are bubbles round",
+  "bubble science",
+  "physics",
+  "science facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Blow through a square wand, and you still get a perfectly round bubble.",
+   "clip_id": 374358,
+   "items": [
+    {
+     "emoji": "🟦",
+     "x": 0.28,
+     "y": 0.47,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 0.4,
+     "cross": false
+    },
+    {
+     "emoji": "⚪",
+     "x": 0.72,
+     "y": 0.47,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 2.0,
+     "cross": false
+    }
+   ],
+   "punch": "ROUND",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/d079e3ba7d801d9e.mp4"
+  },
+  {
+   "say": "That's because a bubble's skin is always pulling inward, like a stretched balloon.",
+   "clip_id": 17399,
+   "items": [
+    {
+     "emoji": "🎈",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 2.4,
+     "cross": false
+    }
+   ],
+   "punch": "PULLING IN",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/ffd2eb5dc7613830.mp4"
+  },
+  {
+   "say": "It squeezes into the shape with the smallest surface for the air inside, and that's a sphere.",
+   "clip_id": 150344,
+   "punch": "SPHERE",
+   "punch_y": 0.66,
+   "punch_delay": 4.2,
+   "clip_path": "/root/.cache/shorts_clips/ec7f1746212896b2.mp4"
+  },
+  {
+   "say": "That skin is about 100 times thinner than a human hair.",
+   "clip_id": 7141,
+   "number": {
+    "value": 100,
+    "prefix": "",
+    "suffix": "x",
+    "label": "thinner than a hair",
+    "y": 0.55,
+    "delay": 1.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/1b24d5fff103c4a1.mp4"
+  },
+  {
+   "say": "Light bounces off its inside and outside, making those rainbow swirls.",
+   "clip_id": 220648,
+   "inset_id": 1219,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "RAINBOW",
+   "punch_y": 0.66,
+   "punch_delay": 3.4,
+   "clip_path": "/root/.cache/shorts_clips/1bbc644b60ac4cec.mp4",
+   "inset_path": "/root/.cache/shorts_clips/6a94995cf42af3ca.mp4"
+  },
+  {
+   "say": "The top drains thinnest, and often turns dark right before it pops.",
+   "clip_id": 220643,
+   "items": [
+    {
+     "emoji": "💥",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 3.2,
+     "cross": false
+    }
+   ],
+   "punch": "DARK",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/ca7cf43e2b42319a.mp4"
+  },
+  {
+   "say": "When bubbles stick together, their walls always meet at 120 degree angles.",
+   "clip_id": 7105,
+   "number": {
+    "value": 120,
+    "prefix": "",
+    "suffix": "°",
+    "label": "where walls meet",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/84d40f58962e55e7.mp4"
+  },
+  {
+   "say": "So the wand's shape never matters, the bubble always pulls itself round.",
+   "clip_id": 85220,
+   "inset_id": 374358,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "ALWAYS ROUND",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/8f2a74310dc31cff.mp4",
+   "inset_path": "/root/.cache/shorts_clips/d079e3ba7d801d9e.mp4"
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-bats-hang-upside-down",
+ "hook": "Bats hang upside down because they CAN'T take off",
+ "title": "Why Bats Sleep Upside Down (Their Grip Locks Itself) #shorts",
+ "description": "Bats hang upside down because most of them can't launch from the ground, and a self-locking tendon grip means hanging costs them almost no energy.\n\nFollow for what's trending, explained!\n\n#bats #animalfacts #nature #wildlife #shorts",
+ "tags": [
+  "bats",
+  "why do bats hang upside down",
+  "bat facts",
+  "animal facts",
+  "nature",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Bats hang upside down because most of them can't take off from the ground.",
+   "clip_id": 372997,
+   "items": [
+    {
+     "emoji": "🦇",
+     "x": 0.72,
+     "y": 0.47,
+     "size": 0.14,
+     "anim": "float",
+     "delay": 0.2,
+     "cross": false
+    }
+   ],
+   "punch": "CAN'T TAKE OFF",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/e7c03467bc7ea17f.mp4"
+  },
+  {
+   "say": "Their wings can't lift them from a standstill, and they can't run.",
+   "clip_id": 1308,
+   "items": [
+    {
+     "emoji": "🏃",
+     "x": 0.72,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 2.0,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2140e77b0764bd8b.mp4"
+  },
+  {
+   "say": "So they hang up high, and to fly, they simply let go and drop.",
+   "clip_id": 201409,
+   "inset_id": 382639,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "DROP",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/5fee7390455220b6.mp4",
+   "inset_path": "/root/.cache/shorts_clips/028a0d0e51f7854a.mp4"
+  },
+  {
+   "say": "Their weight pulls on tendons that lock the claws shut.",
+   "clip_id": 67495,
+   "items": [
+    {
+     "emoji": "🔒",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "punch": "LOCKED",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/75e87bd6b182214a.mp4"
+  },
+  {
+   "say": "So gravity holds them up, using almost no energy.",
+   "clip_id": 2119,
+   "inset_id": 386840,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🔋",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 1.4,
+     "cross": false
+    }
+   ],
+   "punch": "NO EFFORT",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/34a773a7900e68e0.mp4",
+   "inset_path": "/root/.cache/shorts_clips/0ffe16f5786f559b.mp4"
+  },
+  {
+   "say": "Their thigh bones are rotated 180 degrees, so their knees bend the opposite way to ours.",
+   "clip_id": 382639,
+   "number": {
+    "value": 180,
+    "prefix": "",
+    "suffix": "°",
+    "label": "rotated legs",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/028a0d0e51f7854a.mp4"
+  },
+  {
+   "say": "Up on a cave ceiling, they're out of reach of owls, hawks and snakes.",
+   "clip_id": 18244,
+   "inset_id": 212324,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "OUT OF REACH",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/34fe858fc434950a.mp4",
+   "inset_path": "/root/.cache/shorts_clips/44d70650ed5012ff.mp4"
+  },
+  {
+   "say": "A bat has to be awake to let go, so it can't drop off in its sleep.",
+   "clip_id": 384849,
+   "inset_id": 67495,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "😴",
+     "x": 0.78,
+     "y": 0.28,
+     "size": 0.12,
+     "anim": "float",
+     "delay": 1.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8d3b8e76c4c45f9a.mp4",
+   "inset_path": "/root/.cache/shorts_clips/75e87bd6b182214a.mp4"
+  },
+  {
+   "say": "Hanging is their launch pad, and that's why bats sleep upside down.",
+   "clip_id": 367164,
+   "inset_id": 372997,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "LAUNCH PAD",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "clip_path": "/root/.cache/shorts_clips/7883a792717496f5.mp4",
+   "inset_path": "/root/.cache/shorts_clips/e7c03467bc7ea17f.mp4"
+  }
+ ]
+}

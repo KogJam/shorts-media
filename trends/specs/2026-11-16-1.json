@@ -1,0 +1,180 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-turtles-butt-breathing-myth",
+ "hook": "Pond turtles DON'T breathe through their butts",
+ "title": "Turtles Don't Really Breathe Through Their Butts #shorts",
+ "description": "The viral 'turtles breathe through their butts' fact is mostly a myth for pond turtles: under winter ice they survive on almost no oxygen, and their shell does the heavy lifting. (A few Australian river turtles really do use their rear for extra oxygen.)\n\nFollow for what's trending, explained!\n\n#turtles #animalfacts #nature #mythbusting #shorts",
+ "tags": [
+  "turtles",
+  "do turtles breathe through their butts",
+  "painted turtle",
+  "turtle hibernation",
+  "animal facts",
+  "myth",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Pond turtles don't really breathe through their butts, despite the viral story.",
+   "clip_id": 120388,
+   "items": [
+    {
+     "emoji": "🐢",
+     "x": 0.5,
+     "y": 0.47,
+     "size": 0.15,
+     "anim": "pop",
+     "delay": 0.2,
+     "cross": false
+    }
+   ],
+   "punch": "MYTH",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/1176398eb886da69.mp4"
+  },
+  {
+   "say": "In winter, painted turtles sink to the bottom of frozen ponds for months.",
+   "clip_id": 258680,
+   "inset_id": 85661,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "❄️",
+     "x": 0.25,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "float",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/b72552b98aaa5cb7.mp4",
+   "inset_path": "/root/.cache/shorts_clips/989883362b331e12.mp4"
+  },
+  {
+   "say": "Under the ice, they can't reach the air for a single breath.",
+   "clip_id": 136527,
+   "items": [
+    {
+     "emoji": "🫁",
+     "x": 0.72,
+     "y": 0.32,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": true
+    }
+   ],
+   "punch": "NO AIR",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/eda2d33279aeee8b.mp4"
+  },
+  {
+   "say": "Scientists tested the butt idea in 2004, and found no gas exchange there.",
+   "clip_id": 9220,
+   "items": [
+    {
+     "emoji": "🔬",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "punch": "BUSTED",
+   "punch_y": 0.66,
+   "punch_delay": 3.4,
+   "clip_path": "/root/.cache/shorts_clips/ccaf9709599eca5f.mp4"
+  },
+  {
+   "say": "Instead, a little oxygen soaks in through their skin and the lining of their mouth.",
+   "clip_id": 76041,
+   "inset_id": 81165,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "SKIN",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/e1d62053a593f628.mp4",
+   "inset_path": "/root/.cache/shorts_clips/7ea68f9980034f12.mp4"
+  },
+  {
+   "say": "When even that runs out, they can survive more than 4 months with no oxygen at all.",
+   "clip_id": 83882,
+   "number": {
+    "value": 4,
+    "prefix": "",
+    "suffix": "+ months",
+    "label": "with zero oxygen",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/2c8e6c3f66e0d6de.mp4"
+  },
+  {
+   "say": "Their heart slows to about one beat every few minutes.",
+   "clip_id": 20890,
+   "inset_id": 85661,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "❤️",
+     "x": 0.72,
+     "y": 0.32,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "1 BEAT",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/50ffa39eb5b10cd3.mp4",
+   "inset_path": "/root/.cache/shorts_clips/989883362b331e12.mp4"
+  },
+  {
+   "say": "Their shell even soaks up the acid that builds up in their body.",
+   "clip_id": 120390,
+   "inset_id": 155028,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "SHELL POWER",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/c944eee08934f6b0.mp4",
+   "inset_path": "/root/.cache/shorts_clips/9736bcb4292c7fb7.mp4"
+  },
+  {
+   "say": "The real hero is the shell, not the butt.",
+   "clip_id": 155030,
+   "inset_id": 120388,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "THE SHELL",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/0141bcff3c66b266.mp4",
+   "inset_path": "/root/.cache/shorts_clips/1176398eb886da69.mp4"
+  }
+ ]
+}
