@@ -1,0 +1,172 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-gorilla-chest-beat",
+ "hook": "A gorilla's chest beat CAN'T lie",
+ "title": "Why Gorillas Beat Their Chests (It's Not Just Anger) #shorts",
+ "description": "Gorillas drum with cupped hands, and bigger males make deeper beats, so a chest beat is an honest report of body size that rivals can hear over a kilometer away.\n\nFollow for what's trending, explained!\n\n#gorilla #animalfacts #wildlife #nature #shorts",
+ "tags": [
+  "gorilla",
+  "why do gorillas beat their chests",
+  "gorilla chest beat",
+  "silverback",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "A gorilla's chest beat is a message that can't lie.",
+   "clip_id": 112427,
+   "items": [
+    {
+     "emoji": "🦍",
+     "x": 0.75,
+     "y": 0.32,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "punch": "CAN'T LIE",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/a2a145c13fb78359.mp4"
+  },
+  {
+   "say": "Gorillas don't punch with fists. They beat with cupped hands, like a drum.",
+   "clip_id": 85379,
+   "inset_id": 8173,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🥁",
+     "x": 0.78,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "bounce",
+     "delay": 2.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/a815051090ffb601.mp4",
+   "inset_path": "/root/.cache/shorts_clips/b08442f83ed635d0.mp4"
+  },
+  {
+   "say": "That deep pop can be heard over a kilometer away.",
+   "clip_id": 214622,
+   "number": {
+    "value": 1,
+    "prefix": "",
+    "suffix": " km+",
+    "label": "heard away",
+    "y": 0.55,
+    "delay": 1.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/7873185cf073d307.mp4"
+  },
+  {
+   "say": "Scientists recorded over 500 chest beats from 25 wild mountain gorillas.",
+   "clip_id": 49785,
+   "number": {
+    "value": 500,
+    "prefix": "",
+    "suffix": "+",
+    "label": "chest beats recorded",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/3268444101a71dbd.mp4"
+  },
+  {
+   "say": "They found that bigger males make lower, deeper beats.",
+   "clip_id": 128698,
+   "items": [
+    {
+     "emoji": "🔊",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "punch": "DEEPER",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/cff8f75cefec5f5a.mp4"
+  },
+  {
+   "say": "Probably because big males have larger air sacs near their voice box.",
+   "clip_id": 82885,
+   "inset_id": 164517,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/fe89da2b03554dc1.mp4",
+   "inset_path": "/root/.cache/shorts_clips/62d9009a34035c00.mp4"
+  },
+  {
+   "say": "So rivals can hear exactly how big a silverback is, without seeing him.",
+   "clip_id": 265333,
+   "inset_id": 87157,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "👂",
+     "x": 0.78,
+     "y": 0.28,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/4c1db97e6a71a27f.mp4",
+   "inset_path": "/root/.cache/shorts_clips/0f7b27e6721d3cc5.mp4"
+  },
+  {
+   "say": "That lets them size each other up and skip a real fight.",
+   "clip_id": 79747,
+   "items": [
+    {
+     "emoji": "🥊",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "shake",
+     "delay": 1.2,
+     "cross": true
+    }
+   ],
+   "punch": "NO FIGHT",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/f9a61b4697f2619a.mp4"
+  },
+  {
+   "say": "It's a size report made of sound. That's why a gorilla's chest beat can't lie.",
+   "clip_id": 164517,
+   "inset_id": 112427,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "SIZE REPORT",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/62d9009a34035c00.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a2a145c13fb78359.mp4"
+  }
+ ]
+}

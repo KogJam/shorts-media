@@ -1,0 +1,159 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-soda-candy-eruption",
+ "hook": "The soda geyser is NOT a chemical reaction",
+ "title": "Why Mint Candy Makes Soda Explode (It's Not Chemistry) #shorts",
+ "description": "Drop mint candies into diet soda and a foam geyser shoots out, but nothing reacts: thousands of tiny pits on the candy give trapped carbon dioxide a place to form bubbles all at once.\n\nFollow for what's trending, explained!\n\n#science #physics #experiment #sciencefacts #shorts",
+ "tags": [
+  "soda geyser",
+  "mint candy soda",
+  "why does soda explode",
+  "science experiment",
+  "physics",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "The soda and mint candy geyser isn't a chemical reaction at all.",
+   "clip_id": 79908,
+   "items": [
+    {
+     "emoji": "🧪",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 1.6,
+     "cross": true
+    }
+   ],
+   "punch": "NOT CHEMISTRY",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/36fdcea5c9ddae38.mp4"
+  },
+  {
+   "say": "Soda is packed with carbon dioxide, held in by pressure.",
+   "clip_id": 93286,
+   "inset_id": 130782,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🫧",
+     "x": 0.78,
+     "y": 0.28,
+     "size": 0.12,
+     "anim": "rise",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8780af043def927b.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a33f2079cf82dd93.mp4"
+  },
+  {
+   "say": "Open it, and the gas wants out, but bubbles need a place to start.",
+   "clip_id": 93316,
+   "punch": "NEEDS A START",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/28816c66c9773807.mp4"
+  },
+  {
+   "say": "Each candy is covered in thousands of tiny pits.",
+   "clip_id": 93280,
+   "items": [
+    {
+     "emoji": "🍬",
+     "x": 0.5,
+     "y": 0.4,
+     "size": 0.16,
+     "anim": "pop",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "punch": "THOUSANDS",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/4fae1ae02db83c30.mp4"
+  },
+  {
+   "say": "Every pit becomes a launch site for gas bubbles.",
+   "clip_id": 337265,
+   "inset_id": 93262,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/4a695b6e8d150a80.mp4",
+   "inset_path": "/root/.cache/shorts_clips/cdb27e03f5f0940c.mp4"
+  },
+  {
+   "say": "The candies are heavy, so they sink fast and make bubbles all the way down.",
+   "clip_id": 81171,
+   "items": [
+    {
+     "emoji": "⬇️",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "drop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "punch": "SINKS FAST",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/5b9e3498ca7e2559.mp4"
+  },
+  {
+   "say": "Diet soda works best: its sweetener lowers surface tension, so bubbles grow faster.",
+   "clip_id": 83154,
+   "inset_id": 93287,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "DIET WINS",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/edd58c0bafea7825.mp4",
+   "inset_path": "/root/.cache/shorts_clips/1b72470f5cebe2f7.mp4"
+  },
+  {
+   "say": "The gas rushes out at once, and the foam can shoot up to 30 feet high.",
+   "clip_id": 4099,
+   "number": {
+    "value": 30,
+    "prefix": "",
+    "suffix": " ft",
+    "label": "foam geyser",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/a3a79b39ad2b5ac9.mp4"
+  },
+  {
+   "say": "Rough candy, trapped gas, pure physics. That's why it isn't a chemical reaction.",
+   "clip_id": 80136,
+   "inset_id": 337332,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "PURE PHYSICS",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/7de5745fd40700c7.mp4",
+   "inset_path": "/root/.cache/shorts_clips/393a60a061934acb.mp4"
+  }
+ ]
+}

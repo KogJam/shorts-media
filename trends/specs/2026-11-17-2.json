@@ -1,0 +1,172 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-wood-frog-freezes",
+ "hook": "This frog freezes SOLID every winter",
+ "title": "Why This Frog Freezes Solid and Comes Back to Life #shorts",
+ "description": "The wood frog lets up to 70% of its body water turn to ice, its heart stops, and sugar from its liver protects its cells until it thaws in spring.\n\nFollow for what's trending, explained!\n\n#frog #woodfrog #animalfacts #nature #shorts",
+ "tags": [
+  "wood frog",
+  "frozen frog",
+  "frog freezes solid",
+  "animal facts",
+  "winter animals",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "This frog freezes solid every winter, and it isn't dead.",
+   "clip_id": 2832,
+   "inset_id": 331032,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "FROZEN SOLID",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/52017e038b73c937.mp4",
+   "inset_path": "/root/.cache/shorts_clips/4f87f3e5b60ea02f.mp4"
+  },
+  {
+   "say": "The wood frog lives so far north, it crosses the Arctic Circle.",
+   "clip_id": 192649,
+   "items": [
+    {
+     "emoji": "🐸",
+     "x": 0.5,
+     "y": 0.42,
+     "size": 0.16,
+     "anim": "bounce",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/fa72e97fe3f981ce.mp4"
+  },
+  {
+   "say": "When the frost comes, up to 70 percent of the water in its body turns to ice.",
+   "clip_id": 326483,
+   "number": {
+    "value": 70,
+    "prefix": "",
+    "suffix": "%",
+    "label": "of its body water = ice",
+    "y": 0.55,
+    "delay": 2.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/a8b95aea8ca18ef8.mp4"
+  },
+  {
+   "say": "Its heart stops beating, and its brain goes quiet.",
+   "clip_id": 28247,
+   "items": [
+    {
+     "emoji": "💓",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 0.6,
+     "cross": true
+    }
+   ],
+   "punch": "NO HEARTBEAT",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/0fbca21b32a22cb6.mp4"
+  },
+  {
+   "say": "To survive, its liver floods the body with sugar, a natural antifreeze.",
+   "clip_id": 216579,
+   "inset_id": 301680,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "ANTIFREEZE",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/8514eca6b1ff4ed6.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a0612c25d6426e8a.mp4"
+  },
+  {
+   "say": "Sugar keeps the ice outside its cells, so they don't burst.",
+   "clip_id": 7104,
+   "items": [
+    {
+     "emoji": "🛡️",
+     "x": 0.78,
+     "y": 0.28,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/63b1222b23b72c3f.mp4"
+  },
+  {
+   "say": "It can survive minus 16 degrees, frozen for months at a time.",
+   "clip_id": 154586,
+   "number": {
+    "value": 16,
+    "prefix": "-",
+    "suffix": "°C",
+    "label": "and still alive",
+    "y": 0.55,
+    "delay": 1.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/cc97c0f0f7afb72c.mp4"
+  },
+  {
+   "say": "In spring it thaws, heart and brain first, and is back to normal in about 10 hours.",
+   "clip_id": 217452,
+   "inset_id": 356398,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "🌱",
+     "x": 0.78,
+     "y": 0.28,
+     "size": 0.12,
+     "anim": "grow",
+     "delay": 2.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2c3313bf8a5e76d9.mp4",
+   "inset_path": "/root/.cache/shorts_clips/475db18a2c349073.mp4"
+  },
+  {
+   "say": "Then next winter, this frog freezes solid all over again.",
+   "clip_id": 145779,
+   "inset_id": 307226,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "❄️",
+     "x": 0.75,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "spin",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "punch": "AGAIN",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/760231e4c91c0335.mp4",
+   "inset_path": "/root/.cache/shorts_clips/35b895d1e2029d26.mp4"
+  }
+ ]
+}
