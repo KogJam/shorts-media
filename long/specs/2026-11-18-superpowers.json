@@ -1,0 +1,441 @@
+{
+ "id": "long-2026-11-18-superpowers",
+ "title": "10 Animal Survival Superpowers, Explained by Science",
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "intro": [
+  {
+   "say": "A frog that freezes solid and comes back to life. A bear that sleeps for months and never needs to pee. And a snail with teeth stronger than spider silk.",
+   "q": "frog",
+   "q2": "frog leaves",
+   "clip": "/root/.cache/shorts_clips/e84c198648919453.mp4",
+   "clip_id": 113403
+  },
+  {
+   "say": "Animals have evolved some truly wild tricks to survive cold winters, hungry predators and tough jobs.",
+   "q": "winter forest snow",
+   "clip": "/root/.cache/shorts_clips/665436ad4b65563b.mp4",
+   "clip_id": 142579
+  },
+  {
+   "say": "So here are ten animal survival superpowers, and the science that explains how they really work.",
+   "q": "wildlife nature",
+   "clip": "/root/.cache/shorts_clips/ab142319f331036a.mp4",
+   "clip_id": 13704
+  }
+ ],
+ "chapters": [
+  {
+   "title": "Why bears don't pee for months",
+   "scenes": [
+    {
+     "say": "Right now, bears are heading into their dens for the winter. A black bear can stay in there for up to seven months.",
+     "q": "bear forest",
+     "q2": "black bear",
+     "clip": "/root/.cache/shorts_clips/7c9df1fc2fc2a54c.mp4",
+     "clip_id": 43109
+    },
+    {
+     "say": "And during all that time, it doesn't eat, drink, pee or poop.",
+     "q": "bear sleeping",
+     "clip": "/root/.cache/shorts_clips/978f2386ac7e0284.mp4",
+     "clip_id": 205374
+    },
+    {
+     "say": "Its heart slows to about eight beats a minute, and it takes roughly one breath a minute. Its whole body runs on low power.",
+     "q": "brown bear",
+     "q2": "bear walking",
+     "clip": "/root/.cache/shorts_clips/037db3eb06ab7a06.mp4",
+     "clip_id": 168896
+    },
+    {
+     "say": "Normally, pee flushes out a waste called urea. Bears recycle it instead, and turn it back into protein for their muscles. Burning stored fat even makes water, so they don't need to drink.",
+     "q": "bear snow",
+     "clip": "/root/.cache/shorts_clips/e3b3243c1521bfa6.mp4",
+     "clip_id": 3358
+    },
+    {
+     "say": "A bear can lose up to a third of its weight by spring. But its muscles stay strong, because the waste is turned into muscle. The bear simply never needs to go.",
+     "q": "bear cubs",
+     "q2": "bear river",
+     "clip": "/root/.cache/shorts_clips/cf842de46f1746db.mp4",
+     "clip_id": 138569
+    }
+   ]
+  },
+  {
+   "title": "The frog that freezes solid",
+   "scenes": [
+    {
+     "say": "Now meet an animal that takes winter even further. The wood frog freezes solid every year, and it isn't dead.",
+     "q": "frog",
+     "q2": "frog leaves",
+     "clip": "/root/.cache/shorts_clips/805e754a78379130.mp4",
+     "clip_id": 171254
+    },
+    {
+     "say": "It lives so far north that its range crosses the Arctic Circle. When the frost comes, up to seventy percent of the water in its body turns to ice.",
+     "q": "frost ice",
+     "q2": "frost leaves",
+     "clip": "/root/.cache/shorts_clips/20e844595fe79845.mp4",
+     "clip_id": 188284
+    },
+    {
+     "say": "Its heart stops beating. Its brain goes quiet. It looks completely dead.",
+     "q": "frozen forest floor",
+     "q2": "autumn leaves forest",
+     "clip": "/root/.cache/shorts_clips/459b572c5b6596d8.mp4",
+     "clip_id": 311442
+    },
+    {
+     "say": "The trick is sugar. Its liver floods the body with it, like a natural antifreeze. The sugar keeps the ice outside its cells, so the cells don't burst.",
+     "q": "ice crystals",
+     "clip": "/root/.cache/shorts_clips/85727a0b258a3b9a.mp4",
+     "clip_id": 325502,
+     "q2": "frost"
+    },
+    {
+     "say": "It can survive minus sixteen degrees Celsius, frozen for months. In spring it thaws, heart and brain first, and is back to normal in about ten hours.",
+     "q": "frog pond",
+     "q2": "spring forest",
+     "clip": "/root/.cache/shorts_clips/760231e4c91c0335.mp4",
+     "clip_id": 145779
+    }
+   ]
+  },
+  {
+   "title": "Do turtles really breathe through their butts?",
+   "scenes": [
+    {
+     "say": "You may have heard that turtles breathe through their butts in winter. It's a popular story online, but it isn't really true.",
+     "q": "turtle",
+     "q2": "turtle pond",
+     "clip": "/root/.cache/shorts_clips/1176398eb886da69.mp4",
+     "clip_id": 120388
+    },
+    {
+     "say": "Painted turtles spend the winter at the bottom of frozen ponds, for months, with no way to reach the air for a single breath.",
+     "q": "frozen pond",
+     "q2": "frozen lake",
+     "clip": "/root/.cache/shorts_clips/50ffa39eb5b10cd3.mp4",
+     "clip_id": 20890
+    },
+    {
+     "say": "In 2004, scientists tested the butt idea and found no real gas exchange there. Instead, a little oxygen soaks in through their skin and the lining of their mouth.",
+     "q": "turtle swimming",
+     "clip": "/root/.cache/shorts_clips/e0798c575765154b.mp4",
+     "clip_id": 146267,
+     "q2": "turtle log"
+    },
+    {
+     "say": "When even that runs out, they can survive more than four months with no oxygen at all. Their heart slows to about one beat every few minutes.",
+     "q": "turtle underwater",
+     "q2": "pond turtle",
+     "clip": "/root/.cache/shorts_clips/7f67653d6be369e4.mp4",
+     "clip_id": 276791
+    },
+    {
+     "say": "Without oxygen, acid builds up in the body. So the turtle's shell releases minerals that soak it up. The real hero is the shell, not the butt.",
+     "q": "turtle shell",
+     "q2": "turtle sun",
+     "clip": "/root/.cache/shorts_clips/e1d62053a593f628.mp4",
+     "clip_id": 76041
+    }
+   ]
+  },
+  {
+   "title": "Why duck feet don't freeze",
+   "scenes": [
+    {
+     "say": "Ducks stand on ice barefoot for hours. A duck's body is a warm forty one degrees Celsius, and the ice is zero. So why don't their feet freeze?",
+     "q": "duck ice",
+     "q2": "ducks winter",
+     "clip": "/root/.cache/shorts_clips/f4262f7fc7426284.mp4",
+     "clip_id": 252733
+    },
+    {
+     "say": "They use a trick engineers copy, called a heat exchanger. In the legs, warm arteries going down run right next to cold veins coming up.",
+     "q": "duck",
+     "q2": "mallard duck",
+     "clip": "/root/.cache/shorts_clips/c36f322dab7c1789.mp4",
+     "clip_id": 265501
+    },
+    {
+     "say": "The warm blood hands its heat to the cold blood before it reaches the feet. So the feet stay just above freezing, and the heat flows back into the body.",
+     "q": "duck walking",
+     "q2": "duck feet",
+     "clip": "/root/.cache/shorts_clips/d374358e0aea4e89.mp4",
+     "clip_id": 220221
+    },
+    {
+     "say": "In one study, mallards at zero degrees lost only about five percent of their body heat through their feet. Penguins use the very same trick on the ice.",
+     "q": "penguin",
+     "q2": "penguins ice",
+     "clip": "/root/.cache/shorts_clips/a27954f93b9d46e4.mp4",
+     "clip_id": 327101
+    },
+    {
+     "say": "Still cold? A duck simply tucks one foot into its warm feathers and stands on the other. Not tough, just amazing plumbing.",
+     "q": "duck one leg",
+     "q2": "duck resting",
+     "clip": "/root/.cache/shorts_clips/baa4d440b22eb998.mp4",
+     "clip_id": 7151
+    }
+   ]
+  },
+  {
+   "title": "Why geese fly in a V",
+   "scenes": [
+    {
+     "say": "In autumn, geese head south in a giant V. It's all about saving energy.",
+     "q": "geese flying",
+     "q2": "flock of geese",
+     "clip": "/root/.cache/shorts_clips/0ef07707b4d1d392.mp4",
+     "clip_id": 138566
+    },
+    {
+     "say": "Each wingtip leaves a swirl of air that spins upward just behind it. The bird in back sits slightly to the side and surfs that rising air, a free ride.",
+     "q": "birds flock sky",
+     "clip": "/root/.cache/shorts_clips/c15948698b625355.mp4",
+     "clip_id": 138891
+    },
+    {
+     "say": "In 2014, scientists tracked northern bald ibises flying in formation behind a small aircraft, and found the birds even time their flaps to match the bird ahead.",
+     "q": "ibis",
+     "q2": "birds flying",
+     "clip": "/root/.cache/shorts_clips/74a897382ca62c39.mp4",
+     "clip_id": 216515
+    },
+    {
+     "say": "In a study of pelicans, birds at the back had lower heart rates than the leader. Flying in formation can save them up to eleven percent of their energy.",
+     "q": "pelicans flying",
+     "q2": "pelican",
+     "clip": "/root/.cache/shorts_clips/a215359e76ede323.mp4",
+     "clip_id": 261051
+    },
+    {
+     "say": "Leading is the hardest job, so tired leaders drop back and another bird takes over. No goose leads forever.",
+     "q": "canada geese",
+     "q2": "geese",
+     "clip": "/root/.cache/shorts_clips/221e4643b5b852ee.mp4",
+     "clip_id": 372894
+    }
+   ]
+  },
+  {
+   "title": "Why bats sleep upside down",
+   "scenes": [
+    {
+     "say": "Bats are the only mammals that can truly fly, and there are more than fourteen hundred kinds of them. Almost all of them rest upside down.",
+     "q": "bat",
+     "q2": "bats cave",
+     "clip": "/root/.cache/shorts_clips/fd43c1cf55b4d5f5.mp4",
+     "clip_id": 345462
+    },
+    {
+     "say": "The reason is takeoff. Their wings can't lift them from a standstill, and they can't run. So they hang up high, and to fly, they simply let go and drop.",
+     "q": "bat flying",
+     "q2": "bats flying",
+     "clip": "/root/.cache/shorts_clips/75e87bd6b182214a.mp4",
+     "clip_id": 67495
+    },
+    {
+     "say": "Their body weight pulls on tendons that lock the claws shut. So gravity holds them up, and hanging costs almost no energy.",
+     "q": "bat hanging",
+     "q2": "fruit bat",
+     "clip": "/root/.cache/shorts_clips/0ffe16f5786f559b.mp4",
+     "clip_id": 386840
+    },
+    {
+     "say": "Their thigh bones are rotated a hundred and eighty degrees, so their knees bend the opposite way to ours.",
+     "q": "fruit bat",
+     "q2": "bats",
+     "clip": "/root/.cache/shorts_clips/e7c03467bc7ea17f.mp4",
+     "clip_id": 372997
+    },
+    {
+     "say": "Up on a cave ceiling, they're out of reach of owls, hawks and snakes. And because a bat must be awake to let go, it never drops off in its sleep.",
+     "q": "cave",
+     "q2": "dark cave",
+     "clip": "/root/.cache/shorts_clips/04ceba75d954c6ba.mp4",
+     "clip_id": 64745
+    }
+   ]
+  },
+  {
+   "title": "Why gorillas beat their chests",
+   "scenes": [
+    {
+     "say": "A gorilla's chest beat looks like pure anger. But it's really a message, and it's one that can't lie.",
+     "q": "gorilla",
+     "q2": "gorilla silverback",
+     "clip": "/root/.cache/shorts_clips/cff8f75cefec5f5a.mp4",
+     "clip_id": 128698
+    },
+    {
+     "say": "Gorillas don't punch with fists. They beat with cupped hands, like a drum, and that deep pop can be heard more than a kilometer away.",
+     "q": "gorilla forest",
+     "clip": "/root/.cache/shorts_clips/87cf96595c0f3d99.mp4",
+     "clip_id": 343366
+    },
+    {
+     "say": "Scientists recorded over five hundred chest beats from twenty five wild mountain gorillas in Rwanda. Bigger males made lower, deeper beats.",
+     "q": "mountain gorilla",
+     "q2": "gorilla jungle",
+     "clip": "/root/.cache/shorts_clips/398bfe052c5b1460.mp4",
+     "clip_id": 131811
+    },
+    {
+     "say": "That's probably because big males have larger air sacs near their voice box. So rivals can hear how big a silverback is without even seeing him.",
+     "q": "gorilla male",
+     "q2": "silverback",
+     "clip": "/root/.cache/shorts_clips/0f7b27e6721d3cc5.mp4",
+     "clip_id": 87157
+    },
+    {
+     "say": "They can size each other up and skip a real fight. A chest beat is a size report made of sound.",
+     "q": "gorilla family",
+     "q2": "gorilla baby",
+     "clip": "/root/.cache/shorts_clips/62d9009a34035c00.mp4",
+     "clip_id": 164517
+    }
+   ]
+  },
+  {
+   "title": "Why beaver teeth are orange",
+   "scenes": [
+    {
+     "say": "Look closely at a beaver and you'll see orange teeth. That color comes from iron in their enamel, which makes the teeth extra tough.",
+     "q": "beaver",
+     "q2": "beaver eating",
+     "clip": "/root/.cache/shorts_clips/4da06955f49e0646.mp4",
+     "clip_id": 65595
+    },
+    {
+     "say": "Their front teeth never stop growing, so they have to keep chewing wood. A single beaver can cut down around two hundred trees a year.",
+     "q": "beaver chewing",
+     "q2": "beaver river",
+     "clip": "/root/.cache/shorts_clips/4e999797755de804.mp4",
+     "clip_id": 47602
+    },
+    {
+     "say": "All that wood builds dams that turn streams into deep ponds. Their lodges sit in that pond, with entrances hidden underwater. A beaver can hold its breath for about fifteen minutes.",
+     "q": "beaver swimming",
+     "q2": "beaver water",
+     "clip": "/root/.cache/shorts_clips/cd4bcc29ccdf864f.mp4",
+     "clip_id": 85677
+    },
+    {
+     "say": "In winter the deep water doesn't freeze solid, so the food they stored stays within reach, right below the ice.",
+     "q": "beaver dam",
+     "q2": "beaver lodge",
+     "clip": "/root/.cache/shorts_clips/7ae0adb1cbf96cc6.mp4",
+     "clip_id": 3346
+    },
+    {
+     "say": "The biggest beaver dam on Earth is about eight hundred and fifty meters long, in northern Canada. It's so big it was first spotted on satellite images.",
+     "q": "forest river aerial",
+     "q2": "wetland aerial",
+     "clip": "/root/.cache/shorts_clips/3645b069595e4925.mp4",
+     "clip_id": 216058
+    }
+   ]
+  },
+  {
+   "title": "Snails have thousands of teeth",
+   "scenes": [
+    {
+     "say": "A snail looks toothless. It isn't. Depending on the species, a snail can have two thousand to fifteen thousand tiny teeth.",
+     "q": "snail",
+     "q2": "snail macro",
+     "clip": "/root/.cache/shorts_clips/9c1c24519f63c060.mp4",
+     "clip_id": 169471
+    },
+    {
+     "say": "They're not in a jaw like ours. They sit on a ribbon shaped tongue called a radula, covered in rows of teeth, like a tiny file.",
+     "q": "snail eating",
+     "q2": "snail leaf",
+     "clip": "/root/.cache/shorts_clips/212518e2de291ffe.mp4",
+     "clip_id": 26264
+    },
+    {
+     "say": "The snail scrapes its food bit by bit, and the teeth wear down fast. So, a bit like a shark, it keeps growing new rows to replace them.",
+     "q": "snail garden",
+     "q2": "slug",
+     "clip": "/root/.cache/shorts_clips/e470510df6b09b27.mp4",
+     "clip_id": 126182
+    },
+    {
+     "say": "Its ocean cousin, the limpet, clings to rocks. In 2015, scientists found its teeth may be the strongest natural material ever tested, stronger than spider silk.",
+     "q": "limpets rock",
+     "q2": "rocky shore tide",
+     "clip": "/root/.cache/shorts_clips/517e0f2efff903da.mp4",
+     "clip_id": 275983
+    },
+    {
+     "say": "Each limpet tooth is under a millimeter long, and reinforced with an iron mineral called goethite. So that slow little snail is really a tongue full of teeth.",
+     "q": "sea snail",
+     "q2": "snail shell",
+     "clip": "/root/.cache/shorts_clips/50ba594958fcc589.mp4",
+     "clip_id": 135763
+    }
+   ]
+  },
+  {
+   "title": "Why ladybugs bleed from their knees",
+   "scenes": [
+    {
+     "say": "That cute ladybug has a gross secret. When it's scared, it bleeds from its knees. Scientists call it reflex bleeding.",
+     "q": "ladybug",
+     "q2": "ladybird",
+     "clip": "/root/.cache/shorts_clips/d7f42dfe8d544368.mp4",
+     "clip_id": 120355
+    },
+    {
+     "say": "Yellow drops ooze out of its leg joints. That fluid is its blood, called hemolymph, and it's loaded with bitter, smelly chemicals.",
+     "q": "ladybug leaf",
+     "q2": "ladybug macro",
+     "clip": "/root/.cache/shorts_clips/be422787204e412f.mp4",
+     "clip_id": 80021
+    },
+    {
+     "say": "A bird that grabs one gets a foul mouthful, and learns to leave ladybugs alone. That's what the bright red and black colors mean. They're a warning sign.",
+     "q": "ladybug flower",
+     "q2": "ladybird",
+     "clip": "/root/.cache/shorts_clips/6ab956ae35bbed32.mp4",
+     "clip_id": 2907
+    },
+    {
+     "say": "A seven spot ladybug can eat more than five thousand aphids in its lifetime. And radar has caught ladybugs flying over eleven hundred meters high.",
+     "q": "aphids",
+     "q2": "ladybug flying",
+     "clip": "/root/.cache/shorts_clips/7399cc4e30d2eb87.mp4",
+     "clip_id": 119263
+    },
+    {
+     "say": "Right now, in autumn, they gather by the thousands to sleep through the winter. So if you find yellow stains on your windowsill, that's not dirt. That's ladybug blood.",
+     "q": "ladybugs group",
+     "q2": "ladybug window",
+     "clip": "/root/.cache/shorts_clips/8a21753b1e2be181.mp4",
+     "clip_id": 177734
+    }
+   ]
+  }
+ ],
+ "outro": [
+  {
+   "say": "So which superpower would you want? Freezing solid like the wood frog, sleeping for months like a bear, or iron teeth like a beaver? Tell us in the comments.",
+   "q": "nature wildlife",
+   "q2": "forest animals",
+   "clip": "/root/.cache/shorts_clips/84736eadb79ac464.mp4",
+   "clip_id": 357054
+  },
+  {
+   "say": "If you liked this, subscribe for more of the real science behind what animals do.",
+   "q": "sunset nature",
+   "q2": "landscape forest",
+   "clip": "/root/.cache/shorts_clips/34a773a7900e68e0.mp4",
+   "clip_id": 2119
+  }
+ ]
+}
