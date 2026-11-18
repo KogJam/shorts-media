@@ -1,0 +1,178 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-rain-smell-bacteria",
+ "hook": "The smell of rain is BACTERIA",
+ "title": "The Smell of Rain Is Actually Bacteria #shorts",
+ "description": "That earthy smell after rain is geosmin, made by Streptomyces soil bacteria. Raindrops launch it into the air as a fizzy mist, and the bacteria use it to lure springtails that spread their spores.\n\nFollow for what's trending, explained!\n\n#rain #petrichor #science #nature #shorts",
+ "tags": [
+  "smell of rain",
+  "petrichor",
+  "geosmin",
+  "why does rain smell",
+  "nature facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "That smell after rain? You're actually smelling bacteria.",
+   "clip_id": 361188,
+   "items": [
+    {
+     "emoji": "👃",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "punch": "BACTERIA",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/a1c9244ad55efdc9.mp4"
+  },
+  {
+   "say": "Tiny soil bacteria called Streptomyces make a chemical named geosmin.",
+   "clip_id": 27636,
+   "inset_id": 134115,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🦠",
+     "x": 0.78,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/a4dec0c3e3257091.mp4",
+   "inset_path": "/root/.cache/shorts_clips/f89d6f974571189d.mp4"
+  },
+  {
+   "say": "Your nose can pick it up at just a few parts per trillion.",
+   "clip_id": 40357,
+   "items": [
+    {
+     "emoji": "👃",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "PARTS PER TRILLION",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/90de271bc47412bc.mp4"
+  },
+  {
+   "say": "When raindrops hit dry soil, they trap tiny bubbles of air.",
+   "clip_id": 151744,
+   "items": [
+    {
+     "emoji": "💧",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "drop",
+     "delay": 0.5,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8d21f5e4f8195f5c.mp4"
+  },
+  {
+   "say": "The bubbles burst into a fizzy mist that carries the scent.",
+   "clip_id": 151629,
+   "inset_id": 17013,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "FIZZY MIST",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/a20ab0c8382f3468.mp4",
+   "inset_path": "/root/.cache/shorts_clips/832d7afadb60791e.mp4"
+  },
+  {
+   "say": "Australian scientists named this smell petrichor back in 1964.",
+   "clip_id": 283426,
+   "number": {
+    "value": 1964,
+    "prefix": "",
+    "suffix": "",
+    "label": "the smell got a name",
+    "y": 0.55,
+    "delay": 1.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/ee4bb069b5aeb23d.mp4"
+  },
+  {
+   "say": "But why make the smell at all? To lure tiny bugs called springtails.",
+   "clip_id": 172759,
+   "items": [
+    {
+     "emoji": "🐛",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "bounce",
+     "delay": 2.4,
+     "cross": false
+    }
+   ],
+   "punch": "A LURE",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/5ed2ebb3f789c606.mp4"
+  },
+  {
+   "say": "Springtails eat the bacteria, and the spores hitch a ride to new soil.",
+   "clip_id": 120005,
+   "inset_id": 27636,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🚌",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 2.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/5cb32f6b1c3884a8.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a4dec0c3e3257091.mp4"
+  },
+  {
+   "say": "It's a bacterial ad. So after rain, you're actually smelling bacteria.",
+   "clip_id": 26369,
+   "inset_id": 361188,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "BACTERIAL AD",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/78e0f3d989be75a0.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a1c9244ad55efdc9.mp4"
+  }
+ ]
+}

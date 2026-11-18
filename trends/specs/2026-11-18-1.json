@@ -1,0 +1,170 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "dianakuehn30010 (Pixabay): https://pixabay.com/videos/id-174972/"
+ ],
+ "id": "trend-albino-vs-leucistic",
+ "hook": "Not every white animal is albino",
+ "title": "Why Some White Animals Aren't Albino (Check the Eyes) #shorts",
+ "description": "True albinos can't make melanin, so their eyes look pink. Leucistic animals are white but keep dark eyes, and white tigers aren't albino either, even though their color comes from the same gene as Snowflake, the albino gorilla.\n\nFollow for what's trending, explained!\n\n#albino #animalfacts #wildlife #nature #shorts",
+ "tags": [
+  "albino animals",
+  "leucism",
+  "albino vs leucistic",
+  "white gorilla",
+  "white tiger",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Not every white animal is albino. Look at the eyes.",
+   "clip_id": 33663,
+   "items": [
+    {
+     "emoji": "👀",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "punch": "LOOK AT THE EYES",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/9aef3175533f7352.mp4"
+  },
+  {
+   "say": "True albinos can't make melanin, the dark pigment in skin, fur and eyes.",
+   "clip_id": 141412,
+   "punch": "NO MELANIN",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/ce0f3fa7bce9850f.mp4",
+   "items": [
+    {
+     "emoji": "🧬",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "spin",
+     "delay": 1.0,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "So their eyes look pink, because blood vessels shine right through.",
+   "clip_id": 307147,
+   "items": [
+    {
+     "emoji": "🩸",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.8,
+     "cross": false
+    }
+   ],
+   "punch": "PINK EYES",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/4d92648997853a35.mp4"
+  },
+  {
+   "say": "Experts estimate only about 1 in 10,000 mammals is born albino.",
+   "clip_id": 174972,
+   "number": {
+    "value": 10000,
+    "prefix": "1 in ",
+    "suffix": "",
+    "label": "mammals born albino",
+    "y": 0.55,
+    "delay": 1.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/fe8acacf7619d4c5.mp4"
+  },
+  {
+   "say": "Leucistic animals are different. They're white too, but their eyes stay dark.",
+   "clip_id": 3066,
+   "items": [
+    {
+     "emoji": "🕊️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "float",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "DARK EYES",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/e656bb8697c992c0.mp4"
+  },
+  {
+   "say": "The only known white gorilla, Snowflake, was a true albino. His parents were likely uncle and niece.",
+   "clip_id": 128698,
+   "inset_id": 49785,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🦍",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/cff8f75cefec5f5a.mp4",
+   "inset_path": "/root/.cache/shorts_clips/3268444101a71dbd.mp4"
+  },
+  {
+   "say": "Twist: white tigers aren't albino, yet their coat comes from that very same gene.",
+   "clip_id": 6973,
+   "inset_id": 129992,
+   "inset_x": 0.5,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "SAME GENE",
+   "punch_y": 0.66,
+   "punch_delay": 3.4,
+   "clip_path": "/root/.cache/shorts_clips/85c7251c0d55747b.mp4",
+   "inset_path": "/root/.cache/shorts_clips/614ac4f50524c04f.mp4"
+  },
+  {
+   "say": "So check the eyes, because not every white animal is albino.",
+   "clip_id": 112427,
+   "inset_id": 307147,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "👁️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/a2a145c13fb78359.mp4",
+   "inset_path": "/root/.cache/shorts_clips/4d92648997853a35.mp4"
+  }
+ ]
+}

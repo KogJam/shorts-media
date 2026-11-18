@@ -1,0 +1,158 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-moss-north-myth",
+ "hook": "Moss WON'T point you north",
+ "title": "Moss Doesn't Point North (Survival Myth Explained) #shorts",
+ "description": "Moss favors the shady, damp side of a tree, which is the north side only in the Northern Hemisphere, and only sometimes. Slopes, nearby trees, wind and rain change everything, so a compass beats moss every time.\n\nFollow for what's trending, explained!\n\n#survival #moss #bushcraft #nature #shorts",
+ "tags": [
+  "moss north side",
+  "survival myth",
+  "bushcraft",
+  "moss",
+  "navigation",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Moss on a tree won't reliably point you north.",
+   "clip_id": 26593,
+   "items": [
+    {
+     "emoji": "🧭",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "shake",
+     "delay": 0.4,
+     "cross": true
+    }
+   ],
+   "punch": "NOT NORTH",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/47491a255512dc54.mp4"
+  },
+  {
+   "say": "It's a classic survival trick, and it can get you lost.",
+   "clip_id": 260318,
+   "items": [
+    {
+     "emoji": "🗺️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7e5dff135da503e8.mp4"
+  },
+  {
+   "say": "Moss has no real roots. It needs shade and water around it to survive.",
+   "clip_id": 95423,
+   "inset_id": 31471,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "SHADE + WATER",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/c95a807df2c11de7.mp4",
+   "inset_path": "/root/.cache/shorts_clips/766b7c041783da4a.mp4"
+  },
+  {
+   "say": "In the Northern Hemisphere, a tree's north side gets less sun, so it often stays damper.",
+   "clip_id": 283015,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pulse",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/be6c1a9f00459671.mp4"
+  },
+  {
+   "say": "But in the Southern Hemisphere, moss favors the south side instead.",
+   "clip_id": 287510,
+   "items": [
+    {
+     "emoji": "🌏",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "spin",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "SOUTH SIDE",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/30887d5910f52ce7.mp4"
+  },
+  {
+   "say": "Slopes, nearby trees, wind and rain all change where it grows.",
+   "clip_id": 370313,
+   "inset_id": 367677,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/db40916205ab2c6a.mp4",
+   "inset_path": "/root/.cache/shorts_clips/423c11e077c47230.mp4"
+  },
+  {
+   "say": "Britain alone has over 1,000 kinds of moss, and none of them harm the tree.",
+   "clip_id": 271161,
+   "number": {
+    "value": 1000,
+    "prefix": "",
+    "suffix": "+",
+    "label": "moss species in the UK",
+    "y": 0.55,
+    "delay": 1.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/7435279151494c0f.mp4"
+  },
+  {
+   "say": "Forest experts say a compass is cheap insurance.",
+   "clip_id": 28446,
+   "inset_id": 258794,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "CHEAP INSURANCE",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/129b9d7c43b1d5bf.mp4",
+   "inset_path": "/root/.cache/shorts_clips/1bacb7fd5dcbef15.mp4"
+  },
+  {
+   "say": "Because the moss on a tree won't reliably point you north.",
+   "clip_id": 159627,
+   "items": [
+    {
+     "emoji": "🧭",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/e215eb4d2ac357ef.mp4"
+  }
+ ]
+}
