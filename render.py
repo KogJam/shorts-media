@@ -2,6 +2,7 @@
 
 Each line = one scene: voice-over + animated 3D emoji images + optional punch text / counter / bars
 + word-by-word pop captions + sound design (whoosh, pop, impact, ding) + original music bed ("music": "calm"|"upbeat").
+Transitions: new scene = eased push (slide), mid-scene cut = zoom-dissolve (no white flashes).
 Pacing: scenes longer than ~3 s get a mid-scene cut ("clip2_id" = second clip, otherwise a jump cut into the same clip),
 and the footage gets a camera (push-in, snap zoom at cuts, shake on punch words). "cuts": false / "sfx": false switch off.
 """
@@ -385,6 +386,7 @@ def render(spec_path, out_path, voice=None):
     hook = spec.get("hook", "")
     nframes = int(total * FPS)
     readers, cur_si, cur_phase = {}, -1, 0
+    last_bg, trans, TRANS = None, None, 0.3
     # dark gradient over stock footage so text stays readable
     g = np.concatenate([np.linspace(0.75, 0.25, int(H * 0.3)), np.full(int(H * 0.35), 0.25), np.linspace(0.25, 0.85, H - int(H * 0.3) - int(H * 0.35))])
     shade = Image.fromarray(np.dstack([np.zeros((H, W, 3), np.uint8), np.repeat((g * 255).astype(np.uint8)[:, None], W, 1)]), "RGBA")
@@ -405,12 +407,14 @@ def render(spec_path, out_path, voice=None):
         if si != cur_si:
             for r in readers.values(): r.close()
             readers.clear(); cur_si = si; cur_phase = 0
+            if last_bg is not None: trans = {"t": t, "img": last_bg, "kind": "slide"}
             if ln.get("clip_path"):
                 readers["bg"] = clips.ClipReader(ln["clip_path"], W, H, FPS, ln.get("clip_start", 0), ln.get("clip_speed", 1.0))
             if ln.get("inset_path"):
                 readers["inset"] = clips.ClipReader(ln["inset_path"], INS, INS, FPS, ln.get("inset_start", 0))
         if phase != cur_phase and ln.get("clip_path"):
             cur_phase = phase
+            if last_bg is not None: trans = {"t": t, "img": last_bg, "kind": "zoom"}
             if "bg" in readers: readers["bg"].close()
             if ln.get("clip2_path"):
                 readers["bg"] = clips.ClipReader(ln["clip2_path"], W, H, FPS, ln.get("clip2_start", 0), ln.get("clip_speed", 1.0))
@@ -433,6 +437,27 @@ def render(spec_path, out_path, voice=None):
                 cw, chh = W / z, H / z
                 x0 = max(0, min(W - cw, (W - cw) / 2 + dx)); y0 = max(0, min(H - chh, (H - chh) / 2 + dy))
                 img = img.crop((int(x0), int(y0), int(x0 + cw), int(y0 + chh))).resize((W, H), Image.BILINEAR)
+            # smooth shot transitions instead of a white flash:
+            #   new scene -> "push" (old shot slides out left, new one slides in from the right, eased)
+            #   mid-scene cut -> zoom-dissolve (old shot zooms in while fading into the new one)
+            raw = img.copy()
+            if trans is not None:
+                k = (t - trans["t"]) / TRANS
+                if k >= 1: trans = None
+                else:
+                    k = k * k * (3 - 2 * k)
+                    old_im = trans["img"]
+                    if trans["kind"] == "slide":
+                        comp = Image.new("RGBA", (W, H), (0, 0, 0, 255))
+                        off = int(W * k)
+                        comp.paste(old_im, (-off, 0)); comp.paste(img, (W - off, 0))
+                        img = comp
+                    else:
+                        zz = 1 + 0.18 * k
+                        cw, chh = W / zz, H / zz
+                        oz = old_im.crop((int((W - cw) / 2), int((H - chh) / 2), int((W + cw) / 2), int((H + chh) / 2))).resize((W, H), Image.BILINEAR)
+                        img = Image.blend(oz, img, k)
+            last_bg = raw
             img.alpha_composite(shade)
             d = ImageDraw.Draw(img, "RGBA")
         else:
@@ -561,10 +586,6 @@ def render(spec_path, out_path, voice=None):
 
         # progress bar + flash at scene change
         d.rounded_rectangle([40, 70, 40 + (W - 80) * t / total, 84], radius=7, fill=acc)
-        if si > 0 and st < 0.08:
-            d.rectangle([0, 0, W, H], fill=(255, 255, 255, int(110 * (1 - st / 0.08))))
-        elif seg.get("cut") and 0 <= st - seg["cut"] < 0.06:
-            d.rectangle([0, 0, W, H], fill=(255, 255, 255, int(60 * (1 - (st - seg["cut"]) / 0.06))))
         if t > total - 1.1:
             a = int(255 * ease((t - (total - 1.1)) / 0.35))
             text_c(d, (W / 2, 1760), spec.get("endcard", "FOLLOW FOR DAILY FACTS"), font(56), (*acc, a), stroke=6)
