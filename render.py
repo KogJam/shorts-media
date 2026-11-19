@@ -192,8 +192,8 @@ def master_audio(voice, bed, out_wav):
           "acompressor=threshold=-18dB:ratio=1.8:attack=15:release=200:makeup=2,"
           "alimiter=limit=0.95,pan=stereo|c0=c0|c1=c0,asplit=2[v][sc];"
           "[1:a]aresample=48000,pan=stereo|c0=c0|c1=c0,aecho=0.8:0.6:60|110:0.22|0.14,"
-          "highpass=f=45,lowpass=f=7000,volume=0.32[b0];"
-          "[b0][sc]sidechaincompress=threshold=0.03:ratio=6:attack=25:release=350[b];"
+          "highpass=f=45,lowpass=f=7000,volume=0.40[b0];"
+          "[b0][sc]sidechaincompress=threshold=0.03:ratio=5:attack=25:release=350[b];"
           "[v][b]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-15:TP=-2:LRA=9,aresample=48000[o]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", vw, "-i", bw, "-filter_complex", fc, "-map", "[o]",
                     "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", out_wav], check=True)
