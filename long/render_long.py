@@ -2,8 +2,9 @@
 
 Spec: {title, voice, speed, intro:[{say, clip, ss?}], chapters:[{title, scenes:[{say, clip, ss?}]}], outro:[...]}
 (clips are filled in by long/pick_long.py). Every chapter starts with a spoken title card ("Number 3. Why ...").
-Look: full-screen stock footage with a slow pan, lower-third phrase captions, chapter label top-left,
-calm original music bed, mastered voice (render.master_audio).
+Look: full-screen stock footage, cut every ~5 s (alternating "clip"/"clip2" and offsets) with alternating pans and
+push-ins, lower-third phrase captions, chapter label top-left, countdown chapter cards (#10 -> #1) with whoosh + impact,
+original music bed ("music": "upbeat" default | "calm"), mastered voice (render.master_audio).
 
 python3 long/render_long.py spec.json out.mp4
 """
@@ -65,10 +66,14 @@ def build(spec_path, out):
     # ---- scene list ----
     scenes = []
     for sc in spec["intro"]: scenes.append(dict(sc, kind="scene", chap=None))
+    nch = len(spec["chapters"])
+    countdown = spec.get("countdown", True)
     for ci, ch in enumerate(spec["chapters"]):
         n = ci + 1
+        shown = nch - ci if countdown else n          # countdown: the first chapter is "#10", the last "#1"
         first = ch["scenes"][0]
-        scenes.append({"kind": "card", "say": f"Number {NUMS[ci]}. {ch['title'].replace(chr(39), '')}.", "clip": first["clip"],
+        say_num = "And number one" if (countdown and shown == 1) else f"Number {NUMS[shown - 1]}"
+        scenes.append({"kind": "card", "say": f"{say_num}. {ch['title'].replace(chr(39), '')}.", "clip": first["clip"], "shown": shown,
                        "ss": first.get("ss", 1) + 6, "num": n, "title": ch["title"], "chap": n})
         for sc in ch["scenes"]: scenes.append(dict(sc, kind="scene", chap=n))
     for sc in spec["outro"]: scenes.append(dict(sc, kind="scene", chap=None))
@@ -84,7 +89,13 @@ def build(spec_path, out):
     total = t + 1.5
     scenes[-1]["end"] = total
     voice_a = np.concatenate(parts + [np.zeros(int(1.5 * SR), np.float32)])[: int(total * SR)]
-    bed = render.ambient(total, sum(map(ord, spec["id"])) % 9999)[: len(voice_a)]
+    sfx = np.zeros_like(voice_a); wh, imp = render.sfx_whoosh(0.45), render.sfx_impact()
+    for sc in scenes:
+        if sc["kind"] == "card":
+            add = lambda clip, t0: render.add_at(sfx, clip, t0)
+            add(wh, max(0, sc["start"] - 0.2)); add(imp, sc["start"] + 0.05)
+    voice_a = voice_a + sfx * float(np.abs(voice_a).max() or 1) * 1.4
+    bed = render.bed_music(total, sum(map(ord, spec["id"])) % 9999, spec.get("music", "upbeat"))[: len(voice_a)]
     wav = os.path.join(work, "audio.wav")
     render.master_audio(voice_a, bed, wav)
     # ---- captions (ASS) ----
@@ -116,7 +127,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             s, e = chap_spans.get(sc["chap"], (sc["start"], sc["end"])); chap_spans[sc["chap"]] = (min(s, sc["start"]), max(e, sc["end"]))
     for n, (s, e) in chap_spans.items():
         title = spec["chapters"][n - 1]["title"]
-        ass.append(f"Dialogue: 1,{ass_t(s + 3.2)},{ass_t(e)},Lbl,,0,0,0,,{{\\fad(300,300)}}#{n}  {title}")
+        shown = (nch - n + 1) if countdown else n
+        ass.append(f"Dialogue: 1,{ass_t(s + 3.2)},{ass_t(e)},Lbl,,0,0,0,,{{\\fad(300,300)}}#{shown}  {title}")
     ass_path = os.path.join(work, "caps.ass"); open(ass_path, "w").write("\n".join(ass) + "\n")
     # ---- video segments ----
     seglist = []
@@ -126,14 +138,39 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         pan = f"scale={W + 192}:{H + 108}:force_original_aspect_ratio=increase,crop={W + 192}:{H + 108}," \
               f"crop={W}:{H}:x='(iw-{W})*({'t' if d > 0 else f'{dur:.2f}-t'})/{dur:.2f}':y='(ih-{H})/2'"
         if sc["kind"] == "card":
-            png = os.path.join(work, f"card{i:03d}.png"); card_png(sc["num"], sc["title"], png)
+            png = os.path.join(work, f"card{i:03d}.png"); card_png(sc.get("shown", sc["num"]), sc["title"], png)
             vf = f"[0:v]{pan},boxblur=18:2,eq=brightness=-0.18,fps={FPS}[b];[1:v]format=rgba,fade=t=in:st=0:d=0.35:alpha=1[t];[b][t]overlay=0:0,format=yuv420p[o]"
             cmd = ["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-ss", f"{sc.get('ss', 1):.2f}", "-i", sc["clip"],
                    "-loop", "1", "-i", png, "-filter_complex", vf, "-map", "[o]"]
         else:
-            vf = f"[0:v]{pan},eq=saturation=1.06:contrast=1.03,fps={FPS},format=yuv420p[o]"
-            cmd = ["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-ss", f"{sc.get('ss', 1):.2f}", "-i", sc["clip"],
-                   "-filter_complex", vf, "-map", "[o]"]
+            # pacing: split long scenes into ~5 s shots, alternating clip/clip2, start offsets, pan direction and push-in
+            nparts = max(1, int(round(dur / 5.0))) if spec.get("cuts", True) else 1
+            srcs = [c for c in (sc["clip"], sc.get("clip2")) if c and os.path.exists(c)]
+            parts = []
+            for k in range(nparts):
+                pd = dur / nparts
+                src = srcs[k % len(srcs)]
+                ss = sc.get("ss", 1) + (k // len(srcs)) * 4.5
+                if k % 3 == 2:   # push-in shot
+                    mv = f"scale=w='trunc({W}*(1.04+0.08*t/{pd:.2f})/2)*2':h='trunc({H}*(1.04+0.08*t/{pd:.2f})/2)*2':eval=frame,crop={W}:{H}"
+                    pre = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+                    chain = pre + mv
+                else:
+                    dd = 1 if (i + k) % 2 else -1
+                    chain = f"scale={W + 192}:{H + 108}:force_original_aspect_ratio=increase,crop={W + 192}:{H + 108}," \
+                            f"crop={W}:{H}:x='(iw-{W})*({'t' if dd > 0 else f'{pd:.2f}-t'})/{pd:.2f}':y='(ih-{H})/2'"
+                part = os.path.splitext(seg)[0] + f"_{k}.mp4"
+                vf = f"[0:v]{chain},eq=saturation=1.06:contrast=1.03,fps={FPS},format=yuv420p[o]"
+                if not os.path.exists(part):
+                    run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-ss", f"{ss:.2f}", "-i", src,
+                         "-filter_complex", vf, "-map", "[o]", "-t", f"{pd:.3f}", "-r", str(FPS), "-an",
+                         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", part])
+                parts.append(part)
+            if not os.path.exists(seg):
+                pl = seg + ".txt"; open(pl, "w").write("".join(f"file '{os.path.abspath(x)}'\n" for x in parts))
+                run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", pl, "-c", "copy", seg])
+            seglist.append(seg); print(f"seg {i+1}/{len(scenes)} ({nparts} shots)", flush=True)
+            continue
         cmd += ["-t", f"{dur:.3f}", "-r", str(FPS), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", seg]
         if not os.path.exists(seg): run(cmd)
         seglist.append(seg)
@@ -149,7 +186,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
          "-bufsize", f"{vk * 2}k", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k", "-ar", "48000",
          "-shortest", "-movflags", "+faststart", out])
     # chapters for the YouTube description
-    chap = ["0:00 Intro"] + [f"{int(scenes_s // 60)}:{int(scenes_s % 60):02d} {spec['chapters'][n - 1]['title']}"
+    chap = ["0:00 Intro"] + [f"{int(scenes_s // 60)}:{int(scenes_s % 60):02d} #{(nch - n + 1) if countdown else n} {spec['chapters'][n - 1]['title']}"
                              for n, (scenes_s, _) in sorted(chap_spans.items())]
     json.dump({"duration": total, "chapters": chap}, open(out + ".meta.json", "w"), indent=1)
     print("done", out, round(total / 60, 2), "min"); print("\n".join(chap))

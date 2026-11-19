@@ -15,6 +15,18 @@ def save_registry():
 def get_by_id(cid):
     """Download a clip previously seen in a search (pick.py) by its id."""
     c = REGISTRY.get(str(cid))
+    if not c and os.environ.get("PIXABAY_API_KEY"):      # unknown on this machine: ask Pixabay for that id
+        try:
+            url = "https://pixabay.com/api/videos/?" + urllib.parse.urlencode({"key": os.environ["PIXABAY_API_KEY"], "id": cid})
+            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "shorts-bot"}), timeout=30) as r:
+                v = json.load(r)["hits"][0]
+            files = sorted([f for f in v["videos"].values() if f.get("url") and f.get("width")],
+                           key=lambda f: (abs(min(f["width"], f["height"]) - 1080), -f["height"]))
+            c = {"id": v["id"], "url": files[0]["url"], "page": v["pageURL"], "user": v.get("user", ""),
+                 "duration": v["duration"], "w": files[0]["width"], "h": files[0]["height"]}
+            REGISTRY[str(cid)] = c; save_registry()
+        except Exception:
+            c = None
     if not c: return None, None
     return download(c["url"]), c
 

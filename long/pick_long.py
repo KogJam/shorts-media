@@ -27,12 +27,17 @@ def main():
             print("search fail", q, e); continue
         res = [r for r in res if not r["portrait"]] or res
         if n in redo and sc.get("clip_id"): used.add(sc["clip_id"])
+        got = 0
         for r in res:
             if r["id"] in used: continue
             try:
-                sc["clip"] = clips.download(r["url"]); sc["clip_id"] = r["id"]; used.add(r["id"]); break
+                path = clips.download(r["url"])
             except Exception as e:
-                print("dl fail", e)
+                print("dl fail", e); continue
+            if got == 0: sc["clip"] = path; sc["clip_id"] = r["id"]
+            else: sc["clip2"] = path; sc["clip2_id"] = r["id"]      # second shot for the ~5 s cuts
+            used.add(r["id"]); got += 1
+            if got == 2: break
         print(n, tag, q, sc.get("clip_id"), flush=True)
     json.dump(spec, open(p, "w"), indent=1, ensure_ascii=False)
     # contact sheet
@@ -44,6 +49,10 @@ def main():
         im = Image.open(f) if os.path.exists(f) else Image.new("RGB", (320, 180), "gray")
         d = ImageDraw.Draw(im); d.rectangle([0, 0, 320, 22], fill=(0, 0, 0))
         d.text((4, 4), f"{n} {tag} {sc['q'][:30]}", fill=(255, 255, 0))
+        if sc.get("clip2"):
+            f2 = f"/tmp/ls_{n}_b.jpg"
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "2", "-i", sc["clip2"], "-frames:v", "1", "-vf", "scale=120:68:force_original_aspect_ratio=increase,crop=120:68", f2])
+            if os.path.exists(f2): im.paste(Image.open(f2), (196, 108)); d.rectangle([196, 108, 319, 179], outline=(255, 255, 0))
         th.append(im)
     cols = 8; rows = (len(th) + cols - 1) // cols
     sheet = Image.new("RGB", (320 * cols, 180 * rows))

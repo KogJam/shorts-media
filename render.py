@@ -1,7 +1,9 @@
 """Render a vertical fact Short (1080x1920) from a JSON spec.
 
 Each line = one scene: voice-over + animated 3D emoji images + optional punch text / counter / bars
-+ word-by-word pop captions + whoosh/pop sound effects + soft ambient pad.
++ word-by-word pop captions + sound design (whoosh, pop, impact, ding) + original music bed ("music": "calm"|"upbeat").
+Pacing: scenes longer than ~3 s get a mid-scene cut ("clip2_id" = second clip, otherwise a jump cut into the same clip),
+and the footage gets a camera (push-in, snap zoom at cuts, shake on punch words). "cuts": false / "sfx": false switch off.
 """
 import json, math, random, subprocess, sys, wave, os
 import numpy as np
@@ -216,6 +218,68 @@ def sfx_pop():
     return (sig * 0.22).astype(np.float32)
 
 
+def sfx_ding():
+    """Bright two-tone chime for a finished counter."""
+    n = int(0.6 * SR); t = np.arange(n) / SR
+    sig = (np.sin(2 * np.pi * 1318.5 * t) + 0.6 * np.sin(2 * np.pi * 1975.5 * t) * (t > 0.07)) * np.exp(-t * 7)
+    return (sig * 0.10).astype(np.float32)
+
+
+def sfx_impact():
+    """Short low thump + click for punch words (felt more than heard)."""
+    n = int(0.25 * SR); t = np.arange(n) / SR
+    f = 120 * np.exp(-t * 18) + 45
+    body = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 16)
+    click = np.random.default_rng(3).standard_normal(n) * np.exp(-t * 300) * 0.3
+    return ((body + click) * 0.28).astype(np.float32)
+
+
+def _kick():
+    n = int(0.22 * SR); t = np.arange(n) / SR
+    f = 110 * np.exp(-t * 30) + 48
+    return (np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 14)).astype(np.float32)
+
+
+def _noise_hit(dur, decay, seed, smooth=1):
+    n = int(dur * SR); t = np.arange(n) / SR
+    x = np.random.default_rng(seed).standard_normal(n)
+    if smooth > 1: x = np.convolve(x, np.ones(smooth) / smooth, mode="same")
+    x = x - np.convolve(x, np.ones(8) / 8, mode="same")     # crude high-pass -> crisp
+    return (x * np.exp(-t * decay)).astype(np.float32)
+
+
+def upbeat(dur, seed):
+    """Light, original, energetic bed (no samples, no existing melody): ~100-110 bpm soft kick, off-beat hats,
+    claps on 2 & 4, plucky chord stabs and a bouncing bass. Stays under the voice (master_audio ducks it)."""
+    rng = np.random.default_rng(seed)
+    out = np.zeros(int(dur * SR) + SR * 4, np.float32)
+    root = int(rng.choice([57, 60, 62, 55, 53]))
+    prog = [[0, 4, 7, 11], [-3, 0, 4, 7], [-7, -3, 0, 4], [-5, -1, 2, 5]]
+    if rng.random() < 0.5: prog = prog[2:] + prog[:2]
+    bpm = float(rng.uniform(100, 110)); beat = 60 / bpm; bar = beat * 4
+    mtof = lambda m: 440 * 2 ** ((m - 69) / 12)
+    kick, hat, clap = _kick(), _noise_hit(0.05, 90, 7), _noise_hit(0.18, 22, 9, 2)
+    for b in range(int(dur / bar) + 2):
+        ch = [root + iv for iv in prog[b % 4]]; t0 = b * bar
+        for q in range(4):
+            add_at(out, kick * 0.55, t0 + q * beat)
+            add_at(out, hat * 0.10, t0 + q * beat + beat / 2)
+            if q in (1, 3): add_at(out, clap * 0.16, t0 + q * beat)
+        for q in (0.5, 1.5, 2.75, 3.5):                       # syncopated chord stabs
+            for k, m in enumerate(ch):
+                add_at(out, _ep_note(mtof(m + 12), 0.35, 0.05), t0 + q * beat + k * 0.008)
+        for q, iv in ((0, 0), (1.5, 0), (2, 7), (3, 12)):     # bouncing bass
+            add_at(out, _ep_note(mtof(ch[0] - 24 + iv), beat * 0.9, 0.2), t0 + q * beat)
+    out = out[: int(dur * SR)]
+    t = np.arange(len(out)) / SR
+    env = np.minimum(1, t / 0.8) * np.minimum(1, (dur - t) / 1.5)
+    return (out * env).astype(np.float32)
+
+
+def bed_music(dur, seed, style="calm"):
+    return upbeat(dur, seed) if style == "upbeat" else ambient(dur, seed)
+
+
 def _ep_note(f, dur, vel=0.3):
     """Soft electric-piano-like tone: sine + gentle harmonics, slow decay, light tremolo."""
     n = int(dur * SR); t = np.arange(n) / SR
@@ -286,11 +350,28 @@ def render(spec_path, out_path, voice=None):
         t0 += dur + gap
     for i, s in enumerate(segs):
         s["end"] = segs[i + 1]["start"] if i + 1 < len(segs) else t0 + 0.9
+        # pacing: long scenes get a mid-scene cut (second clip if given, else a jump cut into the same clip)
+        vd = s["voice_end"] - s["start"]
+        s["cut"] = vd * 0.5 if (spec.get("cuts", True) and vd > 3.2) else None
     total = t0 + 0.9
     voice_a = np.concatenate(vparts + [np.zeros(int(0.9 * SR) + SR, np.float32)])[: int(total * SR)]
 
-    # 2) audio: voice and bed (pad + sfx) are written separately and mastered in ffmpeg (see master_audio)
-    bed = ambient(total, seed)[: len(voice_a)].copy()
+    # sound design (mixed into the voice stem so the music ducking doesn't swallow it), scaled to the voice level
+    if spec.get("sfx", True):
+        sfx = np.zeros_like(voice_a); wh, pop, ding, imp = sfx_whoosh(), sfx_pop(), sfx_ding(), sfx_impact()
+        for i, s in enumerate(segs):
+            ln = s["line"]
+            if i > 0: add_at(sfx, wh, max(0, s["start"] - 0.12))
+            if s["cut"]: add_at(sfx, wh * 0.6, s["start"] + s["cut"] - 0.1)
+            if ln.get("punch"): add_at(sfx, imp, s["start"] + ln.get("punch_delay", 0.15))
+            for it in ln.get("items", []):
+                if it.get("anim", "pop") in ("pop", "bounce", "drop", "zoom", "grow", "shake"):
+                    add_at(sfx, pop * 0.8, s["start"] + it.get("delay", 0.0))
+            if "number" in ln: add_at(sfx, ding, s["start"] + ln["number"].get("delay", 0.2) + 1.3)
+        voice_a = voice_a + sfx * float(np.abs(voice_a).max() or 1) * 1.6
+
+    # 2) audio: voice and bed (music) are written separately and mastered in ffmpeg (see master_audio)
+    bed = bed_music(total, seed, spec.get("music", "calm"))[: len(voice_a)].copy()
     wav = out_path + ".wav"
     master_audio(voice_a, bed, wav)
 
@@ -303,7 +384,7 @@ def render(spec_path, out_path, voice=None):
                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out_path], stdin=subprocess.PIPE)
     hook = spec.get("hook", "")
     nframes = int(total * FPS)
-    readers, cur_si = {}, -1
+    readers, cur_si, cur_phase = {}, -1, 0
     # dark gradient over stock footage so text stays readable
     g = np.concatenate([np.linspace(0.75, 0.25, int(H * 0.3)), np.full(int(H * 0.35), 0.25), np.linspace(0.25, 0.85, H - int(H * 0.3) - int(H * 0.35))])
     shade = Image.fromarray(np.dstack([np.zeros((H, W, 3), np.uint8), np.repeat((g * 255).astype(np.uint8)[:, None], W, 1)]), "RGBA")
@@ -320,16 +401,38 @@ def render(spec_path, out_path, voice=None):
         ln = seg["line"]
 
         # --- background: stock clip if available, else animated gradient ---
+        phase = 1 if (seg.get("cut") and st >= seg["cut"]) else 0
         if si != cur_si:
             for r in readers.values(): r.close()
-            readers.clear(); cur_si = si
+            readers.clear(); cur_si = si; cur_phase = 0
             if ln.get("clip_path"):
                 readers["bg"] = clips.ClipReader(ln["clip_path"], W, H, FPS, ln.get("clip_start", 0), ln.get("clip_speed", 1.0))
             if ln.get("inset_path"):
                 readers["inset"] = clips.ClipReader(ln["inset_path"], INS, INS, FPS, ln.get("inset_start", 0))
+        if phase != cur_phase and ln.get("clip_path"):
+            cur_phase = phase
+            if "bg" in readers: readers["bg"].close()
+            if ln.get("clip2_path"):
+                readers["bg"] = clips.ClipReader(ln["clip2_path"], W, H, FPS, ln.get("clip2_start", 0), ln.get("clip_speed", 1.0))
+            else:
+                readers["bg"] = clips.ClipReader(ln["clip_path"], W, H, FPS, ln.get("clip_start", 0) + seg["cut"] + 2.5, ln.get("clip_speed", 1.0))
         fr = readers["bg"].frame() if "bg" in readers else None
         if fr:
             img = Image.frombytes("RGBA", (W, H), fr)
+            # camera on the footage: slow push-in, snap-zoom at every cut, tighter framing after a jump cut, shake on punch
+            p0 = seg["cut"] if phase else 0.0
+            p1 = (seg["cut"] if (seg.get("cut") and not phase) else slen)
+            pt = st - p0
+            z = (1.0 if phase == 0 else 1.12) + 0.07 * ease(pt / max(0.5, p1 - p0)) + 0.09 * max(0, 1 - pt / 0.2)
+            dx = dy = 0.0
+            if ln.get("punch"):
+                k2 = st - ln.get("punch_delay", 0.15)
+                if 0 <= k2 < 0.3:
+                    amp = 16 * (1 - k2 / 0.3); dx, dy = math.sin(t * 95) * amp, math.cos(t * 83) * amp; z += 0.03
+            if z > 1.001 or dx or dy:
+                cw, chh = W / z, H / z
+                x0 = max(0, min(W - cw, (W - cw) / 2 + dx)); y0 = max(0, min(H - chh, (H - chh) / 2 + dy))
+                img = img.crop((int(x0), int(y0), int(x0 + cw), int(y0 + chh))).resize((W, H), Image.BILINEAR)
             img.alpha_composite(shade)
             d = ImageDraw.Draw(img, "RGBA")
         else:
@@ -460,6 +563,8 @@ def render(spec_path, out_path, voice=None):
         d.rounded_rectangle([40, 70, 40 + (W - 80) * t / total, 84], radius=7, fill=acc)
         if si > 0 and st < 0.08:
             d.rectangle([0, 0, W, H], fill=(255, 255, 255, int(110 * (1 - st / 0.08))))
+        elif seg.get("cut") and 0 <= st - seg["cut"] < 0.06:
+            d.rectangle([0, 0, W, H], fill=(255, 255, 255, int(60 * (1 - (st - seg["cut"]) / 0.06))))
         if t > total - 1.1:
             a = int(255 * ease((t - (total - 1.1)) / 0.35))
             text_c(d, (W / 2, 1760), spec.get("endcard", "FOLLOW FOR DAILY FACTS"), font(56), (*acc, a), stroke=6)
@@ -475,7 +580,7 @@ def prepare(spec_path):
     spec = json.load(open(spec_path))
     used, credits = set(), []
     for ln in spec["lines"]:
-        for key in ("clip", "inset"):
+        for key in ("clip", "clip2", "inset"):
             if ln.get(key + "_path") and not os.path.exists(ln[key + "_path"]):
                 ln.pop(key + "_path")  # stale path from another machine
             q = ln.get(key)
@@ -486,7 +591,7 @@ def prepare(spec_path):
                     credits.append(f"{c['user']} (Pixabay): {c['page']}")
                     continue
             if q and not ln.get(key + "_path"):
-                path, c = clips.get_clip(q, used, "portrait" if key == "clip" else "square")
+                path, c = clips.get_clip(q, used, "portrait" if key in ("clip", "clip2") else "square")
                 if not path and key == "inset":
                     path, c = clips.get_clip(q, used, "portrait")
                 if path:
