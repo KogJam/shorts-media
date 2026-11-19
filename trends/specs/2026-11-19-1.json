@@ -1,0 +1,152 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "dmclausen (Pixabay): https://pixabay.com/videos/id-19574/",
+  "SkyScapeDrone (Pixabay): https://pixabay.com/videos/id-228930/",
+  "49185410 (Pixabay): https://pixabay.com/videos/id-263481/",
+  "bellergy (Pixabay): https://pixabay.com/videos/id-2119/",
+  "mycuppatea (Pixabay): https://pixabay.com/videos/id-376141/",
+  "bevector (Pixabay): https://pixabay.com/videos/id-30280/",
+  "bevector (Pixabay): https://pixabay.com/videos/id-30280/",
+  "Matthias_Groeneveld (Pixabay): https://pixabay.com/videos/id-12687/",
+  "jLasWilson (Pixabay): https://pixabay.com/videos/id-31330/",
+  "49185410 (Pixabay): https://pixabay.com/videos/id-263481/"
+ ],
+ "id": "trend-wild-turkeys-fly",
+ "hook": "Wild turkeys CAN fly",
+ "title": "Wild Turkeys Can Fly 55 mph (Your Thanksgiving Turkey Can't) #shorts",
+ "description": "Wild turkeys burst into flight at up to about 55 mph and sleep high up in trees every night. The farm turkey on your Thanksgiving table is bred so heavy, with such short wings, that it can barely leave the ground.\n\nFollow for what's trending, explained!\n\n#thanksgiving #turkey #wildlife #animalfacts #shorts",
+ "tags": [
+  "can turkeys fly",
+  "wild turkey",
+  "thanksgiving facts",
+  "turkey facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Wild turkeys can fly, and they're surprisingly fast.",
+   "clip_id": 19574,
+   "items": [
+    {
+     "emoji": "🦃",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "bounce",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "punch": "THEY FLY",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/06682c0e6e698626.mp4"
+  },
+  {
+   "say": "In short bursts, they can hit about 55 miles per hour.",
+   "clip_id": 228930,
+   "number": {
+    "value": 55,
+    "prefix": "",
+    "suffix": " mph",
+    "label": "wild turkey in flight",
+    "y": 0.55,
+    "delay": 1.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/cecba673fb8e87bf.mp4"
+  },
+  {
+   "say": "On the ground, they can sprint at around 25 miles per hour.",
+   "clip_id": 263481,
+   "items": [
+    {
+     "emoji": "💨",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "shake",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/cc72ce142adb87a3.mp4"
+  },
+  {
+   "say": "Every night, a flock flies up into the treetops to sleep, out of reach of most predators.",
+   "clip_id": 2119,
+   "items": [
+    {
+     "emoji": "🌙",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "float",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "TREE BEDS",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/34a773a7900e68e0.mp4"
+  },
+  {
+   "say": "So why the myth? The turkey on your plate is a different bird.",
+   "clip_id": 376141,
+   "inset_id": 30280,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/33e3f7127211584a.mp4",
+   "inset_path": "/root/.cache/shorts_clips/23e339c2ff189e6b.mp4"
+  },
+  {
+   "say": "Farm turkeys are bred with huge breast muscles and short wings, so they're far too heavy to fly.",
+   "clip_id": 30280,
+   "items": [
+    {
+     "emoji": "⚖️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "drop",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "punch": "TOO HEAVY",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "clip_path": "/root/.cache/shorts_clips/23e339c2ff189e6b.mp4"
+  },
+  {
+   "say": "In the 1930s, only about 30,000 wild turkeys were left in America.",
+   "clip_id": 12687,
+   "number": {
+    "value": 30000,
+    "prefix": "",
+    "suffix": "",
+    "label": "wild turkeys left (1930s)",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/180ae0a629553a0a.mp4"
+  },
+  {
+   "say": "Today there are around 7 million, and every one of them can fly.",
+   "clip_id": 31330,
+   "inset_id": 263481,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/b0ef70ea8f946b78.mp4",
+   "inset_path": "/root/.cache/shorts_clips/cc72ce142adb87a3.mp4"
+  }
+ ]
+}

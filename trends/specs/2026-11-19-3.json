@@ -1,0 +1,152 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-snow-squeak",
+ "hook": "Why snow SQUEAKS",
+ "title": "Why Snow Squeaks Under Your Boots (Only When It's Really Cold) #shorts",
+ "description": "Below about -10 °C (14 °F), snow stops crunching and starts squeaking: the dry, hard ice crystals snap under your boots instead of sliding past each other. Fresh snow is also full of air pockets that soak up sound.\n\nFollow for what's trending, explained!\n\n#snow #winter #science #weather #shorts",
+ "tags": [
+  "why does snow squeak",
+  "snow science",
+  "winter",
+  "snow sound",
+  "weather facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Snow only squeaks when it's really cold.",
+   "clip_id": 384761,
+   "items": [
+    {
+     "emoji": "❄️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "spin",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "punch": "SQUEAK",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "clip_path": "/root/.cache/shorts_clips/678712e4e71a615d.mp4"
+  },
+  {
+   "say": "Below about minus 10 degrees Celsius, the sound changes.",
+   "clip_id": 246391,
+   "number": {
+    "value": 10,
+    "prefix": "-",
+    "suffix": " °C",
+    "label": "= 14 °F",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/e2aacc0c9841591c.mp4"
+  },
+  {
+   "say": "In milder cold, a thin film of water lets the crystals slide quietly.",
+   "clip_id": 142579,
+   "inset_id": 7104,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/665436ad4b65563b.mp4",
+   "inset_path": "/root/.cache/shorts_clips/63b1222b23b72c3f.mp4"
+  },
+  {
+   "say": "Colder snow stays dry and hard, so your weight crushes the crystals instead.",
+   "clip_id": 189876,
+   "items": [
+    {
+     "emoji": "🥾",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "drop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/f0ae316f5f9981ce.mp4"
+  },
+  {
+   "say": "Countless tiny ice crystals snap at once, and that's the squeak you hear.",
+   "clip_id": 7105,
+   "inset_id": 326483,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/84d40f58962e55e7.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a8b95aea8ca18ef8.mp4"
+  },
+  {
+   "say": "Fresh snow also swallows other sounds. It's full of tiny air pockets.",
+   "clip_id": 243875,
+   "items": [
+    {
+     "emoji": "🤫",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.4,
+     "cross": false
+    }
+   ],
+   "punch": "AIR POCKETS",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/bedf724201ba32c8.mp4"
+  },
+  {
+   "say": "Those pockets can soak up 50 to 90 percent of the sound.",
+   "clip_id": 336603,
+   "number": {
+    "value": 90,
+    "prefix": "up to ",
+    "suffix": "%",
+    "label": "of sound absorbed",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/f35243e0fe0e8c2a.mp4"
+  },
+  {
+   "say": "That's why snowy streets feel so quiet. Ice does the opposite and bounces sound back.",
+   "clip_id": 324408,
+   "inset_id": 215026,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/3398db1739377a24.mp4",
+   "inset_path": "/root/.cache/shorts_clips/e56241321c5cdbf5.mp4"
+  },
+  {
+   "say": "So if the snow under your boots starts squeaking, it's really cold.",
+   "clip_id": 139825,
+   "items": [
+    {
+     "emoji": "🥶",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "shake",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "punch": "REALLY COLD",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/e91b2657f81ac9b0.mp4"
+  }
+ ]
+}

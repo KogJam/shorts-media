@@ -1,0 +1,141 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.0,
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-penguins-waddle",
+ "hook": "Penguins waddle ON PURPOSE",
+ "title": "Why Penguins Waddle (It's Not Clumsy, It Saves Energy) #shorts",
+ "description": "Penguins' short legs make every step expensive, but their side-to-side waddle works like a pendulum and recovers up to 80% of the energy of each stride, more than human walking does.\n\nFollow for what's trending, explained!\n\n#penguins #animalfacts #nature #wildlife #shorts",
+ "tags": [
+  "why do penguins waddle",
+  "penguin facts",
+  "penguins",
+  "animal facts",
+  "nature",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Penguins waddle on purpose, and it saves them energy.",
+   "clip_id": 136325,
+   "items": [
+    {
+     "emoji": "🐧",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "bounce",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "punch": "ON PURPOSE",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/4b4c4f23a0ff0732.mp4"
+  },
+  {
+   "say": "Short legs make walking costly. A penguin burns about twice the energy of a dog its size.",
+   "clip_id": 379722,
+   "number": {
+    "value": 2,
+    "prefix": "",
+    "suffix": "x",
+    "label": "energy vs. a dog",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/ac4b2029f291bc7c.mp4"
+  },
+  {
+   "say": "In 2000, scientists in San Diego filmed emperor penguins walking to find out why.",
+   "clip_id": 269913,
+   "inset_id": 115177,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/5f072499ee51eb7f.mp4",
+   "inset_path": "/root/.cache/shorts_clips/7cc126d56e5ea678.mp4"
+  },
+  {
+   "say": "The answer is the waddle. That side to side rock works like a pendulum.",
+   "clip_id": 115178,
+   "items": [
+    {
+     "emoji": "⏱️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "orbit",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "PENDULUM",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/859662b1721b54e8.mp4"
+  },
+  {
+   "say": "Each sway stores energy, then hands it back for the next step.",
+   "clip_id": 147555,
+   "inset_id": 94457,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/42f2e5a22360b348.mp4",
+   "inset_path": "/root/.cache/shorts_clips/87efe09106dbbe8c.mp4"
+  },
+  {
+   "say": "Penguins got back up to 80 percent of their energy per stride. Humans manage about 65.",
+   "clip_id": 94458,
+   "number": {
+    "value": 80,
+    "prefix": "",
+    "suffix": "%",
+    "label": "energy recovered per stride",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/f161d99a09e3be9b.mp4"
+  },
+  {
+   "say": "Those short legs aren't a mistake. They make penguins streamlined swimmers.",
+   "clip_id": 345725,
+   "items": [
+    {
+     "emoji": "🌊",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "swim",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "BUILT TO SWIM",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/74e43a43eae41284.mp4"
+  },
+  {
+   "say": "So the waddle isn't clumsy at all. Penguins waddle on purpose.",
+   "clip_id": 115177,
+   "items": [
+    {
+     "emoji": "🐧",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.12,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7cc126d56e5ea678.mp4"
+  }
+ ]
+}
