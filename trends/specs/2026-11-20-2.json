@@ -1,0 +1,180 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "Alexas_Fotos (Pixabay): https://pixabay.com/videos/id-285973/",
+  "Orioto (Pixabay): https://pixabay.com/videos/id-207155/",
+  "Eaktas06 (Pixabay): https://pixabay.com/videos/id-135785/",
+  "Eaktas06 (Pixabay): https://pixabay.com/videos/id-135787/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-182946/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-189421/",
+  "FlickrVideos (Pixabay): https://pixabay.com/videos/id-393/",
+  "Orioto (Pixabay): https://pixabay.com/videos/id-208240/",
+  "omarzahid (Pixabay): https://pixabay.com/videos/id-21944/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-157861/",
+  "Alexas_Fotos (Pixabay): https://pixabay.com/videos/id-43258/",
+  "Eaktas06 (Pixabay): https://pixabay.com/videos/id-135782/",
+  "MoonpetalMedia (Pixabay): https://pixabay.com/videos/id-360403/",
+  "quimuns (Pixabay): https://pixabay.com/videos/id-5722/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-182946/",
+  "Eaktas06 (Pixabay): https://pixabay.com/videos/id-135782/",
+  "Alexas_Fotos (Pixabay): https://pixabay.com/videos/id-285973/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-189421/"
+ ],
+ "id": "trend-crows-faces",
+ "hook": "Crows hold GRUDGES",
+ "title": "Crows Never Forget a Face (And They Tell Their Friends) #shorts",
+ "description": "Crows can recognize individual human faces and remember people who threatened them. In a University of Washington study that began in 2006, crows kept scolding a 'dangerous' mask for years, and birds that were never caught learned it from other crows.\n\nFollow for what's trending, explained!\n\n#crows #animals #birds #science #shorts",
+ "tags": [
+  "crows remember faces",
+  "crow intelligence",
+  "crows",
+  "bird facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Crows remember your face, and they hold grudges.",
+   "clip_id": 285973,
+   "clip2_id": 207155,
+   "items": [
+    {
+     "emoji": "😠",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "punch": "GRUDGES",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/4860413fef1c2ecf.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/2b710cce2b81dd12.mp4"
+  },
+  {
+   "say": "In 2006, scientists in Seattle caught 7 crows while wearing a scary caveman mask.",
+   "clip_id": 135785,
+   "clip2_id": 135787,
+   "items": [
+    {
+     "emoji": "🎭",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "number": {
+    "value": 7,
+    "prefix": "",
+    "suffix": "",
+    "label": "crows caught",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/911e057b25cfdbea.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/8023eb2ac6d7a6b4.mp4"
+  },
+  {
+   "say": "Later, anyone wearing that mask got loudly scolded by crows.",
+   "clip_id": 182946,
+   "clip2_id": 189421,
+   "punch": "SCOLDED",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/2c79d496ecc962aa.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/a1bbe936c178ee3a.mp4"
+  },
+  {
+   "say": "Someone in a different mask was mostly ignored.",
+   "clip_id": 393,
+   "clip2_id": 208240,
+   "items": [
+    {
+     "emoji": "🙂",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "bounce",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7b6bc470d11c5480.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/565888b2b840e35b.mp4"
+  },
+  {
+   "say": "Here's the crazy part. Most of the scolding birds had never been caught.",
+   "clip_id": 21944,
+   "clip2_id": 157861,
+   "punch": "NEVER CAUGHT",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/c08c7b61519110ad.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/609c52ebaa5d8156.mp4"
+  },
+  {
+   "say": "They learned the dangerous face from their parents and other crows.",
+   "clip_id": 43258,
+   "clip2_id": 135782,
+   "inset_id": 360403,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "👀",
+     "x": 0.25,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/5d1acf6e6524de7d.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/767fd8d813f4d5a4.mp4",
+   "inset_path": "/root/.cache/shorts_clips/353d499d56e25c8f.mp4"
+  },
+  {
+   "say": "Five years later, one researcher in the mask had about 50 crows yelling at him.",
+   "clip_id": 5722,
+   "clip2_id": 182946,
+   "number": {
+    "value": 50,
+    "prefix": "~",
+    "suffix": "",
+    "label": "angry crows",
+    "y": 0.55,
+    "delay": 2.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/ed1042c1038ad2b4.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/2c79d496ecc962aa.mp4"
+  },
+  {
+   "say": "So be nice to crows. They never forget a face.",
+   "clip_id": 135782,
+   "clip2_id": 285973,
+   "inset_id": 189421,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "NEVER FORGET",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/767fd8d813f4d5a4.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/4860413fef1c2ecf.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a1bbe936c178ee3a.mp4"
+  }
+ ]
+}

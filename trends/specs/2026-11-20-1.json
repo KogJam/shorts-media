@@ -1,0 +1,175 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "needvid (Pixabay): https://pixabay.com/videos/id-15922/",
+  "oleg_golovin (Pixabay): https://pixabay.com/videos/id-135407/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-345464/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-300853/",
+  "Eaktas06 (Pixabay): https://pixabay.com/videos/id-109018/",
+  "RoyBuri (Pixabay): https://pixabay.com/videos/id-94445/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-345464/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-79749/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-115000/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-49459/",
+  "Meditation_hypnosis (Pixabay): https://pixabay.com/videos/id-117993/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-80438/",
+  "Leolo212 (Pixabay): https://pixabay.com/videos/id-304021/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-300852/",
+  "ngdangtrinh92 (Pixabay): https://pixabay.com/videos/id-75747/",
+  "oleg_golovin (Pixabay): https://pixabay.com/videos/id-135407/",
+  "needvid (Pixabay): https://pixabay.com/videos/id-15922/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-300853/"
+ ],
+ "id": "trend-flamingo-one-leg",
+ "hook": "Why ONE leg?",
+ "title": "Why Flamingos Stand on One Leg (Even a Dead One Can) #shorts",
+ "description": "Flamingos balance on one leg almost without using their muscles: their body weight locks the leg joints into a stable 'sling'. In a 2017 study, even a flamingo body stood on one leg by itself, and sleeping birds swayed less than awake ones.\n\nFollow for what's trending, explained!\n\n#flamingo #animals #birds #science #shorts",
+ "tags": [
+  "why do flamingos stand on one leg",
+  "flamingo",
+  "flamingo facts",
+  "bird facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do flamingos stand on one leg?",
+   "clip_id": 15922,
+   "clip2_id": 135407,
+   "items": [
+    {
+     "emoji": "🦩",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "punch": "ONE LEG",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/201d3a872a86a913.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/88ee0d627d835f5e.mp4"
+  },
+  {
+   "say": "Here's the wild part. Even a dead flamingo can do it.",
+   "clip_id": 345464,
+   "clip2_id": 300853,
+   "punch": "EVEN DEAD",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/cc8eb25cdbede9e3.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/2a69ed38dec42279.mp4"
+  },
+  {
+   "say": "Scientists stood a flamingo body upright, and it balanced on one leg all by itself.",
+   "clip_id": 109018,
+   "clip2_id": 94445,
+   "inset_id": 345464,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "😮",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 2.5,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/e074453725d93cbc.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/30bddea1645839f0.mp4",
+   "inset_path": "/root/.cache/shorts_clips/cc8eb25cdbede9e3.mp4"
+  },
+  {
+   "say": "No muscles needed. Its own weight locks the joints into a stable sling.",
+   "clip_id": 79749,
+   "clip2_id": 115000,
+   "punch": "NO MUSCLES",
+   "punch_y": 0.66,
+   "punch_delay": 0.4,
+   "clip_path": "/root/.cache/shorts_clips/53127c8a4a9194e7.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/bfba48008fd2ff58.mp4"
+  },
+  {
+   "say": "And that bent knee you see? It's actually the ankle.",
+   "clip_id": 49459,
+   "clip2_id": 117993,
+   "items": [
+    {
+     "emoji": "🦶",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "bounce",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/aba9f07cebf56489.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/991a3c5550114f31.mp4"
+  },
+  {
+   "say": "Researchers tested 8 young flamingos at a zoo.",
+   "clip_id": 80438,
+   "clip2_id": 304021,
+   "number": {
+    "value": 8,
+    "prefix": "",
+    "suffix": "",
+    "label": "flamingos tested",
+    "y": 0.55,
+    "delay": 1.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/e6d41a2b72d35f56.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/b45ee134c872428b.mp4"
+  },
+  {
+   "say": "When the birds dozed off, their swaying dropped dramatically.",
+   "clip_id": 300852,
+   "clip2_id": 75747,
+   "items": [
+    {
+     "emoji": "😴",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "float",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "STEADIER",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/f874c349e947c462.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7df46457eb7ba56c.mp4"
+  },
+  {
+   "say": "On two legs, that free lock is gone. So one leg is simply the lazy way to stand.",
+   "clip_id": 135407,
+   "clip2_id": 15922,
+   "inset_id": 300853,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "punch": "LAZY",
+   "punch_y": 0.66,
+   "punch_delay": 4.0,
+   "clip_path": "/root/.cache/shorts_clips/88ee0d627d835f5e.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/201d3a872a86a913.mp4",
+   "inset_path": "/root/.cache/shorts_clips/2a69ed38dec42279.mp4"
+  }
+ ]
+}

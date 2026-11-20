@@ -1,0 +1,179 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-44236/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-87161/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-111435/",
+  "jLasWilson (Pixabay): https://pixabay.com/videos/id-2980/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-120283/",
+  "Afzaal0001 (Pixabay): https://pixabay.com/videos/id-228140/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-345476/",
+  "Thamnguyen_TBVN (Pixabay): https://pixabay.com/videos/id-260654/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-211299/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-239034/",
+  "fotoblend (Pixabay): https://pixabay.com/videos/id-132996/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-345477/",
+  "jLasWilson (Pixabay): https://pixabay.com/videos/id-2980/",
+  "Zethian (Pixabay): https://pixabay.com/videos/id-62474/",
+  "Afzaal0001 (Pixabay): https://pixabay.com/videos/id-228140/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-120283/",
+  "Thamnguyen_TBVN (Pixabay): https://pixabay.com/videos/id-260654/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-44236/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-366788/"
+ ],
+ "id": "trend-zebra-stripes-flies",
+ "hook": "Stripes vs. FLIES",
+ "title": "Why Zebras Have Stripes (Flies Can't Land on Them) #shorts",
+ "description": "Zebra stripes seem to work as a fly shield: in a 2019 study, biting flies approached zebras as often as horses but landed on them less than a quarter as often, often bumping into them instead. Horses wearing striped coats got far fewer landings too.\n\nFollow for what's trending, explained!\n\n#zebra #animals #wildlife #science #shorts",
+ "tags": [
+  "why do zebras have stripes",
+  "zebra stripes",
+  "zebra",
+  "animal facts",
+  "science",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do zebras have stripes? Flies hate them.",
+   "clip_id": 44236,
+   "clip2_id": 87161,
+   "items": [
+    {
+     "emoji": "🦓",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "punch": "FLIES",
+   "punch_y": 0.66,
+   "punch_delay": 1.9,
+   "clip_path": "/root/.cache/shorts_clips/85df2df5c6b0ccd0.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7dbe87780b46ebe9.mp4"
+  },
+  {
+   "say": "Biting flies circle zebras just as often as horses.",
+   "clip_id": 111435,
+   "clip2_id": 2980,
+   "items": [
+    {
+     "emoji": "🪰",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "orbit",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/0d79f581edeb2b82.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/51a55e732f5bc791.mp4"
+  },
+  {
+   "say": "But they land on zebras less than a quarter as often.",
+   "clip_id": 120283,
+   "clip2_id": 228140,
+   "number": {
+    "value": 25,
+    "prefix": "< ",
+    "suffix": "%",
+    "label": "of the landings",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/40981fdd0a650eed.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/73fd6fcacf6b0e6a.mp4"
+  },
+  {
+   "say": "Near the stripes, flies don't slow down. They bump into the zebra and fly off.",
+   "clip_id": 345476,
+   "clip2_id": 260654,
+   "inset_id": 211299,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "BUMP",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/1a65b062209b1865.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/0dd9688e4cfa13cc.mp4",
+   "inset_path": "/root/.cache/shorts_clips/8975a9b552fce0c1.mp4"
+  },
+  {
+   "say": "In 2019, scientists in Britain put coats on horses. Black, white, and striped.",
+   "clip_id": 239034,
+   "clip2_id": 132996,
+   "inset_id": 345477,
+   "inset_x": 0.3,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "🔬",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2647e47d4546f5f4.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/e77d4295a924d3b5.mp4",
+   "inset_path": "/root/.cache/shorts_clips/bbd81bbb7257b99e.mp4"
+  },
+  {
+   "say": "Hardly any flies landed on the striped coat.",
+   "clip_id": 2980,
+   "clip2_id": 62474,
+   "punch": "STRIPES WIN",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/51a55e732f5bc791.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/15213961ab8f0325.mp4"
+  },
+  {
+   "say": "Other ideas, like camouflage or staying cool, never held up in tests.",
+   "clip_id": 228140,
+   "clip2_id": 120283,
+   "items": [
+    {
+     "emoji": "❌",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/73fd6fcacf6b0e6a.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/40981fdd0a650eed.mp4"
+  },
+  {
+   "say": "So the stripes aren't for style. They're a fly shield.",
+   "clip_id": 260654,
+   "clip2_id": 44236,
+   "inset_id": 366788,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "punch": "FLY SHIELD",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/0dd9688e4cfa13cc.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/85df2df5c6b0ccd0.mp4",
+   "inset_path": "/root/.cache/shorts_clips/fdcd42aed566f0f3.mp4"
+  }
+ ]
+}
