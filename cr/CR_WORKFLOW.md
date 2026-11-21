@@ -93,8 +93,12 @@ can be reused next day if still < 48 h old).
    - Instagram: providers [{"network":"instagram"}], instagramData {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false}.
    - Text (both): one accurate sentence + `Follow twitch.tv/<handle>` + the campaign's hashtags (mix, ≤ 8).
 3. Every campaign has a **30-minute submission window**. After each post goes live (check getScheduledPosts /
-   the channel), open the campaign → "Clip einreichen": the new post appears from the linked account; select it
-   (or paste the link), tick the requirements checkbox, submit. One submission per post per campaign.
+   the channel), open the campaign → "Clip einreichen": new posts from the linked accounts appear as tiles
+   (`.clip-picker-tile`, selected = `aria-pressed="true"`). The dialog may PRE-SELECT a post of another campaign:
+   check with JS that only this campaign's post is pressed (click tiles to toggle), tick the checkbox (find
+   "Anforderungen gelesen"; verify `input[type=checkbox].checked`), click the dialog's "Clip einreichen" button,
+   confirm "Clip eingereicht", click "Fertig". YouTube and Instagram are separate submissions. Instagram can take
+   3–6 min after the scheduled time until it is PUBLISHED and shows up – wait and retry.
 4. Record everything in campaigns.json + posted.json, commit + push main.
 5. Final German message: what was posted (links), what was submitted, open duties (e.g. Bobby: after 1,500 views
    send the country breakdown via a Discord "Submit Demographics" ticket).
