@@ -14,7 +14,8 @@ streamer moments, mostly GTA VI. English only. Never TikTok.
   YouTube downloads, never other clippers' edits.
 - Follow each brief exactly (hashtags, `twitch.tv/<handle>` on screen/caption, CTA, game restriction, likes visible,
   no AI-generated content, ≤5 near-identical clips). Quality over quantity: max **2 clips per campaign per day**, max
-  **5 posts per day** on the channel (new account).
+  **3 clips per day** (= 3 YouTube + 3 Instagram posts) until the channel regularly gets views, then up to 5.
+  The account is new: if the user's warm-up (see "Reach" below) is not done yet, say so in the message.
 - Keys only via env (`~/.config/shorts/env` for GEMINI_API_KEY). Never commit keys or videos to main.
 
 ## 0. Setup
@@ -90,7 +91,11 @@ can be reused next day if still < 48 h old).
    (two posts, Instagram 4 min after YouTube):
    - YouTube: providers [{"network":"youtube"}], youtubeData {"title": "<title> #shorts", "type":"short",
      "privacy":"public", "madeForKids":false, "category":"GAMING", "tags":[streamer, "gta 6", "twitch clips"]}.
-   - Instagram: providers [{"network":"instagram"}], instagramData {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false}.
+   - Instagram: providers [{"network":"instagram"}], instagramData {"type":"TRIAL_REEL","isAiGenerated":false}
+     (trial reels are shown to NON-followers first = discovery for a new account; if Metricool rejects
+     TRIAL_REEL, fall back to {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false} and note it here).
+   - Both: firstCommentText = one short question that invites replies about the clip (e.g. "Would you have
+     stopped for the cops? 😂"), no links.
    - Text (both): one accurate sentence + `Follow twitch.tv/<handle>` + the campaign's hashtags (mix, ≤ 8).
 3. Every campaign has a **30-minute submission window**. After each post goes live (check getScheduledPosts /
    the channel), open the campaign → "Clip einreichen": new posts from the linked accounts appear as tiles
@@ -106,3 +111,15 @@ can be reused next day if still < 48 h old).
 ## Daily earnings check
 On each run, before step 5, open https://contentrewards.com/c/submissions and /c/earnings and include in the message:
 approved/rejected submissions (with reasons) and earnings. Learn from rejections (update the rules in this file).
+
+## Reach (new account) – what the user must do, what we do
+- 0 views on a brand-new channel is the platforms' new-account trust filter, not the clip. The fix is a manual
+  warm-up on the phone, 20–30 min/day for 3–7 days (ssemble account-warmup-guide-2026): watch GTA/streamer
+  clips fully, like 5–10, save 2–3, 1–2 real comments, share 1, follow 2–3 niche accounts; done when ≥ 8 of the
+  first 12 Home (YouTube) / Explore (Instagram) tiles are on-topic. One device, one location, no VPN.
+  NEVER automate likes, follows, comments or views – that is bot behaviour and gets the account flagged.
+- Our side: strong first-second hooks (cold open), trial reels on Instagram, first-comment question, GTA 6
+  keywords in titles, consistent daily posting at US daytime/evening, max 3/day while new, reply-worthy captions.
+- Track views per clip each run (YouTube watch page `ytInitialPlayerResponse.videoDetails.viewCount`, Instagram via
+  Metricool). If a YouTube Short still has 0 views after 48 h, tell the user to check YouTube Studio → Settings →
+  Channel → Feature eligibility (verify phone) and Channel status.
