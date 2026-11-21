@@ -61,7 +61,7 @@ For longer context, a VOD section works too: `yt-dlp --download-sections "*START
 
 ## 3. Pick
 `python3 ~/shorts-media/cr/pick.py ~/cr/brief_<handle>.txt src/<handle>_*.mp4` → fits/score/hook/title/start/end.
-Take clips with fits=true and score ≥ 7, max 2 per campaign. Re-check the hook yourself: accurate, not clickbait.
+Use clips from range=7d (top 12 by views) not in posted.json. Take clips with fits=true and score ≥ 8 (7 only if nothing better), max 2 per campaign; skip dark content like executing begging NPCs. Pass --peak <peak> to stream_clip.py (cold open). Re-check the hook yourself: accurate, not clickbait.
 
 ## 4. Produce
 New streamer → measure the facecam box once: extract a frame (`ffmpeg -ss 10 -i clip -frames:v 1 -vf
@@ -69,10 +69,10 @@ scale=960:-1,drawgrid=w=48:h=54:t=1:c=yellow@0.5 g.jpg`), LOOK at it, write `cam
 coordinates (×2 of the 960 grid) + `game_x` (0..1 centre of the action) + display name + hashtags into
 `cr/streamers.json`. No facecam → `cam` = a 16:9 band of the gameplay (e.g. [0,0,1920,1080]) is fine.
 ```bash
-python3 ~/shorts-media/cr/stream_clip.py <handle> src/<file>.mp4 <start> <end> "<hook>" out/<slug>.mp4
+python3 ~/shorts-media/cr/stream_clip.py <handle> src/<file>.mp4 <start> <end> "<hook>" out/<slug>.mp4 --peak <peak>
 ```
-Layout: facecam top, gameplay below (bottom 140 px of the stream dropped = streamer's own captions), hook box 0–3.2 s,
-English karaoke captions (Gemini), purple `twitch.tv/<handle>` label all the time, "FOLLOW … ON TWITCH" card last 2.6 s.
+Layout: facecam top, gameplay below (bottom 140 px of the stream dropped = streamer's own captions), hook box 0–3.2 s on the cam/game seam (never over the face),
+1–3-word pop captions with the spoken word in yellow (Gemini word timestamps), purple `twitch.tv/<handle>` label at the bottom all the time, "FOLLOW … ON TWITCH" card last 2.6 s.
 QA every clip: contact sheet (`fps=1/4,scale=216:384,tile`), LOOK at it (cam crop on the face, no double captions,
 CTA readable), check audio exists. Then `VIDEOS_BRANCH=videos-cr python3 ~/shorts-media/publish.py out/*.mp4`.
 

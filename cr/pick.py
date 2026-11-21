@@ -27,8 +27,10 @@ def rate(brief, clip):
               "(right streamer, right game, allowed content, not negative about the streamer/sponsor) and how viral it can be "
               "as a YouTube Short / Reel (a clear funny, crazy or surprising moment understandable without context). "
               "Return ONLY JSON {\"fits\":true/false,\"score\":1-10,\"reason\":\"...\",\"hook\":\"max 8 words, curiosity, "
-              "1 emoji at the end, NOT misleading\",\"title\":\"YouTube Shorts title max 70 chars, accurate\",\"start\":s,\"end\":s} "
-              "where start/end trim dead air (keep 15-45 s, cut right after the payoff).")
+              "1 emoji at the end, NOT misleading\",\"title\":\"YouTube Shorts title max 70 chars, accurate\",\"start\":s,\"end\":s,\"peak\":s} "
+              "where start/end trim dead air (keep 15-45 s, cut right after the payoff) and peak = the second of the single funniest/craziest "
+              "payoff moment. Be strict: score 8+ only if a stranger scrolling Shorts would laugh, gasp or rewatch; "
+              "people just walking, driving or talking calmly is 5 or less.")
     body = {"contents": [{"parts": [{"inline_data": {"mime_type": "video/mp4", "data": b64}}, {"text": prompt}]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}}
     r = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={key()}",
