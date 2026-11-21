@@ -1,0 +1,152 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-goat-rectangular-pupils",
+ "hook": "Rectangular goat pupils?",
+ "title": "Why Goats Have Rectangular Pupils (Their Eyes Even Rotate) #shorts",
+ "description": "Goats, sheep and horses have sideways slit pupils for a panoramic view of predators and less glare from the sky. A 2015 Berkeley study also found their eyes rotate when they lower their heads to graze, keeping the pupils level with the horizon.\n\nFollow for what's trending, explained!\n\n#goat #animals #eyes #science #shorts",
+ "tags": [
+  "why do goats have rectangular pupils",
+  "goat eyes",
+  "goat pupils",
+  "animal facts",
+  "science",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do goats have rectangular pupils?",
+   "clip_id": 102422,
+   "clip2_id": 342414,
+   "items": [
+    {
+     "emoji": "🐐",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ef858da5cf44c099.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/ee7600da2987ad73.mp4"
+  },
+  {
+   "say": "That sideways slit gives a panoramic view to spot predators.",
+   "clip_id": 113681,
+   "clip2_id": 103275,
+   "punch": "PANORAMIC",
+   "punch_y": 0.66,
+   "punch_delay": 1.5,
+   "clip_path": "/root/.cache/shorts_clips/50b49ffde884b628.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/378c2f8549a90786.mp4"
+  },
+  {
+   "say": "It also blocks dazzling sunlight from above.",
+   "clip_id": 4753,
+   "clip2_id": 240277,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2490ddbbd9a93230.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/f214e2fba8041715.mp4"
+  },
+  {
+   "say": "In 2015, Berkeley scientists compared the pupils of 214 land animals.",
+   "clip_id": 171641,
+   "clip2_id": 124238,
+   "number": {
+    "value": 214,
+    "prefix": "",
+    "suffix": "",
+    "label": "species compared",
+    "y": 0.55,
+    "delay": 1.8
+   },
+   "items": [
+    {
+     "emoji": "🔬",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/49076ef5d2a30399.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/01444a18f792a9de.mp4"
+  },
+  {
+   "say": "Of 42 plant-eating prey animals, 36 had horizontal pupils.",
+   "clip_id": 240860,
+   "clip2_id": 238407,
+   "number": {
+    "value": 36,
+    "prefix": "",
+    "suffix": " of 42",
+    "label": "horizontal pupils",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/1b638329428fa3ab.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/9c0b812f03b595ea.mp4"
+  },
+  {
+   "say": "Here's the weird part. When a goat lowers its head to graze,",
+   "clip_id": 379449,
+   "clip2_id": 50728,
+   "inset_id": 380898,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/42b347e63f6f28ff.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/811665235cc4c475.mp4",
+   "inset_path": "/root/.cache/shorts_clips/ca72545fc61f83c5.mp4"
+  },
+  {
+   "say": "its eyes roll, one clockwise, one counterclockwise, to stay level with the horizon.",
+   "clip_id": 39662,
+   "clip2_id": 82031,
+   "punch": "EYES ROTATE",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "items": [
+    {
+     "emoji": "🔄",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "spin",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/db2483e0e56cadc9.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/52c26a67793c7041.mp4"
+  },
+  {
+   "say": "So those pupils are a built-in wide-angle lens. That's why goats have rectangular pupils.",
+   "clip_id": 85106,
+   "clip2_id": 304391,
+   "punch": "WIDE ANGLE",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/d1cf2e0ba966c5e0.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/21a062a896218302.mp4"
+  }
+ ],
+ "credits": []
+}

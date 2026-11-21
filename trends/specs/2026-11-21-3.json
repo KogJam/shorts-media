@@ -1,0 +1,144 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-birds-puff-up-winter",
+ "hook": "Why so fluffy?",
+ "title": "Why Birds Puff Up in Winter (It's Not Fat, It's Air) #shorts",
+ "description": "When birds fluff up in the cold they create hundreds of air pockets between their feathers that trap body heat, like a down jacket. Many tuck one leg into their feathers, and chickadees let their feet cool to near freezing to save energy.\n\nFollow for what's trending, explained!\n\n#birds #winter #animals #nature #shorts",
+ "tags": [
+  "why do birds puff up",
+  "birds in winter",
+  "how do birds stay warm",
+  "bird facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do birds puff up into little balls in winter?",
+   "clip_id": 335134,
+   "clip2_id": 326749,
+   "items": [
+    {
+     "emoji": "🐦",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/b38ddfe9a6de731a.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/75c9a634fc4d4e85.mp4"
+  },
+  {
+   "say": "That puffy look isn't fat. It's air.",
+   "clip_id": 326748,
+   "clip2_id": 7445,
+   "punch": "AIR",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/b2a5ae558f232e40.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/72839b32719e54aa.mp4"
+  },
+  {
+   "say": "Fluffing up creates hundreds of tiny air pockets between the feathers.",
+   "clip_id": 19783,
+   "clip2_id": 202693,
+   "inset_id": 18244,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/df4343edfa2f4521.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/ced0513a6b314d7a.mp4",
+   "inset_path": "/root/.cache/shorts_clips/34fe858fc434950a.mp4"
+  },
+  {
+   "say": "Those pockets trap body heat, just like a down jacket.",
+   "clip_id": 326747,
+   "clip2_id": 254096,
+   "items": [
+    {
+     "emoji": "🧥",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ca67b81ba2c19fa4.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/614309b30ed1a189.mp4"
+  },
+  {
+   "say": "And birds run hot. Their body is about 105 degrees Fahrenheit.",
+   "clip_id": 100329,
+   "clip2_id": 187970,
+   "number": {
+    "value": 105,
+    "prefix": "",
+    "suffix": "°F",
+    "label": "bird body heat",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/c63fb9df781b780b.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7f2f99eef0442df4.mp4"
+  },
+  {
+   "say": "Their bare feet are the weak spot, so many tuck one leg up into their feathers.",
+   "clip_id": 191159,
+   "clip2_id": 142392,
+   "items": [
+    {
+     "emoji": "🦶",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "bounce",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/20f80fb9588014b7.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/b4228107c413a2a9.mp4"
+  },
+  {
+   "say": "Chickadees even let their feet cool to near freezing, to save energy.",
+   "clip_id": 321810,
+   "clip2_id": 322014,
+   "punch": "NEAR FREEZING",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "items": [
+    {
+     "emoji": "🥶",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 1.8,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/09af77b4c0389830.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/d76e3d852a1646c7.mp4"
+  },
+  {
+   "say": "So that cute little ball is a heater. That's why birds puff up in winter.",
+   "clip_id": 111568,
+   "clip2_id": 258164,
+   "punch": "HEATER",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/1f18b1baeb410d55.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/daed6b5b9b590784.mp4"
+  }
+ ],
+ "credits": []
+}

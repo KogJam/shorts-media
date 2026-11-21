@@ -1,0 +1,173 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-woodpecker-no-headache",
+ "hook": "Headbanging. No headache?",
+ "title": "Why Woodpeckers Don't Get Headaches (It's Their Tiny Brain) #shorts",
+ "description": "Woodpeckers hammer trees around 12,000 times a day. A 2022 high-speed video study showed their skull isn't a shock absorber at all: the head hits like a stiff hammer, and the brain is safe because it is so small.\n\nFollow for what's trending, explained!\n\n#woodpecker #birds #animals #science #shorts",
+ "tags": [
+  "woodpecker",
+  "why don't woodpeckers get headaches",
+  "woodpecker brain",
+  "bird facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why don't woodpeckers get headaches?",
+   "clip_id": 391,
+   "clip2_id": 392,
+   "items": [
+    {
+     "emoji": "🐦",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2ed1811a27e173d6.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/ce73edf168e6f94d.mp4"
+  },
+  {
+   "say": "A woodpecker can hammer a tree about 12,000 times a day.",
+   "clip_id": 300655,
+   "clip2_id": 306602,
+   "number": {
+    "value": 12000,
+    "prefix": "",
+    "suffix": "",
+    "label": "pecks a day",
+    "y": 0.55,
+    "delay": 1.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/4459a47ebb4da6eb.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/8bab148618015be2.mp4"
+  },
+  {
+   "say": "For years, people thought its skull worked like a shock absorber.",
+   "clip_id": 21964,
+   "clip2_id": 21599,
+   "inset_id": 206173,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🛡️",
+     "x": 0.25,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/4b8e561aadf5fb62.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/54e9d8dc2dacf240.mp4",
+   "inset_path": "/root/.cache/shorts_clips/6d7c713a94b151ca.mp4"
+  },
+  {
+   "say": "But in 2022, scientists filmed three species with high-speed cameras.",
+   "clip_id": 284629,
+   "clip2_id": 341429,
+   "items": [
+    {
+     "emoji": "🎥",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "clip2_path": "/root/.cache/shorts_clips/00028864588748a4.mp4",
+   "clip_path": "/root/.cache/shorts_clips/4f99a1c1c18dd37b.mp4"
+  },
+  {
+   "say": "The head didn't cushion anything. It hit like a stiff hammer.",
+   "clip_id": 22529,
+   "clip2_id": 43758,
+   "punch": "STIFF HAMMER",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "items": [
+    {
+     "emoji": "🔨",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 2.4,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ec70793107b330b3.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7db58c16b28dff5a.mp4"
+  },
+  {
+   "say": "A cushion would soak up the force and make every peck weaker.",
+   "clip_id": 191266,
+   "clip2_id": 150713,
+   "items": [
+    {
+     "emoji": "❌",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 1.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/34d9cfd562efc814.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/f65bc674a31140b2.mp4"
+  },
+  {
+   "say": "The real trick is size. Its brain is about 700 times smaller than ours.",
+   "clip_id": 150715,
+   "clip2_id": 216713,
+   "number": {
+    "value": 700,
+    "prefix": "",
+    "suffix": "x",
+    "label": "smaller than ours",
+    "y": 0.55,
+    "delay": 2.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/fd1b9fbe9408bdee.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/8871a8ed0a960526.mp4"
+  },
+  {
+   "say": "It would have to peck twice as fast to hurt itself. So, no headache for the woodpecker.",
+   "clip_id": 43757,
+   "clip2_id": 391,
+   "punch": "2x FASTER",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "items": [
+    {
+     "emoji": "🧠",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7feaa710f8bd2dc5.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/2ed1811a27e173d6.mp4"
+  }
+ ],
+ "credits": [
+  "fotoblend (Pixabay): https://pixabay.com/videos/id-284629/"
+ ]
+}
