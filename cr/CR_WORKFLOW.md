@@ -94,6 +94,12 @@ can be reused next day if still < 48 h old).
    - Instagram: providers [{"network":"instagram"}], instagramData {"type":"TRIAL_REEL","isAiGenerated":false}
      (trial reels are shown to NON-followers first = discovery for a new account; if Metricool rejects
      TRIAL_REEL, fall back to {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false} and note it here).
+   - Instagram: tag the streamer on the reel: instagramData.carouselTags {"0":[{"username":"<ig from streamers.json>"}]}
+     and mention @<ig> in the caption (streamers often repost clips of themselves = big free reach). If the tag is
+     rejected, keep only the @mention.
+   - Cover: videoCoverMilliseconds = the peak/funniest frame (face reaction) for Instagram; omit for YouTube unless
+     the channel is verified (otherwise the whole request is rejected).
+   - Titles start with the keyword people search: "GTA 6 …" + streamer name.
    - Both: firstCommentText = one short question that invites replies about the clip (e.g. "Would you have
      stopped for the cops? 😂"), no links.
    - Text (both): one accurate sentence + `Follow twitch.tv/<handle>` + the campaign's hashtags (mix, ≤ 8).
@@ -111,6 +117,11 @@ can be reused next day if still < 48 h old).
 ## Daily earnings check
 On each run, before step 5, open https://contentrewards.com/c/submissions and /c/earnings and include in the message:
 approved/rejected submissions (with reasons) and earnings. Learn from rejections (update the rules in this file).
+
+## Timing
+Metricool's best-time data for Instagram peaks around 10–12 and 17–19 Europe/Berlin. 17–19 Berlin = 11–13 New York,
+good for the Tier-1 (US) audience the campaigns want. The daily run starts 18:43 so posts go out in that window as soon
+as the user says "ja".
 
 ## Reach (new account) – what the user must do, what we do
 - 0 views on a brand-new channel is the platforms' new-account trust filter, not the clip. The fix is a manual

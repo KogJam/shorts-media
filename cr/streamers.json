@@ -1,5 +1,41 @@
 {
- "bobby_vanriper": {"display": "Bobby Vanriper", "handle": "bobby_vanriper", "cam": [0, 304, 400, 586], "game_x": 0.55, "tags": "#bobbyvanriper #gta6 #gtavi #twitch #streamer #twitchclips #gaming #funnymoments"},
- "darealboeshi": {"display": "Boeshi", "handle": "darealboeshi", "cam": [0, 150, 420, 430], "game_x": 0.55, "tags": "#boeshi #gta6 #gtavi #twitch #streamer #twitchclips #gaming"},
- "diegoloveless": {"display": "Diego Loveless", "handle": "diegoloveless", "cam": [1380, 630, 1920, 940], "game_x": 0.35, "tags": "#diegoloveless #gta6 #gtavi #twitch #streamer #twitchclips #gaming"}
+ "bobby_vanriper": {
+  "display": "Bobby Vanriper",
+  "handle": "bobby_vanriper",
+  "cam": [
+   0,
+   304,
+   400,
+   586
+  ],
+  "game_x": 0.55,
+  "tags": "#bobbyvanriper #gta6 #gtavi #twitch #streamer #twitchclips #gaming #funnymoments",
+  "ig": "bobbyvanriper"
+ },
+ "darealboeshi": {
+  "display": "Boeshi",
+  "handle": "darealboeshi",
+  "cam": [
+   0,
+   150,
+   420,
+   430
+  ],
+  "game_x": 0.55,
+  "tags": "#boeshi #gta6 #gtavi #twitch #streamer #twitchclips #gaming",
+  "ig": "darealboeshi"
+ },
+ "diegoloveless": {
+  "display": "Diego Loveless",
+  "handle": "diegoloveless",
+  "cam": [
+   1380,
+   630,
+   1920,
+   940
+  ],
+  "game_x": 0.35,
+  "tags": "#diegoloveless #gta6 #gtavi #twitch #streamer #twitchclips #gaming",
+  "ig": "diegolovelesstwitch"
+ }
 }
