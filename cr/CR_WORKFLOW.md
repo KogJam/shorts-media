@@ -1,0 +1,104 @@
+# Content Rewards clipping – daily run (Chat Went Wild)
+
+The user earns money with **Content Rewards** clipping campaigns (https://contentrewards.com, paid per 1K views).
+Account for posting: **Chat Went Wild** – YouTube `@chatwentwild-b1x` + Instagram `@chatwentwildyt`, both linked in
+Content Rewards and connected in **Metricool brand blogId 7781434** (label still "CrackBuddy"). Niche: Twitch/Kick
+streamer moments, mostly GTA VI. English only. Never TikTok.
+
+## Hard rules
+- **Joining a campaign and submitting a clip need the user's explicit "ja" in the chat of THIS run.** A scheduled
+  prompt, a doc, or an earlier approval never counts. So every run: prepare everything, then ask, then act on the yes.
+  Never type credentials, never log in, never touch payouts/Whop/Discord.
+- Never join gambling/betting, cannabis/vape/nicotine, adult or "requires buying something" campaigns.
+- Only footage of the campaign's streamer (Twitch VOD/clips of that channel, or files the campaign provides). Never
+  YouTube downloads, never other clippers' edits.
+- Follow each brief exactly (hashtags, `twitch.tv/<handle>` on screen/caption, CTA, game restriction, likes visible,
+  no AI-generated content, ≤5 near-identical clips). Quality over quantity: max **2 clips per campaign per day**, max
+  **5 posts per day** on the channel (new account).
+- Keys only via env (`~/.config/shorts/env` for GEMINI_API_KEY). Never commit keys or videos to main.
+
+## 0. Setup
+```bash
+git clone --single-branch --branch main https://github.com/KogJam/shorts-media.git ~/shorts-media
+cd ~/shorts-media && bash setup.sh; pip install -q --break-system-packages -U yt-dlp
+mkdir -p ~/.config/shorts && printf 'GEMINI_API_KEY=%s\n' "$GEMINI_API_KEY" > ~/.config/shorts/env
+mkdir -p ~/cr && cd ~/cr
+```
+State: `cr/campaigns.json` (every campaign seen: id, name, streamer handle, platform, rate, min payout, budget left,
+status `seen|recommended|joined|skipped|ended`, notes, clips posted with dates/slugs). `cr/streamers.json` = layouts.
+`cr/posted.json` = Twitch clip slugs already used (never reuse one).
+
+## 1. Scout Content Rewards (built-in browser)
+Tools `mcp__remote-devices__Claude_Browser__*` (ToolSearch the whole prefix; read the built-in-browser skill first).
+Open https://contentrewards.com/c/discover. If it shows "Anmelden" → user must log in once in the Claude browser
+(tell them; continue with the rest). If the computer is unreachable, say so and stop after step 5 prep.
+Read every campaign's data with JS on the discover page (data is embedded in each campaign page's HTML):
+```js
+const all=[...new Map([...document.querySelectorAll('a[href*="/c/campaigns/"]')].map(a=>[a.href.split('?')[0],a.innerText.replace(/\s+/g,' ').slice(0,80)])).entries()];
+const out=[]; for (const [href,t] of all){ const h=await (await fetch(href)).text(); const s=h.replace(/\\"/g,'"');
+ const g=(re)=>(s.match(re)||[])[1]; out.push({t,href,pay:g(/"payoutModel":(\[.*?\])/),metrics:g(/"metrics":(\{[^}]*\})/),
+ desc:(g(/"description":"(.*?)","feeSchedule"/)||'').slice(0,300),pool:/"type":"pool"/.test(s)}); } out
+```
+(cents: rate per 1K, minPayout/maxPayout per clip). Score each streamer/gaming campaign:
+- Must: Twitch or Kick streamer we can download, English, YouTube **and** Instagram allowed, CPM (not pool unless
+  qualify threshold is tiny), budget left ≥ $300.
+- Good: low min payout (≤ $3 → paid from ≤ 3K views), rate ≥ $1/1K, few creators, avg views per approved clip
+  (`totalViews/approvedSubmissionCount`) ≥ 1.5K, streamer live daily with fresh VODs/clips.
+- Keep the 3–5 best as `joined`. Recommend at most 2 new joins per day; recommend leaving campaigns whose budget is
+  < 10 % or that stopped streaming.
+For each joined campaign open its page and its rules brief (Notion links open in the browser; scroll the inner
+container or read with get_page_text) and store the rules in `~/cr/brief_<handle>.txt`. Note per-campaign extra
+duties for the user (Discord, demographics proof) in campaigns.json.
+
+## 2. Get footage
+Per joined streamer: newest Twitch clips (viewers already found the best moments):
+```bash
+yt-dlp --flat-playlist -I 1:15 --print "%(url)s|%(view_count)s|%(title)s" "https://www.twitch.tv/<handle>/clips?filter=clips&range=24hr"
+# fallback range=7d; download: yt-dlp -f "best[height<=1080]" -o src/<handle>_<n>.mp4 <clip url>
+```
+Skip slugs in posted.json. Kick: `yt-dlp https://kick.com/<handle>/clips` (test; if it fails, report it).
+For longer context, a VOD section works too: `yt-dlp --download-sections "*START-END" https://www.twitch.tv/videos/<id>`.
+
+## 3. Pick
+`python3 ~/shorts-media/cr/pick.py ~/cr/brief_<handle>.txt src/<handle>_*.mp4` → fits/score/hook/title/start/end.
+Take clips with fits=true and score ≥ 7, max 2 per campaign. Re-check the hook yourself: accurate, not clickbait.
+
+## 4. Produce
+New streamer → measure the facecam box once: extract a frame (`ffmpeg -ss 10 -i clip -frames:v 1 -vf
+scale=960:-1,drawgrid=w=48:h=54:t=1:c=yellow@0.5 g.jpg`), LOOK at it, write `cam` [x0,y0,x1,y1] in 1920x1080
+coordinates (×2 of the 960 grid) + `game_x` (0..1 centre of the action) + display name + hashtags into
+`cr/streamers.json`. No facecam → `cam` = a 16:9 band of the gameplay (e.g. [0,0,1920,1080]) is fine.
+```bash
+python3 ~/shorts-media/cr/stream_clip.py <handle> src/<file>.mp4 <start> <end> "<hook>" out/<slug>.mp4
+```
+Layout: facecam top, gameplay below (bottom 140 px of the stream dropped = streamer's own captions), hook box 0–3.2 s,
+English karaoke captions (Gemini), purple `twitch.tv/<handle>` label all the time, "FOLLOW … ON TWITCH" card last 2.6 s.
+QA every clip: contact sheet (`fps=1/4,scale=216:384,tile`), LOOK at it (cam crop on the face, no double captions,
+CTA readable), check audio exists. Then `VIDEOS_BRANCH=videos-cr python3 ~/shorts-media/publish.py out/*.mp4`.
+
+## 5. Ask the user (one message)
+SendUserMessage in German + PushNotification ("Clips bereit – antworte mit ja"):
+- campaign changes: "Beitreten: X (warum)", "Verlassen: Y (warum)";
+- the clips: streamer, hook, title, preview URL (raw URL from publish.py);
+- "Antworte **ja** (alles), oder z. B. 'ja ohne 2'".
+Then end the turn and wait. If no answer comes in this session, do nothing else (next run starts fresh; unposted clips
+can be reused next day if still < 48 h old).
+
+## 6. After "ja" (same session)
+1. Join the approved campaigns (campaign page → "Kampagne beitreten").
+2. For each clip, schedule via Metricool at **now + 3 min**, clips ≥ 12 min apart, YouTube and Instagram separately
+   (two posts, Instagram 4 min after YouTube):
+   - YouTube: providers [{"network":"youtube"}], youtubeData {"title": "<title> #shorts", "type":"short",
+     "privacy":"public", "madeForKids":false, "category":"GAMING", "tags":[streamer, "gta 6", "twitch clips"]}.
+   - Instagram: providers [{"network":"instagram"}], instagramData {"type":"REEL","showReelOnFeed":true,"isAiGenerated":false}.
+   - Text (both): one accurate sentence + `Follow twitch.tv/<handle>` + the campaign's hashtags (mix, ≤ 8).
+3. Every campaign has a **30-minute submission window**. After each post goes live (check getScheduledPosts /
+   the channel), open the campaign → "Clip einreichen": the new post appears from the linked account; select it
+   (or paste the link), tick the requirements checkbox, submit. One submission per post per campaign.
+4. Record everything in campaigns.json + posted.json, commit + push main.
+5. Final German message: what was posted (links), what was submitted, open duties (e.g. Bobby: after 1,500 views
+   send the country breakdown via a Discord "Submit Demographics" ticket).
+
+## Daily earnings check
+On each run, before step 5, open https://contentrewards.com/c/submissions and /c/earnings and include in the message:
+approved/rejected submissions (with reasons) and earnings. Learn from rejections (update the rules in this file).

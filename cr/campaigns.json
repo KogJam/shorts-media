@@ -1,0 +1,55 @@
+{
+ "campaigns": [
+  {
+   "id": "f583b069-ced7-49e5-9ed3-2d3a13d6df0c",
+   "name": "BOBBY VAN RIPER GTA VI Clipping",
+   "handle": "bobby_vanriper",
+   "rate": 1.5,
+   "min_payout": 2.25,
+   "status": "joined",
+   "joined": "2026-11-21",
+   "notes": "Discord discord.gg/DQyAcKa3nU required for payout; >=40% Tier1 audience, after 1500 views user sends country breakdown via Discord ticket; #bobbyvanriper + twitch.tv/bobby_vanriper; submit within 30 min",
+   "posts": []
+  },
+  {
+   "id": "5c01ecdb-a148-4489-ba26-5aadbbb5bf69",
+   "name": "Boeshi GTA 6 Clipping",
+   "handle": "darealboeshi",
+   "rate": 1.0,
+   "min_payout": 3.0,
+   "status": "joined",
+   "joined": "2026-11-21",
+   "notes": "ClipLaunch; Discord discord.gg/cliplaunch",
+   "posts": []
+  },
+  {
+   "id": "5d37d3dd-adf3-401f-9c62-24bb54d5087a",
+   "name": "DiegoLoveless GTA 6 Clipping",
+   "handle": "diegoloveless",
+   "rate": 1.0,
+   "min_payout": 1.0,
+   "status": "joined",
+   "joined": "2026-11-21",
+   "notes": "GTA only (temporary); twitch.tv/diegoloveless on screen or caption",
+   "posts": []
+  },
+  {
+   "id": "0123c725-0bb8-49fc-b60a-5affd894b66d",
+   "name": "GATTOUZ x GTA VI x 1WIN",
+   "status": "skipped",
+   "notes": "gambling sponsor, no YouTube, $35 min - never post; recommend leaving"
+  },
+  {
+   "id": "bb66f9eb-b90e-4dd0-8cee-9f3cd566c9a0",
+   "name": "BenDaDonnn x Puffco GTA 6",
+   "status": "skipped",
+   "notes": "cannabis device sponsor - never post"
+  },
+  {
+   "id": "a5c63fad-cd53-4b81-9305-4a2d1696872a",
+   "name": "$12,500 LACY GTA VI Marathon Pool",
+   "status": "skipped",
+   "notes": "pool needs 750K total views to qualify"
+  }
+ ]
+}
