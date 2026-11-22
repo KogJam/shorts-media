@@ -1,0 +1,170 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "adege (Pixabay): https://pixabay.com/videos/id-25016/",
+  "Yoniteck (Pixabay): https://pixabay.com/videos/id-6574/",
+  "satynek (Pixabay): https://pixabay.com/videos/id-27872/",
+  "Pezibear (Pixabay): https://pixabay.com/videos/id-86121/",
+  "MabelAmber (Pixabay): https://pixabay.com/videos/id-128863/",
+  "baranova_n (Pixabay): https://pixabay.com/videos/id-217908/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-222134/",
+  "baranova_n (Pixabay): https://pixabay.com/videos/id-382594/",
+  "baranova_n (Pixabay): https://pixabay.com/videos/id-381912/",
+  "azxa661 (Pixabay): https://pixabay.com/videos/id-111320/",
+  "baranova_n (Pixabay): https://pixabay.com/videos/id-382594/",
+  "RoyBuri (Pixabay): https://pixabay.com/videos/id-133584/",
+  "adege (Pixabay): https://pixabay.com/videos/id-26296/",
+  "baranova_n (Pixabay): https://pixabay.com/videos/id-299148/",
+  "satynek (Pixabay): https://pixabay.com/videos/id-28797/",
+  "baranova_n (Pixabay): https://pixabay.com/videos/id-217908/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-239034/"
+ ],
+ "id": "trend-horses-sleep-standing",
+ "hook": "Asleep on four legs?",
+ "title": "How Horses Sleep Standing Up (Their Legs Lock) #shorts",
+ "description": "Horses have a stay apparatus, a system of tendons and ligaments that locks their leg joints so they can doze on their feet and flee fast. But real dream sleep only happens lying down, while another horse stands guard.\n\nFollow for what's trending, explained!\n\n#horses #animals #animalfacts #sleep #shorts",
+ "tags": [
+  "do horses sleep standing up",
+  "how do horses sleep",
+  "stay apparatus",
+  "horse facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do horses sleep standing up?",
+   "clip_id": 25016,
+   "clip2_id": 6574,
+   "items": [
+    {
+     "emoji": "🐴",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ca0ffb96d20c8cae.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/1d1c7d4522399a3c.mp4"
+  },
+  {
+   "say": "Their legs have a built-in lock called the stay apparatus.",
+   "clip_id": 27872,
+   "clip2_id": 86121,
+   "punch": "LEG LOCK",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/4330747ca5fe3817.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/86e64e3e51438724.mp4"
+  },
+  {
+   "say": "Tendons and ligaments hold the joints steady, so the muscles can relax.",
+   "clip_id": 128863,
+   "clip2_id": 217908,
+   "items": [
+    {
+     "emoji": "🔒",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "inset_id": 222134,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/34fa581993613191.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/2e2e37e4fd00213b.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a01de86f4b8a7666.mp4"
+  },
+  {
+   "say": "Why bother? Horses are prey, and getting up off the ground takes time.",
+   "clip_id": 382594,
+   "clip2_id": 381912,
+   "punch": "PREY",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "clip_path": "/root/.cache/shorts_clips/d183e50efaa8994e.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/fafb732b20082465.mp4"
+  },
+  {
+   "say": "Standing up, they can bolt the second a predator shows up.",
+   "clip_id": 111320,
+   "clip2_id": 382594,
+   "items": [
+    {
+     "emoji": "💨",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "zoom",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7219d7ee31d92977.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/d183e50efaa8994e.mp4"
+  },
+  {
+   "say": "Adult horses can get by on about 5 hours of sleep a day, mostly standing.",
+   "clip_id": 133584,
+   "clip2_id": 26296,
+   "number": {
+    "value": 5,
+    "prefix": "",
+    "suffix": " hours",
+    "label": "sleep per day",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/71e60af83ca1f8b2.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7f1fe51d2e36f8c7.mp4"
+  },
+  {
+   "say": "But dream sleep only happens lying down, at least 25 minutes a day.",
+   "clip_id": 299148,
+   "clip2_id": 28797,
+   "number": {
+    "value": 25,
+    "prefix": "",
+    "suffix": " min",
+    "label": "lying down",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "items": [
+    {
+     "emoji": "💤",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "float",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/a7729ab6efb574be.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/83790a4f6bbe9165.mp4"
+  },
+  {
+   "say": "So one horse stays up as a lookout. That's why horses sleep standing up.",
+   "clip_id": 217908,
+   "clip2_id": 239034,
+   "punch": "LOOKOUT",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "clip_path": "/root/.cache/shorts_clips/2e2e37e4fd00213b.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/2647e47d4546f5f4.mp4"
+  }
+ ]
+}

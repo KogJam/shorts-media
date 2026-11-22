@@ -1,0 +1,166 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "MixailMixail (Pixabay): https://pixabay.com/videos/id-4216/",
+  "yeracastelan (Pixabay): https://pixabay.com/videos/id-39011/",
+  "Marsel_beijing (Pixabay): https://pixabay.com/videos/id-131919/",
+  "yeracastelan (Pixabay): https://pixabay.com/videos/id-39010/",
+  "kieutruongphoto (Pixabay): https://pixabay.com/videos/id-35693/",
+  "kieutruongphoto (Pixabay): https://pixabay.com/videos/id-35733/",
+  "yeracastelan (Pixabay): https://pixabay.com/videos/id-39009/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-236714/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-122610/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-94323/",
+  "Bernard_Townsend (Pixabay): https://pixabay.com/videos/id-127621/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-94581/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-94319/",
+  "Jahhoo (Pixabay): https://pixabay.com/videos/id-2449/",
+  "jodywhiteley (Pixabay): https://pixabay.com/videos/id-174490/",
+  "Kmeel_com (Pixabay): https://pixabay.com/videos/id-65438/",
+  "JawadAliKhan (Pixabay): https://pixabay.com/videos/id-143890/"
+ ],
+ "id": "trend-cats-knead",
+ "hook": "Why cats knead like dough",
+ "title": "Why Cats Knead You Like Bread Dough (It Starts at Birth) #shorts",
+ "description": "Cats knead because newborn kittens push on their mother's belly to get the milk flowing, and many keep the habit for life as a sign of comfort. Glands between their toes may also leave their scent on you.\n\nFollow for what's trending, explained!\n\n#cats #catfacts #animals #kneading #shorts",
+ "tags": [
+  "why do cats knead",
+  "cat kneading",
+  "making biscuits",
+  "cat behavior",
+  "cat facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do cats knead you like bread dough?",
+   "clip_id": 4216,
+   "clip2_id": 39011,
+   "items": [
+    {
+     "emoji": "🐱",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/d255cfa2cbee1a0a.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/1563d5b7e87a8cb8.mp4"
+  },
+  {
+   "say": "It starts on day one. Newborn kittens knead their mom's belly.",
+   "clip_id": 131919,
+   "clip2_id": 39010,
+   "punch": "DAY ONE",
+   "punch_y": 0.66,
+   "punch_delay": 0.6,
+   "clip_path": "/root/.cache/shorts_clips/a6822374d1f960ca.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/905ee8d62fb4426b.mp4"
+  },
+  {
+   "say": "The pushing helps the milk flow, so kneading means dinner is coming.",
+   "clip_id": 35693,
+   "clip2_id": 35733,
+   "items": [
+    {
+     "emoji": "🍼",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "bounce",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "inset_id": 39009,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.6,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/3da8cf51f3b7310f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/dfdc154128a8f8c0.mp4",
+   "inset_path": "/root/.cache/shorts_clips/5fc9d0793b46ecf3.mp4"
+  },
+  {
+   "say": "Kittens stop drinking milk by about two months, but many cats never stop kneading.",
+   "clip_id": 236714,
+   "clip2_id": 122610,
+   "number": {
+    "value": 2,
+    "prefix": "",
+    "suffix": " months",
+    "label": "weaned by",
+    "y": 0.55,
+    "delay": 1.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/70db472cdeca3213.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7e2d2125f4fd771b.mp4"
+  },
+  {
+   "say": "Experts think it's a leftover kitten habit, tied to comfort and safety.",
+   "clip_id": 94323,
+   "clip2_id": 127621,
+   "punch": "COMFORT",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/873d603e5dac3db9.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/db294f6bbfeed5f2.mp4"
+  },
+  {
+   "say": "Cats also have scent glands hidden between their toes.",
+   "clip_id": 94581,
+   "clip2_id": 94319,
+   "items": [
+    {
+     "emoji": "🐾",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/0624bd4938c5ae46.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/9fdc74a4c7891438.mp4"
+  },
+  {
+   "say": "So every push may quietly leave their smell on you.",
+   "clip_id": 2449,
+   "clip2_id": 174490,
+   "punch": "MARKED",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/18fccd69a836e71b.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/2b1b1efe282bcc96.mp4"
+  },
+  {
+   "say": "A kneading cat is calm and happy. That's why cats knead you like bread dough.",
+   "clip_id": 65438,
+   "clip2_id": 143890,
+   "items": [
+    {
+     "emoji": "🍞",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 2.0,
+     "cross": false
+    }
+   ],
+   "punch": "CONTENT",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/59386bbe10f3396f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/fdff2aa47f17b7ed.mp4"
+  }
+ ]
+}

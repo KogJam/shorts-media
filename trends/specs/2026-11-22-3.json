@@ -1,0 +1,178 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "Romario99 (Pixabay): https://pixabay.com/videos/id-74257/",
+  "Coverr-Free-Footage (Pixabay): https://pixabay.com/videos/id-4727/",
+  "JohnManzyk (Pixabay): https://pixabay.com/videos/id-268059/",
+  "BrendaLanddeck (Pixabay): https://pixabay.com/videos/id-45934/",
+  "BrendaLanddeck (Pixabay): https://pixabay.com/videos/id-45934/",
+  "moshehar (Pixabay): https://pixabay.com/videos/id-14869/",
+  "brixiv (Pixabay): https://pixabay.com/videos/id-251873/",
+  "FuriousPhoenixAU (Pixabay): https://pixabay.com/videos/id-40357/",
+  "Coverr-Free-Footage (Pixabay): https://pixabay.com/videos/id-5631/",
+  "FuriousPhoenixAU (Pixabay): https://pixabay.com/videos/id-40357/",
+  "u_5zxqd0533a (Pixabay): https://pixabay.com/videos/id-156318/",
+  "moshehar (Pixabay): https://pixabay.com/videos/id-15305/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-103275/",
+  "DigitalDreamer (Pixabay): https://pixabay.com/videos/id-171547/",
+  "Juncala (Pixabay): https://pixabay.com/videos/id-127591/",
+  "moshehar (Pixabay): https://pixabay.com/videos/id-14869/",
+  "Coverr-Free-Footage (Pixabay): https://pixabay.com/videos/id-4727/"
+ ],
+ "id": "trend-dogs-eat-grass",
+ "hook": "Why dogs eat grass",
+ "title": "Why Dogs Eat Grass (It's Usually Not Because They're Sick) #shorts",
+ "description": "A survey of over 1,500 dog owners by UC Davis researchers found 68% of dogs eat plants daily or weekly, but only 8% often seemed ill before and 22% regularly vomited after. Grass eating is normal dog behavior, and wolves eat plants too.\n\nFollow for what's trending, explained!\n\n#dogs #dogfacts #animals #pets #shorts",
+ "tags": [
+  "why do dogs eat grass",
+  "dog eating grass",
+  "dog behavior",
+  "dog facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do dogs eat grass?",
+   "clip_id": 74257,
+   "clip2_id": 4727,
+   "items": [
+    {
+     "emoji": "🐶",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/6e9f29c836b0b585.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/50e6d513411c9474.mp4"
+  },
+  {
+   "say": "Most people think it means they're sick. Usually, they're not.",
+   "clip_id": 268059,
+   "clip2_id": 45934,
+   "punch": "NOT SICK",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/46998e2c6a26f11e.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/d1dd2225efe22630.mp4"
+  },
+  {
+   "say": "In a survey of over 1,500 dog owners, 68 percent saw their dog eat plants daily or weekly.",
+   "clip_id": 45934,
+   "clip2_id": 14869,
+   "number": {
+    "value": 68,
+    "prefix": "",
+    "suffix": "%",
+    "label": "eat plants often",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "items": [
+    {
+     "emoji": "🌿",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/d1dd2225efe22630.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/39be2e0ca5063b24.mp4"
+  },
+  {
+   "say": "Only 8 percent of those dogs often seemed ill beforehand.",
+   "clip_id": 251873,
+   "clip2_id": 40357,
+   "number": {
+    "value": 8,
+    "prefix": "",
+    "suffix": "%",
+    "label": "seemed ill first",
+    "y": 0.55,
+    "delay": 1.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/b3125a4409cd61fa.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/90de271bc47412bc.mp4"
+  },
+  {
+   "say": "And just 22 percent regularly threw up afterward.",
+   "clip_id": 5631,
+   "clip2_id": 40357,
+   "number": {
+    "value": 22,
+    "prefix": "",
+    "suffix": "%",
+    "label": "threw up after",
+    "y": 0.55,
+    "delay": 1.0
+   },
+   "items": [
+    {
+     "emoji": "🤢",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ef698eb84b27585c.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/90de271bc47412bc.mp4"
+  },
+  {
+   "say": "Young dogs graze even more often, and look sick even less.",
+   "clip_id": 156318,
+   "clip2_id": 15305,
+   "punch": "PUPPIES",
+   "punch_y": 0.66,
+   "punch_delay": 0.6,
+   "clip_path": "/root/.cache/shorts_clips/aa5ab1d3bf3e7d71.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/9c94f5d291df4672.mp4"
+  },
+  {
+   "say": "Wild wolves eat plants too. One theory says plant fiber helps flush out gut worms.",
+   "clip_id": 103275,
+   "clip2_id": 171547,
+   "items": [
+    {
+     "emoji": "🐺",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.4,
+     "cross": false
+    }
+   ],
+   "inset_id": 127591,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 2.4,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/378c2f8549a90786.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/d9417abc93bc19a5.mp4",
+   "inset_path": "/root/.cache/shorts_clips/7b3026f6d793c1ee.mp4"
+  },
+  {
+   "say": "So it's normal dog behavior, not a cry for help. That's why dogs eat grass.",
+   "clip_id": 14869,
+   "clip2_id": 4727,
+   "punch": "NORMAL",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/39be2e0ca5063b24.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/50e6d513411c9474.mp4"
+  }
+ ]
+}
