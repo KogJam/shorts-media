@@ -1,0 +1,584 @@
+{
+ "id": "long-2026-11-22-mysteries",
+ "title": "The Real Reason Monkeys Groom Each Other (+9 More)",
+ "voice": "bm_lewis",
+ "speed": 1.05,
+ "music": "upbeat",
+ "countdown": true,
+ "thumb_text": "NOT FOR BUGS?",
+ "thumb_emoji": "🐒",
+ "intro": [
+  {
+   "say": "A woodpecker slams its head into a tree twelve thousand times a day. And it never gets a headache.",
+   "q": "woodpecker",
+   "q2": "woodpecker tree",
+   "clip": "/root/.cache/shorts_clips/f65bc674a31140b2.mp4",
+   "clip_id": 150713,
+   "clip2": "/root/.cache/shorts_clips/7db58c16b28dff5a.mp4",
+   "clip2_id": 43758
+  },
+  {
+   "say": "A panda that is secretly a meat-eater. A goat whose eyes rotate inside its head. And a cat that is not playing at all.",
+   "q": "giant panda",
+   "q2": "goat",
+   "clip": "/root/.cache/shorts_clips/c4e7900ab984cd59.mp4",
+   "clip_id": 137015,
+   "clip2": "/root/.cache/shorts_clips/50b49ffde884b628.mp4",
+   "clip2_id": 113681
+  },
+  {
+   "say": "Here are ten animal mysteries, finally solved. And number one is something you have seen a hundred times, but the real reason has nothing to do with bugs. Stay for it.",
+   "q": "monkeys grooming",
+   "q2": "monkey",
+   "clip": "/root/.cache/shorts_clips/cc0bb4e62ecb5498.mp4",
+   "clip_id": 259546,
+   "clip2": "/root/.cache/shorts_clips/10f5c0f373f324ea.mp4",
+   "clip2_id": 2268
+  }
+ ],
+ "chapters": [
+  {
+   "title": "Why some white animals aren't albino",
+   "scenes": [
+    {
+     "say": "Not every white animal is an albino. To tell the difference, you only need to look at one thing: the eyes.",
+     "q": "white animal",
+     "q2": "white rabbit",
+     "clip": "/root/.cache/shorts_clips/45552605743a4239.mp4",
+     "clip_id": 5338,
+     "clip2": "/root/.cache/shorts_clips/1cd1dc9d10840c53.mp4",
+     "clip2_id": 238581
+    },
+    {
+     "say": "True albinos can't make melanin, the dark pigment in skin, fur and eyes. Their eyes look pink or red, because blood vessels shine right through.",
+     "q": "albino rabbit",
+     "q2": "white mouse",
+     "clip": "/root/.cache/shorts_clips/fe8acacf7619d4c5.mp4",
+     "clip_id": 174972
+    },
+    {
+     "say": "Experts estimate that only about one in ten thousand mammals is born albino. Without melanin, their eyesight is often poor.",
+     "q": "white deer",
+     "q2": "albino",
+     "clip": "/root/.cache/shorts_clips/4c4519175cd33660.mp4",
+     "clip_id": 33668,
+     "clip2": "/root/.cache/shorts_clips/9aef3175533f7352.mp4",
+     "clip2_id": 33663
+    },
+    {
+     "say": "Leucistic animals are different. They lose pigment in their fur or feathers, but their eyes stay dark. Some are pure white, others only have white patches.",
+     "q": "white peacock",
+     "q2": "white bird",
+     "clip": "/root/.cache/shorts_clips/af663728ae40496e.mp4",
+     "clip_id": 300857
+    },
+    {
+     "say": "And the twist: white tigers aren't albino either. Look closely, their stripes are still there, and their eyes are usually blue.",
+     "q": "white tiger",
+     "q2": "white tiger walking",
+     "clip": "/root/.cache/shorts_clips/614ac4f50524c04f.mp4",
+     "clip_id": 129992,
+     "clip2": "/root/.cache/shorts_clips/4c002bbe6093e21c.mp4",
+     "clip2_id": 146479
+    }
+   ]
+  },
+  {
+   "title": "Wild turkeys can fly 55 mph",
+   "scenes": [
+    {
+     "say": "Most people think turkeys can't fly. Wild turkeys can, and they are surprisingly fast.",
+     "q": "wild turkey",
+     "q2": "turkey bird",
+     "clip": "/root/.cache/shorts_clips/b0ef70ea8f946b78.mp4",
+     "clip_id": 31330
+    },
+    {
+     "say": "In short bursts, a wild turkey can hit about fifty five miles per hour. On the ground, it can sprint at around twenty five.",
+     "q": "turkey flying",
+     "q2": "wild turkeys field",
+     "clip": "/root/.cache/shorts_clips/06682c0e6e698626.mp4",
+     "clip_id": 19574
+    },
+    {
+     "say": "Every evening, a flock flaps up into the treetops to sleep, high above the foxes and coyotes on the ground.",
+     "q": "turkey tree",
+     "q2": "forest sunset",
+     "clip": "/root/.cache/shorts_clips/4e1146b74ecb02d1.mp4",
+     "clip_id": 117842
+    },
+    {
+     "say": "So where does the myth come from? The turkey on your plate is a different bird. Farm turkeys are bred with huge breast muscles and short wings, far too heavy to fly.",
+     "q": "white turkey farm",
+     "q2": "domestic turkey",
+     "clip": "/root/.cache/shorts_clips/cc72ce142adb87a3.mp4",
+     "clip_id": 263481,
+     "clip2": "/root/.cache/shorts_clips/23e339c2ff189e6b.mp4",
+     "clip2_id": 30280
+    },
+    {
+     "say": "In the nineteen thirties, only about thirty thousand wild turkeys were left in America. Today there are around seven million, and every one of them can fly.",
+     "q": "turkeys flock",
+     "q2": "wild turkey walking",
+     "clip": "/root/.cache/shorts_clips/06682c0e6e698626.mp4",
+     "clip_id": 19574,
+     "clip2": "/root/.cache/shorts_clips/b0ef70ea8f946b78.mp4",
+     "clip2_id": 31330
+    }
+   ]
+  },
+  {
+   "title": "Why penguins waddle",
+   "scenes": [
+    {
+     "say": "Penguins look clumsy when they walk. But that wobbly waddle is actually a clever energy trick.",
+     "q": "penguins walking",
+     "q2": "penguin",
+     "clip": "/root/.cache/shorts_clips/eeb6c3650827cb49.mp4",
+     "clip_id": 326965,
+     "clip2": "/root/.cache/shorts_clips/3fe31c50e2c5c226.mp4",
+     "clip2_id": 332914
+    },
+    {
+     "say": "Short legs make walking expensive. A penguin burns about twice the energy of a dog its size, just to walk the same distance.",
+     "q": "penguin walk",
+     "q2": "penguins colony",
+     "clip": "/root/.cache/shorts_clips/b1ba3cdc0484dd34.mp4",
+     "clip_id": 332911,
+     "clip2": "/root/.cache/shorts_clips/d57cf63861f940e4.mp4",
+     "clip2_id": 306567
+    },
+    {
+     "say": "So scientists filmed emperor penguins walking. The side to side rock works like a pendulum. Each sway stores energy, then hands it back for the next step.",
+     "q": "emperor penguin",
+     "q2": "emperor penguins ice",
+     "clip": "/root/.cache/shorts_clips/fb7c43b3c17312ee.mp4",
+     "clip_id": 332918,
+     "clip2": "/root/.cache/shorts_clips/4747a4d91fde0d88.mp4",
+     "clip2_id": 332922
+    },
+    {
+     "say": "Penguins got back up to eighty percent of their energy per stride. Humans manage about sixty five.",
+     "q": "penguin snow",
+     "q2": "penguins group",
+     "clip": "/root/.cache/shorts_clips/a27954f93b9d46e4.mp4",
+     "clip_id": 327101,
+     "clip2": "/root/.cache/shorts_clips/680208a04bc8bdd9.mp4",
+     "clip2_id": 303793
+    },
+    {
+     "say": "And those short legs are no mistake. Underwater, they make penguins sleek and fast. Emperor penguins have been recorded diving more than five hundred meters deep.",
+     "q": "penguin swimming",
+     "q2": "penguin underwater",
+     "clip": "/root/.cache/shorts_clips/87efe09106dbbe8c.mp4",
+     "clip_id": 94457,
+     "clip2": "/root/.cache/shorts_clips/f161d99a09e3be9b.mp4",
+     "clip2_id": 94458
+    },
+    {
+     "say": "But the next animal has an even stranger body part. Its pupils are rectangles.",
+     "q": "goat eye",
+     "q2": "goat",
+     "clip": "/root/.cache/shorts_clips/c2857988bb904245.mp4",
+     "clip_id": 203476,
+     "clip2": "/root/.cache/shorts_clips/3096693d9641b986.mp4",
+     "clip2_id": 204414
+    }
+   ]
+  },
+  {
+   "title": "Why goats have rectangular pupils",
+   "scenes": [
+    {
+     "say": "Look a goat in the eye, and you will see a sideways rectangle. That strange shape is a survival tool.",
+     "q": "goat eye",
+     "q2": "goat close up",
+     "clip": "/root/.cache/shorts_clips/65392fbe33abb41d.mp4",
+     "clip_id": 27055,
+     "clip2": "/root/.cache/shorts_clips/49076ef5d2a30399.mp4",
+     "clip2_id": 171641
+    },
+    {
+     "say": "The wide slit gives a panoramic view of the ground around them, perfect for spotting a predator sneaking up. It also blocks dazzling sunlight from above.",
+     "q": "goats mountain",
+     "q2": "goat grazing",
+     "clip": "/root/.cache/shorts_clips/52c26a67793c7041.mp4",
+     "clip_id": 82031,
+     "clip2": "/root/.cache/shorts_clips/21a062a896218302.mp4",
+     "clip2_id": 304391
+    },
+    {
+     "say": "In twenty fifteen, scientists at Berkeley compared the pupils of two hundred and fourteen land animals. Of forty two plant-eating prey animals, thirty six had horizontal pupils.",
+     "q": "sheep",
+     "q2": "deer",
+     "clip": "/root/.cache/shorts_clips/e336398012e3dcdf.mp4",
+     "clip_id": 79168,
+     "clip2": "/root/.cache/shorts_clips/9c5523d633172451.mp4",
+     "clip2_id": 120739
+    },
+    {
+     "say": "Hunters that ambush their prey, like many cats and snakes, tend to have vertical slits instead. Pupil shape tells you who is the hunter, and who is the hunted.",
+     "q": "cat eye",
+     "q2": "snake eye",
+     "clip": "/root/.cache/shorts_clips/a448ca33c8c0599f.mp4",
+     "clip_id": 141630
+    },
+    {
+     "say": "And here's the weird part. When a goat lowers its head to graze, its eyes roll in their sockets, to keep those pupils level with the horizon.",
+     "q": "goat eating grass",
+     "q2": "goats field",
+     "clip": "/root/.cache/shorts_clips/b91c863c568b4cf3.mp4",
+     "clip_id": 9945,
+     "clip2": "/root/.cache/shorts_clips/94e52bcf39f8c0a5.mp4",
+     "clip2_id": 127720
+    }
+   ]
+  },
+  {
+   "title": "Why birds puff up in winter",
+   "scenes": [
+    {
+     "say": "In winter, birds turn into fluffy little balls. That puffy look isn't fat. It's air.",
+     "q": "bird winter",
+     "q2": "robin snow",
+     "clip": "/root/.cache/shorts_clips/20f80fb9588014b7.mp4",
+     "clip_id": 191159,
+     "clip2": "/root/.cache/shorts_clips/805f667bb1897e14.mp4",
+     "clip2_id": 60516
+    },
+    {
+     "say": "Fluffing up creates hundreds of tiny air pockets between the feathers. Those pockets trap body heat, just like a down jacket.",
+     "q": "bird feathers",
+     "q2": "sparrow winter",
+     "clip": "/root/.cache/shorts_clips/34fe858fc434950a.mp4",
+     "clip_id": 18244,
+     "clip2": "/root/.cache/shorts_clips/dec87e5edf2b4fe8.mp4",
+     "clip2_id": 200427
+    },
+    {
+     "say": "And birds run hot. Their body temperature is about one hundred and five degrees Fahrenheit, so keeping that heat in is a big deal.",
+     "q": "small bird branch",
+     "q2": "bird snow",
+     "clip": "/root/.cache/shorts_clips/4275e2befad2ac17.mp4",
+     "clip_id": 35214,
+     "clip2": "/root/.cache/shorts_clips/f38a0179f7420850.mp4",
+     "clip2_id": 30582
+    },
+    {
+     "say": "Their bare legs are the weak spot, so many birds tuck one leg up into their feathers. Chickadees even let their feet cool to near freezing, to save energy.",
+     "q": "chickadee",
+     "q2": "bird one leg",
+     "clip": "/root/.cache/shorts_clips/ca67b81ba2c19fa4.mp4",
+     "clip_id": 326747,
+     "clip2": "/root/.cache/shorts_clips/09af77b4c0389830.mp4",
+     "clip2_id": 321810
+    },
+    {
+     "say": "On cold nights, chickadees can even lower their whole body temperature by several degrees, a kind of mini hibernation every single night.",
+     "q": "chickadee winter",
+     "q2": "bird night",
+     "clip": "/root/.cache/shorts_clips/dbcbf0920c93a7c4.mp4",
+     "clip_id": 31954,
+     "clip2": "/root/.cache/shorts_clips/7d19208807bba5bc.mp4",
+     "clip2_id": 386677
+    },
+    {
+     "say": "But the next bird has a bigger problem than the cold. It spends all day hitting its head.",
+     "q": "woodpecker",
+     "q2": "woodpecker pecking",
+     "clip": "/root/.cache/shorts_clips/ec70793107b330b3.mp4",
+     "clip_id": 22529,
+     "clip2": "/root/.cache/shorts_clips/7feaa710f8bd2dc5.mp4",
+     "clip2_id": 43757
+    }
+   ]
+  },
+  {
+   "title": "Why woodpeckers don't get headaches",
+   "scenes": [
+    {
+     "say": "A woodpecker can hammer a tree about twelve thousand times a day. So why doesn't it hurt?",
+     "q": "woodpecker pecking",
+     "q2": "woodpecker",
+     "clip": "/root/.cache/shorts_clips/2ed1811a27e173d6.mp4",
+     "clip_id": 391,
+     "clip2": "/root/.cache/shorts_clips/ce73edf168e6f94d.mp4",
+     "clip2_id": 392
+    },
+    {
+     "say": "For years, people thought its skull worked like a shock absorber. But in twenty twenty two, scientists filmed three species with high-speed cameras.",
+     "q": "woodpecker tree",
+     "q2": "bird tree trunk",
+     "clip": "/root/.cache/shorts_clips/4b8e561aadf5fb62.mp4",
+     "clip_id": 21964,
+     "clip2": "/root/.cache/shorts_clips/9f61ba30a137a5a1.mp4",
+     "clip2_id": 3285
+    },
+    {
+     "say": "The head didn't cushion anything. It hit like a stiff hammer. A cushion would soak up the force, and make every peck weaker.",
+     "q": "woodpecker bark",
+     "q2": "woodpecker close",
+     "clip": "/root/.cache/shorts_clips/00028864588748a4.mp4",
+     "clip_id": 341429,
+     "clip2": "/root/.cache/shorts_clips/8bab148618015be2.mp4",
+     "clip2_id": 306602
+    },
+    {
+     "say": "The real trick is size. A woodpecker's brain is tiny, so the forces stay safe. It would have to peck about twice as fast to hurt itself.",
+     "q": "red woodpecker",
+     "q2": "woodpecker forest",
+     "clip": "/root/.cache/shorts_clips/5f43a8df435583c3.mp4",
+     "clip_id": 284701,
+     "clip2": "/root/.cache/shorts_clips/af2fdaa78a5fc172.mp4",
+     "clip2_id": 31985
+    },
+    {
+     "say": "And there's a bonus. Its long tongue is so long that, when pulled in, it wraps all the way around the back of its skull.",
+     "q": "woodpecker feeding",
+     "q2": "woodpecker hole",
+     "clip": "/root/.cache/shorts_clips/d7432304306d73f6.mp4",
+     "clip_id": 381829,
+     "clip2": "/root/.cache/shorts_clips/54e9d8dc2dacf240.mp4",
+     "clip2_id": 21599
+    }
+   ]
+  },
+  {
+   "title": "How horses sleep standing up",
+   "scenes": [
+    {
+     "say": "Horses can sleep standing up, without falling over. Their legs have a built-in lock called the stay apparatus.",
+     "q": "horse standing",
+     "q2": "horse field",
+     "clip": "/root/.cache/shorts_clips/f571009c29723957.mp4",
+     "clip_id": 213936,
+     "clip2": "/root/.cache/shorts_clips/1d1c7d4522399a3c.mp4",
+     "clip2_id": 6574
+    },
+    {
+     "say": "Tendons and ligaments hold the joints steady, so the muscles can relax completely. The horse dozes, and its legs do the work.",
+     "q": "horse legs",
+     "q2": "horse pasture",
+     "clip": "/root/.cache/shorts_clips/2647e47d4546f5f4.mp4",
+     "clip_id": 239034,
+     "clip2": "/root/.cache/shorts_clips/a01de86f4b8a7666.mp4",
+     "clip2_id": 222134
+    },
+    {
+     "say": "Why bother? Horses are prey, and getting up off the ground takes time. Standing up, they can bolt the second a predator shows up.",
+     "q": "horses running",
+     "q2": "wild horses",
+     "clip": "/root/.cache/shorts_clips/dce00d1e66ca250b.mp4",
+     "clip_id": 220268,
+     "clip2": "/root/.cache/shorts_clips/0c433234465a852a.mp4",
+     "clip2_id": 79087
+    },
+    {
+     "say": "Horses have the largest eyes of any land mammal, set on the sides of the head, so they can see almost all the way around.",
+     "q": "horse eye",
+     "q2": "horse head",
+     "clip": "/root/.cache/shorts_clips/b22332159e62766f.mp4",
+     "clip_id": 146644,
+     "clip2": "/root/.cache/shorts_clips/ca72545fc61f83c5.mp4",
+     "clip2_id": 380898
+    },
+    {
+     "say": "But dream sleep only happens lying down, at least about twenty five minutes a day. So while one horse lies down, another stays up as a lookout.",
+     "q": "horse lying down",
+     "q2": "horses herd",
+     "clip": "/root/.cache/shorts_clips/af2415cdf10631ab.mp4",
+     "clip_id": 62016
+    },
+    {
+     "say": "Coming up next: an animal that eats all day long, and still barely gets any food out of it.",
+     "q": "giant panda eating",
+     "q2": "panda",
+     "clip": "/root/.cache/shorts_clips/3486162d5cf1d97a.mp4",
+     "clip_id": 272562
+    }
+   ]
+  },
+  {
+   "title": "Why pandas eat bamboo with a meat-eater's gut",
+   "scenes": [
+    {
+     "say": "The giant panda is a carnivore. It is a true bear, with a short, simple gut built for meat.",
+     "q": "giant panda",
+     "q2": "panda bear",
+     "clip": "/root/.cache/shorts_clips/efa2b8771766e1a7.mp4",
+     "clip_id": 81457
+    },
+    {
+     "say": "Yet bamboo makes up about ninety nine percent of its diet. And that meat-eater's gut can only digest around seventeen percent of it.",
+     "q": "panda eating bamboo",
+     "q2": "bamboo forest",
+     "clip": "/root/.cache/shorts_clips/54718be0cffd3eab.mp4",
+     "clip_id": 343645,
+     "clip2": "/root/.cache/shorts_clips/221541fbfcfd7d92.mp4",
+     "clip2_id": 253831
+    },
+    {
+     "say": "So pandas make up for it with volume. They eat about twelve kilos of bamboo a day, and chew for ten to twelve hours, every single day.",
+     "q": "panda eating",
+     "q2": "panda sitting",
+     "clip": "/root/.cache/shorts_clips/fde5be737e35bfa7.mp4",
+     "clip_id": 348505,
+     "clip2": "/root/.cache/shorts_clips/aca1024bf6b95bd7.mp4",
+     "clip2_id": 136771
+    },
+    {
+     "say": "They even have a fake thumb, an extra-long wrist bone, to grip the stalks while they chew.",
+     "q": "panda bamboo",
+     "q2": "panda paw",
+     "clip": "/root/.cache/shorts_clips/c4e7900ab984cd59.mp4",
+     "clip_id": 137015
+    },
+    {
+     "say": "Pandas switched to bamboo millions of years ago. Their gut never did. They are meat-eaters that live on salad.",
+     "q": "panda",
+     "q2": "panda climbing",
+     "clip": "/root/.cache/shorts_clips/3486162d5cf1d97a.mp4",
+     "clip_id": 272562
+    }
+   ]
+  },
+  {
+   "title": "Why cats go crazy for laser dots",
+   "scenes": [
+    {
+     "say": "Your cat isn't playing with that laser dot. It's hunting it.",
+     "q": "cat playing",
+     "q2": "cat pounce",
+     "clip": "/root/.cache/shorts_clips/e1d3c63713e79be0.mp4",
+     "clip_id": 161726,
+     "clip2": "/root/.cache/shorts_clips/28fb77b0a89daeab.mp4",
+     "clip2_id": 129459
+    },
+    {
+     "say": "Cats are built to chase anything small and fast, like a mouse. Their eyes are packed with rod cells, which are super sensitive to motion.",
+     "q": "cat eyes",
+     "q2": "cat hunting",
+     "clip": "/root/.cache/shorts_clips/59386bbe10f3396f.mp4",
+     "clip_id": 65438,
+     "clip2": "/root/.cache/shorts_clips/5457e2f9ad157890.mp4",
+     "clip2_id": 130424
+    },
+    {
+     "say": "Their ears are tuned for prey too. Cats can hear high squeaks far above what we can hear, the kind of sounds mice and rats make.",
+     "q": "cat ears",
+     "q2": "cat listening",
+     "clip": "/root/.cache/shorts_clips/32c8bf0045dbee0d.mp4",
+     "clip_id": 95077,
+     "clip2": "/root/.cache/shorts_clips/00125d5fd7907ef3.mp4",
+     "clip2_id": 297710
+    },
+    {
+     "say": "So a tiny, darting red dot looks exactly like prey running for cover. It's the same stalk, crouch and pounce you see in lions and leopards.",
+     "q": "cat stalking",
+     "q2": "lion hunting",
+     "clip": "/root/.cache/shorts_clips/af8474392d833c02.mp4",
+     "clip_id": 179212,
+     "clip2": "/root/.cache/shorts_clips/905ee8d62fb4426b.mp4",
+     "clip2_id": 39010
+    },
+    {
+     "say": "But there's a catch. The dot can never be caught. With no reward, some cats get frustrated and even start biting or scratching.",
+     "q": "cat jumping",
+     "q2": "kitten playing",
+     "clip": "/root/.cache/shorts_clips/7a697a1cb8262ee8.mp4",
+     "clip_id": 305341,
+     "clip2": "/root/.cache/shorts_clips/cd6ffe2387ed2bec.mp4",
+     "clip2_id": 339324
+    },
+    {
+     "say": "So end every laser game on a real toy your cat can grab. Let it finish the hunt.",
+     "q": "cat toy",
+     "q2": "cat playing toy",
+     "clip": "/root/.cache/shorts_clips/bf75c3c5b03ad870.mp4",
+     "clip_id": 98654,
+     "clip2": "/root/.cache/shorts_clips/fdff2aa47f17b7ed.mp4",
+     "clip2_id": 143890
+    }
+   ]
+  },
+  {
+   "title": "Why monkeys groom each other",
+   "scenes": [
+    {
+     "say": "Monkeys spend hours picking through each other's fur. Most people think they're just eating bugs.",
+     "q": "monkeys grooming",
+     "q2": "monkey",
+     "clip": "/root/.cache/shorts_clips/2c58eea7586f39e2.mp4",
+     "clip_id": 17644,
+     "clip2": "/root/.cache/shorts_clips/bb741cc61375d698.mp4",
+     "clip2_id": 130687
+    },
+    {
+     "say": "They do remove dirt, dead skin and the odd tick. But that's not the main reason. Grooming is how monkeys make friends.",
+     "q": "macaque",
+     "q2": "monkeys family",
+     "clip": "/root/.cache/shorts_clips/c2e1429caccfc006.mp4",
+     "clip_id": 2262,
+     "clip2": "/root/.cache/shorts_clips/f54b0463c9a36f71.mp4",
+     "clip2_id": 2323
+    },
+    {
+     "say": "In a nineteen eighty nine study, feel-good chemicals called endorphins rose by up to one hundred and eighty six percent in monkeys that got to groom a partner.",
+     "q": "monkey grooming",
+     "q2": "baboon",
+     "clip": "/root/.cache/shorts_clips/ad317d457c6f49b0.mp4",
+     "clip_id": 207829,
+     "clip2": "/root/.cache/shorts_clips/7a92e8fa0a99c2d9.mp4",
+     "clip2_id": 5272
+    },
+    {
+     "say": "Being groomed is basically a massage. In rhesus macaques, the heart rate slows down faster while they are being groomed.",
+     "q": "rhesus macaque",
+     "q2": "monkey relaxing",
+     "clip": "/root/.cache/shorts_clips/e68f268f137c1812.mp4",
+     "clip_id": 175910,
+     "clip2": "/root/.cache/shorts_clips/18cf55f52041482f.mp4",
+     "clip2_id": 109723
+    },
+    {
+     "say": "And grooming works like money. Chimpanzees are more likely to share food with someone who groomed them earlier that day.",
+     "q": "chimpanzee",
+     "q2": "chimpanzees",
+     "clip": "/root/.cache/shorts_clips/ba8d71777e136731.mp4",
+     "clip_id": 134320,
+     "clip2": "/root/.cache/shorts_clips/8f29f054a3cf83c2.mp4",
+     "clip2_id": 216696
+    },
+    {
+     "say": "But with too many friends, there aren't enough hours. One scientist argues that's why humans swapped grooming for gossip. So when you chat with a friend, you're kind of grooming them.",
+     "q": "monkeys sitting together",
+     "q2": "primates",
+     "clip": "/root/.cache/shorts_clips/53a1ef3461652511.mp4",
+     "clip_id": 146124,
+     "clip2": "/root/.cache/shorts_clips/f22ca39a9b6a6238.mp4",
+     "clip2_id": 308436
+    }
+   ]
+  }
+ ],
+ "outro": [
+  {
+   "say": "So which one surprised you most? The goat's rotating eyes, the woodpecker's hammer head, or the monkeys trading grooming for food? Tell us in the comments.",
+   "q": "goat",
+   "q2": "monkey",
+   "clip": "/root/.cache/shorts_clips/fd1b9fbe9408bdee.mp4",
+   "clip_id": 150715,
+   "clip2": "/root/.cache/shorts_clips/f54b0463c9a36f71.mp4",
+   "clip2_id": 2323
+  },
+  {
+   "say": "If you liked this, subscribe for more of the real reasons behind what animals do.",
+   "q": "nature wildlife",
+   "q2": "animals",
+   "clip": "/root/.cache/shorts_clips/ab142319f331036a.mp4",
+   "clip_id": 13704,
+   "clip2": "/root/.cache/shorts_clips/84736eadb79ac464.mp4",
+   "clip2_id": 357054
+  }
+ ]
+}

@@ -42,5 +42,27 @@
   "slot": "2026-11-18T18:07 Europe/Berlin",
   "duration_min": 9.95,
   "metricool_id": 432804715
+ },
+ {
+  "date": "2026-11-22",
+  "id": "long-2026-11-22-mysteries",
+  "title": "The Real Reason Monkeys Groom Each Other (+9 More)",
+  "spec": "long/specs/2026-11-22-mysteries.json",
+  "chapters": [
+   "trend-albino-vs-leucistic",
+   "trend-wild-turkeys-fly",
+   "trend-penguins-waddle",
+   "trend-goat-rectangular-pupils",
+   "trend-birds-puff-up-winter",
+   "trend-woodpecker-no-headache",
+   "trend-horses-sleep-standing",
+   "trend-panda-carnivore-bamboo",
+   "trend-cats-laser-dots",
+   "trend-monkey-grooming"
+  ],
+  "slot": "2026-11-22T18:07 Europe/Berlin",
+  "duration_min": 9.84,
+  "metricool_id": 437545085,
+  "thumbnail": true
  }
 ]
