@@ -1,0 +1,158 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-camel-hump-fat",
+ "hook": "It's NOT water",
+ "title": "Camel Humps Aren't Full of Water (It's Fat) #shorts",
+ "description": "A camel's hump stores up to 80 pounds of fat, not water. When it's used up, the hump goes limp and flops over. A very thirsty camel can drink 30 gallons in about 13 minutes.\n\nFollow for what's trending, explained!\n\n#camel #animalfacts #animals #desert #shorts",
+ "tags": [
+  "camel hump",
+  "what is in a camel hump",
+  "camel facts",
+  "animal myths",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Camel humps are not full of water.",
+   "clip_id": 134296,
+   "clip2_id": 112039,
+   "items": [
+    {
+     "emoji": "🐪",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    },
+    {
+     "emoji": "💧",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.9,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/179f2b9f50417128.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/0dcde5327f928938.mp4"
+  },
+  {
+   "say": "That's a myth. A camel's hump is mostly fat.",
+   "clip_id": 217298,
+   "clip2_id": 112038,
+   "punch": "FAT",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/fbeeb7304c2c9ff8.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/1864e86c853d8941.mp4"
+  },
+  {
+   "say": "One hump can store up to 80 pounds of it.",
+   "clip_id": 112040,
+   "clip2_id": 83599,
+   "number": {
+    "value": 80,
+    "prefix": "",
+    "suffix": " lb",
+    "label": "pounds of fat",
+    "y": 0.55,
+    "delay": 1.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/60b461d69cd7058d.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/f2bf973ba4449840.mp4"
+  },
+  {
+   "say": "When food runs out in the desert, the camel lives off that fat.",
+   "clip_id": 112043,
+   "clip2_id": 284566,
+   "items": [
+    {
+     "emoji": "🍔",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/0c158b744808ab02.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/b3f45eb78b4ddb1a.mp4"
+  },
+  {
+   "say": "Use it up, and the hump goes limp and flops over, like a deflated balloon.",
+   "clip_id": 83599,
+   "clip2_id": 217298,
+   "items": [
+    {
+     "emoji": "🎈",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 2.4,
+     "cross": false
+    }
+   ],
+   "punch": "FLOP",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/f2bf973ba4449840.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/fbeeb7304c2c9ff8.mp4"
+  },
+  {
+   "say": "Good food and rest, and it stands back up again.",
+   "clip_id": 112038,
+   "clip2_id": 112040,
+   "punch": "BACK UP",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/1864e86c853d8941.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/60b461d69cd7058d.mp4"
+  },
+  {
+   "say": "So where's the water? A very thirsty camel can drink 30 gallons in 13 minutes.",
+   "clip_id": 112039,
+   "clip2_id": 134296,
+   "number": {
+    "value": 30,
+    "prefix": "",
+    "suffix": "",
+    "label": "gallons in 13 minutes",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/0dcde5327f928938.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/179f2b9f50417128.mp4"
+  },
+  {
+   "say": "And in winter, juicy desert plants can keep it going for weeks without a drink. So the hump was never water.",
+   "clip_id": 284566,
+   "clip2_id": 92837,
+   "items": [
+    {
+     "emoji": "🌵",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "punch": "NEVER WATER",
+   "punch_y": 0.66,
+   "punch_delay": 4.6,
+   "clip_path": "/root/.cache/shorts_clips/b3f45eb78b4ddb1a.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/b69e4075afe0e99b.mp4"
+  }
+ ],
+ "credits": []
+}

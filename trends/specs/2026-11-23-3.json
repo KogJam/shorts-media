@@ -1,0 +1,182 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-elephant-ears-flapping",
+ "hook": "Why the ear flapping?",
+ "title": "Why Elephants Flap Their Ears (They're Giant Radiators) #shorts",
+ "description": "Elephants barely sweat and can't pant, so they pump warm blood through thousands of tiny vessels in their huge, thin ears and flap them to cool it. African elephant ears can be 6.6 feet long.\n\nFollow for what's trending, explained!\n\n#elephant #animalfacts #animals #wildlife #shorts",
+ "tags": [
+  "why do elephants flap their ears",
+  "elephant ears",
+  "elephant facts",
+  "animal facts",
+  "wildlife",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do elephants keep flapping their ears?",
+   "clip_id": 126213,
+   "clip2_id": 123027,
+   "items": [
+    {
+     "emoji": "🐘",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/28eb21d48a85d9eb.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/cd3731c7a33954a1.mp4"
+  },
+  {
+   "say": "They're cooling down. Those ears work like giant radiators.",
+   "clip_id": 123027,
+   "clip2_id": 126211,
+   "punch": "RADIATORS",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/cd3731c7a33954a1.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/fd167d5817b5c581.mp4"
+  },
+  {
+   "say": "An African elephant's ear can be 6.6 feet long and 4 feet wide.",
+   "clip_id": 126210,
+   "clip2_id": 292151,
+   "punch": "6.6 FEET",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/18488b41d58f2dd4.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/94064d8f6b9518a9.mp4"
+  },
+  {
+   "say": "Elephants barely sweat, and they can't pant like a dog.",
+   "clip_id": 219323,
+   "clip2_id": 126215,
+   "items": [
+    {
+     "emoji": "💦",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": true
+    },
+    {
+     "emoji": "🐶",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 2.0,
+     "cross": true
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c47299c8e4161292.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/cc9c030c0f705ed1.mp4"
+  },
+  {
+   "say": "So they pump warm blood into thousands of tiny vessels in their thin ears.",
+   "clip_id": 126214,
+   "clip2_id": 126216,
+   "items": [
+    {
+     "emoji": "🌡️",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/cac4c9da181e4607.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/8e158e5f66850a15.mp4"
+  },
+  {
+   "say": "Flapping pushes air across those vessels, and cooler blood flows back into the body.",
+   "clip_id": 215845,
+   "clip2_id": 70877,
+   "items": [
+    {
+     "emoji": "💨",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "float",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "COOLER BLOOD",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/0be16ae65430bef1.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/c3cefa680ea6c834.mp4"
+  },
+  {
+   "say": "At any moment, about 20 percent of their blood is passing through the ears.",
+   "clip_id": 138307,
+   "clip2_id": 119596,
+   "number": {
+    "value": 20,
+    "prefix": "",
+    "suffix": "%",
+    "label": "of their blood in the ears",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/d6ee2f8c5198123f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/bc3a78d6461c61a1.mp4"
+  },
+  {
+   "say": "Asian elephants live in shady forests, so their ears are smaller. And that's why elephants flap their ears.",
+   "clip_id": 76607,
+   "clip2_id": 138304,
+   "inset_id": 126213,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 3.2,
+   "inset_tilt": -5,
+   "items": [
+    {
+     "emoji": "🌳",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/af85074a36fe8de9.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/0a45a08ea6f3176d.mp4",
+   "inset_path": "/root/.cache/shorts_clips/28eb21d48a85d9eb.mp4"
+  }
+ ],
+ "credits": [
+  "gavinllo (Pixabay): https://pixabay.com/videos/id-126213/",
+  "jersnav (Pixabay): https://pixabay.com/videos/id-123027/",
+  "jersnav (Pixabay): https://pixabay.com/videos/id-123027/",
+  "gavinllo (Pixabay): https://pixabay.com/videos/id-126211/",
+  "gavinllo (Pixabay): https://pixabay.com/videos/id-126210/",
+  "seyhmuskino (Pixabay): https://pixabay.com/videos/id-292151/",
+  "u_134iwnc6v7 (Pixabay): https://pixabay.com/videos/id-219323/",
+  "gavinllo (Pixabay): https://pixabay.com/videos/id-126215/",
+  "gavinllo (Pixabay): https://pixabay.com/videos/id-126214/",
+  "gavinllo (Pixabay): https://pixabay.com/videos/id-126216/",
+  "KunalKapoor7 (Pixabay): https://pixabay.com/videos/id-215845/",
+  "mds524680 (Pixabay): https://pixabay.com/videos/id-70877/",
+  "Nick_the_Photographer (Pixabay): https://pixabay.com/videos/id-138307/",
+  "alexman89 (Pixabay): https://pixabay.com/videos/id-119596/",
+  "ryasnyansky (Pixabay): https://pixabay.com/videos/id-76607/",
+  "Nick_the_Photographer (Pixabay): https://pixabay.com/videos/id-138304/",
+  "gavinllo (Pixabay): https://pixabay.com/videos/id-126213/"
+ ]
+}

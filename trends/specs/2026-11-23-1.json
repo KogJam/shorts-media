@@ -1,0 +1,155 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-cats-purr-voice-box",
+ "hook": "How do cats purr?",
+ "title": "How Cats Purr (Their Voice Box Can Do It Alone) #shorts",
+ "description": "A 2023 University of Vienna study found a cat's larynx can make purring sounds with just warm, moist air and no signal from the brain. Soft pads in the vocal folds may slow the vibration to about 20 to 30 buzzes per second.\n\nFollow for what's trending, explained!\n\n#cats #catfacts #animals #science #shorts",
+ "tags": [
+  "how do cats purr",
+  "cat purring",
+  "why do cats purr",
+  "cat facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "How does a cat actually purr?",
+   "clip_id": 2449,
+   "clip2_id": 35693,
+   "items": [
+    {
+     "emoji": "🐱",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/18fccd69a836e71b.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/3da8cf51f3b7310f.mp4"
+  },
+  {
+   "say": "For years, scientists thought the brain had to trigger every single buzz.",
+   "clip_id": 64547,
+   "clip2_id": 173507,
+   "items": [
+    {
+     "emoji": "🧠",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "EVERY BUZZ",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/e5292af9f0a67ca0.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/6d8bcc3b167907fe.mp4"
+  },
+  {
+   "say": "Then, in 2023, researchers in Vienna tested cat voice boxes in the lab.",
+   "clip_id": 65438,
+   "clip2_id": 143890,
+   "items": [
+    {
+     "emoji": "🔬",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.2,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/59386bbe10f3396f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/fdff2aa47f17b7ed.mp4"
+  },
+  {
+   "say": "They blew only warm, moist air through them. All 8 buzzed at purring speed.",
+   "clip_id": 180693,
+   "clip2_id": 2879,
+   "number": {
+    "value": 8,
+    "prefix": "",
+    "suffix": "",
+    "label": "of 8 voice boxes purred",
+    "y": 0.55,
+    "delay": 2.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/c63334446ac116b6.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/b19e1ecc27e73947.mp4"
+  },
+  {
+   "say": "No brain signal needed. The voice box did it on its own.",
+   "clip_id": 39848,
+   "clip2_id": 35733,
+   "punch": "NO BRAIN",
+   "punch_y": 0.66,
+   "punch_delay": 0.4,
+   "clip_path": "/root/.cache/shorts_clips/53a660fdbd3fd754.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/dfdc154128a8f8c0.mp4"
+  },
+  {
+   "say": "The secret may be soft, fatty pads built into a cat's vocal folds.",
+   "clip_id": 4915,
+   "clip2_id": 130424,
+   "inset_id": 150872,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.6,
+   "inset_tilt": -5,
+   "punch": "SOFT PADS",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/eb0107d48d7d7202.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/5457e2f9ad157890.mp4",
+   "inset_path": "/root/.cache/shorts_clips/43d572a54ff8ef48.mp4"
+  },
+  {
+   "say": "The pads make the folds heavier, so they shake slowly, about 25 times a second.",
+   "clip_id": 64931,
+   "clip2_id": 131919,
+   "number": {
+    "value": 25,
+    "prefix": "",
+    "suffix": "",
+    "label": "buzzes per second",
+    "y": 0.55,
+    "delay": 2.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/cb8dc48de6ed1436.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/a6822374d1f960ca.mp4"
+  },
+  {
+   "say": "It works a lot like a deep, creaky human voice. And that's how cats purr.",
+   "clip_id": 35693,
+   "clip2_id": 2449,
+   "items": [
+    {
+     "emoji": "🗣️",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "CREAKY VOICE",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/3da8cf51f3b7310f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/18fccd69a836e71b.mp4"
+  }
+ ],
+ "credits": []
+}
