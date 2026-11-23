@@ -1,0 +1,120 @@
+{
+ "id": "jay-ep3-wave",
+ "title": "Waving back at someone who wasn't waving at you",
+ "engine": "gemini",
+ "music_seed": 21,
+ "voices": {
+  "narrator": {
+   "voice": "Zubenelgenubi",
+   "tempo": 1.1,
+   "style": "clear, clean, crisp studio voice with precise articulation, smooth, not breathy, not raspy; dry deadpan narrator, slightly unimpressed, natural pace"
+  },
+  "theo": {
+   "voice": "Zubenelgenubi",
+   "pitch": 3,
+   "tempo": 1.05,
+   "style": "clear, clean voice, not breathy, not raspy; cheeky young guy roasting his friend, trying not to laugh"
+  }
+ },
+ "lines": [
+  {
+   "say": "Someone waves at you from across the street.",
+   "img": "out/jay/ep3/w1_stranger.png",
+   "key": "waves",
+   "move": "push"
+  },
+  {
+   "say": "You have no idea who that is.",
+   "img": "out/jay/ep3/w4_horror.png",
+   "key": "idea",
+   "move": "push"
+  },
+  {
+   "say": "But you're not a monster. So you wave back.",
+   "img": "out/jay/ep3/w2_wave.png",
+   "key": "wave",
+   "move": "push"
+  },
+  {
+   "say": "Full arm. Like you're landing a fucking airplane.",
+   "img": "out/jay/ep3/w2_wave.png",
+   "key": "airplane",
+   "move": "shake",
+   "sfx": "impact"
+  },
+  {
+   "say": "Then the guy behind you waves back too.",
+   "img": "out/jay/ep3/w3_reveal.png",
+   "key": "behind",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "It was never for you.",
+   "img": "out/jay/ep3/w4_horror.png",
+   "key": "never",
+   "move": "push",
+   "gap": 0.35
+  },
+  {
+   "say": "Now you have to commit.",
+   "img": "out/jay/ep3/w4_horror.png",
+   "key": "commit",
+   "move": "push"
+  },
+  {
+   "say": "You turn the wave into scratching your head, like a confused monkey.",
+   "img": "out/jay/ep3/w5_scratch.png",
+   "key": "monkey",
+   "move": "pan_r"
+  },
+  {
+   "say": "And of course, Theo saw everything.",
+   "img": "out/jay/ep3/w6_theo_laugh.png",
+   "key": "everything",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "Bro. You absolute clown. This is going in the group chat.",
+   "img": "out/jay/ep3/w6_theo_laugh.png",
+   "key": "clown",
+   "who": "theo",
+   "move": "push"
+  },
+  {
+   "say": "It's already in the group chat.",
+   "img": "out/jay/ep3/w4_horror.png",
+   "key": "already",
+   "move": "push"
+  },
+  {
+   "say": "Mia replies with seven skull emojis.",
+   "img": "out/jay/ep3/w6_theo_laugh.png",
+   "key": "seven",
+   "move": "pan_l"
+  },
+  {
+   "say": "Your own mom replies: who is this dumbass?",
+   "img": "out/jay/ep3/w4_horror.png",
+   "key": "dumbass",
+   "move": "snap",
+   "sfx": "impact",
+   "gap": 0.35
+  },
+  {
+   "say": "Then Theo looks at you, and waves.",
+   "img": "out/jay/ep3/w8_theo_wave.png",
+   "key": "waves",
+   "move": "push"
+  },
+  {
+   "say": "And this time, you wave back with one finger.",
+   "img": "out/jay/ep3/w7_finger.png",
+   "key": "finger",
+   "move": "snap",
+   "sfx": "impact",
+   "gap": 0.4
+  }
+ ]
+}

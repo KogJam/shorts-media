@@ -36,7 +36,7 @@ def synth(text, voice="Charon", style=""):
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"responseModalities": ["AUDIO"],
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}}
-    for attempt in range(4):
+    for attempt in range(8):
         try:
             req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={KEY}",
                                          json.dumps(body).encode(), {"Content-Type": "application/json"})
@@ -48,5 +48,5 @@ def synth(text, voice="Charon", style=""):
             np.save(p, a); return a
         except Exception as e:
             msg = e.read().decode()[:300] if hasattr(e, "read") else str(e)
-            print("tts retry", attempt, msg, file=sys.stderr); time.sleep(5 * (attempt + 1))
+            print("tts retry", attempt, msg, file=sys.stderr); time.sleep(min(60, 10 * (attempt + 1)))
     raise SystemExit("tts failed: " + text)
