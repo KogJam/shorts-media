@@ -1,0 +1,31 @@
+{
+ "id": "jay-ep1-five-minutes",
+ "title": "When your friend says he's 5 minutes away",
+ "voice": "am_michael", "speed": 1.02, "music_seed": 5,
+ "voices": {"narrator": 0, "theo": 4},
+ "lines": [
+  {"say": "Your friend Theo texts you:", "img": "out/jay/ep1/01_sofa_phone.png", "move": "push", "key": "theo", "gap": 0.1},
+  {"say": "On my way, five minutes.", "who": "theo", "img": "out/jay/ep1/01_sofa_phone.png", "key": "five", "sfx": "pop"},
+  {"say": "You put your shoes on.", "img": "out/jay/ep1/02_shoes.png", "move": "pan_r", "key": "shoes", "gap": 0.1},
+  {"say": "That's your first mistake.", "img": "out/jay/ep1/02_shoes.png", "key": "mistake", "sfx": "impact"},
+  {"say": "Ten minutes later. Nothing.", "img": "out/jay/ep1/03_closeup_wait.png", "move": "push", "key": "nothing", "gap": 0.25},
+  {"say": "You text him: Where are you?", "img": "out/jay/ep1/05_phone_glow.png", "move": "push", "key": "where", "gap": 0.1},
+  {"say": "Pulling up.", "who": "theo", "img": "out/jay/ep1/06_theo_bed.png", "move": "pull", "key": "pulling", "gap": 0.2},
+  {"say": "He is not pulling up.", "img": "out/jay/ep1/04_lean_bored.png", "move": "push", "key": "not", "sfx": "impact"},
+  {"say": "Thirty minutes later, you check his location.", "img": "out/jay/ep1/05_phone_glow.png", "move": "snap", "key": "location"},
+  {"say": "He's at home. In bed.", "img": "out/jay/ep1/06_theo_bed.png", "move": "push", "key": "bed", "gap": 0.1},
+  {"say": "The dot hasn't moved in four hours.", "img": "out/jay/ep1/10_extreme_close.png", "move": "push", "key": "four"},
+  {"say": "You call him. He answers whispering, like he's in a library.", "img": "out/jay/ep1/06_theo_bed.png", "move": "pan_l", "key": "library", "gap": 0.1},
+  {"say": "Bro, I'm literally outside.", "who": "theo", "img": "out/jay/ep1/06_theo_bed.png", "key": "outside", "speed": 0.95},
+  {"say": "You open the door.", "img": "out/jay/ep1/07_door_pigeon.png", "move": "push", "key": "door", "gap": 0.25},
+  {"say": "Nobody.", "img": "out/jay/ep1/07_door_pigeon.png", "key": "nobody", "gap": 0.3},
+  {"say": "Just a pigeon. It looks at you like it also got lied to.", "img": "out/jay/ep1/08_pigeon_close.png", "move": "push", "key": ["pigeon", "lied"], "sfx": "pop"},
+  {"say": "One hour later, Theo finally shows up.", "img": "out/jay/ep1/09_theo_door.png", "move": "pan_r", "key": "hour", "gap": 0.1},
+  {"say": "Holding snacks. For himself.", "img": "out/jay/ep1/09_theo_door.png", "key": "himself"},
+  {"say": "Traffic was crazy.", "who": "theo", "img": "out/jay/ep1/09_theo_door.png", "key": "traffic"},
+  {"say": "He came on a scooter.", "img": "out/jay/ep1/10_extreme_close.png", "move": "snap", "key": "scooter", "sfx": "impact", "gap": 0.3},
+  {"say": "And the worst part?", "img": "out/jay/ep1/03_closeup_wait.png", "move": "push", "key": "worst"},
+  {"say": "Next week he says five minutes again.", "img": "out/jay/ep1/01_sofa_phone.png", "move": "push", "key": "again"},
+  {"say": "And you put your shoes on.", "img": "out/jay/ep1/02_shoes.png", "move": "push", "key": "shoes", "gap": 0.4}
+ ]
+}
