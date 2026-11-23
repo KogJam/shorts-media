@@ -1,0 +1,11 @@
+{
+ "id": "jay-5-minutes-away",
+ "hook": "When your friend says he's \"5 minutes away\"",
+ "music_seed": 5,
+ "scenes": [
+  {"img": "out/jay/s1.png", "dur": 2.2, "label": "Theo: \"omw, 5 min bro\"", "move": "push", "sfx": "pop"},
+  {"img": "out/jay/s2.png", "dur": 1.6, "label": "1 hour later...", "move": "pan_r", "sfx": "whoosh"},
+  {"img": "out/jay/s3.png", "dur": 1.7, "label": "3 hours later...", "move": "shake", "sfx": "impact"},
+  {"img": "out/jay/s4.png", "dur": 2.8, "label": "\"Traffic was crazy\"", "move": "snap", "sfx": "whoosh", "tilt": 2}
+ ]
+}
