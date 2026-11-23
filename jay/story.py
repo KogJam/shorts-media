@@ -37,6 +37,26 @@ def shift(a, semis):
     return b.astype(np.float32)
 
 
+def shift_tempo(a, k):
+    tmp = f"/tmp/_t{os.getpid()}"
+    R._write_wav(tmp + "a.wav", a / max(1e-6, np.abs(a).max()) * 0.9, SR)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp + "a.wav", "-af", f"atempo={k}", tmp + "b.wav"], check=True)
+    with wave.open(tmp + "b.wav") as w: return (np.frombuffer(w.readframes(w.getnframes()), np.int16) / 32768.0).astype(np.float32)
+
+
+def squeeze(a, thr=0.012, maxgap=0.22):
+    """Shorten pauses inside a line to at most `maxgap` seconds."""
+    win = int(0.02 * SR); n = len(a) // win
+    if n < 3: return a
+    loud = np.abs(a[: n * win]).reshape(n, win).max(1) > thr
+    keep, run = [], 0
+    for i, l in enumerate(loud):
+        run = 0 if l else run + 1
+        keep.append(l or run * 0.02 <= maxgap)
+    m = np.repeat(np.array(keep), win)
+    return np.concatenate([a[: n * win][m], a[n * win:]])
+
+
 def trim(a, thr=0.01):
     idx = np.where(np.abs(a) > thr)[0]
     return a if not len(idx) else a[max(0, idx[0] - int(0.02 * SR)): idx[-1] + int(0.06 * SR)]
@@ -71,8 +91,15 @@ def build(spec_path, out):
     sp = json.load(open(spec_path)); voices = sp.get("voices", {"narrator": 0})
     segs, audio, t = [], [], 0.0
     for ln in sp["lines"]:
-        a = trim(tts.synth(ln["say"], voice=sp.get("voice", "am_michael"), speed=ln.get("speed", sp.get("speed", 1.0))))
-        a = shift(a, voices.get(ln.get("who", "narrator"), 0))
+        who = ln.get("who", "narrator"); vc = voices.get(who, 0)
+        if sp.get("engine") == "gemini":
+            import gtts
+            a = gtts.synth(ln["say"], vc["voice"], ln.get("style", vc.get("style", "")))
+            a = squeeze(trim(a)); a = shift(a, vc.get("pitch", 0))
+            if vc.get("tempo", 1.0) != 1.0: a = shift_tempo(a, vc["tempo"])
+        else:
+            a = trim(tts.synth(ln["say"], voice=sp.get("voice", "am_michael"), speed=ln.get("speed", sp.get("speed", 1.0))))
+            a = shift(a, vc)
         gap = ln.get("gap", 0.18); dur = len(a) / SR + gap
         words = ln["say"].split(); cs = chunks(words)
         # word timing ~ proportional to letters (+ a little per word), inside the spoken part
