@@ -9,10 +9,28 @@ KEY = os.environ["GEMINI_API_KEY"]; MODEL = os.environ.get("TTS_MODEL", "gemini-
 CACHE = os.path.expanduser("~/.cache/jay_tts"); os.makedirs(CACHE, exist_ok=True)
 
 
+def pcm(raw):
+    """Gemini returns a full WAV file (44-byte header + PCM + a trailing metadata chunk, e.g. the
+    'trainedAlgorithmicMedia' AI label). Decoding all bytes as PCM gives a click at the start and a loud scratch
+    at the end, so read only the real 'data' chunk."""
+    import io, wave
+    if raw[:4] == b"RIFF":
+        with wave.open(io.BytesIO(raw)) as w:
+            assert w.getframerate() == SR and w.getsampwidth() == 2, (w.getframerate(), w.getsampwidth())
+            raw = w.readframes(w.getnframes())
+    return (np.frombuffer(raw[: len(raw) // 2 * 2], np.int16) / 32768.0).astype(np.float32)
+
+
+def clean(a):
+    """Old cache entries hold the whole WAV file decoded as PCM: rebuild the bytes and parse them properly."""
+    raw = np.round(a * 32768.0).astype(np.int16).tobytes()
+    return pcm(raw) if raw[:4] == b"RIFF" else a
+
+
 def synth(text, voice="Charon", style=""):
     import hashlib
     h = hashlib.sha1(f"v2|{MODEL}|{voice}|{style}|{text}".encode()).hexdigest()[:16]; p = os.path.join(CACHE, h + ".npy")
-    if os.path.exists(p): return np.load(p)
+    if os.path.exists(p): return clean(np.load(p))
     # style must go in a "director's notes" block, otherwise the model reads the instruction aloud
     prompt = (f"# Director's notes\nStyle: {style.strip()}\n\n# Transcript\n" if style else "") + text
     body = {"contents": [{"parts": [{"text": prompt}]}],
@@ -24,7 +42,7 @@ def synth(text, voice="Charon", style=""):
                                          json.dumps(body).encode(), {"Content-Type": "application/json"})
             d = json.load(urllib.request.urlopen(req, timeout=120))
             b64 = d["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]
-            a = (np.frombuffer(base64.b64decode(b64), np.int16) / 32768.0).astype(np.float32)
+            raw = base64.b64decode(b64); a = pcm(raw)
             if len(a) / SR > 2.0 + 0.6 * len(text.split()):      # model rambled / read the notes: try again
                 print("tts too long, retry", round(len(a) / SR, 1), text, file=sys.stderr); continue
             np.save(p, a); return a
