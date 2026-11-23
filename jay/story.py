@@ -53,8 +53,27 @@ def squeeze(a, thr=0.012, maxgap=0.22):
     for i, l in enumerate(loud):
         run = 0 if l else run + 1
         keep.append(l or run * 0.02 <= maxgap)
-    m = np.repeat(np.array(keep), win)
-    return np.concatenate([a[: n * win][m], a[n * win:]])
+    # rebuild from kept runs with 10 ms crossfades at every join (hard joins click)
+    out, xf, i = np.zeros(0, np.float32), int(0.01 * SR), 0
+    while i < n:
+        if not keep[i]: i += 1; continue
+        j = i
+        while j < n and keep[j]: j += 1
+        seg = a[i * win: (j * win if j < n else len(a))].astype(np.float32)
+        if len(out) >= xf and len(seg) >= xf:
+            r = np.linspace(0, 1, xf, dtype=np.float32)
+            out[-xf:] = out[-xf:] * (1 - r) + seg[:xf] * r; seg = seg[xf:]
+        out = np.concatenate([out, seg]); i = j
+    return out
+
+
+def level(a, target=0.08):
+    """Same loudness for every line (RMS of the voiced part) + 15 ms fade in/out."""
+    v = a[np.abs(a) > 0.01]
+    if len(v): a = a * (target / max(1e-6, np.sqrt((v ** 2).mean())))
+    f = min(len(a) // 2, int(0.015 * SR)); r = np.linspace(0, 1, f, dtype=np.float32)
+    a = a.astype(np.float32).copy(); a[:f] *= r; a[len(a) - f:] *= r[::-1]
+    return np.clip(a, -0.99, 0.99)
 
 
 def trim(a, thr=0.01):
@@ -108,6 +127,7 @@ def build(spec_path, out):
         for c in cs: starts.append(0 if i == 0 else wt[i - 1]); i += len(c)
         segs.append(dict(ln, t0=t, dur=dur, chunks=cs, cstart=starts,
                          key={k.lower() for k in ([ln["key"]] if isinstance(ln.get("key"), str) else ln.get("key", []))}))
+        a = level(a)
         audio.append(np.concatenate([a, np.zeros(int(gap * SR), np.float32)])); t += dur
     total = t; voice = np.concatenate(audio)
     srcs = {}
@@ -138,7 +158,7 @@ def build(spec_path, out):
     fx = np.zeros_like(voice)
     prev = None
     for s in segs:
-        if s["img"] != prev and s["t0"] > 0: R.add_at(fx, R.sfx_whoosh() * 2.2, max(0, s["t0"] - 0.12))
+        if s["img"] != prev and s["t0"] > 0 and sp.get("whoosh"): R.add_at(fx, R.sfx_whoosh() * 0.8, max(0, s["t0"] - 0.12))
         if s.get("sfx") == "impact": R.add_at(fx, R.sfx_impact() * 2.5, s["t0"])
         if s.get("sfx") == "pop": R.add_at(fx, R.sfx_pop() * 2.0, s["t0"])
         if s.get("sfx") == "ding": R.add_at(fx, R.sfx_ding() * 2.0, s["t0"])
