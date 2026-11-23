@@ -1,0 +1,147 @@
+{
+ "id": "jay-ep2-one-more-episode",
+ "title": "Just one more episode",
+ "engine": "gemini",
+ "music_seed": 11,
+ "voices": {
+  "narrator": {
+   "voice": "Zubenelgenubi",
+   "tempo": 1.1,
+   "style": "clear, clean, crisp studio voice with precise articulation, smooth, not breathy, not raspy; dry deadpan narrator, slightly unimpressed, natural pace"
+  },
+  "theo": {
+   "voice": "Zubenelgenubi",
+   "pitch": 3,
+   "tempo": 1.05,
+   "style": "clear, clean voice, not breathy, not raspy; carefree chill young guy, casual and relaxed"
+  }
+ },
+ "lines": [
+  {
+   "say": "It's eleven p.m. You tell yourself: one episode, then sleep.",
+   "img": "out/jay/ep2/e1_bed_laptop.png",
+   "key": "one",
+   "move": "push"
+  },
+  {
+   "say": "The episode ends on a cliffhanger.",
+   "img": "out/jay/ep2/e2_cliffhanger.png",
+   "key": "cliffhanger",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "Okay. One more.",
+   "img": "out/jay/ep2/e1_bed_laptop.png",
+   "key": "more",
+   "move": "push"
+  },
+  {
+   "say": "The TV asks if you're still watching.",
+   "img": "out/jay/ep2/e2_cliffhanger.png",
+   "key": "still",
+   "move": "push"
+  },
+  {
+   "say": "Rude. But fair.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "rude",
+   "move": "push",
+   "gap": 0.3
+  },
+  {
+   "say": "It's one a.m. You have work at eight.",
+   "img": "out/jay/ep2/e3_fingers.png",
+   "key": "eight",
+   "move": "push"
+  },
+  {
+   "say": "You do the math. If you sleep right now, you get seven hours.",
+   "img": "out/jay/ep2/e3_fingers.png",
+   "key": "seven",
+   "move": "pan_r"
+  },
+  {
+   "say": "You do not sleep right now.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "not",
+   "move": "snap",
+   "sfx": "impact",
+   "gap": 0.3
+  },
+  {
+   "say": "Three a.m. Theo texts you:",
+   "img": "out/jay/ep2/e1_bed_laptop.png",
+   "key": "theo",
+   "move": "push",
+   "gap": 0.1
+  },
+  {
+   "say": "Bro, you up?",
+   "img": "jay/lib/theo_phone_night.png",
+   "key": "up",
+   "who": "theo",
+   "move": "push",
+   "sfx": "pop"
+  },
+  {
+   "say": "Of course you're up. You're crying because a side character died.",
+   "img": "out/jay/ep2/e4_tear.png",
+   "key": "crying",
+   "move": "push"
+  },
+  {
+   "say": "You met him forty minutes ago.",
+   "img": "out/jay/ep2/e4_tear.png",
+   "key": "forty",
+   "gap": 0.3
+  },
+  {
+   "say": "Five a.m. The birds start singing.",
+   "img": "out/jay/ep2/e5_birds.png",
+   "key": "birds",
+   "move": "pan_l"
+  },
+  {
+   "say": "You hate the fucking birds.",
+   "img": "out/jay/ep2/e5_birds.png",
+   "key": "fucking",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "You finally close your eyes.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "close",
+   "move": "pull",
+   "gap": 0.4
+  },
+  {
+   "say": "Your alarm rings.",
+   "img": "out/jay/ep2/e6_alarm.png",
+   "key": "alarm",
+   "move": "shake",
+   "sfx": "impact"
+  },
+  {
+   "say": "And the first thing you think is:",
+   "img": "out/jay/ep2/e6_alarm.png",
+   "key": "first",
+   "move": "push"
+  },
+  {
+   "say": "Tonight, I'm going to bed early.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "early",
+   "move": "push",
+   "gap": 0.3
+  },
+  {
+   "say": "You are not going to bed early.",
+   "img": "out/jay/ep2/e1_bed_laptop.png",
+   "key": "not",
+   "move": "push",
+   "gap": 0.4
+  }
+ ]
+}
