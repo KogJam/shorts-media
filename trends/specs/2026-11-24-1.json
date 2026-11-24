@@ -1,0 +1,163 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-fox-snow-dive-north",
+ "hook": "Why do foxes dive into snow?",
+ "title": "Why Foxes Dive Head-First Into Snow (They Aim North-East) #shorts",
+ "description": "Red foxes hunt mice they can't see by listening for them under snow, then leaping in head-first. A Czech study of almost 600 jumps found foxes facing north-east caught prey 73% of the time, versus 18% in most other directions. One idea: they use Earth's magnetic field as a rangefinder.\n\nFollow for what's trending, explained!\n\n#fox #redfox #animalfacts #wildlife #shorts",
+ "tags": [
+  "why do foxes dive into snow",
+  "fox mousing",
+  "fox magnetic field",
+  "red fox",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do foxes dive head-first into snow?",
+   "clip_id": 305344,
+   "clip2_id": 209818,
+   "items": [
+    {
+     "emoji": "🦊",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/4f42c16493cac074.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/e1ae3b43fd5c8681.mp4"
+  },
+  {
+   "say": "They're hunting mice they can't even see, buried under the snow.",
+   "clip_id": 65809,
+   "clip2_id": 65812,
+   "punch": "CAN'T SEE",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/dccf709d8929fa01.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/1cf3022ebb04a917.mp4"
+  },
+  {
+   "say": "A fox freezes, tilts its head, and listens for tiny rustling footsteps.",
+   "clip_id": 212540,
+   "clip2_id": 215932,
+   "items": [
+    {
+     "emoji": "👂",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "punch": "LISTEN",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/807a11a6bc18bcd8.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/1dfb12c0a4540215.mp4"
+  },
+  {
+   "say": "Then it leaps high and plunges in, mouth first.",
+   "clip_id": 70862,
+   "clip2_id": 319743,
+   "punch": "MOUTH FIRST",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/6fcd1df043a77d47.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/3697d0f2944e7118.mp4"
+  },
+  {
+   "say": "In the Czech Republic, scientists watched almost 600 of these jumps by 84 red foxes.",
+   "clip_id": 287503,
+   "clip2_id": 203923,
+   "number": {
+    "value": 600,
+    "prefix": "",
+    "suffix": "",
+    "label": "fox jumps studied",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/9ea614d9874c825e.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/9d3129eb5dba1311.mp4"
+  },
+  {
+   "say": "Foxes jumping north-east caught their prey 73 percent of the time.",
+   "clip_id": 28446,
+   "clip2_id": 176024,
+   "items": [
+    {
+     "emoji": "🧭",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "spin",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "number": {
+    "value": 73,
+    "prefix": "",
+    "suffix": "%",
+    "label": "success facing north-east",
+    "y": 0.55,
+    "delay": 2.0
+   },
+   "inset_id": 65812,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/129b9d7c43b1d5bf.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/eeb5451f1ec1eb99.mp4",
+   "inset_path": "/root/.cache/shorts_clips/1cf3022ebb04a917.mp4"
+  },
+  {
+   "say": "In most other directions? Just 18 percent.",
+   "clip_id": 273307,
+   "clip2_id": 287503,
+   "number": {
+    "value": 18,
+    "prefix": "",
+    "suffix": "%",
+    "label": "in other directions",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/246faa0326f25c9f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/9ea614d9874c825e.mp4"
+  },
+  {
+   "say": "Scientists think they might use Earth's magnetic field like a rangefinder, to know exactly where to dive head-first into the snow.",
+   "clip_id": 209818,
+   "clip2_id": 305344,
+   "items": [
+    {
+     "emoji": "🧲",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "RANGEFINDER",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/e1ae3b43fd5c8681.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/4f42c16493cac074.mp4"
+  }
+ ],
+ "credits": []
+}

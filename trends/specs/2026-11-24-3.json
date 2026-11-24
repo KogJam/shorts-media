@@ -1,0 +1,148 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-sloths-climb-down-to-poop",
+ "hook": "Sloths risk it all to poop",
+ "title": "Why Sloths Risk Their Lives Just to Poop #shorts",
+ "description": "Three-toed sloths climb all the way down from the treetops about once a week to poop, burning energy and risking predators. A 2014 Costa Rica study suggests a reason: moths that breed in sloth dung help feed algae in the sloth's fur, which sloths eat.\n\nFollow for what's trending, explained!\n\n#sloth #sloths #animalfacts #rainforest #shorts",
+ "tags": [
+  "why do sloths climb down to poop",
+  "sloth facts",
+  "sloth moths",
+  "three-toed sloth",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do sloths climb down just to poop?",
+   "clip_id": 385912,
+   "clip2_id": 245673,
+   "items": [
+    {
+     "emoji": "🦥",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/4dd66cd66ef6d41e.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/1958ed29b74d93ea.mp4"
+  },
+  {
+   "say": "Three-toed sloths live in the treetops, yet once a week, they crawl all the way down.",
+   "clip_id": 245673,
+   "clip2_id": 386378,
+   "clip_path": "/root/.cache/shorts_clips/1958ed29b74d93ea.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/479eb0e4d5eceb8b.mp4",
+   "punch": "ONCE A WEEK",
+   "punch_y": 0.66,
+   "punch_delay": 2.4
+  },
+  {
+   "say": "On the ground, they're slow, exposed and easy prey.",
+   "clip_id": 39424,
+   "clip2_id": 43768,
+   "items": [
+    {
+     "emoji": "⚠️",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "EASY PREY",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/c6ca968811e4a83a.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/4030766677a2e3c1.mp4"
+  },
+  {
+   "say": "It burns precious energy too. So why not just go from up high?",
+   "clip_id": 43561,
+   "clip2_id": 44611,
+   "punch": "WHY?",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/957d6b05ed363132.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/82f3625d53cd67ff.mp4"
+  },
+  {
+   "say": "In 2014, scientists in Costa Rica found a clue: tiny moths living in sloth fur.",
+   "clip_id": 172452,
+   "clip2_id": 221904,
+   "items": [
+    {
+     "emoji": "🔍",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 1.0,
+     "cross": false
+    }
+   ],
+   "punch": "MOTHS",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/a1d2c66b69271588.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/247faf4252e3faa1.mp4"
+  },
+  {
+   "say": "Moths lay eggs in the poop, and the young fly back up to a sloth.",
+   "clip_id": 24014,
+   "clip2_id": 119260,
+   "inset_id": 172452,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.4,
+   "inset_tilt": -5,
+   "punch": "FLY BACK",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/e4358d3ce354762f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/e73008675a4ad6ae.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a1d2c66b69271588.mp4"
+  },
+  {
+   "say": "Those moths help feed green algae in the fur, and sloths eat that algae.",
+   "clip_id": 124194,
+   "clip2_id": 220836,
+   "items": [
+    {
+     "emoji": "🌿",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "grow",
+     "delay": 0.8,
+     "cross": false
+    }
+   ],
+   "punch": "ALGAE SNACK",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/5cf4359bcb7bc5e0.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/881aa09d397d3131.mp4"
+  },
+  {
+   "say": "It's still a theory. But it may be why sloths climb down just to poop.",
+   "clip_id": 381553,
+   "clip2_id": 385912,
+   "punch": "THEORY",
+   "punch_y": 0.66,
+   "punch_delay": 0.8,
+   "clip_path": "/root/.cache/shorts_clips/3cf4b8556530bf6a.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/4dd66cd66ef6d41e.mp4"
+  }
+ ],
+ "credits": []
+}

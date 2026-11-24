@@ -1,0 +1,180 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-honeybees-shiver-winter",
+ "hook": "Bees shiver all winter?",
+ "title": "Why Honeybees Shiver All Winter (Their Hive Stays 95°F) #shorts",
+ "description": "Honeybees don't hibernate. In winter they huddle into a cluster and shiver their flight muscles with their wings still, keeping the core around 95°F while a lone bee can die of cold near 28°F. Winter bees live 4 to 6 months, summer bees only a few weeks.\n\nFollow for what's trending, explained!\n\n#bees #honeybees #animalfacts #winter #shorts",
+ "tags": [
+  "why do bees shiver",
+  "honeybees in winter",
+  "winter cluster",
+  "bee facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do honeybees shiver all winter?",
+   "clip_id": 7574,
+   "clip2_id": 14384,
+   "items": [
+    {
+     "emoji": "🐝",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/e9dee91f5bc4e3a0.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7c014ff054bc9c0c.mp4"
+  },
+  {
+   "say": "Instead of sleeping, they huddle into a tight ball called a cluster.",
+   "clip_id": 173462,
+   "clip2_id": 39116,
+   "punch": "CLUSTER",
+   "punch_y": 0.66,
+   "punch_delay": 2.8,
+   "clip_path": "/root/.cache/shorts_clips/8d0fdbe4b00641b7.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/24f983f21d7cbac3.mp4"
+  },
+  {
+   "say": "To make heat, they vibrate their flight muscles, but their wings stay still.",
+   "clip_id": 178049,
+   "clip2_id": 7574,
+   "items": [
+    {
+     "emoji": "💪",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "shake",
+     "delay": 0.9,
+     "cross": false
+    }
+   ],
+   "punch": "WINGS STILL",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "clip_path": "/root/.cache/shorts_clips/36126835ef3910aa.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/e9dee91f5bc4e3a0.mp4"
+  },
+  {
+   "say": "Alone, a single bee can die of cold at about 28 degrees Fahrenheit.",
+   "clip_id": 223111,
+   "clip2_id": 190724,
+   "items": [
+    {
+     "emoji": "🥶",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "number": {
+    "value": 28,
+    "prefix": "",
+    "suffix": "°F",
+    "label": "a lone bee can freeze",
+    "y": 0.55,
+    "delay": 2.2
+   },
+   "clip_path": "/root/.cache/shorts_clips/8ee49690057b5bc1.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/583ecf403c509981.mp4"
+  },
+  {
+   "say": "But the centre of the cluster stays around 95 degrees, where the queen sits.",
+   "clip_id": 14384,
+   "clip2_id": 173462,
+   "items": [
+    {
+     "emoji": "👑",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "bounce",
+     "delay": 2.6,
+     "cross": false
+    }
+   ],
+   "number": {
+    "value": 95,
+    "prefix": "",
+    "suffix": "°F",
+    "label": "cluster core",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "inset_id": 39120,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/7c014ff054bc9c0c.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/8d0fdbe4b00641b7.mp4",
+   "inset_path": "/root/.cache/shorts_clips/f98524c37627eb76.mp4"
+  },
+  {
+   "say": "Outer bees pack tight like a living blanket, and can crawl inside to warm up.",
+   "clip_id": 39116,
+   "clip2_id": 178049,
+   "punch": "LIVING BLANKET",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/24f983f21d7cbac3.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/36126835ef3910aa.mp4"
+  },
+  {
+   "say": "Winter bees live 4 to 6 months. Summer bees? Just a few weeks.",
+   "clip_id": 178826,
+   "clip2_id": 165065,
+   "inset_id": 37144,
+   "inset_x": 0.7,
+   "inset_y": 0.37,
+   "inset_delay": 1.0,
+   "inset_tilt": -5,
+   "number": {
+    "value": 6,
+    "prefix": "",
+    "suffix": "",
+    "label": "months for winter bees",
+    "y": 0.55,
+    "delay": 1.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/ed45b1b44326e442.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/d924b7b141a1221f.mp4",
+   "inset_path": "/root/.cache/shorts_clips/484f3878ecd0b4a2.mp4"
+  },
+  {
+   "say": "Their fuel is honey saved all summer. That's why honeybees shiver all winter.",
+   "clip_id": 30470,
+   "clip2_id": 39120,
+   "items": [
+    {
+     "emoji": "🍯",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.5,
+     "cross": false
+    }
+   ],
+   "punch": "HONEY FUEL",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "clip_path": "/root/.cache/shorts_clips/8a3888b22dddd256.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/f98524c37627eb76.mp4"
+  }
+ ],
+ "credits": []
+}
