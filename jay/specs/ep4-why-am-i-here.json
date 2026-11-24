@@ -1,0 +1,128 @@
+{
+ "id": "jay-ep4-why-am-i-here",
+ "title": "Walking into a room and forgetting why",
+ "engine": "gemini",
+ "music_seed": 34,
+ "voices": {
+  "narrator": {
+   "voice": "Zubenelgenubi",
+   "tempo": 1.1,
+   "style": "clear, clean, crisp studio voice with precise articulation, smooth, not breathy, not raspy; dry deadpan narrator, slightly unimpressed, natural pace"
+  },
+  "theo": {
+   "voice": "Zubenelgenubi",
+   "pitch": 3,
+   "tempo": 1.05,
+   "style": "clear, clean voice, not breathy, not raspy; cheeky young guy roasting his friend, trying not to laugh"
+  }
+ },
+ "lines": [
+  {
+   "say": "You walk into the kitchen with purpose.",
+   "img": "out/jay/ep4/k1_enter.png",
+   "key": "purpose",
+   "move": "push"
+  },
+  {
+   "say": "Like a man on a mission.",
+   "img": "out/jay/ep4/k1_enter.png",
+   "key": "mission",
+   "move": "pan_r"
+  },
+  {
+   "say": "You arrive. And your brain just logs out.",
+   "img": "out/jay/ep4/k2_blank.png",
+   "key": "logs",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "Why are you here? Nobody knows.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "Nobody",
+   "move": "push"
+  },
+  {
+   "say": "So you open the fridge. Maybe the answer is in there.",
+   "img": "out/jay/ep4/k3_fridge.png",
+   "key": "fridge",
+   "move": "push"
+  },
+  {
+   "say": "It's not. It's ketchup and disappointment.",
+   "img": "out/jay/ep4/k3_fridge.png",
+   "key": "ketchup",
+   "move": "push",
+   "sfx": "impact",
+   "gap": 0.3
+  },
+  {
+   "say": "You stand there for thirty seconds, like a confused fucking houseplant.",
+   "img": "out/jay/ep4/k2_blank.png",
+   "key": "houseplant",
+   "move": "shake",
+   "sfx": "impact"
+  },
+  {
+   "say": "So you walk back to the sofa to reboot. Like a shitty old laptop.",
+   "img": "jay/lib/jay_sofa_bored.png",
+   "key": "reboot",
+   "move": "pan_l"
+  },
+  {
+   "say": "And Theo saw the whole thing.",
+   "img": "out/jay/ep4/k4_theo_smirk.png",
+   "key": "whole",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "Bro, you just did a lap. You're a Roomba in a hoodie.",
+   "img": "out/jay/ep4/k4_theo_smirk.png",
+   "key": "Roomba",
+   "move": "push",
+   "who": "theo"
+  },
+  {
+   "say": "You sit down. And instantly, you remember.",
+   "img": "out/jay/ep4/k5_remember.png",
+   "key": "remember",
+   "move": "snap",
+   "sfx": "pop"
+  },
+  {
+   "say": "You wanted a glass of water. That's it. Water.",
+   "img": "out/jay/ep4/k5_remember.png",
+   "key": "water",
+   "move": "push"
+  },
+  {
+   "say": "You get up. Halfway there, Theo yells.",
+   "img": "out/jay/ep4/k1_enter.png",
+   "key": "yells",
+   "move": "pan_r"
+  },
+  {
+   "say": "Grab me a snack while you're up, dumbass!",
+   "img": "out/jay/ep4/k6_theo_yell.png",
+   "key": "dumbass",
+   "move": "shake",
+   "who": "theo",
+   "sfx": "impact"
+  },
+  {
+   "say": "And just like that, it's gone again.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "gone",
+   "move": "push",
+   "gap": 0.35
+  },
+  {
+   "say": "So you turn around, and walk into the kitchen with purpose.",
+   "img": "out/jay/ep4/k1_enter.png",
+   "key": "purpose",
+   "move": "push",
+   "gap": 0.4
+  }
+ ]
+}
