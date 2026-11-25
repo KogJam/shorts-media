@@ -64,5 +64,27 @@
   "duration_min": 9.84,
   "metricool_id": 437545085,
   "thumbnail": true
+ },
+ {
+  "date": "2026-11-25",
+  "id": "long-2026-11-25-secrets",
+  "title": "Why Dogs Really Eat Grass (and 9 Other Animal Secrets)",
+  "spec": "long/specs/2026-11-25-secrets.json",
+  "chapters": [
+   "trend-cows-best-friends",
+   "trend-honeybees-shiver-winter",
+   "trend-penguin-huddle-take-turns",
+   "trend-camel-hump-fat",
+   "trend-fox-snow-dive-north",
+   "trend-sloths-climb-down-to-poop",
+   "trend-elephant-ears-flapping",
+   "trend-polar-bears-not-white",
+   "trend-cats-purr-voice-box",
+   "trend-dogs-eat-grass"
+  ],
+  "slot": "2026-11-25T18:07 Europe/Berlin",
+  "duration_min": 9.69,
+  "metricool_id": 441715595,
+  "thumbnail": true
  }
 ]
