@@ -1,0 +1,135 @@
+{
+ "id": "jay-ep5-you-too",
+ "title": "Saying 'you too' when the waiter says enjoy your meal",
+ "engine": "gemini",
+ "music_seed": 33,
+ "voices": {
+  "narrator": {
+   "voice": "Zubenelgenubi",
+   "tempo": 1.1,
+   "style": "clear, clean, crisp studio voice with precise articulation, smooth, not breathy, not raspy; dry deadpan narrator, slightly unimpressed, natural pace"
+  },
+  "theo": {
+   "voice": "Zubenelgenubi",
+   "pitch": 3,
+   "tempo": 1.05,
+   "style": "clear, clean voice, not breathy, not raspy; cheeky young guy roasting his friend, trying not to laugh"
+  }
+ },
+ "lines": [
+  {
+   "say": "The waiter puts down your food and says: enjoy your meal.",
+   "img": "out/jay/ep5/r1_serve.png",
+   "key": "enjoy",
+   "move": "push"
+  },
+  {
+   "say": "Easy. One job. Say thank you.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "thank",
+   "move": "push"
+  },
+  {
+   "say": "Your mouth says: you too.",
+   "img": "out/jay/ep5/r2_youtoo.png",
+   "key": "too",
+   "move": "snap",
+   "sfx": "impact",
+   "gap": 0.35
+  },
+  {
+   "say": "He's not eating. He's working. He has no meal.",
+   "img": "out/jay/ep5/r3_waiter.png",
+   "key": "meal",
+   "move": "push"
+  },
+  {
+   "say": "You just wished a grown man a nice lunch at his own job.",
+   "img": "out/jay/ep5/r3_waiter.png",
+   "key": "job",
+   "move": "pan_r"
+  },
+  {
+   "say": "You stare at your pasta like it knows some shit.",
+   "img": "out/jay/ep5/r5_pasta.png",
+   "key": "shit",
+   "move": "push",
+   "sfx": "impact"
+  },
+  {
+   "say": "Your brain replays it in slow motion. With commentary.",
+   "img": "out/jay/ep5/r5_pasta.png",
+   "key": "replays",
+   "move": "shake"
+  },
+  {
+   "say": "Across the table, Theo is dying.",
+   "img": "out/jay/ep5/r7_theo_laugh.png",
+   "key": "dying",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "You too? You too, bro? He's holding a fucking tray!",
+   "img": "out/jay/ep5/r7_theo_laugh.png",
+   "key": "tray",
+   "move": "push",
+   "who": "theo"
+  },
+  {
+   "say": "Then the waiter comes back. Is everything okay?",
+   "img": "out/jay/ep5/r3_waiter.png",
+   "key": "okay",
+   "move": "pan_l"
+  },
+  {
+   "say": "You panic. You say: yes. Love you.",
+   "img": "out/jay/ep5/r2_youtoo.png",
+   "key": "love",
+   "move": "snap",
+   "sfx": "impact",
+   "gap": 0.35
+  },
+  {
+   "say": "Theo falls off his chair.",
+   "img": "out/jay/ep5/r8_theo_floor.png",
+   "key": "chair",
+   "move": "shake",
+   "sfx": "pop"
+  },
+  {
+   "say": "You leave a fifty percent tip. Out of pure shame.",
+   "img": "out/jay/ep5/r9_tip.png",
+   "key": "shame",
+   "move": "push"
+  },
+  {
+   "say": "That's not a tip. That's hush money, you dumbass.",
+   "img": "out/jay/ep5/r7_theo_laugh.png",
+   "key": "dumbass",
+   "move": "push",
+   "who": "theo",
+   "sfx": "impact"
+  },
+  {
+   "say": "At the door, the waiter says: have a nice evening.",
+   "img": "out/jay/ep5/r10_door.png",
+   "key": "evening",
+   "move": "push"
+  },
+  {
+   "say": "You've learned. You've grown. You've healed.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "healed",
+   "move": "push"
+  },
+  {
+   "say": "You hold the door for him and say: enjoy your meal.",
+   "img": "out/jay/ep5/r10_door.png",
+   "key": "meal",
+   "move": "snap",
+   "sfx": "impact",
+   "gap": 0.4
+  }
+ ]
+}
