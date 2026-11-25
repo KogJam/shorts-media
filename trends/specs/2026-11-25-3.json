@@ -1,0 +1,166 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-cows-best-friends",
+ "hook": "Cows have best friends?",
+ "title": "Cows Have Best Friends (Their Stress Drops Together) #shorts",
+ "description": "Cows pick favourite partners in the herd. A University of Northampton study of dairy cows found their heart rate and stress were lower when penned with their preferred partner than with a cow they didn't know – and the strongest bonds formed at 7–11 months old.\n\nFollow for what's trending, explained!\n\n#cows #cow #animalfacts #farmanimals #shorts",
+ "tags": [
+  "do cows have best friends",
+  "cow best friend study",
+  "cows",
+  "animal facts",
+  "farm animals",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Cows have best friends, and science proved it.",
+   "clip_id": 180690,
+   "clip2_id": 312750,
+   "items": [
+    {
+     "emoji": "🐄",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c5777dc4fd8b7157.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/33ede69652f78c62.mp4"
+  },
+  {
+   "say": "In a herd, cows pick favorite partners and spend most of their time with them.",
+   "clip_id": 72443,
+   "clip2_id": 130471,
+   "items": [
+    {
+     "emoji": "🤝",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "FAVORITES",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/2a507fb6ec84d561.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/24f81e3b97fdaf4a.mp4"
+  },
+  {
+   "say": "At the University of Northampton, a researcher studied a herd of 400 dairy cows.",
+   "clip_id": 186195,
+   "clip2_id": 108077,
+   "number": {
+    "value": 400,
+    "prefix": "",
+    "suffix": "",
+    "label": "cows in the herd",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/2b2a5b906ccaa4a9.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/57a1e22bc3c06114.mp4"
+  },
+  {
+   "say": "She penned cows either with their best friend, or with a cow they barely knew.",
+   "clip_id": 179207,
+   "clip2_id": 109115,
+   "inset_id": 49296,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/d6f96b08bed930fb.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/09125dcfabfc4655.mp4",
+   "inset_path": "/root/.cache/shorts_clips/eeaed7e674a186ce.mp4"
+  },
+  {
+   "say": "Then she checked their heart rate and stress hormones.",
+   "clip_id": 312750,
+   "clip2_id": 637,
+   "items": [
+    {
+     "emoji": "❤️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pulse",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "HEART RATE",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/33ede69652f78c62.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/21c284b45c3bb7c6.mp4"
+  },
+  {
+   "say": "With their best friend, cows were calmer. With a stranger, more agitated.",
+   "clip_id": 56306,
+   "clip2_id": 268290,
+   "items": [
+    {
+     "emoji": "😌",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "CALMER",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/2f8557989e3f52ac.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/f2028f580a250c9f.mp4"
+  },
+  {
+   "say": "The strongest bonds formed young, at 7 to 11 months old.",
+   "clip_id": 154300,
+   "clip2_id": 118013,
+   "number": {
+    "value": 11,
+    "prefix": "",
+    "suffix": "",
+    "label": "months old",
+    "y": 0.55,
+    "delay": 2.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/bcfcaf4c27f2e421.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/ad05173b06305b9d.mp4"
+  },
+  {
+   "say": "So if you see two cows always side by side, now you know. Cows have best friends.",
+   "clip_id": 49296,
+   "clip2_id": 180690,
+   "items": [
+    {
+     "emoji": "💛",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "BEST FRIENDS",
+   "punch_y": 0.66,
+   "punch_delay": 3.2,
+   "clip_path": "/root/.cache/shorts_clips/eeaed7e674a186ce.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/c5777dc4fd8b7157.mp4"
+  }
+ ]
+}

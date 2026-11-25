@@ -1,0 +1,161 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-polar-bears-not-white",
+ "hook": "Polar bears aren't white?",
+ "title": "Polar Bears Aren't Actually White (Their Skin Is Black) #shorts",
+ "description": "A polar bear's skin is black, and its hairs have no white pigment at all: each hair is transparent with a hollow core that scatters sunlight, so the fur only looks white – like snow. Underneath, 2–4 inches of blubber keep them so warm that adult males can overheat when they run.\n\nFollow for what's trending, explained!\n\n#polarbear #arctic #animalfacts #wildlife #shorts",
+ "tags": [
+  "are polar bears white",
+  "polar bear black skin",
+  "polar bear fur",
+  "animal facts",
+  "arctic",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Polar bears aren't actually white.",
+   "clip_id": 331922,
+   "clip2_id": 367132,
+   "items": [
+    {
+     "emoji": "🐻‍❄️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ada4de79e8a17d97.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/8935528b0b87b352.mp4"
+  },
+  {
+   "say": "Under all that thick fur, their skin is completely black.",
+   "clip_id": 17715,
+   "clip2_id": 6643,
+   "punch": "BLACK SKIN",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "clip_path": "/root/.cache/shorts_clips/52da922cf18deccb.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/6e330b132167b98a.mp4"
+  },
+  {
+   "say": "And their hairs don't have a single drop of white pigment.",
+   "clip_id": 107526,
+   "clip2_id": 141957,
+   "items": [
+    {
+     "emoji": "🎨",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "NO PIGMENT",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/10ab86cfc30d57ef.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7220ed62a03e9374.mp4"
+  },
+  {
+   "say": "Each hair is see-through, with a hollow core in the middle.",
+   "clip_id": 352513,
+   "clip2_id": 331922,
+   "items": [
+    {
+     "emoji": "🔍",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "HOLLOW",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/6c09f51e7196e08d.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/ada4de79e8a17d97.mp4"
+  },
+  {
+   "say": "That hollow core scatters sunlight, so the fur only looks white, just like snow does.",
+   "clip_id": 316,
+   "clip2_id": 27983,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "inset_id": 331922,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/13030fd1f9da2ea8.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/e7d5030232b1e0de.mp4",
+   "inset_path": "/root/.cache/shorts_clips/ada4de79e8a17d97.mp4"
+  },
+  {
+   "say": "Under the skin, a layer of fat up to 4 inches thick traps the heat.",
+   "clip_id": 141957,
+   "clip2_id": 107526,
+   "number": {
+    "value": 4,
+    "prefix": "",
+    "suffix": "\"",
+    "label": "inches of blubber",
+    "y": 0.55,
+    "delay": 2.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/7220ed62a03e9374.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/10ab86cfc30d57ef.mp4"
+  },
+  {
+   "say": "Their coat is so warm, adult males can overheat when they run.",
+   "clip_id": 367132,
+   "clip2_id": 352513,
+   "items": [
+    {
+     "emoji": "🥵",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "OVERHEAT",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/8935528b0b87b352.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/6c09f51e7196e08d.mp4"
+  },
+  {
+   "say": "So that white bear on the ice? It's a black bear in a see-through coat. Polar bears aren't actually white.",
+   "clip_id": 331922,
+   "clip2_id": 17715,
+   "punch": "SEE-THROUGH",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/ada4de79e8a17d97.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/52da922cf18deccb.mp4"
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [],
+ "id": "trend-penguin-huddle-take-turns",
+ "hook": "How do penguins survive -50°?",
+ "title": "How Penguins Survive -50°C (They Take Turns Being Warm) #shorts",
+ "description": "Emperor penguins breed through the Antarctic winter, below -50°C with gale-force winds. Packed up to 21 per square meter, the air inside a huddle can reach 35°C – and tiny 5–10 cm steps every 30–60 seconds ripple through like a stadium wave, letting cold outsiders work their way in.\n\nFollow for what's trending, explained!\n\n#penguin #emperorpenguin #animalfacts #antarctica #shorts",
+ "tags": [
+  "how do penguins stay warm",
+  "penguin huddle",
+  "emperor penguin",
+  "animal facts",
+  "antarctica",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "How do penguins survive minus 50 degrees?",
+   "clip_id": 388008,
+   "clip2_id": 332913,
+   "items": [
+    {
+     "emoji": "🐧",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/e349e6ffd88b9daa.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/73d5c3198ddced95.mp4"
+  },
+  {
+   "say": "They cheat the cold by squeezing into giant huddles.",
+   "clip_id": 332922,
+   "clip2_id": 332908,
+   "punch": "HUDDLE",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "clip_path": "/root/.cache/shorts_clips/4747a4d91fde0d88.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/5c2544dd54018c67.mp4"
+  },
+  {
+   "say": "Up to 21 penguins can pack into a single square meter.",
+   "clip_id": 332902,
+   "clip2_id": 332916,
+   "number": {
+    "value": 21,
+    "prefix": "",
+    "suffix": "",
+    "label": "penguins per square meter",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/9b41c2cb2ee99cfc.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/caff0b0f72155642.mp4"
+  },
+  {
+   "say": "Inside the huddle, the air can warm up to 35 degrees Celsius.",
+   "clip_id": 332918,
+   "clip2_id": 332906,
+   "items": [
+    {
+     "emoji": "🔥",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "number": {
+    "value": 35,
+    "prefix": "",
+    "suffix": "°C",
+    "label": "inside the huddle",
+    "y": 0.55,
+    "delay": 2.0
+   },
+   "clip_path": "/root/.cache/shorts_clips/fb7c43b3c17312ee.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/11e85d06082ad790.mp4"
+  },
+  {
+   "say": "But the penguins on the edge are freezing in the wind.",
+   "clip_id": 63281,
+   "clip2_id": 191288,
+   "items": [
+    {
+     "emoji": "🥶",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "FREEZING",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "inset_id": 388008,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/dba3b721274094a2.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/52b452bfb7fddbcd.mp4",
+   "inset_path": "/root/.cache/shorts_clips/e349e6ffd88b9daa.mp4"
+  },
+  {
+   "say": "So every 30 to 60 seconds, the whole huddle shuffles forward.",
+   "clip_id": 326965,
+   "clip2_id": 332914,
+   "number": {
+    "value": 60,
+    "prefix": "",
+    "suffix": "s",
+    "label": "between shuffles",
+    "y": 0.55,
+    "delay": 1.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/eeb6c3650827cb49.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/3fe31c50e2c5c226.mp4"
+  },
+  {
+   "say": "Tiny steps of 5 to 10 centimeters ripple through, like a stadium wave.",
+   "clip_id": 332916,
+   "clip2_id": 153923,
+   "items": [
+    {
+     "emoji": "🌊",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "STADIUM WAVE",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "clip_path": "/root/.cache/shorts_clips/caff0b0f72155642.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/a677534ac9a8c2ad.mp4"
+  },
+  {
+   "say": "Slowly, the frozen outsiders slip inside to warm up. Everyone takes turns. That's how penguins survive minus 50.",
+   "clip_id": 332913,
+   "clip2_id": 388008,
+   "items": [
+    {
+     "emoji": "🔄",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "TAKE TURNS",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/73d5c3198ddced95.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/e349e6ffd88b9daa.mp4"
+  }
+ ]
+}
