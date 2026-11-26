@@ -1,0 +1,195 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "PaulsAdventures (Pixabay): https://pixabay.com/videos/id-378772/",
+  "TonyDias7 (Pixabay): https://pixabay.com/videos/id-342735/",
+  "caelan (Pixabay): https://pixabay.com/videos/id-30966/",
+  "caelan (Pixabay): https://pixabay.com/videos/id-30970/",
+  "TonyDias7 (Pixabay): https://pixabay.com/videos/id-342735/",
+  "caelan (Pixabay): https://pixabay.com/videos/id-30968/",
+  "caelan (Pixabay): https://pixabay.com/videos/id-30970/",
+  "PaulsAdventures (Pixabay): https://pixabay.com/videos/id-378772/",
+  "TonyDias7 (Pixabay): https://pixabay.com/videos/id-342735/",
+  "daniloriba (Pixabay): https://pixabay.com/videos/id-74891/",
+  "phlyingdoctor (Pixabay): https://pixabay.com/videos/id-372241/",
+  "caelan (Pixabay): https://pixabay.com/videos/id-30968/",
+  "caelan (Pixabay): https://pixabay.com/videos/id-30966/",
+  "phlyingdoctor (Pixabay): https://pixabay.com/videos/id-372241/",
+  "daniloriba (Pixabay): https://pixabay.com/videos/id-74891/",
+  "PaulsAdventures (Pixabay): https://pixabay.com/videos/id-378772/",
+  "caelan (Pixabay): https://pixabay.com/videos/id-30966/"
+ ],
+ "id": "trend-dolphins-half-brain-sleep",
+ "hook": "Dolphins never fully sleep",
+ "title": "Dolphins Never Fully Sleep (Half Their Brain Stays Awake) #shorts",
+ "description": "Dolphins sleep with one half of the brain at a time, keeping one eye open so they can still swim up for air and watch out. In a 2012 study, a dolphin kept finding targets with sonar for 15 days straight.\n\nFollow for what's trending, explained!\n\n#dolphins #animalfacts #sleep #ocean #shorts",
+ "tags": [
+  "do dolphins sleep",
+  "dolphin sleep",
+  "half brain sleep",
+  "unihemispheric sleep",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Dolphins never fully fall asleep.",
+   "clip_id": 378772,
+   "clip2_id": 342735,
+   "items": [
+    {
+     "emoji": "🐬",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ca6308f394065513.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/f7782c6130adec50.mp4"
+  },
+  {
+   "say": "Only half of their brain sleeps at a time.",
+   "clip_id": 30966,
+   "clip2_id": 30970,
+   "punch": "HALF A BRAIN",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "items": [
+    {
+     "emoji": "🧠",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7f79dee64f6f842a.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/e6509b1218bad965.mp4"
+  },
+  {
+   "say": "The other half stays awake, and so does one eye.",
+   "clip_id": 342735,
+   "clip2_id": 30968,
+   "items": [
+    {
+     "emoji": "👁️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "punch": "ONE EYE OPEN",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "clip_path": "/root/.cache/shorts_clips/f7782c6130adec50.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7df6cac0d3daef4a.mp4"
+  },
+  {
+   "say": "That's because dolphins choose every single breath. Half awake, they can still swim up for air.",
+   "clip_id": 30970,
+   "clip2_id": 378772,
+   "items": [
+    {
+     "emoji": "💨",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "inset_id": 342735,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/e6509b1218bad965.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/ca6308f394065513.mp4",
+   "inset_path": "/root/.cache/shorts_clips/f7782c6130adec50.mp4"
+  },
+  {
+   "say": "In 2012, scientists put two dolphins to the test.",
+   "clip_id": 74891,
+   "clip2_id": 372241,
+   "items": [
+    {
+     "emoji": "🔬",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2bd6e217566a4c32.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/62acf0bc2f941829.mp4"
+  },
+  {
+   "say": "They had to find hidden targets with sonar, nonstop, for 5 days. No sign of fatigue.",
+   "clip_id": 30968,
+   "clip2_id": 30966,
+   "number": {
+    "value": 5,
+    "prefix": "",
+    "suffix": "",
+    "label": "days nonstop",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/7df6cac0d3daef4a.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7f79dee64f6f842a.mp4"
+  },
+  {
+   "say": "One dolphin kept going for 15 days, until the scientists ended the test.",
+   "clip_id": 372241,
+   "clip2_id": 74891,
+   "number": {
+    "value": 15,
+    "prefix": "",
+    "suffix": "",
+    "label": "days on guard",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "punch": "NOT TIRED",
+   "punch_y": 0.7,
+   "punch_delay": 3.2,
+   "clip_path": "/root/.cache/shorts_clips/62acf0bc2f941829.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/2bd6e217566a4c32.mp4"
+  },
+  {
+   "say": "Half asleep, fully on guard. That's why dolphins never fully fall asleep.",
+   "clip_id": 378772,
+   "clip2_id": 30966,
+   "punch": "ALWAYS ON",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "items": [
+    {
+     "emoji": "🐬",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ca6308f394065513.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/7f79dee64f6f842a.mp4"
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "klimkin (Pixabay): https://pixabay.com/videos/id-4915/",
+  "Dx21 (Pixabay): https://pixabay.com/videos/id-131987/",
+  "JawadAliKhan (Pixabay): https://pixabay.com/videos/id-141630/",
+  "JawadAliKhan (Pixabay): https://pixabay.com/videos/id-143890/",
+  "Dx21 (Pixabay): https://pixabay.com/videos/id-130139/",
+  "Kmeel_com (Pixabay): https://pixabay.com/videos/id-65438/",
+  "klimkin (Pixabay): https://pixabay.com/videos/id-4915/",
+  "moshehar (Pixabay): https://pixabay.com/videos/id-48578/",
+  "JawadAliKhan (Pixabay): https://pixabay.com/videos/id-161726/",
+  "MabelAmber (Pixabay): https://pixabay.com/videos/id-130789/",
+  "Jari-Lobo (Pixabay): https://pixabay.com/videos/id-150872/",
+  "fh_media_e-motion (Pixabay): https://pixabay.com/videos/id-104467/",
+  "fh_media_e-motion (Pixabay): https://pixabay.com/videos/id-217393/",
+  "MabelAmber (Pixabay): https://pixabay.com/videos/id-130424/",
+  "Bernard_Townsend (Pixabay): https://pixabay.com/videos/id-127621/",
+  "JawadAliKhan (Pixabay): https://pixabay.com/videos/id-141630/",
+  "Dx21 (Pixabay): https://pixabay.com/videos/id-131163/",
+  "klimkin (Pixabay): https://pixabay.com/videos/id-4915/"
+ ],
+ "id": "trend-cat-eyes-glow-tapetum",
+ "hook": "Why do cat eyes glow?",
+ "title": "Why Cats' Eyes Glow in the Dark (It's a Living Mirror) #shorts",
+ "description": "Behind a cat's retina sits the tapetum lucidum, a mirror that bounces light back for a second chance – so cats see in light only about 16% as bright as we need. The price: blurrier vision.\n\nFollow for what's trending, explained!\n\n#cats #catfacts #animalfacts #nightvision #shorts",
+ "tags": [
+  "why do cats eyes glow",
+  "cat eyes",
+  "tapetum lucidum",
+  "cat night vision",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do cats' eyes glow in the dark?",
+   "clip_id": 4915,
+   "clip2_id": 131987,
+   "items": [
+    {
+     "emoji": "🐱",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/eb0107d48d7d7202.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/678d9cae025698ba.mp4"
+  },
+  {
+   "say": "Behind the retina sits a living mirror, the tapetum lucidum.",
+   "clip_id": 141630,
+   "clip2_id": 143890,
+   "punch": "LIVING MIRROR",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "clip_path": "/root/.cache/shorts_clips/a448ca33c8c0599f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/fdff2aa47f17b7ed.mp4"
+  },
+  {
+   "say": "Light that slips past the retina bounces back for a second chance.",
+   "clip_id": 130139,
+   "clip2_id": 65438,
+   "items": [
+    {
+     "emoji": "💡",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "inset_id": 4915,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/a66d689a1fa8e098.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/59386bbe10f3396f.mp4",
+   "inset_path": "/root/.cache/shorts_clips/eb0107d48d7d7202.mp4"
+  },
+  {
+   "say": "So cats can see in light only 16 percent as bright as we need.",
+   "clip_id": 48578,
+   "clip2_id": 161726,
+   "number": {
+    "value": 16,
+    "prefix": "",
+    "suffix": "%",
+    "label": "of the light we need",
+    "y": 0.55,
+    "delay": 1.8
+   },
+   "clip_path": "/root/.cache/shorts_clips/28fdcf0c49e3b92f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/e1d3c63713e79be0.mp4"
+  },
+  {
+   "say": "In dim light, their pupils open up to 50 percent wider than ours.",
+   "clip_id": 130789,
+   "clip2_id": 150872,
+   "number": {
+    "value": 50,
+    "prefix": "",
+    "suffix": "%",
+    "label": "bigger pupils",
+    "y": 0.55,
+    "delay": 1.8
+   },
+   "clip_path": "/root/.cache/shorts_clips/bd9680b768837b9f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/43d572a54ff8ef48.mp4"
+  },
+  {
+   "say": "The mirror is packed with crystals of riboflavin, a B vitamin.",
+   "clip_id": 104467,
+   "clip2_id": 217393,
+   "punch": "VITAMIN B",
+   "punch_y": 0.66,
+   "punch_delay": 2.2,
+   "items": [
+    {
+     "emoji": "💎",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/67111abc9ca7e420.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/22e672f608d05e6b.mp4"
+  },
+  {
+   "say": "But there's a catch. To see as sharply as you, a cat must be 7 times closer.",
+   "clip_id": 130424,
+   "clip2_id": 127621,
+   "number": {
+    "value": 7,
+    "prefix": "",
+    "suffix": "x",
+    "label": "times closer",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "inset_id": 141630,
+   "inset_x": 0.28,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/5457e2f9ad157890.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/db294f6bbfeed5f2.mp4",
+   "inset_path": "/root/.cache/shorts_clips/a448ca33c8c0599f.mp4"
+  },
+  {
+   "say": "Humans don't have this mirror. That's why only the cat's eyes glow in the dark.",
+   "clip_id": 131163,
+   "clip2_id": 4915,
+   "punch": "NO MIRROR",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "items": [
+    {
+     "emoji": "✨",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/34adf8512bccbb01.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/eb0107d48d7d7202.mp4"
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "credits": [
+  "pen_ash (Pixabay): https://pixabay.com/videos/id-197511/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-360310/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-204325/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-203472/",
+  "RoyBuri (Pixabay): https://pixabay.com/videos/id-72323/",
+  "MabelAmber (Pixabay): https://pixabay.com/videos/id-124396/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-139512/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-177985/",
+  "pen_ash (Pixabay): https://pixabay.com/videos/id-197511/",
+  "RoyBuri (Pixabay): https://pixabay.com/videos/id-85657/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-223446/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-124427/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-103364/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-280224/",
+  "RoyBuri (Pixabay): https://pixabay.com/videos/id-94442/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-360310/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-276546/",
+  "pen_ash (Pixabay): https://pixabay.com/videos/id-197511/"
+ ],
+ "id": "trend-pigs-mud-cant-sweat",
+ "hook": "Why do pigs roll in mud?",
+ "title": "Why Pigs Roll in Mud (They Can't Sweat) #shorts",
+ "description": "Pigs lack working sweat glands, so they cool off by wallowing. A mud bath can drop their body temperature by about 2°C, and because mud dries slowly, it cools longer than plain water.\n\nFollow for what's trending, explained!\n\n#pigs #animalfacts #farmanimals #nature #shorts",
+ "tags": [
+  "why do pigs roll in mud",
+  "pigs",
+  "pig facts",
+  "wallowing",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do pigs roll in mud?",
+   "clip_id": 197511,
+   "clip2_id": 360310,
+   "items": [
+    {
+     "emoji": "🐷",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/37d8fe73aa61206b.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/109b7954730d8cf1.mp4"
+  },
+  {
+   "say": "It's not because they're dirty. Pigs can't really sweat.",
+   "clip_id": 204325,
+   "clip2_id": 203472,
+   "punch": "CAN'T SWEAT",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "items": [
+    {
+     "emoji": "💦",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/910c0c1e81349d2a.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/71df08dfe16b8aa5.mp4"
+  },
+  {
+   "say": "They lack working sweat glands, so on hot days they overheat fast.",
+   "clip_id": 72323,
+   "clip2_id": 124396,
+   "items": [
+    {
+     "emoji": "🥵",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2c0f1cc132f6985f.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/d0bef4a83027dbb5.mp4"
+  },
+  {
+   "say": "So they wallow. A good mud bath can cool a pig by about 2 degrees Celsius.",
+   "clip_id": 139512,
+   "clip2_id": 177985,
+   "number": {
+    "value": 2,
+    "prefix": "",
+    "suffix": "°C",
+    "label": "cooler",
+    "y": 0.55,
+    "delay": 2.2
+   },
+   "inset_id": 197511,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/e2e995ec5337da87.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/e85268904e773dcc.mp4",
+   "inset_path": "/root/.cache/shorts_clips/37d8fe73aa61206b.mp4"
+  },
+  {
+   "say": "And mud beats water. It dries slowly, so the cooling lasts much longer.",
+   "clip_id": 85657,
+   "clip2_id": 223446,
+   "punch": "LASTS LONGER",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "items": [
+    {
+     "emoji": "🕒",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2473f68f4fd9ab58.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/11146ebbc7f952b7.mp4"
+  },
+  {
+   "say": "A 2011 review of 66 studies found cooling is the best proven reason.",
+   "clip_id": 124427,
+   "clip2_id": 103364,
+   "number": {
+    "value": 66,
+    "prefix": "",
+    "suffix": "",
+    "label": "studies reviewed",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/b7c40c4983b6efb3.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/5b0841c9893c9493.mp4"
+  },
+  {
+   "say": "Wild pigs also seem to scrape off ticks and lice in the mud.",
+   "clip_id": 280224,
+   "clip2_id": 94442,
+   "items": [
+    {
+     "emoji": "🪲",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "inset_id": 360310,
+   "inset_x": 0.28,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/36e8674877e62286.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/a69e49b8101fdc2e.mp4",
+   "inset_path": "/root/.cache/shorts_clips/109b7954730d8cf1.mp4"
+  },
+  {
+   "say": "And pigs keep their toilet far from their bed. They're not dirty, just hot. That's why pigs roll in mud.",
+   "clip_id": 276546,
+   "clip2_id": 197511,
+   "punch": "JUST HOT",
+   "punch_y": 0.66,
+   "punch_delay": 3.4,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c26636e85a887557.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/37d8fe73aa61206b.mp4"
+  }
+ ]
+}
