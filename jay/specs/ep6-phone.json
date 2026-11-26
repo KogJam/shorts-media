@@ -1,0 +1,146 @@
+{
+ "id": "jay-ep6-phone",
+ "title": "Looking for your phone while holding it",
+ "engine": "gemini",
+ "music_seed": 26,
+ "voices": {
+  "narrator": {
+   "voice": "Zubenelgenubi",
+   "tempo": 1.1,
+   "style": "clear, clean, crisp studio voice with precise articulation, smooth, not breathy, not raspy; dry deadpan narrator, slightly unimpressed, natural pace"
+  },
+  "theo": {
+   "voice": "Zubenelgenubi",
+   "pitch": 3,
+   "tempo": 1.05,
+   "style": "clear, clean voice, not breathy, not raspy; cheeky young guy roasting his friend, trying not to laugh"
+  }
+ },
+ "lines": [
+  {
+   "say": "You can't find your phone.",
+   "img": "jay/lib/jay_sofa_dig_phone.png",
+   "key": "phone",
+   "move": "push"
+  },
+  {
+   "say": "It was right here. Two seconds ago.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "seconds",
+   "move": "push"
+  },
+  {
+   "say": "You check the sofa. Twice.",
+   "img": "jay/lib/jay_sofa_dig_phone.png",
+   "key": "Twice",
+   "move": "pan_r"
+  },
+  {
+   "say": "You check the fridge. Because apparently that's where phones live now.",
+   "img": "jay/lib/jay_fridge_night.png",
+   "key": "fridge",
+   "move": "push"
+  },
+  {
+   "say": "Panic mode. Your whole life is on that thing.",
+   "img": "jay/lib/jay_panic_livingroom.png",
+   "key": "Panic",
+   "move": "shake",
+   "sfx": "impact"
+  },
+  {
+   "say": "Your photos. Your passwords. Your two-factor bullshit.",
+   "img": "jay/lib/jay_panic_livingroom.png",
+   "key": "bullshit",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "Theo is on the couch, eating your chips.",
+   "img": "jay/lib/theo_sofa_pointing.png",
+   "key": "chips",
+   "move": "pan_l"
+  },
+  {
+   "say": "Bro, just call it, you dramatic potato.",
+   "img": "jay/lib/theo_sofa_pointing.png",
+   "key": "potato",
+   "move": "push",
+   "who": "theo"
+  },
+  {
+   "say": "He calls. Nothing. Of course it's on silent.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "silent",
+   "move": "push"
+  },
+  {
+   "say": "So you turn on the flashlight and check under the bed.",
+   "img": "jay/lib/jay_under_bed_flashlight.png",
+   "key": "flashlight",
+   "move": "pan_r"
+  },
+  {
+   "say": "Dust. One sock. A coin from 2019.",
+   "img": "jay/lib/jay_under_bed_flashlight.png",
+   "key": "sock",
+   "move": "push"
+  },
+  {
+   "say": "Theo just stares at you.",
+   "img": "jay/lib/theo_bedroom_unimpressed.png",
+   "key": "stares",
+   "move": "push",
+   "gap": 0.3
+  },
+  {
+   "say": "Bro. Where the hell is that flashlight coming from?",
+   "img": "jay/lib/theo_bedroom_unimpressed.png",
+   "key": "flashlight",
+   "move": "snap",
+   "who": "theo",
+   "sfx": "impact"
+  },
+  {
+   "say": "You look at your hand.",
+   "img": "jay/lib/jay_floor_phone_horror.png",
+   "key": "hand",
+   "move": "push",
+   "gap": 0.4
+  },
+  {
+   "say": "It was in your hand. The entire time.",
+   "img": "jay/lib/jay_floor_phone_horror.png",
+   "key": "entire",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "Theo is already filming.",
+   "img": "jay/lib/theo_filming_laugh.png",
+   "key": "filming",
+   "move": "push"
+  },
+  {
+   "say": "Group chat. Right now. You absolute clown.",
+   "img": "jay/lib/theo_filming_laugh.png",
+   "key": "clown",
+   "move": "push",
+   "who": "theo"
+  },
+  {
+   "say": "Two minutes later, you put it down to celebrate.",
+   "img": "jay/lib/jay_sofa_realize.png",
+   "key": "celebrate",
+   "move": "push"
+  },
+  {
+   "say": "And now, you can't find your phone.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "phone",
+   "move": "snap",
+   "sfx": "impact",
+   "gap": 0.4
+  }
+ ]
+}
