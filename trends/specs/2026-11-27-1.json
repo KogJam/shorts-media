@@ -1,0 +1,202 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-reindeer-eyes-blue-winter",
+ "hook": "Why reindeer eyes turn blue",
+ "title": "Why Reindeer Eyes Turn Blue in Winter (Gold in Summer) #shorts",
+ "description": "Reindeer have a mirror behind the retina that is golden in summer and deep blue in the dark Arctic winter. Months of wide-open pupils raise the pressure in the eye, squeeze its fibres together and turn the reflection blue, which helps them see in twilight.\n\nFollow for what's trending, explained!\n\n#reindeer #animalfacts #arctic #christmas #shorts",
+ "tags": [
+  "why do reindeer eyes turn blue",
+  "reindeer",
+  "reindeer eyes",
+  "arctic animals",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do reindeer eyes turn blue in winter?",
+   "clip_id": 328170,
+   "clip2_id": 93097,
+   "items": [
+    {
+     "emoji": "🦌",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/4475a79836e96c3d.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/0e34e378b53a2a98.mp4"
+  },
+  {
+   "say": "In summer, the mirror at the back of their eyes is golden. In winter, it turns deep blue.",
+   "clip_id": 102917,
+   "clip2_id": 304819,
+   "punch": "GOLD TO BLUE",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "items": [
+    {
+     "emoji": "💙",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8569625d045d5435.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/8c77b6babf25999a.mp4"
+  },
+  {
+   "say": "Up in the Arctic, winter brings about 3 months of darkness.",
+   "clip_id": 344400,
+   "clip2_id": 369879,
+   "number": {
+    "value": 3,
+    "prefix": "",
+    "suffix": " months",
+    "label": "of darkness",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "clip_path": "/root/.cache/shorts_clips/3215a941106e51c5.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/50c8cf4523cf9c22.mp4"
+  },
+  {
+   "say": "So their pupils stay wide open, not for hours, but for months.",
+   "clip_id": 159318,
+   "clip2_id": 312758,
+   "punch": "FOR MONTHS",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "items": [
+    {
+     "emoji": "👁️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/fba27bbad7e4f8cc.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/c982ca3662160a4b.mp4"
+  },
+  {
+   "say": "That traps fluid, the pressure rises, and tiny fibers in the mirror get squeezed together.",
+   "clip_id": 307338,
+   "clip2_id": 134252,
+   "inset_id": 6851,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "🗜️",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/3090f1640aaa88b6.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/1885483ea9856efc.mp4",
+   "inset_path": "/root/.cache/shorts_clips/10a1e335bf57f4b1.mp4"
+  },
+  {
+   "say": "Packed tighter, they reflect blue light instead of gold.",
+   "clip_id": 7328,
+   "clip2_id": 93834,
+   "punch": "BLUE LIGHT",
+   "punch_y": 0.66,
+   "punch_delay": 1.8,
+   "items": [
+    {
+     "emoji": "✨",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7ede554a4d21b036.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/8cf2681573ef340d.mp4"
+  },
+  {
+   "say": "Scientists found the winter eye is at least 1,000 times more sensitive to light.",
+   "clip_id": 6949,
+   "clip2_id": 6948,
+   "number": {
+    "value": 1000,
+    "prefix": "",
+    "suffix": "x",
+    "label": "more sensitive",
+    "y": 0.55,
+    "delay": 2.0
+   },
+   "inset_id": 328170,
+   "inset_x": 0.28,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/5a563fd2f8b92fc3.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/df93a4388efc6ac5.mp4",
+   "inset_path": "/root/.cache/shorts_clips/4475a79836e96c3d.mp4"
+  },
+  {
+   "say": "Now dark wolves and lichen stand out against the blue snow. That's why reindeer eyes turn blue in winter.",
+   "clip_id": 103275,
+   "clip2_id": 328170,
+   "punch": "SEE IN THE DARK",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "items": [
+    {
+     "emoji": "🐺",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/378c2f8549a90786.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/4475a79836e96c3d.mp4"
+  }
+ ],
+ "credits": [
+  "XanhSen901 (Pixabay): https://pixabay.com/videos/id-328170/",
+  "jeffjacobs1990 (Pixabay): https://pixabay.com/videos/id-93097/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-102917/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-304819/",
+  "doktorkleinmusic (Pixabay): https://pixabay.com/videos/id-344400/",
+  "doktorkleinmusic (Pixabay): https://pixabay.com/videos/id-369879/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-159318/",
+  "Kaffeesüchtig (Pixabay): https://pixabay.com/videos/id-312758/",
+  "doktorkleinmusic (Pixabay): https://pixabay.com/videos/id-307338/",
+  "adege (Pixabay): https://pixabay.com/videos/id-134252/",
+  "sbtlneet (Pixabay): https://pixabay.com/videos/id-6851/",
+  "invisiblepower (Pixabay): https://pixabay.com/videos/id-7328/",
+  "Joe_hackney (Pixabay): https://pixabay.com/videos/id-93834/",
+  "InspiredImages (Pixabay): https://pixabay.com/videos/id-6949/",
+  "InspiredImages (Pixabay): https://pixabay.com/videos/id-6948/",
+  "XanhSen901 (Pixabay): https://pixabay.com/videos/id-328170/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-103275/",
+  "XanhSen901 (Pixabay): https://pixabay.com/videos/id-328170/"
+ ]
+}

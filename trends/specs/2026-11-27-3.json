@@ -1,0 +1,190 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-dog-noses-wet",
+ "hook": "Why are dog noses wet?",
+ "title": "Why Dog Noses Are Always Wet (It Might Sense Heat) #shorts",
+ "description": "A dog's wet nose traps scent: smell molecules stick better to a damp surface, and dogs lick their noses to keep them wet and pass scents on. A 2020 study even found trained dogs could pick out a faintly warm object from about 5 feet away.\n\nFollow for what's trending, explained!\n\n#dogs #animalfacts #dogfacts #pets #shorts",
+ "tags": [
+  "why are dog noses wet",
+  "dog nose",
+  "dog facts",
+  "dogs",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why are dog noses always wet?",
+   "clip_id": 77832,
+   "clip2_id": 37172,
+   "items": [
+    {
+     "emoji": "🐶",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/32381a329f25ecfd.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/c03ca88833305ef5.mp4"
+  },
+  {
+   "say": "Their nose makes thin mucus, and smells stick better to wet surfaces.",
+   "clip_id": 40357,
+   "clip2_id": 185938,
+   "punch": "SMELL TRAP",
+   "punch_y": 0.66,
+   "punch_delay": 3.0,
+   "items": [
+    {
+     "emoji": "💧",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/90de271bc47412bc.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/467c76f51b33b715.mp4"
+  },
+  {
+   "say": "Dogs have about 100 million receptor sites in their nose. We have about 6 million.",
+   "clip_id": 251873,
+   "clip2_id": 14869,
+   "bars": [
+    {
+     "label": "Dog",
+     "value": 100,
+     "show": "100 million",
+     "emoji": "🐶"
+    },
+    {
+     "label": "Human",
+     "value": 6,
+     "show": "6 million",
+     "emoji": "🧍"
+    }
+   ],
+   "bars_y": 0.5,
+   "clip_path": "/root/.cache/shorts_clips/b3125a4409cd61fa.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/39be2e0ca5063b24.mp4"
+  },
+  {
+   "say": "They lick them to keep them wet, and to pass scent to an organ in their mouth.",
+   "clip_id": 332799,
+   "clip2_id": 329142,
+   "punch": "LICK",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "items": [
+    {
+     "emoji": "👅",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/419002f051183114.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/338f27a21eef9e8c.mp4"
+  },
+  {
+   "say": "When a dog sleeps, its nose dries out. One lick, and it's cold again.",
+   "clip_id": 15304,
+   "clip2_id": 234409,
+   "inset_id": 332799,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "😴",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/2123f1c6f578492c.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/196e8335af57306e.mp4",
+   "inset_path": "/root/.cache/shorts_clips/419002f051183114.mp4"
+  },
+  {
+   "say": "And that cold, wet tip might even sense heat.",
+   "clip_id": 156318,
+   "clip2_id": 15305,
+   "punch": "SENSE HEAT",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "items": [
+    {
+     "emoji": "🔥",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/aa5ab1d3bf3e7d71.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/9c94f5d291df4672.mp4"
+  },
+  {
+   "say": "In a 2020 study, trained dogs picked out a faintly warm object from about 5 feet away.",
+   "clip_id": 57179,
+   "clip2_id": 231913,
+   "number": {
+    "value": 5,
+    "prefix": "",
+    "suffix": " feet",
+    "label": "away",
+    "y": 0.55,
+    "delay": 2.6
+   },
+   "items": [
+    {
+     "emoji": "🌡️",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c3a1f26c7bab5877.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/342e16c8cf09204b.mp4"
+  },
+  {
+   "say": "Wet noses catch smells, and maybe even warmth. That's why dog noses are always wet.",
+   "clip_id": 185938,
+   "clip2_id": 77832,
+   "punch": "ALWAYS WET",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "inset_id": 40357,
+   "inset_x": 0.28,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/467c76f51b33b715.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/32381a329f25ecfd.mp4",
+   "inset_path": "/root/.cache/shorts_clips/90de271bc47412bc.mp4"
+  }
+ ],
+ "credits": []
+}

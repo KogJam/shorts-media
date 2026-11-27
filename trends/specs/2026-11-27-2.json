@@ -1,0 +1,188 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-hares-turn-white-day-length",
+ "hook": "Why hares turn white early",
+ "title": "Why Hares Turn White Before It Even Snows #shorts",
+ "description": "Snowshoe hares molt into a white winter coat, but the switch is timed by day length, not by snow. When snow comes late, a white hare on brown ground is easy prey – and more than 20 species share the same problem.\n\nFollow for what's trending, explained!\n\n#hares #animalfacts #winter #wildlife #shorts",
+ "tags": [
+  "why do hares turn white",
+  "snowshoe hare",
+  "winter coat",
+  "camouflage",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do hares turn white before it even snows?",
+   "clip_id": 128585,
+   "clip2_id": 137763,
+   "items": [
+    {
+     "emoji": "🐇",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c77b5998a0c9d615.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/bec2e04b9dae57d0.mp4"
+  },
+  {
+   "say": "Snowshoe hares swap their brown fur for a new white coat.",
+   "clip_id": 177886,
+   "clip2_id": 170539,
+   "punch": "NEW COAT",
+   "punch_y": 0.66,
+   "punch_delay": 2.0,
+   "items": [
+    {
+     "emoji": "🤍",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/ad2210fb8e8aa6c0.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/5b38d7395c3e22fe.mp4"
+  },
+  {
+   "say": "But snow doesn't tell them when. The length of the day does.",
+   "clip_id": 93834,
+   "clip2_id": 7418,
+   "punch": "DAY LENGTH",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/8cf2681573ef340d.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/244c411cf74aef78.mp4"
+  },
+  {
+   "say": "Shorter days flip the switch, snow or no snow.",
+   "clip_id": 154586,
+   "clip2_id": 142949,
+   "inset_id": 128585,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "⏰",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/cc97c0f0f7afb72c.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/c78d3a51f5f2d04b.mp4",
+   "inset_path": "/root/.cache/shorts_clips/c77b5998a0c9d615.mp4"
+  },
+  {
+   "say": "Usually it works. The average hare is mismatched only about 1 week a year.",
+   "clip_id": 170539,
+   "clip2_id": 177886,
+   "number": {
+    "value": 1,
+    "prefix": "",
+    "suffix": " week",
+    "label": "mismatched",
+    "y": 0.55,
+    "delay": 2.4
+   },
+   "clip_path": "/root/.cache/shorts_clips/5b38d7395c3e22fe.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/ad2210fb8e8aa6c0.mp4"
+  },
+  {
+   "say": "But a white hare on brown ground stands out. In one Montana study, its risk of death rose 7 percent.",
+   "clip_id": 128585,
+   "clip2_id": 176597,
+   "number": {
+    "value": 7,
+    "prefix": "",
+    "suffix": "%",
+    "label": "higher risk",
+    "y": 0.55,
+    "delay": 3.6
+   },
+   "inset_id": 166720,
+   "inset_x": 0.28,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/c77b5998a0c9d615.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/09774c031ea5bb96.mp4",
+   "inset_path": "/root/.cache/shorts_clips/c099de0a363a52e6.mp4"
+  },
+  {
+   "say": "More than 20 species do this, like arctic foxes, weasels and ptarmigans.",
+   "clip_id": 385020,
+   "clip2_id": 174406,
+   "number": {
+    "value": 20,
+    "prefix": "",
+    "suffix": "+",
+    "label": "species",
+    "y": 0.55,
+    "delay": 1.2
+   },
+   "items": [
+    {
+     "emoji": "🦊",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/4c3ef5b70f0e28aa.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/1e76bee3b6f9a79c.mp4"
+  },
+  {
+   "say": "With later snow, that could reach 8 weeks by 2100. That's why hares turn white before it snows.",
+   "clip_id": 154586,
+   "clip2_id": 128585,
+   "punch": "8 WEEKS",
+   "punch_y": 0.66,
+   "punch_delay": 1.6,
+   "items": [
+    {
+     "emoji": "❄️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/cc97c0f0f7afb72c.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/c77b5998a0c9d615.mp4"
+  }
+ ],
+ "credits": []
+}
