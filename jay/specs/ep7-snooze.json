@@ -1,0 +1,154 @@
+{
+ "id": "jay-ep7-snooze",
+ "title": "Hitting snooze until it's way too late",
+ "engine": "gemini",
+ "music_seed": 31,
+ "voices": {
+  "narrator": {
+   "voice": "Zubenelgenubi",
+   "tempo": 1.1,
+   "style": "clear, clean, crisp studio voice with precise articulation, smooth, not breathy, not raspy; dry deadpan narrator, slightly unimpressed, natural pace"
+  },
+  "theo": {
+   "voice": "Zubenelgenubi",
+   "pitch": 3,
+   "tempo": 1.05,
+   "style": "clear, clean voice, not breathy, not raspy; cheeky young guy roasting his friend, trying not to laugh"
+  }
+ },
+ "lines": [
+  {
+   "say": "Your alarm goes off at seven.",
+   "img": "out/jay/ep7/s1_alarm.png",
+   "key": "seven",
+   "move": "push"
+  },
+  {
+   "say": "You set it yourself. Last night. Like an optimistic idiot.",
+   "img": "out/jay/ep7/s1_alarm.png",
+   "key": "idiot",
+   "move": "push",
+   "sfx": "impact"
+  },
+  {
+   "say": "So you hit snooze. Just five more minutes.",
+   "img": "out/jay/ep7/s2_snooze.png",
+   "key": "snooze",
+   "move": "push"
+  },
+  {
+   "say": "Seven oh five. Snooze.",
+   "img": "out/jay/ep7/s2_snooze.png",
+   "key": "snooze",
+   "move": "snap",
+   "sfx": "pop"
+  },
+  {
+   "say": "Seven ten. Snooze. Your thumb is doing this on its own now.",
+   "img": "out/jay/ep7/s2_snooze.png",
+   "key": "thumb",
+   "move": "shake",
+   "sfx": "pop"
+  },
+  {
+   "say": "Then the bargaining starts.",
+   "img": "out/jay/ep7/s3_bargain.png",
+   "key": "bargaining",
+   "move": "push"
+  },
+  {
+   "say": "Skip the shower? Twenty more minutes.",
+   "img": "out/jay/ep7/s3_bargain.png",
+   "key": "shower",
+   "move": "pan_l"
+  },
+  {
+   "say": "Skip breakfast? Forty.",
+   "img": "out/jay/ep7/s3_bargain.png",
+   "key": "breakfast",
+   "move": "pan_r"
+  },
+  {
+   "say": "Skip brushing your teeth? Disgusting. But one whole hour.",
+   "img": "out/jay/ep7/s3_bargain.png",
+   "key": "disgusting",
+   "move": "push",
+   "sfx": "impact"
+  },
+  {
+   "say": "You close your eyes for one second.",
+   "img": "out/jay/ep7/s3_bargain.png",
+   "key": "second",
+   "move": "push"
+  },
+  {
+   "say": "You open them. It's eight fifty two.",
+   "img": "out/jay/ep7/s4_horror.png",
+   "key": "fifty",
+   "move": "snap",
+   "sfx": "impact"
+  },
+  {
+   "say": "Holy shit.",
+   "img": "out/jay/ep7/s4_horror.png",
+   "key": "shit",
+   "move": "shake",
+   "sfx": "impact",
+   "gap": 0.3
+  },
+  {
+   "say": "You get dressed in eleven seconds. One sock. Hoodie backwards.",
+   "img": "out/jay/ep7/s5_dress.png",
+   "key": "backwards",
+   "move": "shake"
+  },
+  {
+   "say": "You sprint out the door like the house is on fucking fire.",
+   "img": "out/jay/ep7/s6_sprint.png",
+   "key": "fire",
+   "move": "pan_r",
+   "sfx": "impact"
+  },
+  {
+   "say": "And there's Theo. Eating a croissant. Calm as a cow.",
+   "img": "out/jay/ep7/s7_theo_croissant.png",
+   "key": "croissant",
+   "move": "push"
+  },
+  {
+   "say": "Bro, why are you dressed like a tornado? It's Saturday, you dumbass.",
+   "img": "out/jay/ep7/s7_theo_croissant.png",
+   "key": "Saturday",
+   "move": "push",
+   "who": "theo"
+  },
+  {
+   "say": "It's Saturday.",
+   "img": "jay/lib/jay_closeup_deadpan.png",
+   "key": "Saturday",
+   "move": "snap",
+   "sfx": "impact",
+   "gap": 0.35
+  },
+  {
+   "say": "Even the pigeon looks disappointed in you.",
+   "img": "out/jay/ep7/s8_pigeon.png",
+   "key": "pigeon",
+   "move": "push"
+  },
+  {
+   "say": "So you walk home. You get back into bed.",
+   "img": "out/jay/ep7/s3_bargain.png",
+   "key": "bed",
+   "move": "pull"
+  },
+  {
+   "say": "And you set an alarm. For seven.",
+   "img": "out/jay/ep7/s1_alarm.png",
+   "key": "seven",
+   "move": "snap",
+   "sfx": "impact",
+   "gap": 0.4
+  }
+ ]
+}
