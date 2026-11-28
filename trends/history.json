@@ -486,5 +486,29 @@
   "topic": "why dog noses are wet (scent, licking, heat sensing study)",
   "trend_source": "vidIQ out of credits -> WebSearch/seasonal trend: evergreen dog curiosity",
   "slot": "2026-11-27 22:47 YT / 23:37 IG"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "trend-snakes-flick-tongues",
+  "title": "Why Snakes Flick Their Tongues (They Can't Taste With It) #shorts",
+  "topic": "snake tongue flicking: no taste/smell receptors on tongue, delivers scent to vomeronasal organ, tips spread up to 2x head width = stereo smell, trail following (Kahmann, Ford), oscillating flicks sample 100x more air (Ryerson/Schwenk 2014)",
+  "trend_source": "WebSearch fallback (vidIQ out of credits) + evergreen/seasonal",
+  "slot": "YT 15:47 / IG 16:37"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "trend-cats-land-on-feet",
+  "title": "How Cats Land on Their Feet (They Twist in Two Halves) #shorts",
+  "topic": "cat righting reflex: bends in middle, front/rear rotate separately (front up to 90 deg, rear ~10 deg), flexible spine, no functional collarbone, eyes + inner ear, appears 3-4 weeks, spreads out like parachute for drag",
+  "trend_source": "WebSearch fallback (vidIQ out of credits) + evergreen/seasonal",
+  "slot": "YT 19:17 / IG 20:07"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "trend-monarchs-fly-3000-miles",
+  "title": "Why Monarchs Fly 3,000 Miles to a Place They've Never Seen #shorts",
+  "topic": "monarch super generation: 3,000 mi to oyamel fir forests central Mexico, arrive early Nov (Day of the Dead), summer gens ~4 weeks vs up to 8 months, reproduction on hold, sun navigation, ~50 mi/day, thermals, great-grandkids return (USFWS, Nat Geo)",
+  "trend_source": "WebSearch fallback (vidIQ out of credits) + evergreen/seasonal (Monarch arrival season in Mexico)",
+  "slot": "YT 22:47 / IG 23:37"
  }
 ]

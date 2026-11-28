@@ -1,0 +1,161 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-snakes-flick-tongues",
+ "hook": "It's not tasting anything",
+ "title": "Why Snakes Flick Their Tongues (They Can't Taste With It) #shorts",
+ "description": "A snake's tongue has no taste or smell receptors. Each flick collects scent and hands it to a smell organ in the roof of the mouth, and the forked tips let snakes smell in stereo to follow trails.\n\nFollow for what's trending, explained!\n\n#snakes #animalfacts #reptiles #science #shorts",
+ "tags": [
+  "why do snakes flick their tongues",
+  "snake tongue",
+  "forked tongue",
+  "snakes",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do snakes flick their tongues?",
+   "clip_id": 143409,
+   "clip2_id": 123178,
+   "items": [
+    {
+     "emoji": "🐍",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Here's the twist: a snake's tongue can't taste or smell anything at all.",
+   "clip_id": 210902,
+   "clip2_id": 7217,
+   "punch": "CAN'T TASTE",
+   "punch_y": 0.66,
+   "punch_delay": 2.6,
+   "items": [
+    {
+     "emoji": "👅",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Each flick grabs scent molecules from the air and the ground.",
+   "clip_id": 65302,
+   "clip2_id": 379274,
+   "items": [
+    {
+     "emoji": "💨",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Back inside, the scent is passed to a special smell organ in the roof of its mouth.",
+   "clip_id": 220923,
+   "clip2_id": 212324,
+   "inset_id": 123178,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "👃",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Its two tips can spread twice as wide as its head, so it smells in stereo.",
+   "clip_id": 174968,
+   "clip2_id": 173143,
+   "number": {
+    "value": 2,
+    "prefix": "",
+    "suffix": "x",
+    "label": "as wide as its head",
+    "y": 0.55,
+    "delay": 1.0
+   },
+   "punch": "STEREO SMELL",
+   "punch_y": 0.68,
+   "punch_delay": 3.2
+  },
+  {
+   "say": "If one tip slips off a scent trail, the snake corrects its course and stays on it.",
+   "clip_id": 379273,
+   "clip2_id": 87349,
+   "items": [
+    {
+     "emoji": "🧭",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Wiggling the tongue up and down samples 100 times more air than a single dip.",
+   "clip_id": 7454,
+   "clip2_id": 173405,
+   "number": {
+    "value": 100,
+    "prefix": "",
+    "suffix": "x",
+    "label": "more air",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "inset_id": 143409,
+   "inset_x": 0.28,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": -5
+  },
+  {
+   "say": "So every flick is really a sniff. That's why snakes flick their tongues.",
+   "clip_id": 212433,
+   "clip2_id": 173139,
+   "punch": "IT'S A SNIFF",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "items": [
+    {
+     "emoji": "🐍",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  }
+ ]
+}

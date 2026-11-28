@@ -1,0 +1,188 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-cats-land-on-feet",
+ "hook": "It looks impossible",
+ "title": "How Cats Land on Their Feet (They Twist in Two Halves) #shorts",
+ "description": "A falling cat bends in the middle and turns its front and back halves separately, swapping which legs are tucked, so it can flip without pushing off anything. Kittens start doing it at 3 to 4 weeks old.\n\nFollow for what's trending, explained!\n\n#cats #catfacts #animalfacts #physics #shorts",
+ "tags": [
+  "how do cats land on their feet",
+  "cat righting reflex",
+  "cats",
+  "cat facts",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "How do cats land on their feet?",
+   "clip_id": 339329,
+   "clip2_id": 327642,
+   "items": [
+    {
+     "emoji": "🐱",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/5adf6a77858ce904.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/0f25907e1ff6489d.mp4"
+  },
+  {
+   "say": "Here's the trick: a falling cat twists in two halves, like two separate bodies.",
+   "clip_id": 327640,
+   "clip2_id": 167029,
+   "punch": "TWO HALVES",
+   "punch_y": 0.66,
+   "punch_delay": 2.4,
+   "clip_path": "/root/.cache/shorts_clips/2e9731f3366a4f31.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/03f5d59d5534433f.mp4"
+  },
+  {
+   "say": "Its backbone is unusually flexible, and it has no real collarbone.",
+   "clip_id": 347102,
+   "clip2_id": 370355,
+   "items": [
+    {
+     "emoji": "🦴",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/c2fcba56c4a4bddd.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/0af13dd6c93b46b3.mp4"
+  },
+  {
+   "say": "First, it works out which way is down, using its eyes and inner ear.",
+   "clip_id": 305341,
+   "clip2_id": 143890,
+   "items": [
+    {
+     "emoji": "👀",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/7a697a1cb8262ee8.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/fdff2aa47f17b7ed.mp4"
+  },
+  {
+   "say": "Then it tucks its front legs and spins the front half up to 90 degrees, while the back barely moves.",
+   "clip_id": 232739,
+   "clip2_id": 64931,
+   "number": {
+    "value": 90,
+    "prefix": "",
+    "suffix": "°",
+    "label": "front half turn",
+    "y": 0.55,
+    "delay": 2.6
+   },
+   "inset_id": 339324,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "clip_path": "/root/.cache/shorts_clips/73a1b68631d40c3e.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/cb8dc48de6ed1436.mp4",
+   "inset_path": "/root/.cache/shorts_clips/cd6ffe2387ed2bec.mp4"
+  },
+  {
+   "say": "Then it swaps: front legs out, back legs in, and the rear half catches up.",
+   "clip_id": 24505,
+   "clip2_id": 236714,
+   "punch": "SWAP!",
+   "punch_y": 0.66,
+   "punch_delay": 1.0,
+   "items": [
+    {
+     "emoji": "🔄",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/512b9c183ca5ae21.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/70db472cdeca3213.mp4"
+  },
+  {
+   "say": "Kittens start doing this at only 3 to 4 weeks old.",
+   "clip_id": 132065,
+   "clip2_id": 90193,
+   "number": {
+    "value": 4,
+    "prefix": "3-",
+    "suffix": " weeks",
+    "label": "old",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "inset_id": 372725,
+   "inset_x": 0.28,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": -5,
+   "clip_path": "/root/.cache/shorts_clips/89c9a40b5322cddc.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/af583b003d85ff5f.mp4",
+   "inset_path": "/root/.cache/shorts_clips/2f75a7dde1205c11.mp4"
+  },
+  {
+   "say": "Then they spread out like a parachute to slow down. And that's how cats land on their feet.",
+   "clip_id": 83808,
+   "clip2_id": 339324,
+   "punch": "PARACHUTE",
+   "punch_y": 0.66,
+   "punch_delay": 1.4,
+   "items": [
+    {
+     "emoji": "🪂",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ],
+   "clip_path": "/root/.cache/shorts_clips/5a957cfc50ac7c3c.mp4",
+   "clip2_path": "/root/.cache/shorts_clips/cd6ffe2387ed2bec.mp4"
+  }
+ ],
+ "credits": [
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-339329/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-327642/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-327640/",
+  "NickyPe (Pixabay): https://pixabay.com/videos/id-167029/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-347102/",
+  "AlbiF (Pixabay): https://pixabay.com/videos/id-370355/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-305341/",
+  "JawadAliKhan (Pixabay): https://pixabay.com/videos/id-143890/",
+  "TatianaTz (Pixabay): https://pixabay.com/videos/id-232739/",
+  "fabriciosena2020 (Pixabay): https://pixabay.com/videos/id-64931/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-339324/",
+  "caelan (Pixabay): https://pixabay.com/videos/id-24505/",
+  "Engin_Akyurt (Pixabay): https://pixabay.com/videos/id-236714/",
+  "Marsel_beijing (Pixabay): https://pixabay.com/videos/id-132065/",
+  "My_movie (Pixabay): https://pixabay.com/videos/id-90193/",
+  "mycuppatea (Pixabay): https://pixabay.com/videos/id-372725/",
+  "Bairyna (Pixabay): https://pixabay.com/videos/id-83808/",
+  "Solarselle77 (Pixabay): https://pixabay.com/videos/id-339324/"
+ ]
+}

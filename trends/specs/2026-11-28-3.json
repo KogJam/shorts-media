@@ -1,0 +1,156 @@
+{
+ "voice": "bm_lewis",
+ "speed": 1.08,
+ "music": "upbeat",
+ "endcard": "FOLLOW: TRENDS EXPLAINED",
+ "id": "trend-monarchs-fly-3000-miles",
+ "hook": "A trip they've never made",
+ "title": "Why Monarchs Fly 3,000 Miles to a Place They've Never Seen #shorts",
+ "description": "Every fall a special super generation of monarchs flies about 3,000 miles to mountain fir forests in Mexico. They live up to 8 months instead of a few weeks, and it's their great-grandkids who fly back next year.\n\nFollow for what's trending, explained!\n\n#monarchbutterfly #butterflies #migration #animalfacts #shorts",
+ "tags": [
+  "why do monarch butterflies migrate",
+  "monarch butterfly",
+  "monarch migration",
+  "butterflies",
+  "animal facts",
+  "shorts"
+ ],
+ "lines": [
+  {
+   "say": "Why do monarch butterflies fly 3,000 miles every fall?",
+   "clip_id": 374365,
+   "clip2_id": 102404,
+   "items": [
+    {
+     "emoji": "🦋",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.3,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "The monarchs that reached Mexico this month had never been there before.",
+   "clip_id": 102405,
+   "clip2_id": 366879,
+   "punch": "NEVER BEEN THERE",
+   "punch_y": 0.66,
+   "punch_delay": 2.2
+  },
+  {
+   "say": "Their great-grandparents left it in spring.",
+   "clip_id": 39304,
+   "clip2_id": 84459,
+   "items": [
+    {
+     "emoji": "🗺️",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Summer monarchs live only about 4 weeks.",
+   "clip_id": 311592,
+   "clip2_id": 41581,
+   "number": {
+    "value": 4,
+    "prefix": "",
+    "suffix": " weeks",
+    "label": "summer lifespan",
+    "y": 0.55,
+    "delay": 1.4
+   }
+  },
+  {
+   "say": "But the fall generation lives up to 8 months, and puts mating on hold.",
+   "clip_id": 134590,
+   "clip2_id": 102404,
+   "number": {
+    "value": 8,
+    "prefix": "",
+    "suffix": " months",
+    "label": "fall lifespan",
+    "y": 0.55,
+    "delay": 1.6
+   },
+   "items": [
+    {
+     "emoji": "⏳",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "Steering by the sun, they cover about 50 miles a day, riding warm air.",
+   "clip_id": 143485,
+   "clip2_id": 204006,
+   "punch": "SUN COMPASS",
+   "punch_y": 0.66,
+   "punch_delay": 1.2,
+   "items": [
+    {
+     "emoji": "☀️",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "They can't survive northern winters, so they huddle by the millions on fir trees in the mountains of central Mexico.",
+   "clip_id": 64066,
+   "clip2_id": 64064,
+   "inset_id": 102405,
+   "inset_x": 0.72,
+   "inset_y": 0.37,
+   "inset_delay": 0.8,
+   "inset_tilt": 5,
+   "items": [
+    {
+     "emoji": "🌲",
+     "x": 0.24,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  },
+  {
+   "say": "In spring they mate and head north, and their great-grandkids make the 3,000-mile trip again.",
+   "clip_id": 366879,
+   "clip2_id": 374365,
+   "punch": "3,000 MILES",
+   "punch_y": 0.66,
+   "punch_delay": 3.6,
+   "items": [
+    {
+     "emoji": "🦋",
+     "x": 0.76,
+     "y": 0.3,
+     "size": 0.13,
+     "anim": "pop",
+     "delay": 0.6,
+     "cross": false
+    }
+   ]
+  }
+ ]
+}
