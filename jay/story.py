@@ -106,6 +106,22 @@ def caption(img, words, key, scale):
         x += ww + sp
 
 
+def hook_banner(img, text):
+    """white rounded box with black text near the top (POV / hook line)."""
+    d = ImageDraw.Draw(img); size = 58; f = F(size)
+    words, rows, cur = text.split(), [], ""
+    for w in words:
+        t = (cur + " " + w).strip()
+        if d.textlength(t, font=f) > W * 0.8 and cur: rows.append(cur); cur = w
+        else: cur = t
+    rows.append(cur)
+    lh = size * 1.25; bw = max(d.textlength(r, font=f) for r in rows) + 64; bh = lh * len(rows) + 40
+    x0, y0 = (W - bw) / 2, 150
+    d.rounded_rectangle([x0, y0, x0 + bw, y0 + bh], radius=26, fill=(255, 255, 255))
+    for i, r in enumerate(rows):
+        d.text((W / 2, y0 + 20 + lh * (i + 0.5)), r, font=f, anchor="mm", fill=(0, 0, 0))
+
+
 def build(spec_path, out):
     sp = json.load(open(spec_path)); voices = sp.get("voices", {"narrator": 0})
     segs, audio, t = [], [], 0.0
@@ -150,6 +166,7 @@ def build(spec_path, out):
         ci = max(j for j, c0 in enumerate(s["cstart"]) if c0 <= lt + 1e-6)
         cl = lt - s["cstart"][ci]
         caption(frame, s["chunks"][ci], s["key"], min(1.0, 0.82 + cl / 0.08 * 0.18) if cl < 0.08 else 1.0)
+        if sp.get("hook") and tt < sp.get("hook_secs", 1e9): hook_banner(frame, sp["hook"])
         ff.stdin.write(frame.convert("RGB").tobytes())
     ff.stdin.close(); ff.wait()
     # sound: voice + quiet original bed + whoosh on image changes / sting on "impact" lines

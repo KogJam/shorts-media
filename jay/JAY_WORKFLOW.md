@@ -5,14 +5,23 @@ Channel: **jay.vs.life** – YouTube channel + Instagram @jayvslife2026, both on
 decide yourself, report at the end in German.
 
 ## Format (what works – keep it)
-- Bob-style POV story in the 2nd person ("You…"), told by a dry deadpan narrator, 40–55 s, 15–25 short lines.
+- POV story in the 2nd person ("You…"), told by a dry deadpan narrator, **25–35 s, 10–14 short lines** (changed
+  2026-11-28: 50-s videos were watched only 6–18 s on average and 30–65 % swiped away in the first 3 s).
+- **Hook first:** line 1 is already the funniest/most embarrassing moment or a tension question (cold open), never slow
+  setup. Spec field `"hook"`: ≤ 8 words, e.g. "POV: you said 'you too' to the waiter" – story.py shows it as a white
+  banner at the top for the whole video (optional `"hook_secs"` to hide it earlier).
+- **Funny and tense the whole time:** a joke, roast or escalation every ~4–5 s, new image or camera move every
+  2–3 s, no filler lines. Build it like a mini thriller: things get worse and worse → twist → loop.
+- Vary the structure from episode to episode (narrator-led, Theo dialogue-led, countdown, "rules"…) so the channel
+  does not look like mass-produced content.
+- Best so far: "enjoy your meal – you too" (1.4k IG views, 18 s watch time) – short, awkward social moments win.
 - **Topic: an everyday moment almost everyone has lived** ("haha that happened to me" / "relatable"). Not niche,
   not about a specific product, person, game or event. Ideas: forgetting why you entered a room, "enjoy your meal" –
   "you too", "we have food at home", snooze button, winning an argument in the shower, phone at 1 %, "we need to talk",
   replying "you too" to a happy birthday, holding the door for someone who's far away, autocorrect disasters, the
   group chat going silent, saying "what?" three times then just laughing, losing your phone while holding it…
 - **Comedy:** jokes, roasts between the friends, insults ("clown", "dumbass", "confused monkey"), 2–4 swear words
-  placed on punchlines (never in the first ~7 s), absurd details (the pigeon), one twist in the last 8 s and a last line
+  placed on punchlines (never in the first ~4 s), absurd details (the pigeon), one twist in the last 8 s and a last line
   that loops back to the first. Middle finger image allowed. No slurs, nothing about real people, politics, religion,
   ethnicity, sexuality, minors, self-harm or violence against someone.
 - Cast: **Jay** (main, mustard hoodie, curly hair, deadpan), **Theo** (best friend, backwards red cap, chaotic,
@@ -35,7 +44,7 @@ decide yourself, report at the end in German.
    Per line: `say`, `img`, `key` (1 word to highlight), optional `who:"theo"`, `move` (push/pull/pan_l/pan_r/snap/shake),
    `sfx` (impact on punchlines, pop), `gap`.
 5. Render: `python3 jay/story.py jay/specs/<spec>.json out/jay/<id>.mp4` (Gemini TTS may hit a rate limit – the
-   script waits and retries). Duration 35–60 s. Grab 9 frames into a contact sheet and LOOK at it.
+   script waits and retries). Duration **25–35 s** (cut lines if longer, do not speed up the voice). Grab 9 frames into a contact sheet and LOOK at it.
 6. Publish: `VIDEOS_BRANCH=videos-jay python3 publish.py out/jay/<id>.mp4`.
 7. Schedule (Metricool, blogId 7781434): first `getScheduledPosts` for today … +3 days. Slot = **21:13** YouTube,
    **21:43** Instagram on the first day (today, else the next days) where no jay post exists yet; if today's 21:13 is

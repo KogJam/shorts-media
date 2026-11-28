@@ -18,129 +18,75 @@
  },
  "lines": [
   {
-   "say": "There's someone behind you.",
-   "img": "out/jay/ep8/d1_hold.png",
-   "key": "behind",
-   "move": "push"
-  },
-  {
-   "say": "Way behind you. Like, different zip code behind you.",
+   "say": "You're holding the door for someone a whole zip code away.",
    "img": "out/jay/ep8/d2_far.png",
    "key": "zip",
-   "move": "pull"
-  },
-  {
-   "say": "But your mom raised you right. So you hold the door.",
-   "img": "out/jay/ep8/d1_hold.png",
-   "key": "door",
    "move": "push"
   },
   {
-   "say": "Big mistake. Now it's a contract.",
+   "say": "Now it's a contract. Nobody can back out.",
    "img": "out/jay/ep8/d4_strain.png",
    "key": "contract",
    "move": "snap",
    "sfx": "impact"
   },
   {
-   "say": "They see you. You see them. Nobody can back out now.",
-   "img": "out/jay/ep8/d2_far.png",
-   "key": "nobody",
-   "move": "push"
-  },
-  {
-   "say": "So they do the jog. The little fake thank-you jog.",
+   "say": "So they do the fake thank-you jog.",
    "img": "out/jay/ep8/d3_jog.png",
    "key": "jog",
    "move": "pan_r"
   },
   {
-   "say": "It's not faster. It's just walking, but sweatier.",
+   "say": "It's not faster. Just sweatier.",
    "img": "out/jay/ep8/d3_jog.png",
    "key": "sweatier",
    "move": "push",
    "sfx": "impact"
   },
   {
-   "say": "Your arm is shaking. This is the most eye contact you've had all year.",
-   "img": "out/jay/ep8/d4_strain.png",
-   "key": "year",
-   "move": "shake"
-  },
-  {
-   "say": "And of course, Theo walks by.",
-   "img": "out/jay/ep8/d5_theo_laugh.png",
-   "key": "Theo",
-   "move": "snap",
-   "sfx": "impact"
-  },
-  {
    "say": "Bro. You look like a doorman nobody tips. Absolute clown.",
    "img": "out/jay/ep8/d5_theo_laugh.png",
    "key": "clown",
-   "move": "push",
-   "who": "theo"
+   "move": "snap",
+   "who": "theo",
+   "sfx": "impact"
   },
   {
-   "say": "Thirty seconds later, they finally arrive.",
-   "img": "out/jay/ep8/d6_notgoing.png",
-   "key": "finally",
-   "move": "push"
-  },
-  {
-   "say": "They smile at you. And they say:",
-   "img": "out/jay/ep8/d6_notgoing.png",
-   "key": "smile",
-   "move": "push"
-  },
-  {
-   "say": "Oh, sorry. I wasn't going in.",
+   "say": "They finally arrive and go: oh sorry, I wasn't going in.",
    "img": "out/jay/ep8/d6_notgoing.png",
    "key": "wasn't",
    "move": "snap",
    "sfx": "impact",
-   "gap": 0.35
-  },
-  {
-   "say": "They weren't going in.",
-   "img": "jay/lib/jay_closeup_deadpan.png",
-   "key": "weren't",
-   "move": "push"
+   "gap": 0.3
   },
   {
    "say": "You held that door for absolutely fucking nothing.",
    "img": "jay/lib/jay_closeup_deadpan.png",
    "key": "nothing",
    "move": "shake",
-   "sfx": "impact",
-   "gap": 0.3
+   "sfx": "impact"
   },
   {
-   "say": "Then a pigeon walks in. Doesn't even say thanks.",
+   "say": "A pigeon walks in. Doesn't even say thanks.",
    "img": "out/jay/ep8/d7_pigeon.png",
    "key": "pigeon",
    "move": "push"
   },
   {
-   "say": "Theo walks in too. Eating a croissant. Also no thanks, the little shit.",
+   "say": "Theo walks in too. Also no thanks, the little shit.",
    "img": "out/jay/ep8/d8_theo_walkin.png",
    "key": "shit",
    "move": "pan_l",
    "sfx": "impact"
   },
   {
-   "say": "You finally let go of the door.",
-   "img": "out/jay/ep8/d4_strain.png",
-   "key": "go",
-   "move": "pull"
-  },
-  {
-   "say": "And there's someone behind you.",
-   "img": "out/jay/ep8/d1_hold.png",
-   "key": "behind",
+   "say": "And now there's someone behind you. A whole zip code away.",
+   "img": "out/jay/ep8/d2_far.png",
+   "key": "zip",
    "move": "snap",
    "sfx": "impact",
    "gap": 0.4
   }
- ]
+ ],
+ "hook": "POV: you hold the door way too early"
 }
